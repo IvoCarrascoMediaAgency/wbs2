@@ -322,7 +322,19 @@ main{
 
 
 .text span{
-    font-weight: bold
+    font-weight: bold;
+}
+
+span.textspan3{
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+small.textspan4 {
+    display: grid;
+ 
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .text1{
@@ -506,6 +518,11 @@ select {
     -webkit-appearance: none;
 }
 
+
+.selectb2{
+    width: auto;
+}
+
 form{
     width: 90%;
     margin: 0 auto;
@@ -600,6 +617,7 @@ div#contacto {
    
     margin: 0 auto;
     min-width: 150px;
+    width: 100%;
     
   
 }
@@ -1083,6 +1101,16 @@ transition: 1s all;
 
     align-content: center;
     grid-gap: 50px;
+}
+
+.text22{
+    grid-gap: 0px;
+    align-content:none;
+    text-align: none;
+}
+
+div#contacto3 {
+    width: 100%;
 }
 
 
