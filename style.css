@@ -157,16 +157,14 @@ p.textm {
 
 .mostrarmenu2{
 	right: 0;
-	z-index: 29;
+	z-index: 999;
 
 	
 }
 
 .menuwbs .icon-mas{
-    font-size: 2em;
-    transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
+    font-size: 2.4em;
+  
     color: white;
     transition: all 1s;
 }
@@ -249,7 +247,7 @@ p.textm {
     text-decoration: none;
 }
 
-.iconosocial .icon-facebook, .icon-whatsapp, .icon-instagram {
+.iconosocial .icon-facebook, .icon-whatsapp, .icon-instagram,.icon-youtube {
     color: white;
 }
 
@@ -337,6 +335,13 @@ small.textspan4 {
     margin-bottom: 10px;
 }
 
+p.envmas {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: initial;
+}
+
 .text1{
     text-align: center;
     font-size: 1.4em;
@@ -363,10 +368,8 @@ small.textspan4 {
 
 .text3 {
 	text-align: center;
-    font-size: 2em;
-
-   
-    margin: 0 20px 0 20px;
+    font-size: 1.45em;
+    margin: 0 20px 10px 20px;
 
     
 }
@@ -531,8 +534,12 @@ form{
     height: 100%;
     display: grid;
     align-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+   
+    background: rgba(255,255,255,.3);
+    margin-top: 10px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    padding: 20px;
  
 
 }
@@ -593,12 +600,12 @@ input{
 }
 
 
-div#contacto {
+/* div#contacto {
     background: rgba(255,255,255,.3);
     margin-top: 10px;
     box-shadow: 0 2px 6px rgba(0,0,0,.2);
     border-radius: 10px;
-}
+} */
 
 #boton{
     
@@ -754,6 +761,10 @@ div#contacto {
 }
 
 
+.caracteristicas2{
+    padding: 30px;
+}
+
 .caracteristicas h2{
     margin-top: 30px;
     text-align: center;
@@ -850,8 +861,15 @@ div#contacto {
 .final li{
     list-style: none;
     display: flex;
+   
     
     
+}
+
+.ulprueba {
+    display: grid;
+    justify-content: center;
+
 }
 
 .final p{
@@ -1100,7 +1118,8 @@ transition: 1s all;
     display: grid;
 
     align-content: center;
-    grid-gap: 50px;
+
+    width: 100%;
 }
 
 .text22{
@@ -1757,6 +1776,30 @@ span.spannun{
 p.pcf {
     text-align: center;
 }
+
+
+.cfp {
+    padding: 20px;
+    display: grid;
+    grid-gap: 10px;
+}
+
+ul.ulfuncion {
+    display: grid;
+    grid-gap: 10px;
+ 
+}
+
+ul.ulfuncion li {
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+.cfp p {
+    line-height: 1.5;
+    font-size: 1.1em;
+    text-align: center;
+}
 .caracp {
     text-align: center;
 }
@@ -1775,11 +1818,12 @@ h3.h3wbs {
 .divh3{
     background: #e9faef;
     display: grid;
-    height: 200px;
+    /* height: 200px; */
     align-items: center;
     align-content: center;
     margin-bottom: 100px;
     margin-top: 100px;
+    padding: 20px;
 }
 .divh3.h3comunidad {
     margin-top: 0;
@@ -1974,6 +2018,209 @@ p.textpv {
     margin-top: 30px;
 
 }
+
+
+
+/* new chatweb */
+
+.cardnegocio {
+    border-radius: 50%;
+    background: #25d366;
+    /* box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff; */
+    cursor: pointer;
+    height: 60px;
+    position: fixed;
+    margin-top: 3px;
+    width: 60px;
+    z-index: 30;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+    z-index: 997;
+}
+
+.mostrarcardmenu {
+    right: 0;
+}
+
+.cardmenu {
+    position: fixed;
+    bottom: 0;
+    z-index: 998;
+    right: -100%;
+    transition: .55s .1s cubic-bezier(0, 1.07, 0, 1.02);
+    width: 100%;
+    min-height: 0;
+}
+
+.cardmenu .hul2 {
+    width: 95%;
+    height: 100%;
+    position: relative;
+    font-size: 1em;
+    background: rgb(242, 238, 246, .9);
+    float: right;
+    border-radius: 30px 0 0 30px;
+    bottom: 20px;
+    max-width: 400px;
+    box-shadow: 10px 10px 34px -11px rgb(0 0 0);
+}
+
+.hwhat {
+    float: none;
+    display: flex;
+    align-items: center;
+    position: static;
+    width: 100%;
+    height: 70px;
+    padding: 0 26px;
+    margin: 0;
+    background-color: #2e8c7d;
+    color: rgba(255,255,255,.5);
+    border-radius: 30px 0 0;
+}
+
+.whatlogo {
+    display: flex;
+    align-items: center;
+}
+
+.whatlogo .lw {
+    font-size: 28px;
+}
+
+.wtext {
+    margin-left: 5px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.icon-x {
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    opacity: .2;
+    cursor: pointer;
+    transition: opacity .3s ease-out;
+    -webkit-tap-highlight-color: transparent;
+    align-items: center;
+}
+
+.icon-x:before {
+    content: "\ea0f";
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+
+.whatmbien {
+    max-height: calc(100vh - 100px);
+    padding: 20px 0 0 0;
+    overflow: hidden auto;
+    background: #ede4dd url(img/backchat.webp) center repeat-y;
+    background-size: 100% auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.whatmesage {
+    position: relative;
+    padding: 20px;
+    margin: 0 26px 26px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #4a4a4a;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%);
+    display: grid;
+    grid-gap: 5px;
+    font-size: 0.9em;
+}
+
+.borrarchat{
+    display: none;
+}
+
+
+.insertarmensaje {
+    display: grid;
+    grid-template-columns: auto 50px;
+    margin-bottom: 10px;
+}
+
+textarea#edad {
+    border-radius: 20px;
+    background: white;
+    padding-left: 20px;
+    margin-bottom: 0;
+    max-height: 200px;
+    color: black;
+    font-family: 'Roboto';
+    line-height: 35px;
+    overflow-y: hidden;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+#edad {
+    outline: none;
+}
+
+.divsend {
+    margin: 0 auto;
+    display: grid;
+    align-items: self-end;
+}
+
+button.enviarmensajewa {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #25d366;
+    padding-left: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+i.icon-send {
+    color: white;
+    font-size: 1.5em;
+}
+
+img.bot3 {
+    border-radius: 10px;
+    max-width: 250px;
+}
+
+
+.botcn {
+    display: grid;
+ 
+    /* justify-content: center; */
+    align-items: center;
+    justify-items: center;
+    /* -webkit-print-color-adjust: exact; */
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
    
 
    /*end contador de clientes  */
@@ -1988,6 +2235,24 @@ p.textpv {
 
 
 @media screen and (min-width: 768px){
+
+
+    .botcn {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        /* justify-content: center; */
+        align-items: center;
+        justify-items: center;
+        /* -webkit-print-color-adjust: exact; */
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+
+    .cardnegocio {
+        bottom: 30px;
+        right: 50px;
+    }
 
     a span.flechatipica {
  
@@ -2123,12 +2388,8 @@ p.textpv {
     
     }
     
-    .text3 {
-       
-        font-size: 2.5em;
-        
-    }
-
+ 
+    
 
 
     
@@ -2287,15 +2548,6 @@ a.logoms {
 
 
 
-    .text3 {
-        text-align: center;
-        font-size: 3em;
-    
-       
-        margin: 0 20px 0 20px;
-    
-        
-    }
 
     .imgbot{
 
@@ -2515,6 +2767,9 @@ a.logoms {
                 justify-content: center;
                 align-content: center;
                 align-items: center;
+                max-width: 1024px;
+
+    margin: 0 auto;
         }
 
 
@@ -2689,6 +2944,8 @@ li.eti1,li.eti2,li.eti3,li.eti4,li.eti5,li.eti6,li.eti7,li.eti8  {
 
 
 
+
+
 .mk img,.mk2 img,.mk3 img,.mk4 img,.mk5 img,.mk6 img,.mk7 img,.mk8 img {
     width: 100%;
     border-radius: 20px;
@@ -2762,6 +3019,14 @@ span.icon-whatsapp.wm {
 .divh2 {
     max-width: 1024px;
     margin: auto;
+    padding: 30px;
+}
+
+.divhh{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
 }
 
 

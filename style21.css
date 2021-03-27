@@ -176,6 +176,7 @@ a.linknav {
 	transition: .55s .1s cubic-bezier(0, 1.07, 0, 1.02);
     width: 100%;
     min-height: 0;
+    /* display: none; */
 }
 
 .cardmenu2{
@@ -219,7 +220,7 @@ max-height: calc(100vh - 100px);
 } 
 
 
-.cardmenu .hul2{
+/* .cardmenu .hul2{
 	width: 75%;
 	height: 100%;
 	position: relative;
@@ -233,7 +234,7 @@ max-height: calc(100vh - 100px);
     max-width: 400px;
     box-shadow: 10px 10px 34px -11px rgba(0,0,0,1);
 	
-}
+} */
 
 /* mostra la caja de chat */
 
@@ -254,7 +255,7 @@ max-height: calc(100vh - 100px);
     align-items: center;
     position: static;
     width: 100%;
-    height: 70px;
+    height: 50px;
     padding: 0 26px;
     margin: 0;
     background-color: #25d366;
@@ -266,7 +267,7 @@ max-height: calc(100vh - 100px);
     display: -webkit-flex;
     display: flex;
     position: absolute;
-    top: 18px;
+    top: 8px;
     right: 24px;
     width: 34px;
     height: 34px;
@@ -296,14 +297,14 @@ max-height: calc(100vh - 100px);
     font-weight: 200;
 }
 
-.whatmbien{
+/* .whatmbien{
     max-height: calc(100vh - 100px);
     padding: 20px 0 80px 0;
     overflow: hidden auto;
     background: #ede4dd url(img/backchat.webp) center repeat-y;
     background-size: 100% auto;
 
-}
+} */
 
 .whatlogo{
     display: flex;
@@ -799,7 +800,7 @@ max-height: calc(100vh - 100px);
 	font-size: 1em;
 	background:  rgb(242, 238, 246, .9);
     float: right;
-    border-radius: 30px 0 0 30px;
+    border-radius: 30px 0 0 0px;
     overflow: hidden;
     bottom: 20px;
     max-width: 400px;
@@ -820,38 +821,9 @@ max-height: calc(100vh - 100px);
 
 /*  */
 
-.hwhat{
-    float: none;
-    display: flex;
-    align-items: center;
-    position: static;
-    width: 100%;
-    height: 70px;
-    padding: 0 26px;
-    margin: 0;
-    background-color: #25d366;
-    color: white;
-    border-radius: 30px 0 0;
-}
 
-.icon-x{
-    display: -webkit-flex;
-    display: flex;
-    position: absolute;
-    top: 18px;
-    right: 24px;
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    background: #000;
-    color: #fff;
-    text-align: center;
-    opacity: .2;
-    cursor: pointer;
-    transition: opacity .3s ease-out;
-    -webkit-tap-highlight-color: transparent;
-    align-items: center;
-}
+
+
 
 .iconxmodals{
     top: 0;
@@ -868,14 +840,14 @@ max-height: calc(100vh - 100px);
     font-weight: 200;
 }
 
-.whatmbien{
+/* .whatmbien{
     max-height: calc(100vh - 100px);
     padding: 20px 0 80px 0;
     overflow: hidden auto;
     background: #ede4dd url(img/backchat.webp) center repeat-y;
     background-size: 100% auto;
 
-}
+} */
 
 .whatlogo{
     display: flex;
