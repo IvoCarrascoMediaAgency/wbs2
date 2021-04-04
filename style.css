@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Damion|Roboto);
+
 html{
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
@@ -314,10 +316,7 @@ main{
     border-radius: 10px;
     border: solid 1px #25d366;
     overflow: hidden;
- 
 }
-
-
 
 .text span{
     font-weight: bold;
@@ -1557,6 +1556,7 @@ li.eti1,li.eti2,li.eti3,li.eti4,li.eti5,li.eti6,li.eti7,li.eti8  {
     /* border: solid 1px #25d366; */
     overflow: hidden;
     display: grid;
+    border-radius: 25px;
 }
 
 .h2wbs{
@@ -2025,7 +2025,9 @@ p.textpv {
 
 .cardnegocio {
     border-radius: 50%;
-    background: #25d366;
+    background: url(img/servicio-al-cliente-whatsapp.webp),linear-gradient( 
+-10deg
+ , rgb(37 211 102)0%, rgba(255,255,255,1) 90%);
     /* box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff; */
     cursor: pointer;
     height: 60px;
@@ -2039,6 +2041,9 @@ p.textpv {
     bottom: 20px;
     right: 20px;
     z-index: 997;
+    background-position: center;
+    background-size: contain;
+    border: 3px solid #25d366;
 }
 
 .mostrarcardmenu {
@@ -2220,6 +2225,18 @@ img.bot3 {
     margin: 0 auto;
 }
 
+.whatlogo a {
+    text-decoration: none;
+    color: rgba(255,255,255,.5);
+}
+
+sub.smallwbs {
+    margin-top: 20px;
+    margin: left;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
 
    
 
@@ -2236,6 +2253,12 @@ img.bot3 {
 
 @media screen and (min-width: 768px){
 
+    .cardnegocio {
+        height: 80px;
+        width: 80px;
+        bottom: 30px;
+        right: 50px;
+    }
 
     .botcn {
         display: grid;
@@ -2300,7 +2323,7 @@ img.bot3 {
 
 
     .menuwbs {
-        top: 70px;
+       display: none;
     }
 
     .ca2 {
@@ -2360,7 +2383,23 @@ img.bot3 {
     }
 
 
-    
+    .row-centered2 {
+        position: fixed;
+    top: -20px;
+    display: flex;
+    z-index: 1;
+    background: linear-gradient( 
+130deg
+ , rgb(239 232 225)0%, rgb(231 224 218) 95%);
+    height: 50px;
+    z-index: 1000;
+    height: 60px;
+    box-shadow: 10px 15px 15px -11px rgb(0 0 0 / 40%);
+    /* border-radius: 10px; */
+    margin-top: -10px;
+    width: 100%;
+    }
+
     
 .menulanding{
     display:grid;
@@ -2966,6 +3005,7 @@ li.eti1,li.eti2,li.eti3,li.eti4,li.eti5,li.eti6,li.eti7,li.eti8  {
     border-radius: 10px;
     border: solid 1px #25d366;
     overflow: hidden;
+    border-radius: 25px;
 }
 
 .h2wbs{

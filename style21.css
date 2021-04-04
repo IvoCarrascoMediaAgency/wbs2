@@ -148,23 +148,6 @@ a.linknav {
 
 /* WhatsAPP CHAT */
 /* Menu hamburger */
-.cardnegocio {
-    border-radius: 50%;
-	background: #25d366;
-    /* box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF; */
-    cursor: pointer;
-    height: 60px;
-    position: fixed;
-	margin-top:3px;
-    width: 60px;
-	z-index: 30;
-	display: grid;
-	grid-template-columns: auto;
-    align-items: center;
-    bottom: 20px;
-    right: 20px;
-    z-index: 997;
-}
 
 /* menu flotante  movil color menu2 */
 
@@ -720,24 +703,7 @@ a.linknav {
 
 
 /* WhatsAPP CHAT */
-/* Menu hamburger */
-.cardnegocio {
-    border-radius: 50%;
-	background: #25d366;
-    /* box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF; */
-    cursor: pointer;
-    height: 60px;
-    position: fixed;
-	margin-top:3px;
-    width: 60px;
-	z-index: 30;
-	display: grid;
-	grid-template-columns: auto;
-    align-items: center;
-    bottom: 20px;
-    right: 20px;
-    z-index: 997;
-}
+
 
 /* menu flotante  movil color menu2 */
 

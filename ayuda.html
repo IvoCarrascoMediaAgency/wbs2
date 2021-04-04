@@ -17,6 +17,7 @@
   
     <link rel="stylesheet" href="icons2/iconos2.css">
     <link rel="stylesheet" href="icons/iconos.css">
+    <link rel="stylesheet" href="iconosr/iconosr.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
@@ -492,29 +493,86 @@
 
             
 <!-- Chat WhatsAPP -->
-<div id="#cardnegocioid" class='cardnegocio tripimg'>
+<div id="#cardnegocioid" class="cardnegocio tripimg">
     <span class="icon-whatsapp mw"></span>
-    <span  class="unowhat">1</span> 
+    <span class="unowhat" >1</span> 
     </div>
-    <div id="cardmenu" class="cardmenu">
-        <div class="hul2">
-                <div class="hwhat">
-                    <div class="whatlogo">
-                        <span class="icon-whatsapp lw"> </span>                           
-                        <span class="wtext">WhatsApp</span> 
-                    </div>
-                    <div><span class="icon-x w"> </span></div>
-                </div> 
-                <div class="whatmbien">
-                    <div class="whatmesage">
-                        ¡Hola! 🙂 es un gusto atenderle, ¿Cómo te puedo ayudar? 
-                    </div>
-                </div>
-                <div id="whatboton" class="whatboton">
-                    <a href="https://bit.ly/MasInformacionWBS" target="_blank" rel="noopener noreferrer"><img src="img/apple-touch-icon-180x180-01.png" alt="" srcset=""> <span>Chatea con un Asesor 👍 </span></a>  
-                </div>
-        </div><!-- end hul2 -->
-    </div><!--end cardmenu  -->
+
+    <div id="cardmenu" class="cardmenu ">
+
+<div class="hul2">
+
+    <div class="hwhat">
+        <div class="whatlogo">
+            <span class="icon-whatsapp lw"> </span>                           
+            <span class="wtext">WhatsApp Chat</span> 
+        </div>
+        <div><span id="cerrarchat" class="icon-x w"> </span></div>
+    </div>  <!--  end hwhat-->
+   
+
+    <div class="whatmbien">
+        <div class="whatmesage">
+
+            <div>
+                ¡Hola! 🙂soy Ibo es un gusto atenderte, <strong>¿Cuál es tu requerimiento?</strong>  
+            </div>
+   
+             <div>
+                También puedes interactuar con nuestro Bot🤖 responde con un número:                             </div>
+
+
+            <span>
+                1️⃣ Solicitar Cotización 📝
+            </span>
+
+            <span>
+
+                2️⃣ Soporte/Asesoría 🔧
+            </span>
+       
+            <span>
+                3️⃣ Formas de pago 👇
+
+            </span>
+    
+
+         
+          
+            
+            
+        </div>
+
+        <div class="whaterror" id="whaterror">
+
+        </div>
+    
+
+    
+    <!-- end newchatweb -->
+
+
+        <div class="insertarmensaje">
+
+        
+
+            <textarea id="edad" name="" rows="1" placeholder="Escribe un mensaje" required></textarea>
+
+
+            <!-- <input type="text" name="edad" id="edad" placeholder="Escribe un mensaje..." required=""> -->
+
+            <div class="divsend">
+
+                <button id="enviarwa2" type="submit" onclick="obtenerdatos2()" class="enviarmensajewa">
+                    <i class="icon-send"></i>
+                </button>
+
+
+
+                
+            </div>
+
+    </div>
     <!--end chat WhatsApp -->
      
       
@@ -529,6 +587,7 @@
     
   
     <script src="js/main.js"></script>
+    <script src="chat.js"></script>
 
 
     <script src=""
