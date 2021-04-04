@@ -731,11 +731,13 @@ input{
 .wbsimg2 {
     display: grid;
     justify-content: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .wbsimg2 img{
     
-    width: 400px;
+    width: 100%;
  
 
     border-radius: 20px;
@@ -2252,6 +2254,16 @@ sub.smallwbs {
 
 
 @media screen and (min-width: 768px){
+
+    .wbsimg2 img{
+    
+        max-width:400px;
+     
+    
+        border-radius: 20px;
+       
+    
+    }
 
     .cardnegocio {
         height: 80px;
