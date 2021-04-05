@@ -2348,9 +2348,11 @@ sub.smallwbs {
     }
 
     .comunidad {
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-content: center;
+
+    grid-template-columns: auto auto;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
     }
     a.logoms img {
         display: none;
