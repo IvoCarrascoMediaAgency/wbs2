@@ -3061,7 +3061,7 @@ li.eti1,li.eti2,li.eti3,li.eti4,li.eti5,li.eti6,li.eti7,li.eti8  {
 
 .mk,.mk2,.mk3,.mk4,.mk5,.mk6,.mk7,.mk8{
     display: grid;
-    justify-items: baseline;
+    justify-items: center;
     width: 100%;
     align-content: center;
 }
