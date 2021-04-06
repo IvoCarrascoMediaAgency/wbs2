@@ -2696,6 +2696,12 @@ a.logoms {
     align-content: center;
 }
 
+.textdiv2 {
+    position: relative;
+    display: grid;
+    width: 100%;
+}
+
     .portadafull {
         display: grid;
         height: 100vh;
