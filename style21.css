@@ -707,6 +707,24 @@ a.linknav {
 
 /* menu flotante  movil color menu2 */
 
+textarea#edad2 {
+    border-radius: 20px;
+    background: white;
+    padding-left: 20px;
+    margin-bottom: 0;
+    max-height: 200px;
+    color: black;
+    font-family: 'Roboto';
+    line-height: 25px;
+    overflow-y: hidden;
+    font-size: 0.9em;
+    margin-left: 10px;
+    
+}
+
+
+
+
 .cardmenu{
 	position: fixed;
 	bottom: 0;

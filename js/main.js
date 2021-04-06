@@ -1,1 +1,638 @@
-var _0xa400=["\x74\x6F\x70","\x6F\x66\x66\x73\x65\x74","\x2E\x72\x6F\x77\x2D\x63\x65\x6E\x74\x65\x72\x65\x64","\x73\x63\x72\x6F\x6C\x6C","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x72\x6F\x77\x2D\x63\x65\x6E\x74\x65\x72\x65\x64\x32","\x61\x64\x64\x43\x6C\x61\x73\x73","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x6F\x6E","\x72\x65\x61\x64\x79","\x2E\x77\x69\x73\x74\x69\x61","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x6C\x65\x6E\x67\x74\x68","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x65\x6D\x62\x65\x64\x2D\x73\x73\x6C\x2E\x77\x69\x73\x74\x69\x61\x2E\x63\x6F\x6D\x2F\x64\x65\x6C\x69\x76\x65\x72\x69\x65\x73\x2F","\x74\x68\x75\x6D\x62","\x64\x61\x74\x61\x73\x65\x74","\x2E\x77\x65\x62\x70","\x73\x72\x63","\x6C\x6F\x61\x64","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x63\x6C\x69\x63\x6B","\x69\x66\x72\x61\x6D\x65","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x66\x72\x61\x6D\x65\x62\x6F\x72\x64\x65\x72","\x30","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x61\x6C\x6C\x6F\x77\x66\x75\x6C\x6C\x73\x63\x72\x65\x65\x6E","","\x6D\x6F\x7A\x61\x6C\x6C\x6F\x77\x66\x75\x6C\x6C\x73\x63\x72\x65\x65\x6E","\x77\x65\x62\x6B\x69\x74\x61\x6C\x6C\x6F\x77\x66\x75\x6C\x6C\x73\x63\x72\x65\x65\x6E","\x6F\x61\x6C\x6C\x6F\x77\x66\x75\x6C\x6C\x73\x63\x72\x65\x65\x6E","\x6D\x73\x61\x6C\x6C\x6F\x77\x66\x75\x6C\x6C\x73\x63\x72\x65\x65\x6E","\x2F\x2F\x66\x61\x73\x74\x2E\x77\x69\x73\x74\x69\x61\x2E\x6E\x65\x74\x2F\x65\x6D\x62\x65\x64\x2F\x69\x66\x72\x61\x6D\x65\x2F","\x65\x6D\x62\x65\x64","\x3F\x76\x69\x64\x65\x6F\x46\x6F\x61\x6D\x3D\x74\x72\x75\x65","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x69\x6E\x70\x75\x74","\x68\x65\x69\x67\x68\x74","\x73\x74\x79\x6C\x65","\x61\x75\x74\x6F","\x73\x63\x72\x6F\x6C\x6C\x48\x65\x69\x67\x68\x74","\x70\x78","\x68\x65\x69\x67\x68\x74\x3A","\x70\x78\x3B\x6F\x76\x65\x72\x66\x6C\x6F\x77\x2D\x79\x3A\x61\x75\x74\x6F\x3B","\x65\x61\x63\x68","\x23\x65\x64\x61\x64","\x6D\x6F\x73\x74\x72\x61\x72\x6D\x65\x6E\x75\x32","\x74\x6F\x67\x67\x6C\x65\x43\x6C\x61\x73\x73","\x23\x6E\x61\x76","\x2E\x6D\x65\x6E\x75\x77\x62\x73\x2C\x20\x2E\x63\x6F\x6C\x6F\x72\x6D\x65\x6E\x75\x32\x2C\x2E\x71","\x2E\x6D\x6F\x73\x74\x72\x61\x72\x6D\x65\x6E\x75\x32","\x68\x61\x73\x68","\x23","\x69\x63\x6F\x6E\x6E\x6F\x6E\x65","\x2E\x6D\x65\x6E\x75\x77\x62\x73","\x2E\x6D\x65\x6E\x75\x77\x62\x73\x2C\x20\x2E\x6D\x65\x6E\x75\x6D\x6F\x76\x69\x6C\x32","\x73\x68\x6F\x77","\x2E\x64\x61\x74\x6F\x73\x31\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x31\x62","\x2E\x64\x61\x74\x6F\x73\x32\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x32\x62","\x2E\x64\x61\x74\x6F\x73\x33\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x33\x62","\x2E\x64\x61\x74\x6F\x73\x34\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x34\x62","\x2E\x64\x61\x74\x6F\x73\x35\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x35\x62","\x2E\x64\x61\x74\x6F\x73\x36\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x36\x62","\x2E\x64\x61\x74\x6F\x73\x37\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x37\x62","\x2E\x64\x61\x74\x6F\x73\x38\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x38\x62","\x2E\x65\x74\x69\x31\x20\x2C\x20\x2E\x65\x74\x69\x31\x62","\x2E\x65\x74\x69\x32\x20\x2C\x20\x2E\x65\x74\x69\x32\x62","\x2E\x65\x74\x69\x33\x20\x2C\x20\x2E\x65\x74\x69\x33\x62","\x2E\x65\x74\x69\x34\x20\x2C\x20\x2E\x65\x74\x69\x34\x62","\x2E\x65\x74\x69\x35\x20\x2C\x20\x2E\x65\x74\x69\x35\x62","\x2E\x65\x74\x69\x36\x20\x2C\x20\x2E\x65\x74\x69\x36\x62","\x2E\x65\x74\x69\x37\x20\x2C\x20\x2E\x65\x74\x69\x37\x62","\x2E\x65\x74\x69\x38\x20\x2C\x20\x2E\x65\x74\x69\x38\x62","\x73\x65\x6C\x65\x63\x74\x20\x74\x72\x69\x70\x69\x6D\x67","\x6D\x6F\x73\x74\x72\x61\x72\x63\x61\x72\x64\x6D\x65\x6E\x75","\x23\x63\x61\x72\x64\x6D\x65\x6E\x75","\x2E\x63\x61\x72\x64\x6E\x65\x67\x6F\x63\x69\x6F","\x23\x63\x65\x72\x72\x61\x72\x63\x68\x61\x74","\x66\x61\x64\x65\x49\x6E","\x2E\x75\x6E\x6F\x77\x68\x61\x74","\x23\x73\x6C\x69\x64\x65\x72","\x23\x62\x74\x6E\x2D\x6E\x65\x78\x74","\x23\x62\x74\x6E\x2D\x70\x72\x65\x76","\x23\x73\x6C\x69\x64\x65\x72\x20\x2E\x73\x6C\x69\x64\x65\x72\x5F\x5F\x73\x65\x63\x74\x69\x6F\x6E\x3A\x66\x69\x72\x73\x74","\x69\x6E\x73\x65\x72\x74\x42\x65\x66\x6F\x72\x65","\x23\x73\x6C\x69\x64\x65\x72\x20\x2E\x73\x6C\x69\x64\x65\x72\x5F\x5F\x73\x65\x63\x74\x69\x6F\x6E\x3A\x6C\x61\x73\x74","\x6D\x61\x72\x67\x69\x6E\x2D\x6C\x65\x66\x74","\x2D","\x25","\x63\x73\x73","\x69\x6E\x73\x65\x72\x74\x41\x66\x74\x65\x72","\x61\x6E\x69\x6D\x61\x74\x65","\x76\x61\x6C\x75\x65","\x65\x6E\x74\x72\x79\x2E\x38\x36\x35\x35\x37\x37\x36\x39\x31","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x65\x6E\x74\x72\x79\x2E\x31\x31\x36\x31\x33\x33\x35\x30\x34","\x65\x6E\x74\x72\x79\x2E\x35\x31\x36\x30\x38\x32\x36\x30\x34","\x65\x6E\x74\x72\x79\x2E\x37\x35\x31\x38\x38\x34\x35\x32\x30","\x74\x65\x73\x74","\x64\x65\x6D\x6F","\x49\x6E\x67\x72\x65\x73\x61\x20\x74\x75\x20\x6E\x6F\x6D\x62\x72\x65\x20\x63\x6F\x6D\x70\x6C\x65\x74\x6F","\x49\x6E\x67\x72\x65\x73\x61\x20\x65\x6C\x20\x6E\x6F\x6D\x62\x72\x65\x20\x64\x65\x20\x74\x75\x20\x6E\x65\x67\x6F\x63\x69\x6F","\x53\x65\x6C\x65\x63\x63\x69\x6F\x6E\x61\x20\x65\x6C\x20\x74\x69\x70\x6F\x20\x64\x65\x20\x6E\x65\x67\x6F\x63\x69\x6F","\x49\x6E\x67\x72\x65\x73\x61\x20\x75\x6E\x20\x6E\xFA\x6D\x65\x72\x6F\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70","\x26\x74\x65\x78\x74\x3D\x43\x61\x70\x61\x63\x69\x74\x61\x63\x69\xF3\x6E\x20\x56\x65\x6E\x64\x65\x20\x63\x6F\x6E\x20\x45\x6E\x76\xED\x6F\x73\x20\x4D\x61\x73\x69\x76\x6F\x73\x20\x79\x20\x70\x72\x75\x65\x62\x61\x20\x67\x72\x61\x74\x69\x73\x20\x64\x65","\x25\x32\x30","\x2A\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\u2122\x2A","\x25\x30\x41","\u2705\x20\x5F\x52\x65\x67\x69\x73\x74\x72\x6F\x20\x63\x6F\x6E\x66\x69\x72\x6D\x61\x64\x6F\x5F","\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F","\x2A\uD83D\uDE03\x20\x4E\x6F\x6D\x62\x72\x65\x3A\x2A","\x2A\uD83D\uDCBC\x20\x4E\x6F\x6D\x62\x72\x65\x20\x64\x65\x6C\x20\x4E\x65\x67\x6F\x63\x69\x6F\x3A\x2A","\x2A\uD83D\uDED2\x20\x54\x69\x70\x6F\x20\x64\x65\x20\x4E\x65\x67\x6F\x63\x69\x6F\x3A\x2A","\x2A\uD83E\uDD16\x20\x44\x65\x73\x63\x61\x72\x67\x61\x20\x65\x6C\x20\x73\x6F\x66\x74\x77\x61\x72\x65\x20\x65\x6E\x20\x65\x6C\x20\x73\x69\x67\x75\x69\x65\x6E\x74\x65\x20\x6C\x69\x6E\x6B\x3A\x2A","\x68\x74\x74\x70\x3A\x2F\x2F\x62\x69\x74\x2E\x6C\x79\x2F\x57\x68\x61\x74\x73\x41\x70\x70\x4D\x61\x73\x69\x76\x6F\x47\x52\x41\x54\x49\x53","\x2A\uD83D\uDE80\x20\x56\x69\x64\x65\x6F\x20\x74\x75\x74\x6F\x72\x69\x61\x6C\x20\x70\x61\x73\x6F\x20\x61\x20\x70\x61\x73\x6F\x20\x56\x65\x6E\x64\x65\x20\x63\x6F\x6E\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x4D\x61\x73\x69\x76\x6F\x20\x32\x30\x32\x31\x3A\x2A","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x79\x6F\x75\x74\x75\x2E\x62\x65\x2F\x45\x39\x71\x5F\x53\x6B\x67\x33\x75\x6E\x77","\x2A\x50\x2E\x44\x2E\x2A","\x47\x75\x61\x72\x64\x61\x20\x6E\x75\x65\x73\x74\x72\x6F\x20\x63\x6F\x6E\x74\x61\x63\x74\x6F\x20\x63\x6F\x6D\x6F\x20\x2A\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\x2A\x20\x70\x61\x72\x61\x20\x72\x65\x63\x69\x62\x69\x72\x20\x61\x63\x74\x75\x61\x6C\x69\x7A\x61\x63\x69\x6F\x6E\x65\x73\x20\x79\x20\x73\x6F\x70\x6F\x72\x74\x65\x20\uD83D\uDE09\uD83D\uDC4D","\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x6E\x61\x76\x69\x67\x61\x74\x6F\x72","\x6D\x6F\x62\x69\x6C\x65","\x68\x72\x65\x66","\x65\x6E\x76\x69\x61\x72\x77\x61","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x70\x69\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x73\x65\x6E\x64\x3F\x70\x68\x6F\x6E\x65\x3D\x35\x39\x33\x39\x39\x36\x35\x31\x37\x31\x39\x39","\x6F\x70\x65\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x65\x62\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x73\x65\x6E\x64\x3F\x70\x68\x6F\x6E\x65\x3D\x35\x39\x33\x39\x39\x36\x35\x31\x37\x31\x39\x39","\x6E\x6F\x6D\x62\x72\x65","\x65\x64\x61\x64","\x49\x6E\x67\x72\x65\x73\x61\x20\x65\x6C\x20\x6D\x65\x6E\x73\x61\x6A\x65","\x6E\x6F\x6D\x62\x72\x65\x6F\x62\x74\x65\x6E\x69\x64\x6F","\x72\x65\x67\x69\x73\x74\x72\x6F","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x70\x69\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x73\x65\x6E\x64\x3F\x70\x68\x6F\x6E\x65\x3D","\x26\x74\x65\x78\x74\x3D","\x41\x71\x75\x69\x20\x74\x69\x65\x6E\x65\x73\x20\x65\x6C\x20\x6C\x69\x6E\x6B","\x6F\x70\x61\x63\x69\x74\x79","\x31","\x74\x72\x61\x6E\x73\x69\x74\x69\x6F\x6E","\x6F\x70\x61\x63\x69\x74\x79\x20\x30\x2E\x35\x73\x20\x6C\x69\x6E\x65\x61\x72","\x64\x69\x76\x66\x61\x6E\x74\x61\x73\x6D\x61\x32","\x64\x69\x73\x70\x6C\x61\x79","\x67\x72\x69\x64","\x30\x2E\x35\x73\x20\x6C\x69\x6E\x65\x61\x72","\x73\x65\x6C\x65\x63\x74","\x73\x65\x74\x53\x65\x6C\x65\x63\x74\x69\x6F\x6E\x52\x61\x6E\x67\x65","\x63\x6F\x70\x79","\x65\x78\x65\x63\x43\x6F\x6D\x6D\x61\x6E\x64","\x4C\x69\x6E\x6B\x20\x43\x6F\x70\x69\x61\x64\x6F\x21","\x50\x6F\x72\x20\x66\x61\x76\x6F\x72\x20\x69\x6E\x67\x72\x65\x73\x61\x20\x74\x75\x20\x6E\xFA\x6D\x65\x72\x6F\x20\x79\x20\x65\x6C\x20\x6D\x65\x6E\x73\x61\x6A\x65","\x72\x65\x73\x65\x74","\x6D\x79\x66\x6F\x72\x6D","\x6E\x6F\x6E\x65","\x70\x72\x65\x63\x69\x6F\x64","\x66\x69\x63\x68\x61\x76\x61\x6C\x6F\x72","\x6C\x6F\x67","\x70\x72\x65\x63\x69\x6F\x64\x32","\x66\x69\x63\x68\x61\x76\x61\x6C\x6F\x72\x32","\x77\x68\x61\x74\x65\x72\x72\x6F\x72","\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x6E\x6F\x6E\x65","\xBF\x43\x6F\x6D\x6F\x20\x70\x6F\x64\x65\x6D\x6F\x73\x20\x61\x79\x75\x64\x61\x72\x74\x65\x3F\x20\uD83D\uDE3D\uD83D\uDC47","\x20\x63\x6F\x6C\x6F\x72\x3A\x20\x23\x32\x35\x64\x33\x36\x36\x3B\x20\x70\x6F\x73\x69\x74\x69\x6F\x6E\x3A\x20\x72\x65\x6C\x61\x74\x69\x76\x65\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x3A\x20\x31\x35\x70\x78\x3B\x20\x20\x6D\x61\x72\x67\x69\x6E\x3A\x20\x30\x20\x32\x36\x70\x78\x20\x32\x30\x70\x78\x3B\x20\x62\x6F\x72\x64\x65\x72\x2D\x72\x61\x64\x69\x75\x73\x3A\x20\x31\x35\x70\x78\x3B\x20\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72\x3A\x20\x23\x66\x66\x66\x3B\x20\x63\x6F\x6C\x6F\x72\x3A\x20\x23\x34\x61\x34\x61\x34\x61\x3B\x20\x62\x6F\x78\x2D\x73\x68\x61\x64\x6F\x77\x3A\x20\x30\x20\x31\x70\x78\x20\x32\x70\x78\x20\x30\x20\x72\x67\x62\x28\x30\x20\x30\x20\x30\x20\x2F\x20\x33\x30\x25\x29\x3B\x20\x74\x72\x61\x6E\x73\x69\x74\x69\x6F\x6E\x3A\x20\x30\x2E\x35\x73\x20\x65\x61\x73\x65\x2D\x69\x6E\x2D\x6F\x75\x74\x3B","\x68\x65\x69\x67\x68\x74\x20\x30","\x65\x6E\x76\x69\x61\x72\x77\x61\x32"];$(document)[_0xa400[9]](function(){var _0xdad8x1=$(_0xa400[2])[_0xa400[1]]()[_0xa400[0]];$(window)[_0xa400[8]](_0xa400[3],function(){if($(window)[_0xa400[4]]()>= _0xdad8x1){$(_0xa400[2])[_0xa400[6]](_0xa400[5])}else {$(_0xa400[2])[_0xa400[7]](_0xa400[5]);$(window)[_0xa400[3]](function(){return false})}})});(function(){var _0xdad8x2=document[_0xa400[11]](_0xa400[10]);for(var _0xdad8x3=0;_0xdad8x3< _0xdad8x2[_0xa400[12]];_0xdad8x3++){var _0xdad8x4=_0xa400[13]+ _0xdad8x2[_0xdad8x3][_0xa400[15]][_0xa400[14]]+ _0xa400[16];var _0xdad8x5= new Image();_0xdad8x5[_0xa400[17]]= _0xdad8x4;_0xdad8x5[_0xa400[20]](_0xa400[18],function(){_0xdad8x2[_0xdad8x3][_0xa400[19]](_0xdad8x5)}(_0xdad8x3));_0xdad8x2[_0xdad8x3][_0xa400[20]](_0xa400[21],function(){var _0xdad8x6=document[_0xa400[23]](_0xa400[22]);_0xdad8x6[_0xa400[26]](_0xa400[24],_0xa400[25]);_0xdad8x6[_0xa400[26]](_0xa400[27],_0xa400[28]);_0xdad8x6[_0xa400[26]](_0xa400[29],_0xa400[28]);_0xdad8x6[_0xa400[26]](_0xa400[30],_0xa400[28]);_0xdad8x6[_0xa400[26]](_0xa400[31],_0xa400[28]);_0xdad8x6[_0xa400[26]](_0xa400[32],_0xa400[28]);_0xdad8x6[_0xa400[26]](_0xa400[17],_0xa400[33]+ this[_0xa400[15]][_0xa400[34]]+ _0xa400[35]);this[_0xa400[36]]= _0xa400[28];this[_0xa400[19]](_0xdad8x6)})}})();$(_0xa400[46])[_0xa400[45]](function(){this[_0xa400[26]](_0xa400[39],_0xa400[43]+ (this[_0xa400[41]])+ _0xa400[44])})[_0xa400[8]](_0xa400[37],function(){this[_0xa400[39]][_0xa400[38]]= _0xa400[40];this[_0xa400[39]][_0xa400[38]]= (this[_0xa400[41]])+ _0xa400[42]});$(_0xa400[50])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[49])[_0xa400[48]](_0xa400[47])});$(_0xa400[49])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[49])[_0xa400[7]](_0xa400[47])});$(_0xa400[51])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[49])[_0xa400[7]](_0xa400[47])});function moverseA(_0xdad8x8){location[_0xa400[52]]= _0xa400[53]+ _0xdad8x8}$(_0xa400[56])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[55])[_0xa400[48]](_0xa400[54])});$(_0xa400[66])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[58])[_0xa400[6]](_0xa400[57]);$(_0xa400[59])[_0xa400[7]](_0xa400[57]);$(_0xa400[60])[_0xa400[7]](_0xa400[57]);$(_0xa400[61])[_0xa400[7]](_0xa400[57]);$(_0xa400[62])[_0xa400[7]](_0xa400[57]);$(_0xa400[63])[_0xa400[7]](_0xa400[57]);$(_0xa400[64])[_0xa400[7]](_0xa400[57]);$(_0xa400[65])[_0xa400[7]](_0xa400[57])});$(_0xa400[67])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[59])[_0xa400[6]](_0xa400[57]);$(_0xa400[58])[_0xa400[7]](_0xa400[57]);$(_0xa400[60])[_0xa400[7]](_0xa400[57]);$(_0xa400[61])[_0xa400[7]](_0xa400[57]);$(_0xa400[62])[_0xa400[7]](_0xa400[57]);$(_0xa400[63])[_0xa400[7]](_0xa400[57]);$(_0xa400[64])[_0xa400[7]](_0xa400[57]);$(_0xa400[65])[_0xa400[7]](_0xa400[57])});$(_0xa400[68])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[60])[_0xa400[6]](_0xa400[57]);$(_0xa400[58])[_0xa400[7]](_0xa400[57]);$(_0xa400[59])[_0xa400[7]](_0xa400[57]);$(_0xa400[61])[_0xa400[7]](_0xa400[57]);$(_0xa400[62])[_0xa400[7]](_0xa400[57]);$(_0xa400[63])[_0xa400[7]](_0xa400[57]);$(_0xa400[64])[_0xa400[7]](_0xa400[57]);$(_0xa400[65])[_0xa400[7]](_0xa400[57])});$(_0xa400[69])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[61])[_0xa400[6]](_0xa400[57]);$(_0xa400[58])[_0xa400[7]](_0xa400[57]);$(_0xa400[59])[_0xa400[7]](_0xa400[57]);$(_0xa400[60])[_0xa400[7]](_0xa400[57]);$(_0xa400[62])[_0xa400[7]](_0xa400[57]);$(_0xa400[63])[_0xa400[7]](_0xa400[57]);$(_0xa400[64])[_0xa400[7]](_0xa400[57]);$(_0xa400[65])[_0xa400[7]](_0xa400[57])});$(_0xa400[70])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[62])[_0xa400[6]](_0xa400[57]);$(_0xa400[58])[_0xa400[7]](_0xa400[57]);$(_0xa400[59])[_0xa400[7]](_0xa400[57]);$(_0xa400[60])[_0xa400[7]](_0xa400[57]);$(_0xa400[61])[_0xa400[7]](_0xa400[57]);$(_0xa400[63])[_0xa400[7]](_0xa400[57]);$(_0xa400[64])[_0xa400[7]](_0xa400[57]);$(_0xa400[65])[_0xa400[7]](_0xa400[57])});$(_0xa400[71])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[63])[_0xa400[6]](_0xa400[57]);$(_0xa400[58])[_0xa400[7]](_0xa400[57]);$(_0xa400[59])[_0xa400[7]](_0xa400[57]);$(_0xa400[60])[_0xa400[7]](_0xa400[57]);$(_0xa400[61])[_0xa400[7]](_0xa400[57]);$(_0xa400[62])[_0xa400[7]](_0xa400[57]);$(_0xa400[64])[_0xa400[7]](_0xa400[57]);$(_0xa400[65])[_0xa400[7]](_0xa400[57])});$(_0xa400[72])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[64])[_0xa400[6]](_0xa400[57]);$(_0xa400[58])[_0xa400[7]](_0xa400[57]);$(_0xa400[59])[_0xa400[7]](_0xa400[57]);$(_0xa400[60])[_0xa400[7]](_0xa400[57]);$(_0xa400[61])[_0xa400[7]](_0xa400[57]);$(_0xa400[62])[_0xa400[7]](_0xa400[57]);$(_0xa400[63])[_0xa400[7]](_0xa400[57]);$(_0xa400[65])[_0xa400[7]](_0xa400[57])});$(_0xa400[73])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[65])[_0xa400[6]](_0xa400[57]);$(_0xa400[58])[_0xa400[7]](_0xa400[57]);$(_0xa400[59])[_0xa400[7]](_0xa400[57]);$(_0xa400[60])[_0xa400[7]](_0xa400[57]);$(_0xa400[61])[_0xa400[7]](_0xa400[57]);$(_0xa400[62])[_0xa400[7]](_0xa400[57]);$(_0xa400[63])[_0xa400[7]](_0xa400[57]);$(_0xa400[64])[_0xa400[7]](_0xa400[57])});$(_0xa400[66])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[66])[_0xa400[6]](_0xa400[74]);$(_0xa400[67])[_0xa400[7]](_0xa400[74]);$(_0xa400[68])[_0xa400[7]](_0xa400[74]);$(_0xa400[69])[_0xa400[7]](_0xa400[74]);$(_0xa400[70])[_0xa400[7]](_0xa400[74]);$(_0xa400[71])[_0xa400[7]](_0xa400[74]);$(_0xa400[72])[_0xa400[7]](_0xa400[74]);$(_0xa400[73])[_0xa400[7]](_0xa400[74])});$(_0xa400[67])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[67])[_0xa400[6]](_0xa400[74]);$(_0xa400[66])[_0xa400[7]](_0xa400[74]);$(_0xa400[68])[_0xa400[7]](_0xa400[74]);$(_0xa400[69])[_0xa400[7]](_0xa400[74]);$(_0xa400[70])[_0xa400[7]](_0xa400[74]);$(_0xa400[71])[_0xa400[7]](_0xa400[74]);$(_0xa400[72])[_0xa400[7]](_0xa400[74]);$(_0xa400[73])[_0xa400[7]](_0xa400[74])});$(_0xa400[68])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[68])[_0xa400[6]](_0xa400[74]);$(_0xa400[66])[_0xa400[7]](_0xa400[74]);$(_0xa400[67])[_0xa400[7]](_0xa400[74]);$(_0xa400[69])[_0xa400[7]](_0xa400[74]);$(_0xa400[70])[_0xa400[7]](_0xa400[74]);$(_0xa400[71])[_0xa400[7]](_0xa400[74]);$(_0xa400[72])[_0xa400[7]](_0xa400[74]);$(_0xa400[73])[_0xa400[7]](_0xa400[74])});$(_0xa400[69])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[69])[_0xa400[6]](_0xa400[74]);$(_0xa400[66])[_0xa400[7]](_0xa400[74]);$(_0xa400[67])[_0xa400[7]](_0xa400[74]);$(_0xa400[68])[_0xa400[7]](_0xa400[74]);$(_0xa400[70])[_0xa400[7]](_0xa400[74]);$(_0xa400[71])[_0xa400[7]](_0xa400[74]);$(_0xa400[72])[_0xa400[7]](_0xa400[74]);$(_0xa400[73])[_0xa400[7]](_0xa400[74])});$(_0xa400[70])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[70])[_0xa400[6]](_0xa400[74]);$(_0xa400[66])[_0xa400[7]](_0xa400[74]);$(_0xa400[67])[_0xa400[7]](_0xa400[74]);$(_0xa400[68])[_0xa400[7]](_0xa400[74]);$(_0xa400[69])[_0xa400[7]](_0xa400[74]);$(_0xa400[71])[_0xa400[7]](_0xa400[74]);$(_0xa400[72])[_0xa400[7]](_0xa400[74]);$(_0xa400[73])[_0xa400[7]](_0xa400[74])});$(_0xa400[71])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[71])[_0xa400[6]](_0xa400[74]);$(_0xa400[66])[_0xa400[7]](_0xa400[74]);$(_0xa400[67])[_0xa400[7]](_0xa400[74]);$(_0xa400[68])[_0xa400[7]](_0xa400[74]);$(_0xa400[69])[_0xa400[7]](_0xa400[74]);$(_0xa400[70])[_0xa400[7]](_0xa400[74]);$(_0xa400[72])[_0xa400[7]](_0xa400[74]);$(_0xa400[73])[_0xa400[7]](_0xa400[74])});$(_0xa400[72])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[72])[_0xa400[6]](_0xa400[74]);$(_0xa400[66])[_0xa400[7]](_0xa400[74]);$(_0xa400[67])[_0xa400[7]](_0xa400[74]);$(_0xa400[68])[_0xa400[7]](_0xa400[74]);$(_0xa400[69])[_0xa400[7]](_0xa400[74]);$(_0xa400[70])[_0xa400[7]](_0xa400[74]);$(_0xa400[71])[_0xa400[7]](_0xa400[74]);$(_0xa400[73])[_0xa400[7]](_0xa400[74])});$(_0xa400[73])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[73])[_0xa400[6]](_0xa400[74]);$(_0xa400[66])[_0xa400[7]](_0xa400[74]);$(_0xa400[67])[_0xa400[7]](_0xa400[74]);$(_0xa400[68])[_0xa400[7]](_0xa400[74]);$(_0xa400[69])[_0xa400[7]](_0xa400[74]);$(_0xa400[70])[_0xa400[7]](_0xa400[74]);$(_0xa400[71])[_0xa400[7]](_0xa400[74]);$(_0xa400[72])[_0xa400[7]](_0xa400[74])});$(_0xa400[77])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[76])[_0xa400[6]](_0xa400[75])});$(_0xa400[78])[_0xa400[8]](_0xa400[21],function(){$(_0xa400[76])[_0xa400[48]](_0xa400[75])});setTimeout(function(){$(_0xa400[80])[_0xa400[79]](1000)},8500);var slider=$(_0xa400[81]);var siguiente=$(_0xa400[82]);var anterior=$(_0xa400[83]);$(_0xa400[86])[_0xa400[85]](_0xa400[84]);slider[_0xa400[90]](_0xa400[87],_0xa400[88]+ 100+ _0xa400[89]);function moverD(){slider[_0xa400[92]]({marginLeft:_0xa400[88]+ 200+ _0xa400[89]},700,function(){$(_0xa400[84])[_0xa400[91]](_0xa400[86]);slider[_0xa400[90]](_0xa400[87],_0xa400[88]+ 100+ _0xa400[89])})}function moverI(){slider[_0xa400[92]]({marginLeft:0},700,function(){$(_0xa400[86])[_0xa400[85]](_0xa400[84]);slider[_0xa400[90]](_0xa400[87],_0xa400[88]+ 100+ _0xa400[89])})}siguiente[_0xa400[8]](_0xa400[21],function(){moverD();clearInterval(interval)});anterior[_0xa400[8]](_0xa400[21],function(){moverI();clearInterval(interval)});autoplay();function goToPage(){var _0xdad8xf=document[_0xa400[95]](_0xa400[94])[_0xa400[93]];var _0xdad8x10=document[_0xa400[95]](_0xa400[96])[_0xa400[93]];var _0xdad8x11=document[_0xa400[95]](_0xa400[97])[_0xa400[93]];var _0xdad8x12=document[_0xa400[95]](_0xa400[98])[_0xa400[93]];if(_0xdad8xf== null|| _0xdad8xf[_0xa400[12]]== 0|| /^\s+$/[_0xa400[99]](_0xdad8xf)){return (document[_0xa400[95]](_0xa400[100])[_0xa400[36]]= _0xa400[101])};if(_0xdad8x10== null|| _0xdad8x10[_0xa400[12]]== 0|| /^\s+$/[_0xa400[99]](_0xdad8x10)){return (document[_0xa400[95]](_0xa400[100])[_0xa400[36]]= _0xa400[102])};if(_0xdad8x11== null|| _0xdad8x11[_0xa400[12]]== 0|| /^\s+$/[_0xa400[99]](_0xdad8x11)){return (document[_0xa400[95]](_0xa400[100])[_0xa400[36]]= _0xa400[103])};if(_0xdad8x12== null|| _0xdad8x12[_0xa400[12]]== 0|| /^\s+$/[_0xa400[99]](_0xdad8x12)){return (document[_0xa400[95]](_0xa400[100])[_0xa400[36]]= _0xa400[104])};var _0xdad8x13=_0xa400[105]+ _0xa400[106]+ _0xa400[107]+ _0xa400[108]+ _0xa400[109]+ _0xa400[108]+ _0xa400[110]+ _0xa400[108]+ _0xa400[108]+ _0xa400[111]+ _0xa400[108]+ _0xdad8xf+ _0xa400[106]+ _0xa400[108]+ _0xa400[108]+ _0xa400[112]+ _0xa400[108]+ _0xdad8x10+ _0xa400[106]+ _0xa400[108]+ _0xa400[108]+ _0xa400[113]+ _0xa400[108]+ _0xdad8x11+ _0xa400[106]+ _0xa400[108]+ _0xa400[110]+ _0xa400[108]+ _0xa400[108]+ _0xa400[114]+ _0xa400[108]+ _0xa400[115]+ _0xa400[108]+ _0xa400[108]+ _0xa400[116]+ _0xa400[108]+ _0xa400[117]+ _0xa400[108]+ _0xa400[108]+ _0xa400[110]+ _0xa400[108]+ _0xa400[108]+ _0xa400[118]+ _0xa400[106]+ _0xa400[119];var _0xdad8x14= new MobileDetect(window[_0xa400[121]][_0xa400[120]]);if(_0xdad8x14[_0xa400[122]]()){window[_0xa400[126]](document[_0xa400[95]](_0xa400[124])[_0xa400[123]]= _0xa400[125]+ _0xdad8x13)}else {window[_0xa400[126]](document[_0xa400[95]](_0xa400[124])[_0xa400[123]]= _0xa400[127]+ _0xdad8x13)}}function obtenerdatos(){var _0xdad8xf=document[_0xa400[95]](_0xa400[128])[_0xa400[93]];if(_0xdad8xf== null|| _0xdad8xf[_0xa400[12]]== 0|| /^\s+$/[_0xa400[99]](_0xdad8xf)){return (document[_0xa400[95]](_0xa400[100])[_0xa400[36]]= _0xa400[104])};var _0xdad8x16=encodeURIComponent(document[_0xa400[95]](_0xa400[129])[_0xa400[93]]);if(_0xdad8x16== null|| _0xdad8x16[_0xa400[12]]== 0|| /^\s+$/[_0xa400[99]](_0xdad8x16)){return (document[_0xa400[95]](_0xa400[100])[_0xa400[36]]= _0xa400[130])}else {(document[_0xa400[95]](_0xa400[100])[_0xa400[36]]= _0xa400[28])};var _0xdad8x17=document[_0xa400[132]][_0xa400[131]][_0xa400[93]]= _0xa400[133]+ _0xdad8xf+ _0xa400[134]+ _0xdad8x16;var _0xdad8x18=document[_0xa400[95]](_0xa400[100])[_0xa400[36]]= _0xa400[135];demo[_0xa400[39]][_0xa400[136]]= _0xa400[137];demo[_0xa400[39]][_0xa400[138]]= _0xa400[139];var _0xdad8x19=document[_0xa400[95]](_0xa400[140]);divfantasma2[_0xa400[39]][_0xa400[141]]= _0xa400[142];divfantasma2[_0xa400[39]][_0xa400[138]]= _0xa400[143]}function myFunction(){var _0xdad8x1b=document[_0xa400[95]](_0xa400[131]);_0xdad8x1b[_0xa400[144]]();_0xdad8x1b[_0xa400[145]](0,99999);document[_0xa400[147]](_0xa400[146]);var _0xdad8x1c=encodeURIComponent(document[_0xa400[95]](_0xa400[131])[_0xa400[93]]);document[_0xa400[95]](_0xa400[100])[_0xa400[36]]= _0xa400[148];if(_0xdad8x1c== _0xa400[28]|| _0xdad8x1c[_0xa400[12]]== 0|| /^\s+$/[_0xa400[99]](_0xdad8x1c)){return (document[_0xa400[95]](_0xa400[100])[_0xa400[36]]= _0xa400[149])};var _0xdad8x18=document[_0xa400[95]](_0xa400[100]);demo[_0xa400[39]][_0xa400[136]]= _0xa400[137];demo[_0xa400[39]][_0xa400[138]]= _0xa400[139]}function resetear(){var resetear=document[_0xa400[95]](_0xa400[151])[_0xa400[150]]();document[_0xa400[95]](_0xa400[100])[_0xa400[36]]= _0xa400[28];document[_0xa400[95]](_0xa400[140]);divfantasma2[_0xa400[39]][_0xa400[141]]= _0xa400[152];divfantasma2[_0xa400[39]][_0xa400[138]]= _0xa400[143]}var n1=document[_0xa400[95]](_0xa400[153])[_0xa400[93]];var n2=document[_0xa400[95]](_0xa400[154])[_0xa400[93]];var multiplicaruno=parseInt(n1)* parseInt(n2);function btnsuma(){var n1=document[_0xa400[95]](_0xa400[153])[_0xa400[93]];var n2=document[_0xa400[95]](_0xa400[154])[_0xa400[93]];var btnsuma2=parseInt(n1)* parseInt(n2);console[_0xa400[155]](btnsuma2)}function btnsuma2(){var n1=document[_0xa400[95]](_0xa400[156])[_0xa400[93]];var n2=document[_0xa400[95]](_0xa400[157])[_0xa400[93]];var _0xdad8x23=parseInt(n1)* parseInt(n2);console[_0xa400[155]](_0xdad8x23)}function sumaentrefuncionesf(){alert()}function obtenerdatos(){var _0xdad8xf=document[_0xa400[95]](_0xa400[129])[_0xa400[93]];$(_0xa400[78])[_0xa400[8]](_0xa400[21],function(){document[_0xa400[95]](_0xa400[158])[_0xa400[39]]= _0xa400[159]});if(_0xdad8xf== null|| _0xdad8xf[_0xa400[12]]== 0|| /^\s+$/[_0xa400[99]](_0xdad8xf)){return (document[_0xa400[95]](_0xa400[158])[_0xa400[36]]= _0xa400[160],document[_0xa400[95]](_0xa400[158])[_0xa400[39]]= _0xa400[161])};document[_0xa400[95]](_0xa400[129])[_0xa400[93]]= _0xa400[28];document[_0xa400[95]](_0xa400[129])[_0xa400[39]]= _0xa400[162];var _0xdad8x25=_0xa400[134]+ _0xdad8xf;var _0xdad8x14= new MobileDetect(window[_0xa400[121]][_0xa400[120]]);if(_0xdad8x14[_0xa400[122]]()){window[_0xa400[126]](document[_0xa400[95]](_0xa400[163])[_0xa400[123]]= _0xa400[125]+ _0xdad8x25)}else {window[_0xa400[126]](document[_0xa400[95]](_0xa400[163])[_0xa400[123]]= _0xa400[127]+ _0xdad8x25)}}
+  
+ 
+ 
+  $(document).ready(function(){
+    var altura =$('.row-centered').offset().top;
+    $(window).on('scroll', function(){
+      if ($(window).scrollTop()>= altura){
+        $('.row-centered').addClass('row-centered2');
+      } else{
+        $('.row-centered').removeClass('row-centered2');
+
+        $(window).scroll(function() { return false; });
+
+      }
+    })
+  });
+
+
+
+  ( function() {
+
+    var wistia = document.querySelectorAll( ".wistia" );
+    
+    for (var i = 0; i < wistia.length; i++) {
+    
+    var source = "https://embed-ssl.wistia.com/deliveries/"+ wistia[i].dataset.thumb +".webp";
+    
+    var image = new Image();
+    image.src = source;
+    image.addEventListener( "load", function() {
+    wistia[ i ].appendChild( image );
+    }( i ) );
+    
+    wistia[i].addEventListener( "click", function() {
+    
+    var iframe = document.createElement( "iframe" );
+    
+        iframe.setAttribute( "frameborder", "0" );
+        iframe.setAttribute( "allowfullscreen", "" );
+        iframe.setAttribute( "mozallowfullscreen", "" );
+        iframe.setAttribute( "webkitallowfullscreen", "" );
+        iframe.setAttribute( "oallowfullscreen", "" );
+        iframe.setAttribute( "msallowfullscreen", "" );
+        iframe.setAttribute( "src", "//fast.wistia.net/embed/iframe/"+ this.dataset.embed +"?videoFoam=true" );
+    
+        this.innerHTML = "";
+        this.appendChild( iframe );
+    } );    
+    };
+    
+    } )();
+
+    
+ //texterea
+ $('#edad').each(function () {
+  this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:auto;');
+}).on('input', function () {
+  this.style.height = 'auto';
+  this.style.height = (this.scrollHeight) + 'px';
+});
+
+
+$('.menuwbs, .colormenu2,.q').on('click', function(){
+    $('#nav').toggleClass('mostrarmenu2');
+  })
+  
+  $('#nav').on('click', function(){
+    $('#nav').removeClass('mostrarmenu2');
+  })
+  
+  
+  $('.mostrarmenu2').on('click', function(){
+    $('#nav').removeClass('mostrarmenu2');
+    // $('#nav').removeClass('mostrarmenu2');
+  
+  })
+  
+  
+  function moverseA(reservar) {
+    location.hash = "#" + reservar;
+  }
+  
+  
+  $('.menuwbs, .menumovil2').on('click', function(){ 
+    $('.menuwbs').toggleClass('iconnone');
+  })
+  
+  
+  $('.eti1 , .eti1b').on('click', function(){
+    $('.datos1 , .datos1b').addClass('show');
+    $('.datos2 , .datos2b').removeClass('show');
+    $('.datos3 , .datos3b').removeClass('show');
+    $('.datos4 , .datos4b').removeClass('show');
+    $('.datos5 , .datos5b').removeClass('show');
+    $('.datos6 , .datos6b').removeClass('show');
+    $('.datos7 , .datos7b').removeClass('show');
+    $('.datos8 , .datos8b').removeClass('show');
+  })
+  
+  $('.eti2 , .eti2b').on('click', function(){
+    $('.datos2 , .datos2b').addClass('show');
+    $('.datos1 , .datos1b').removeClass('show');
+    $('.datos3 , .datos3b').removeClass('show');
+    $('.datos4 , .datos4b').removeClass('show');
+    $('.datos5 , .datos5b').removeClass('show');
+    $('.datos6 , .datos6b').removeClass('show');
+    $('.datos7 , .datos7b').removeClass('show');
+    $('.datos8 , .datos8b').removeClass('show');
+  })
+  
+  
+    $('.eti3 , .eti3b').on('click', function(){
+      $('.datos3 , .datos3b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos4 , .datos4b').removeClass('show');
+      $('.datos5 , .datos5b').removeClass('show');
+      $('.datos6 , .datos6b').removeClass('show');
+      $('.datos7 , .datos7b').removeClass('show');
+      $('.datos8 , .datos8b').removeClass('show');
+    })
+  
+    $('.eti4 , .eti4b').on('click', function(){
+      $('.datos4 , .datos4b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos3 , .datos3b').removeClass('show');
+      $('.datos5 , .datos5b').removeClass('show');
+      $('.datos6 , .datos6b').removeClass('show');
+      $('.datos7 , .datos7b').removeClass('show');
+      $('.datos8 , .datos8b').removeClass('show');
+    })
+  
+    $('.eti5 , .eti5b').on('click', function(){
+      $('.datos5 , .datos5b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos3 , .datos3b').removeClass('show');
+      $('.datos4 , .datos4b').removeClass('show');
+      $('.datos6 , .datos6b').removeClass('show');
+      $('.datos7 , .datos7b').removeClass('show');
+      $('.datos8 , .datos8b').removeClass('show');
+    })
+  
+    $('.eti6 , .eti6b').on('click', function(){
+      $('.datos6 , .datos6b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos3 , .datos3b').removeClass('show');
+      $('.datos4 , .datos4b').removeClass('show');
+      $('.datos5 , .datos5b').removeClass('show');
+      $('.datos7 , .datos7b').removeClass('show');
+      $('.datos8 , .datos8b').removeClass('show');
+    })
+  
+  
+    $('.eti7 , .eti7b').on('click', function(){
+      $('.datos7 , .datos7b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos3 , .datos3b').removeClass('show');
+      $('.datos4 , .datos4b').removeClass('show');
+      $('.datos5 , .datos5b').removeClass('show');
+      $('.datos6 , .datos6b').removeClass('show');
+      $('.datos8 , .datos8b').removeClass('show');
+    })
+  
+    $('.eti8 , .eti8b').on('click', function(){
+      $('.datos8 , .datos8b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos3 , .datos3b').removeClass('show');
+      $('.datos4 , .datos4b').removeClass('show');
+      $('.datos5 , .datos5b').removeClass('show');
+      $('.datos6 , .datos6b').removeClass('show');
+      $('.datos7 , .datos7b').removeClass('show');
+      
+    })
+  
+  
+  $('.eti1 , .eti1b').on('click', function(){
+      $('.eti1 , .eti1b').addClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    
+  $('.eti2 , .eti2b').on('click', function(){
+      $('.eti2 , .eti2b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti3 , .eti3b').on('click', function(){
+      $('.eti3 , .eti3b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti4 , .eti4b').on('click', function(){
+      $('.eti4 , .eti4b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti5 , .eti5b').on('click', function(){
+      $('.eti5 , .eti5b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti6 , .eti6b').on('click', function(){
+      $('.eti6 , .eti6b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti7 , .eti7b').on('click', function(){
+      $('.eti7 , .eti7b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti8 , .eti8b').on('click', function(){
+      $('.eti8 , .eti8b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+  
+    })
+  
+    
+  
+    
+  
+  //   Whatsapp Chat
+  
+  
+  
+  $('.cardnegocio').on('click', function(){
+    $('#cardmenu').addClass('mostrarcardmenu');
+  })
+  
+  $('#cerrarchat').on('click', function(){
+    $('#cardmenu').toggleClass('mostrarcardmenu');
+  })
+    
+    // $('.cardmenu').on('click', function(){
+    //   $('#cardmenu').removeClass('mostrarcardmenu');
+    //    $('#cardmenu').removeClass('cardmenu');
+    
+    // })
+    
+    // mostrar despues de 2 segundos el mensaje a whatsapp falso
+    
+    
+      setTimeout(function() {
+          $(".unowhat").fadeIn(1000);
+      },8500);
+  
+  
+    //   setTimeout(function() {
+    //     $(".unowhat").fadeOut(3000);
+    // },19500); oculta despues de 3 segundos el 1
+    
+  
+    
+  // $('.num').counterUp({delay:1,time:200});
+    
+  
+  
+  // new slider
+  
+  //almacenar slider en una variable
+  var slider = $('#slider');
+  //almacenar botones
+  var siguiente = $('#btn-next');
+  var anterior = $('#btn-prev');
+  
+  //mover ultima imagen al primer lugar
+  $('#slider .slider__section:last').insertBefore('#slider .slider__section:first');
+  //mostrar la primera imagen con un margen de -100%
+  slider.css('margin-left', '-'+100+'%');
+  
+  function moverD() {
+      slider.animate({
+          marginLeft:'-'+200+'%'
+      } ,700, function(){
+          $('#slider .slider__section:first').insertAfter('#slider .slider__section:last');
+          slider.css('margin-left', '-'+100+'%');
+      });
+  }
+  
+  function moverI() {
+      slider.animate({
+          marginLeft:0
+      } ,700, function(){
+          $('#slider .slider__section:last').insertBefore('#slider .slider__section:first');
+          slider.css('margin-left', '-'+100+'%');
+      });
+  }
+  
+  // function autoplay() {
+  // 	interval = setInterval(function(){
+  // 		moverD();
+  // 	}, 9000);
+  // }
+  siguiente.on('click',function() {
+      moverD();
+      clearInterval(interval);
+      // autoplay();
+  });
+  
+  anterior.on('click',function() {
+      moverI();
+      clearInterval(interval);
+      // autoplay();
+  });
+  
+  
+   autoplay();
+  
+  //  smooth sroll navbar 
+  //  const scroll = new SmoothScroll('.navbar a[href*="#"]', {
+  //  	speed: 2000 });
+  
+  //  contador de clientes
+  
+  function goToPage(){
+    var nombre = document.getElementById('entry.865577691').value;
+    var nombrenegocio = document.getElementById('entry.116133504').value;
+    var tipodenegocio = document.getElementById('entry.516082604').value;
+    var whatsapp = document.getElementById('entry.751884520').value;
+    // var diaprueba = document.getElementById('entry.1087253973').value;
+    // var horaprueba = document.getElementById('entry.1527657423').value;
+  
+    if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa tu nombre completo")
+    }
+    if( nombrenegocio == null || nombrenegocio.length == 0 || /^\s+$/.test(nombrenegocio) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa el nombre de tu negocio")
+    }
+    if( tipodenegocio == null || tipodenegocio.length == 0 || /^\s+$/.test(tipodenegocio) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Selecciona el tipo de negocio")
+    }
+    if( whatsapp == null || whatsapp.length == 0 || /^\s+$/.test(whatsapp) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa un número de WhatsApp")
+    }
+    // if( diaprueba == null || diaprueba.length == 0 || /^\s+$/.test(diaprueba) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Selecciona el día para la prueba")
+    // }
+    // if( horaprueba == null || horaprueba.length == 0 || /^\s+$/.test(horaprueba) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Selecciona una hora")
+    // }
+  
+//   var myWindow = window.open ("https://api.whatsapp.com/send?phone=593996517199&text="+"Capacitación y Prueba gratis de" + "%20" + "*WhatsBulkSender™*" + "%0A"+"✅ _Registro confirmado_" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*Nombre*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*Nombre del Negocio*" +"%0A" + nombrenegocio +  "%20" + "%0A"+"%0A"+"*Tipo de Negocio*"+"%0A" + tipodenegocio + "%20" +"%0A"+ "%0A"+ "_________________________" + "%0A" + "%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como *WhatsBulkSender* para recibir actualizaciones y soporte 😉👍");
+  
+  
+  //  window.location = "https://api.whatsapp.com/send?phone=593996517199&text="+ "*Hola me llamo:*" + "%0A" + nombre + "%20" +"%0A" + nombrenegocio +  "%20" + "%0A" + tipodenegocio + "%20" + "%0A";
+  
+  
+  
+  
+
+var whatsapp_number ="&text=Capacitación Vende con Envíos Masivos y prueba gratis de" + "%20" + "*WhatsBulkSender™*" + "%0A"+"✅ _Registro confirmado_" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*😃 Nombre:*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*💼 Nombre del Negocio:*" +"%0A" + nombrenegocio +  "%20" + "%0A"+"%0A"+"*🛒 Tipo de Negocio:*"+"%0A" + tipodenegocio + "%20" + "%0A"+"_________________________" + "%0A"+"%0A"+"*🤖 Descarga el software en el siguiente link:*"+"%0A"+"http://bit.ly/WhatsAppMasivoGRATIS"+"%0A"+"%0A"+ "*🚀 Video tutorial paso a paso Vende con WhatsApp Masivo 2021:*"+"%0A"+"https://youtu.be/E9q_Skg3unw"+"%0A"+"%0A"+ "_________________________" + "%0A" + "%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como *WhatsBulkSender* para recibir actualizaciones y soporte 😉👍";
+  
+  
+  
+
+
+
+   var md = new MobileDetect(window.navigator.userAgent);
+   if (md.mobile()) {
+   
+
+  //   if (mostrarpedidof===''){
+
+   
+   
+  //     document.getElementById("demo").innerHTML =
+  //        "Aún no haz selecionado prodcutos"
+
+  //       $('.demo').addClass('showmsg');
+
+
+  //       setTimeout(function() {
+  //         $(".showmsg").fadeOut(1500);
+  //         },500);
+        
+      
+      
+
+
+  //     // return (document.getElementById("demo").innerHTML =
+  //     //   "Aún no haz selecionado prodcutos")
+  //   }
+  //  else{
+    window.open(document.getElementById("enviarwa").href = "https://api.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+  //  }
+      
+    
+
+  
+     
+
+    
+   
+
+   } else {
+   
+     window.open(document.getElementById("enviarwa").href = "https://web.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+
+    
+
+
+   }
+
+  
+  
+  }
+  
+  
+  
+  
+      // console.log("La multiplicación es: "+multiplicaruno)
+      
+  // var linkcreado5 = document.nombreobtenido2.value = multiplicaruno;
+  // alert(linkcreado5)
+  
+  
+  
+  // function multiplicar2() {
+  //   var n3 = document.getElementById("preciod2").value;
+  //   var n4 = document.getElementById("fichavalor2").value;
+  //   var multiplicardos = parseInt(n3) * parseInt(n4);
+  //     alert("La multiplicación es: "+multiplicardos)
+  
+  
+   
+  
+  // }
+  
+  // function total(){
+  
+  // alert("multiplicaruno+multiplicardos")
+  // alert("La multiplicación es: "+multiplicaruno+multiplicardos)
+          // var linkcreado = document.nombreobtenido2.value = "https://api.whatsapp.com/send?phone="+ multiplicaruno +"&text=" + multiplicardos;
+  
+  
+  
+  
+  
+  
+  
+  // document.getElementById("nombreobtenido2").write= parseInt(multiplicar1) + parseInt(multiplicar2);
+  
+  
+  // function carritototal(){
+  
+  
+  
+  
+  
+  
+  // var total = document.nombreobtenido2.value=  a1+a2;
+  
+    // document.getElementById("nombreobtenido2").write= parseInt(multiplicar1) + parseInt(multiplicar2);
+  
+  
+      // alert("La multiplicación es: "+multiplicar1 + multiplicar2 )
+  
+    
+    // var linkcreado2 = document.registro.nombreobtenido2.value =  carritototal;
+    
+  
+  
+  // document.write(carritototal);
+  
+   
+  
+  
+    // var myWindow = window.open ("https://api.whatsapp.com/send?phone=593996517199&text="+"Tu pedido ha sido registrado con éxito" + "%20" + "*:)*" + "%0A"+"✅ _Detalle de su pedido_" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*Nombre*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*Nombre del Negocio*" +"%0A" + nombrenegocio +  "%20" + "%0A"+"%0A"+"*Tipo de Negocio*"+"%0A" + tipodenegocio + "%20" +"%0A"+ "%0A"+"*Día y hora de la prueba*"+"%0A" +diaprueba+"%0A" +carritototal+ "%0A"+ "_________________________" + "%0A" + "%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como *Software de WhatsApp Marketing* para recibir 15 minutos antes el link de Zoom. Empezamos puntual 😉👍");
+    // var linkcreado2 = document.registro.nombreobtenido2.value =  carritototal;
+  
+  
+  
+
+  
+  
+  //chatsend
+
+
+  
+  
+  function obtenerdatos2(){
+    var nombre = document.getElementById('edad').value;
+  
+ 
+  
+    $('#cerrarchat').on('click', function(){
+   
+        document.getElementById("whaterror").style="display: none";
+      })
+
+    if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+       
+        return (document.getElementById("whaterror").innerHTML =
+        "¿Como podemos ayudarte? 😽👇",document.getElementById("whaterror").style=" color: #25d366; position: relative; padding: 15px;  margin: 0 26px 20px; border-radius: 15px; background-color: #fff; color: #4a4a4a; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%); transition: 0.5s ease-in-out;")
+      }
+
+   
+  
+
+  
+
+      document.getElementById('edad').value = '';
+      document.getElementById('edad').style ="height 0";
+
+    var myWindow = "&text="+nombre;
+  
+    var md = new MobileDetect(window.navigator.userAgent);
+       if (md.mobile()) {
+  
+        window.open(document.getElementById("enviarwa2").href = "https://api.whatsapp.com/send?phone=593996517199" + myWindow);
+  
+      } else {
+       
+        window.open(document.getElementById("enviarwa2").href = "https://web.whatsapp.com/send?phone=593996517199" + myWindow);
+   
+       
+   
+   
+      }
+   
+  }
+
+
+//   function obtenerdatosf(){
+  
+//     var nombre = document.getElementById('edad').value;
+   
+  
+//     $('#cerrarchat').on('click', function(){
+   
+//         document.getElementById("whaterror").style="display: none";
+//       })
+
+//     if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+       
+//         return (document.getElementById("whaterror").innerHTML =
+//         "¿Como podemos ayudarte? 😽👇",document.getElementById("whaterror").style=" color: #25d366; position: relative; padding: 15px;  margin: 0 26px 20px; border-radius: 15px; background-color: #fff; color: #4a4a4a; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%); transition: 0.5s ease-in-out;")
+//       }
+
+
+//       document.getElementById('edad').value = '';
+//       document.getElementById('edad').style ="height 0";
+
+//     var myWindow = "&text="+nombre;
+//  )
+  
+//     var md = new MobileDetect(window.navigator.userAgent);
+//        if (md.mobile()) {
+  
+//         window.open(document.getElementById("enviarwa").href = "https://api.whatsapp.com/send?phone=593996517199" + myWindow);
+  
+//       } else {
+       
+//         window.open(document.getElementById("enviarwa").href = "https://web.whatsapp.com/send?phone=593996517199" + myWindow);
+   
+       
+   
+   
+//       }
+   
+//   }
+
+
+
+  
+
