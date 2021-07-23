@@ -1091,9 +1091,9 @@ span.spangratis2 {
 }
 
 .menulanding ul {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .menulanding ul li {
@@ -1115,6 +1115,63 @@ span.spangratis2 {
 
 .menulanding a:hover {
     color: #1ebea5;
+}
+
+a.subm {
+    padding: 10px 15px;
+}
+
+.menulanding ul li ul{
+ display: none;
+
+    position: absolute;
+    min-width: 140px;
+    background: white;
+    z-index: 3000;
+ 
+}
+
+
+
+.menulanding ul li:hover >ul {
+    display: grid;
+    grid-template-rows: auto,auto,auto,auto;
+ 
+}
+
+
+
+.links  li ul{
+
+    display: none;
+
+    position: absolute;
+    min-width: 140px;
+    background: white;
+    z-index: 3000;
+    list-style: none;
+    margin-top: 20px; 
+ 
+}
+
+.mostrarsubm{
+    display: grid !important;
+}
+
+.links  li ul li{
+    margin: 10px 15px;
+}
+
+.menumovil2 .hul li a.subm {
+    color: #25d367;
+}
+
+li.linksli{
+    list-style: none;
+}
+
+.menumovil2 .hul li.linksli {
+    list-style: none;
 }
 
 .boton{
