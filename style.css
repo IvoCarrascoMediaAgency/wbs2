@@ -193,13 +193,18 @@ p.textm {
 	color: #ede7f3;
 }
 
+.btnnavp{
+   cursor: pointer;
+}
+
+
 
 .menumovil2 .hul {
     width: 100%;
     height: 100%;
     position: relative;
     font-size: 1em;
-	background: linear-gradient(to top, rgba(37,211,102,0.4) 0%, rgba(37,211,102) 80%);
+	background: linear-gradient(to bottom, rgba(0,194,165,0.9) 0%, rgba(51,214,112,.9) 43%,rgba(255,255,255,.9) 100%);
     float: right;
     max-width: 300px;
 }
@@ -1118,7 +1123,10 @@ span.spangratis2 {
 }
 
 a.subm {
-    padding: 10px 15px;
+    padding: 10px 10px;
+}
+a.submm {
+    padding: 10px 0;
 }
 
 .menulanding ul li ul{
@@ -1145,12 +1153,12 @@ a.subm {
 
     display: none;
 
-    position: absolute;
+  
     min-width: 140px;
-    background: white;
+    /* background: white; */
     z-index: 3000;
     list-style: none;
-    margin-top: 20px; 
+    /* margin-top: 20px;  */
  
 }
 
@@ -1159,11 +1167,11 @@ a.subm {
 }
 
 .links  li ul li{
-    margin: 10px 15px;
+    margin: 0;
 }
 
 .menumovil2 .hul li a.subm {
-    color: #25d367;
+    color: white;
 }
 
 li.linksli{
@@ -1211,6 +1219,7 @@ justify-content: center;
 align-content: center;
 grid-template-columns: auto auto;
 font-size: 0.8em;
+padding: 10px;
 }
 
 
