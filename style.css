@@ -1236,6 +1236,7 @@ transition: 1s all;
     display: none;
 }
 
+
 .text {
     
     display: grid;
@@ -2170,6 +2171,45 @@ p.textpv {
     border: 3px solid #25d366;
 }
 
+.lw2{
+    font-size: 28px;
+    
+}
+
+span.icon-whatsapp.lw2 {
+    color: white;
+}
+
+.lw{
+    border-radius: 50%;
+    background: url(img/servicio-al-cliente-whatsapp.webp),linear-gradient( 
+-10deg
+ , rgb(37 211 102)0%, rgba(255,255,255,1) 90%);
+    /* box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff; */
+   
+    height: 50px;
+  
+    margin-top: 3px;
+    width: 50px;
+
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    bottom: 10px;
+    right: 10px;
+    z-index: 997;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 3px solid #25d366;
+
+}
+.lww {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 5px;
+}
+
 .mostrarcardmenu {
     right: 0;
 }
@@ -2221,9 +2261,12 @@ p.textpv {
 }
 
 .wtext {
-    margin-left: 5px;
-    font-size: 19px;
-    font-weight: bold;
+ 
+    font-size: 14px;
+    
+}
+small.smallw {
+    font-size: 11px;
 }
 
 .icon-x {
@@ -2356,8 +2399,8 @@ img.bot3 {
 
 sub.smallwbs {
     margin-top: 20px;
-    margin: left;
-    margin-left: 5px;
+  
+    margin-left: 10px;
     cursor: pointer;
 }
 
