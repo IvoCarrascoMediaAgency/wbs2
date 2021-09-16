@@ -1,1 +1,2384 @@
-var _0xb1e6=["\x47\x52\x41\x54\x49\x53\x20\x37\x20\x64\xED\x61\x73","\x69\x6D\x67\x2F\x77\x68\x61\x74\x73\x61\x70\x70\x2D\x6D\x61\x72\x6B\x65\x74\x69\x6E\x67\x2D\x67\x72\x61\x74\x69\x73\x2E\x77\x65\x62\x70","\x3C\x75\x6C\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x65\x61\x74\x75\x72\x65\x73\x22\x3E\x3C\x6C\x69\x3E\x3C\x69\x3E\x3C\x2F\x69\x3E\x20\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x47\x52\x41\x54\x49\x53\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x73\x74\x6F\x70\x2D\x63\x69\x72\x63\x6C\x65\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x79\x20\x63\x61\x6D\x70\x61\xF1\x61\x73\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x70\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x43\x75\x65\x6E\x74\x61\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x43\x68\x61\x74\x62\x6F\x74\x2F\x61\x75\x74\x6F\x72\x65\x73\x70\x75\x65\x73\x74\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\x20\x4D\xF3\x64\x75\x6C\x6F\x20\x64\x65\x20\x72\x65\x70\x6F\x72\x74\x65\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x45\x78\x74\x72\x61\x63\x74\x6F\x72\x20\x64\x65\x20\x47\x72\x75\x70\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x73\x61\x62\x6C\x65\x64\x2D\x6F\x70\x74\x69\x6F\x6E\x22\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x46\x69\x6C\x74\x72\x6F\x20\x64\x65\x20\x4E\xFA\x6D\x65\x72\x6F\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x49\x6E\x73\x74\x61\x6C\x61\x63\x69\xF3\x6E\x20\x47\x72\x61\x74\x75\x69\x74\x61\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x49\x6D\x70\x6F\x72\x74\x61\x72\x20\x63\x6F\x6E\x74\x61\x63\x74\x6F\x73\x20\x64\x65\x73\x64\x65\x20\x63\x68\x61\x74\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x50\x72\x6F\x67\x72\x61\x6D\x61\x72\x20\x65\x6E\x76\xED\x6F\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x2F\x75\x6C\x3E","\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x4D\x65\x6E\x73\x75\x61\x6C","\x69\x6D\x67\x2F\x77\x68\x61\x74\x73\x61\x70\x70\x2D\x6D\x61\x73\x69\x76\x6F\x2D\x70\x72\x65\x63\x69\x6F\x73\x2D\x6D\x65\x6E\x73\x75\x61\x6C\x2E\x77\x65\x62\x70","\x3C\x75\x6C\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x65\x61\x74\x75\x72\x65\x73\x22\x3E\x3C\x6C\x69\x3E\x3C\x69\x3E\x3C\x2F\x69\x3E\x20\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x31\x20\x6D\x65\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x73\x74\x6F\x70\x2D\x63\x69\x72\x63\x6C\x65\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x79\x20\x63\x61\x6D\x70\x61\xF1\x61\x73\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x70\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x43\x75\x65\x6E\x74\x61\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x43\x68\x61\x74\x62\x6F\x74\x2F\x61\x75\x74\x6F\x72\x65\x73\x70\x75\x65\x73\x74\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\x20\x4D\xF3\x64\x75\x6C\x6F\x20\x64\x65\x20\x72\x65\x70\x6F\x72\x74\x65\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x45\x78\x74\x72\x61\x63\x74\x6F\x72\x20\x64\x65\x20\x47\x72\x75\x70\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x73\x61\x62\x6C\x65\x64\x2D\x6F\x70\x74\x69\x6F\x6E\x22\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x46\x69\x6C\x74\x72\x6F\x20\x64\x65\x20\x4E\xFA\x6D\x65\x72\x6F\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x49\x6E\x73\x74\x61\x6C\x61\x63\x69\xF3\x6E\x20\x47\x72\x61\x74\x75\x69\x74\x61\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x49\x6D\x70\x6F\x72\x74\x61\x72\x20\x63\x6F\x6E\x74\x61\x63\x74\x6F\x73\x20\x64\x65\x73\x64\x65\x20\x63\x68\x61\x74\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x50\x72\x6F\x67\x72\x61\x6D\x61\x72\x20\x65\x6E\x76\xED\x6F\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x53\x6F\x70\x6F\x72\x74\x65\x20\x32\x34\x2F\x37\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x41\x63\x74\x75\x61\x6C\x69\x7A\x61\x63\x69\x6F\x6E\x65\x73\x20\x47\x52\x41\x54\x49\x53\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x43\x61\x70\x61\x63\x69\x74\x61\x63\x69\xF3\x6E\x20\x50\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x61\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x2F\x75\x6C\x3E","\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x54\x72\x69\x6D\x65\x73\x74\x72\x61\x6C","\x69\x6D\x67\x2F\x77\x68\x61\x74\x73\x61\x70\x70\x2D\x6D\x61\x73\x69\x76\x6F\x2D\x70\x72\x65\x63\x69\x6F\x73\x2D\x33\x2D\x6D\x65\x73\x65\x73\x2E\x77\x65\x62\x70","\x3C\x75\x6C\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x65\x61\x74\x75\x72\x65\x73\x22\x3E\x3C\x6C\x69\x3E\x3C\x69\x3E\x3C\x2F\x69\x3E\x20\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x33\x20\x6D\x65\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x73\x74\x6F\x70\x2D\x63\x69\x72\x63\x6C\x65\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x79\x20\x63\x61\x6D\x70\x61\xF1\x61\x73\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x70\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x43\x75\x65\x6E\x74\x61\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x43\x68\x61\x74\x62\x6F\x74\x2F\x61\x75\x74\x6F\x72\x65\x73\x70\x75\x65\x73\x74\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\x20\x4D\xF3\x64\x75\x6C\x6F\x20\x64\x65\x20\x72\x65\x70\x6F\x72\x74\x65\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x45\x78\x74\x72\x61\x63\x74\x6F\x72\x20\x64\x65\x20\x47\x72\x75\x70\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x73\x61\x62\x6C\x65\x64\x2D\x6F\x70\x74\x69\x6F\x6E\x22\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x46\x69\x6C\x74\x72\x6F\x20\x64\x65\x20\x4E\xFA\x6D\x65\x72\x6F\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x49\x6E\x73\x74\x61\x6C\x61\x63\x69\xF3\x6E\x20\x47\x72\x61\x74\x75\x69\x74\x61\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x49\x6D\x70\x6F\x72\x74\x61\x72\x20\x63\x6F\x6E\x74\x61\x63\x74\x6F\x73\x20\x64\x65\x73\x64\x65\x20\x63\x68\x61\x74\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x50\x72\x6F\x67\x72\x61\x6D\x61\x72\x20\x65\x6E\x76\xED\x6F\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x53\x6F\x70\x6F\x72\x74\x65\x20\x32\x34\x2F\x37\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x41\x63\x74\x75\x61\x6C\x69\x7A\x61\x63\x69\x6F\x6E\x65\x73\x20\x47\x52\x41\x54\x49\x53\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x43\x61\x70\x61\x63\x69\x74\x61\x63\x69\xF3\x6E\x20\x50\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x61\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x2F\x75\x6C\x3E","\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x53\x65\x6D\x65\x73\x74\x72\x61\x6C","\x69\x6D\x67\x2F\x77\x68\x61\x74\x73\x61\x70\x70\x2D\x6D\x61\x73\x69\x76\x6F\x2D\x70\x72\x65\x63\x69\x6F\x73\x2D\x36\x2D\x6D\x65\x73\x65\x73\x2E\x77\x65\x62\x70","\x3C\x75\x6C\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x65\x61\x74\x75\x72\x65\x73\x22\x3E\x3C\x6C\x69\x3E\x3C\x69\x3E\x3C\x2F\x69\x3E\x20\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x36\x20\x6D\x65\x73\x65\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x73\x74\x6F\x70\x2D\x63\x69\x72\x63\x6C\x65\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x79\x20\x63\x61\x6D\x70\x61\xF1\x61\x73\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x70\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x43\x75\x65\x6E\x74\x61\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x43\x68\x61\x74\x62\x6F\x74\x2F\x61\x75\x74\x6F\x72\x65\x73\x70\x75\x65\x73\x74\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\x20\x4D\xF3\x64\x75\x6C\x6F\x20\x64\x65\x20\x72\x65\x70\x6F\x72\x74\x65\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x45\x78\x74\x72\x61\x63\x74\x6F\x72\x20\x64\x65\x20\x47\x72\x75\x70\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x73\x61\x62\x6C\x65\x64\x2D\x6F\x70\x74\x69\x6F\x6E\x22\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x46\x69\x6C\x74\x72\x6F\x20\x64\x65\x20\x4E\xFA\x6D\x65\x72\x6F\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x49\x6E\x73\x74\x61\x6C\x61\x63\x69\xF3\x6E\x20\x47\x72\x61\x74\x75\x69\x74\x61\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x49\x6D\x70\x6F\x72\x74\x61\x72\x20\x63\x6F\x6E\x74\x61\x63\x74\x6F\x73\x20\x64\x65\x73\x64\x65\x20\x63\x68\x61\x74\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x50\x72\x6F\x67\x72\x61\x6D\x61\x72\x20\x65\x6E\x76\xED\x6F\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x53\x6F\x70\x6F\x72\x74\x65\x20\x32\x34\x2F\x37\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x41\x63\x74\x75\x61\x6C\x69\x7A\x61\x63\x69\x6F\x6E\x65\x73\x20\x47\x52\x41\x54\x49\x53\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x43\x61\x70\x61\x63\x69\x74\x61\x63\x69\xF3\x6E\x20\x50\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x61\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x57\x68\x61\x74\x73\x41\x70\x70\x20\x45\x63\x6F\x6D\x65\x72\x63\x65\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x43\x68\x61\x74\x20\x4D\x75\x6C\x74\x69\x61\x67\x65\x6E\x74\x65\x20\x57\x65\x62\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x2F\x75\x6C\x3E","\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x41\x6E\x75\x61\x6C","\x69\x6D\x67\x2F\x77\x68\x61\x74\x73\x61\x70\x70\x2D\x6D\x61\x72\x6B\x65\x74\x69\x6E\x67\x2D\x70\x72\x65\x63\x69\x6F\x73\x2E\x77\x65\x62\x70","\x3C\x75\x6C\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x65\x61\x74\x75\x72\x65\x73\x22\x3E\x3C\x6C\x69\x3E\x3C\x69\x3E\x3C\x2F\x69\x3E\x20\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x36\x20\x6D\x65\x73\x65\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x73\x74\x6F\x70\x2D\x63\x69\x72\x63\x6C\x65\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x79\x20\x63\x61\x6D\x70\x61\xF1\x61\x73\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x70\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x43\x75\x65\x6E\x74\x61\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x43\x68\x61\x74\x62\x6F\x74\x2F\x61\x75\x74\x6F\x72\x65\x73\x70\x75\x65\x73\x74\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\x20\x4D\xF3\x64\x75\x6C\x6F\x20\x64\x65\x20\x72\x65\x70\x6F\x72\x74\x65\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x45\x78\x74\x72\x61\x63\x74\x6F\x72\x20\x64\x65\x20\x47\x72\x75\x70\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x73\x61\x62\x6C\x65\x64\x2D\x6F\x70\x74\x69\x6F\x6E\x22\x3E\x3C\x69\x20\x22\x3E\x3C\x2F\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x46\x69\x6C\x74\x72\x6F\x20\x64\x65\x20\x4E\xFA\x6D\x65\x72\x6F\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x49\x6E\x73\x74\x61\x6C\x61\x63\x69\xF3\x6E\x20\x47\x72\x61\x74\x75\x69\x74\x61\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x49\x6D\x70\x6F\x72\x74\x61\x72\x20\x63\x6F\x6E\x74\x61\x63\x74\x6F\x73\x20\x64\x65\x73\x64\x65\x20\x63\x68\x61\x74\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x50\x72\x6F\x67\x72\x61\x6D\x61\x72\x20\x65\x6E\x76\xED\x6F\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x53\x6F\x70\x6F\x72\x74\x65\x20\x32\x34\x2F\x37\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x41\x63\x74\x75\x61\x6C\x69\x7A\x61\x63\x69\x6F\x6E\x65\x73\x20\x47\x52\x41\x54\x49\x53\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x43\x61\x70\x61\x63\x69\x74\x61\x63\x69\xF3\x6E\x20\x50\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x61\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x57\x68\x61\x74\x73\x41\x70\x70\x20\x45\x63\x6F\x6D\x65\x72\x63\x65\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x43\x68\x61\x74\x20\x4D\x75\x6C\x74\x69\x61\x67\x65\x6E\x74\x65\x20\x57\x65\x62\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x45\x78\x74\x65\x6E\x73\x69\xF3\x6E\x20\x43\x68\x72\x6F\x6D\x65\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x45\x6E\x76\xED\x6F\x20\x4D\x61\x73\x69\x76\x6F\x20\x61\x20\x42\x61\x73\x65\x73\x20\x64\x65\x20\x44\x61\x74\x6F\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x2F\x75\x6C\x3E","\x53\x65\x72\x76\x69\x63\x69\x6F\x20\x44\x65\x73\x74\x61\x63\x61\x64\x6F\x3A","","\x6D\x79\x46\x69\x72\x73\x74\x44\x69\x61\x6C\x6F\x67","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6D\x65\x6E\x75\x2D\x73\x65\x63\x74\x69\x6F\x6E\x73","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x65\x63\x74\x69\x6F\x6E\x2D\x69\x74\x65\x6D\x22\x3E\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x23","\x61\x22\x3E","\x6E\x61\x6D\x65\x63","\x3C\x2F\x61\x3E\x3C\x2F\x64\x69\x76\x3E","\x66\x6F\x72\x45\x61\x63\x68","\x63\x61\x74\x65\x67\x6F\x72\x69\x65\x73","\x65\x6E\x74\x72\x69\x65\x73","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x71\x74\x79","\x69\x74\x65\x6D\x73","\x6C\x6F\x67","\x76\x61\x6C\x75\x65","\x2D","\x2D\x71\x74\x79","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x63\x61\x72\x64\x22\x3E\x0D\x0A\x20\x20\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x20\x73\x68\x61\x64\x6F\x77\x20\x6D\x62\x2D\x34\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x6F\x64\x61\x6C\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x6D\x67\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x69\x6D\x61\x67\x65\x22\x20\x73\x72\x63\x3D\x22","\x69\x6D\x67","\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x70\x72\x6F\x22\x3E\x0D\x0A\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x68\x34\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x70\x72\x69\x63\x65\x22\x3E\x24","\x70\x72\x69\x63\x65","\x3C\x2F\x68\x34\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x68\x33\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x74\x69\x74\x6C\x65\x22\x20\x69\x64\x3D\x22\x22\x3E","\x6E\x61\x6D\x65","\x3C\x2F\x68\x33\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x64\x65\x74\x61\x69\x6C\x73\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x70\x72\x69\x63\x65\x22\x3E","\x64\x65\x74\x61\x6C\x6C\x65\x73","\x3C\x2F\x70\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x67\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x74\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x69\x64\x3D\x22","\x2D\x6D\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x69\x6E\x75\x73\x22\x20\x3E\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x6E\x70\x75\x74\x20\x63\x6C\x61\x73\x73\x3D\x22\x71\x75\x61\x6E\x74\x69\x74\x79\x20\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x20\x22\x20\x74\x79\x70\x65\x3D\x22\x6E\x75\x6D\x62\x65\x72\x22\x20\x6E\x61\x6D\x65\x3D\x22\x22\x20\x6D\x69\x6E\x3D\x22\x30\x22\x20\x76\x61\x6C\x75\x65\x3D","\x20\x20\x69\x64\x3D\x22","\x2D\x71\x74\x79\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x69\x64\x3D\x22","\x2D\x70\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6C\x75\x73\x22\x3E\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x20\x20\x20\x20\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E","\x73\x65\x63\x74\x69\x6F\x6E","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x64","\x6D\x65\x6E\x75\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x2D","\x69\x74\x65\x6D\x2D\x6D\x65\x6E\x75","\x61\x64\x64","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x63\x61\x74\x65\x67\x6F\x72\x79\x22\x20\x69\x64\x3D","\x61","\x3E","\x3C\x2F\x70\x3E","\x64\x69\x76","\x72\x6F\x77","\x6F\x77\x6C\x2D\x63\x61\x72\x6F\x75\x73\x65\x6C","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x73\x6C\x69\x64\x65\x73\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x63\x6C\x69\x63\x6B","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x2D\x6D","\x2D\x70","\x63\x68\x61\x6E\x67\x65","\x75\x73\x65\x72\x5F\x64\x61\x74\x61","\x74\x61\x72\x67\x65\x74","\x73\x75\x62\x6D\x69\x74","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x2A","\x65\x72\x72\x6F\x72","\x3C\x68\x34\x3E","\x3C\x2F\x68\x34\x3E","\x6F\x72\x64\x65\x72\x2D\x6D\x73\x67","\x66\x61\x64\x65\x49\x6E","\x2E\x6F\x72\x64\x65\x72\x44\x69\x61\x6C\x6F\x67","\x66\x61\x64\x65\x4F\x75\x74","\x67\x66\x6F\x72\x6D","\x2E\x63\x6F\x6D\x70\x72\x61\x72\x42\x75\x74\x74\x6F\x6E","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x2E\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x49\x74\x65\x6D\x73\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x66\x61\x6E\x74\x61\x73\x6D\x61","\x65\x6E\x74\x72\x79\x2E\x31\x36\x32\x35\x35\x31\x37\x35\x30\x39","\x2E\x70\x65\x64\x69\x64\x6F\x63\x6C\x69","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x20\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x49\x74\x65\x6D\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x68\x6F\x70\x70\x69\x6E\x67\x2D\x63\x61\x72\x74\x2D\x69\x74\x65\x6D\x22\x20\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x6D\x67\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6D\x67\x70\x65\x64\x69\x64\x6F\x22\x20\x73\x72\x63\x3D","\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x68\x6F\x70\x70\x69\x6E\x67\x2D\x63\x61\x72\x74\x2D\x69\x6D\x61\x67\x65\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x68\x36\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x68\x6F\x70\x70\x69\x6E\x67\x2D\x63\x61\x72\x74\x2D\x69\x74\x65\x6D\x2D\x74\x69\x74\x6C\x65\x20\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x49\x74\x65\x6D\x54\x69\x74\x6C\x65\x20\x74\x65\x78\x74\x2D\x74\x72\x75\x6E\x63\x61\x74\x65\x20\x6D\x6C\x2D\x33\x20\x6D\x62\x2D\x30\x20\x20\x22\x20\x69\x64\x3D\x22\x69\x74\x65\x6D\x74\x69\x74\x75\x6C\x6F\x77\x61\x22\x3E","\x3C\x2F\x68\x36\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x73\x70\x61\x6E\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x70\x72\x69\x63\x65\x20\x6D\x62\x2D\x30\x20\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x49\x74\x65\x6D\x50\x72\x69\x63\x65\x20\x69\x74\x65\x6D\x70\x72\x69\x63\x65\x77\x61\x22\x20\x3E\x24","\x3C\x2F\x70\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x73\x70\x61\x6E\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x74\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x69\x64\x3D\x22","\x2D\x6D\x2D\x73\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x69\x6E\x75\x73\x22\x20\x3E\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x6E\x70\x75\x74\x20\x63\x6C\x61\x73\x73\x3D\x22\x71\x75\x61\x6E\x74\x69\x74\x79\x20\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x20\x22\x20\x74\x79\x70\x65\x3D\x22\x6E\x75\x6D\x62\x65\x72\x22\x20\x6E\x61\x6D\x65\x3D\x22\x22\x20\x6D\x69\x6E\x3D\x22\x30\x22\x20\x76\x61\x6C\x75\x65\x3D","\x2D\x71\x74\x79\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x69\x64\x3D\x22","\x2D\x70\x2D\x73\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6C\x75\x73\x22\x3E\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x78\x63\x65\x72\x72\x61\x72\x22\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x74\x6F\x74\x61\x6C\x20\x6D\x62\x2D\x30\x20\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x49\x74\x65\x6D\x54\x6F\x74\x61\x6C\x20\x69\x74\x65\x6D\x74\x6F\x74\x61\x6C\x22\x20\x3E\x24","\x74\x6F\x46\x69\x78\x65\x64","\x70\x61\x72\x73\x65\x46\x6C\x6F\x61\x74","\x3C\x2F\x70\x3E\x0D\x0A\x20\x20\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x20\x62\x74\x6E\x2D\x64\x61\x6E\x67\x65\x72\x20\x62\x75\x74\x74\x6F\x6E\x44\x65\x6C\x65\x74\x65\x22\x20\x74\x79\x70\x65\x3D\x22\x62\x75\x74\x74\x6F\x6E\x22\x20\x69\x64\x3D\x22","\x2D\x63\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x63\x6F\x6E\x2D\x62\x69\x6E\x22\x3E\x3C\x2F\x73\x70\x61\x6E\x3E\x20\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x73\x70\x61\x6E\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E","\x25\x32\x30","\x2A\x78\x2A","\x2A\x7C\x2A","\x70\x72\x65\x63\x69\x6F","\x24","\x2A\x74\x6F\x74\x61\x6C\x3A\x2A","\x0A","\x25\x30\x41","\x20","\x78","\x7C","\x63\x61\x72\x74\x5F\x6C\x69\x73\x74","\x2D\x6D\x2D\x73","\x2D\x70\x2D\x73","\x2D\x63","\x63\x61\x72\x74\x5F\x61\x6D\x74","\x2E\x75\x6E\x6F\x77\x68\x61\x74","\x63\x61\x72\x64\x6E\x65\x67\x6F\x63\x69\x6F\x69\x64","\x63\x68\x69\x6C\x64\x45\x6C\x65\x6D\x65\x6E\x74\x43\x6F\x75\x6E\x74","\x2E\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x54\x6F\x74\x61\x6C","\x2E\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x54\x6F\x74\x61\x6C\x32","\x65\x6E\x74\x72\x79\x2E\x39\x38\x35\x39\x38\x36\x35\x32\x39","\x2E\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x63\x61\x6D\x62\x69\x6F","\x65\x6E\x74\x72\x79\x2E\x36\x38\x36\x32\x39\x30\x34\x35\x31","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x73\x75\x62\x32","\x2E\x6D\x6F\x6E\x74\x6F","\x6B\x65\x79\x75\x70","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x74\x6F\x74\x61\x6C\x77\x61\x33","\x72\x65\x70\x6C\x61\x63\x65","\x65\x6E\x74\x72\x79\x2E\x35\x38\x30\x32\x30\x34\x37\x32\x35","\x24\x30\x2C\x30\x30","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x73\x75\x62","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x6F\x70\x65\x72","\x6F\x6E\x63\x6C\x69\x63\x6B","\x2E\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x54\x6F\x74\x61\x6C\x64\x65\x6C\x69\x76\x65\x72\x79","\x65\x6E\x74\x72\x79\x2E\x38\x30\x32\x34\x34\x39\x39\x30\x39","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x6F\x70\x65\x72\x72","\x69\x6E\x74\x72\x6F","\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72","\x76\x61\x6C","\x2E\x6F\x72\x64\x65\x72\x6E\x75\x6D\x62\x65\x72","\x74\x6F\x74\x61\x6C\x77\x61","\x65\x6E\x74\x72\x79\x2E\x32\x30\x33\x30\x30\x34\x34\x30\x32\x35","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x4E\x61\x6D\x65","\x6C\x65\x6E\x67\x74\x68","\x65\x6E\x74\x72\x79\x2E\x31\x31\x35\x36\x32\x31\x32\x31\x39\x33","\x65\x6E\x74\x72\x79\x2E\x31\x36\x33\x32\x36\x39\x31\x36\x34\x31","\x65\x6E\x74\x72\x79\x2E\x31\x31\x36\x34\x35\x36\x30\x35\x32\x39","\x65\x6E\x74\x72\x79\x2E\x34\x30\x34\x35\x39\x33\x39\x36\x37","\x65\x6E\x74\x72\x79\x2E\x31\x30\x36\x37\x32\x39\x39\x33\x39\x30","\x63\x68\x65\x63\x6B\x65\x64","\x65\x6E\x74\x72\x79\x2E\x31\x34\x34\x31\x30\x31\x38\x36\x39\x39","\x65\x6E\x74\x72\x79\x2E\x38\x30\x33\x39\x38\x37\x38\x31\x37","\x2E\x61\x64\x64\x72\x65\x73\x73","\x4F\x70\x63\x69\xF3\x6E\x20\x64\x65\x20\x65\x6E\x74\x72\x65\x67\x61","\x65\x6E\x74\x72\x79\x2E\x33\x39\x38\x34\x32\x38\x32\x37\x36","\x65\x6E\x74\x72\x79\x2E\x31\x36\x31\x32\x30\x31\x38\x36\x35\x37","\x65\x6E\x74\x72\x79\x2E\x36\x39\x36\x33\x36\x36\x31\x32\x38","\uD83D\uDCB3\x2A\x46\x6F\x72\x6D\x61\x20\x64\x65\x20\x70\x61\x67\x6F\x3A\x2A\x20\x25\x32\x30","\x65\x6E\x74\x72\x79\x2E\x31\x34\x30\x35\x36\x34\x36\x33\x31\x35","\x2A\uD83D\uDCB3\x46\x6F\x72\x6D\x61\x20\x64\x65\x20\x70\x61\x67\x6F\x3A\x2A\x20\x25\x32\x30","\x25\x30\x41\x43\x61\x6D\x62\x69\x6F\x3A\x25\x32\x30","\x65\x6E\x74\x72\x79\x2E\x31\x31\x37\x39\x39\x34\x32\x30\x32\x30","\x2A\x48\x61\x7A\x20\x75\x6E\x61\x20\x63\x61\x70\x74\x75\x72\x61\x20\x79\x20\x65\x6E\x76\xED\x61\x6E\x6F\x73\x20\x70\x6F\x72\x20\x61\x71\x75\xED\x2A\x20\uD83D\uDC47","\x65\x6E\x74\x72\x79\x2E\x32\x30\x39\x35\x33\x36\x37\x31\x30\x35","\x65\x6E\x74\x72\x79\x2E\x37\x30\x39\x32\x32\x37\x31\x32\x38","\x65\x6E\x74\x72\x79\x2E\x32\x30\x31\x36\x39\x38\x33\x36\x36\x34","\x65\x6E\x74\x72\x79\x2E\x31\x37\x35\x38\x37\x35\x36\x32\x36\x38","\x65\x6E\x74\x72\x79\x2E\x32\x34\x32\x30\x35\x39\x37","\x2E\x66\x61\x6E\x74\x61\x73\x6D\x61","\x74\x65\x73\x74","\x41\xFA\x6E\x20\x6E\x6F\x20\x73\x65\x6C\x65\x63\x63\x69\x6F\x6E\x61\x73\x20\x70\x72\x6F\x64\x75\x63\x74\x6F\x73\x20\uD83D\uDE05","\x4C\x6C\x65\x6E\x61\x20\x65\x6C\x20\x63\x61\x6D\x70\x6F\x20\x63\x6F\x6E\x20\x74\x75\x73\x20\x6E\x6F\x6D\x62\x72\x65\x73\x20\x63\x6F\x6D\x70\x6C\x65\x74\x6F\x73\x20\uD83D\uDE05","\x49\x6E\x67\x72\x65\x73\x61\x20\x74\x75\x20\x6D\x65\x6A\x6F\x72\x20\x63\x6F\x72\x72\x65\x6F\x20\x65\x6C\x65\x63\x74\x72\xF3\x6E\x69\x63\x6F\x20\uD83D\uDE05","\x49\x6E\x67\x72\x65\x73\x61\x20\x74\x75\x20\x6E\xFA\x6D\x65\x72\x6F\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\uD83D\uDE05","\x26\x74\x65\x78\x74\x3D\x2A\x4F\x72\x64\x65\x6E\x20\x65\x78\x69\x74\x6F\x73\x61\x2A","\x2A\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\x2D\x32\x30\x32\x31\x2A","\u2705\x20\x2A\x44\x65\x74\x61\x6C\x6C\x65\x20\x64\x65\x20\x6C\x61\x20\x6F\x72\x64\x65\x6E\x3A\x2A","\x5F\x4F\x72\x64\x65\x6E\x20\x4E\xB0\x5F","\x2D\x2D\x2D","\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F","\x2A\x54\x6F\x74\x61\x6C\x3A\x2A","\x2A\uD83D\uDE42\x44\x61\x74\x6F\x73\x20\x64\x65\x6C\x20\x43\x6C\x69\x65\x6E\x74\x65\x3A\x2A","\x2A\x4F\x72\x64\x65\x6E\x20\x4E\xB0\x3A\x2A","\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x6E\x61\x76\x69\x67\x61\x74\x6F\x72","\x6D\x6F\x62\x69\x6C\x65","\x68\x72\x65\x66","\x65\x6E\x76\x69\x61\x72\x77\x61","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x70\x69\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x73\x65\x6E\x64\x3F\x70\x68\x6F\x6E\x65\x3D\x35\x39\x33\x39\x39\x36\x35\x31\x37\x31\x39\x39","\x6F\x70\x65\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x65\x62\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x73\x65\x6E\x64\x3F\x70\x68\x6F\x6E\x65\x3D\x35\x39\x33\x39\x39\x36\x35\x31\x37\x31\x39\x39","\x6F\x6E","\x23\x62\x6F\x74\x6F\x6E","\x73\x68\x6F\x77\x20\x62\x74\x6E\x70\x61\x67\x6F\x73","\x61\x64\x64\x43\x6C\x61\x73\x73","\x2E\x64\x61\x74\x6F\x73\x31","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x2E\x64\x61\x74\x6F\x73\x32","\x2E\x64\x61\x74\x6F\x73\x33","\x2E\x64\x61\x74\x6F\x73\x34","\x2E\x65\x74\x69\x31","\x2E\x65\x74\x69\x32","\x2E\x65\x74\x69\x33","\x2E\x65\x74\x69\x34","\x2E\x62\x74\x6E\x2D\x6D\x69\x6E\x75\x73","\x69\x73","\x63\x6C\x6F\x73\x65\x73\x74","\x69\x6E\x70\x75\x74","\x66\x69\x6E\x64","\x2E\x69\x6E\x70\x75\x74\x2D\x67\x72\x6F\x75\x70","\x73\x74\x65\x70\x44\x6F\x77\x6E","\x73\x74\x65\x70\x55\x70","\x2E\x62\x74\x6E\x2D\x70\x6C\x75\x73\x2C\x20\x2E\x62\x74\x6E\x2D\x6D\x69\x6E\x75\x73","\x74\x6F\x70","\x6F\x66\x66\x73\x65\x74","\x2E\x72\x6F\x77\x2D\x63\x65\x6E\x74\x65\x72\x65\x64","\x73\x63\x72\x6F\x6C\x6C","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x72\x6F\x77\x2D\x63\x65\x6E\x74\x65\x72\x65\x64\x32","\x72\x65\x61\x64\x79","\x6D\x6F\x73\x74\x72\x61\x72\x63\x61\x72\x74","\x23\x63\x61\x72\x64\x6E\x65\x67\x6F\x63\x69\x6F\x69\x64","\x2E\x70\x6C\x75\x73","\x2E\x73\x65\x70\x61\x72\x61\x74\x65\x73\x63\x72\x6F\x6C","\x6D\x73\x69\x6E\x70\x72\x6F\x64\x75\x63\x74\x6F\x73","\x2E\x70\x73\x69\x6E\x70\x72\x6F\x64\x75\x63\x74\x6F\x73","\x6D\x6F\x73\x74\x72\x61\x72\x6D\x65\x6E\x75\x32","\x23\x6E\x61\x76","\x63\x68\x61\x6F\x62\x6F\x74\x6F\x6E","\x6D\x6F\x73\x74\x72\x61\x72\x6D\x65\x6E\x75\x33","\x2E\x68\x75\x6C\x32","\x2E\x63\x6F\x6E\x74\x69\x6E\x75\x61\x72\x2C\x2E\x62\x75\x74\x33\x34","\x2E\x73\x65\x67\x75\x69\x72\x63\x2C\x2E\x63\x65\x72\x72\x61\x72\x64\x61\x74\x61","\x2E\x69\x74\x65\x6D\x2D\x69\x6D\x61\x67\x65","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x2E\x69\x74\x65\x6D\x2D\x74\x69\x74\x6C\x65","\x2E\x69\x74\x65\x6D\x2D\x70\x72\x69\x63\x65","\x2E\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x67","\x2E\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x2D\x69\x6D\x67","\x2E\x69\x6D\x67\x2D\x73\x68\x6F\x77","\x2E\x63\x6F\x70\x79","\x2E\x62\x78\x2E\x62\x78\x2D\x78","\x73\x72\x63","\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x61\x6C\x74","\x6D\x6F\x76\x65","\x74\x6F\x67\x67\x6C\x65","\x73\x68\x6F\x77","\x65\x6E\x74\x72\x79\x2E\x31\x32\x38\x30\x38\x34\x36\x34\x38\x39","\x64\x61\x74\x6F\x73\x63\x68\x61\x6F","\x2E\x64\x61\x74\x6F\x73\x66\x61\x63\x74\x75\x72\x61\x63\x69\x6F\x6E","\x30","\x65\x6E\x74\x72\x79\x2E\x32\x30\x39\x32\x31\x37\x38\x37\x33\x38","\x65\x6E\x74\x72\x79\x2E\x31\x35\x30\x32\x37\x33\x37\x34\x37","\x73\x68\x6F\x77\x69\x6E\x70\x75\x74\x63\x65\x64\x75\x6C\x61","\x2E\x64\x61\x74\x61\x66\x61\x63","\x23\x63\x65\x64\x75\x6C\x61\x66\x61\x63","\x2E\x63\x6F\x6E\x73\x75\x6D\x69\x64\x6F\x72\x73\x69\x6E\x66\x61\x63","\x2E\x66\x61\x63\x63\x65\x64\x75\x6C\x61","\x2E\x63\x6C\x69\x65\x6E\x74\x65\x66\x61\x63","\x73\x68\x6F\x77\x70\x6F\x63\x69\x6F\x6E","\x2E\x6F\x70\x65\x64\x65\x74\x61\x6C\x6C\x65","\x76\x65\x72\x64\x69\x61\x68\x6F\x72\x61","\x2E\x64\x69\x61\x68\x6F\x72\x61","\x71\x75\x69\x74\x61\x72\x66\x6F\x72\x6D\x61\x73\x64\x65\x70\x61\x67\x6F","\x2E\x66\x6F\x72\x6D\x61\x73\x64\x65\x70\x61\x67\x6F\x73","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x6F\x70\x65","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x6F\x70\x65\x72\x20\x2C\x20\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x6F\x70\x65\x72\x72","\x2E\x64\x69\x72\x65\x63\x72\x65\x67","\x73\x68\x6F\x77\x63\x61\x6E\x76\x61\x73","\x2E\x6D\x61\x70\x63\x61\x6E\x76\x61\x73","\x67\x6F\x6F\x67\x6C\x65\x64\x69\x73\x70\x6C\x61\x79","\x2E\x67\x6F\x6F\x67\x6C\x65\x6D\x61\x70\x73","\x2E\x6D\x61\x70\x61\x6C\x6F\x63\x6F\x72","\x2E\x6D\x61\x70\x61\x6C\x6F\x63\x6F\x72\x32","\x6D\x61\x70\x73","\x6D\x61\x70\x2D\x63\x61\x6E\x76\x61\x73","\x70\x75\x73\x68","\x54\x4F\x50\x5F\x43\x45\x4E\x54\x45\x52","\x43\x6F\x6E\x74\x72\x6F\x6C\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x63\x6F\x6E\x74\x72\x6F\x6C\x73","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x43\x6F\x6C\x6F\x72","\x73\x74\x79\x6C\x65","\x23\x32\x35\x64\x33\x36\x36","\x62\x6F\x72\x64\x65\x72\x53\x74\x79\x6C\x65","\x73\x6F\x6C\x69\x64","\x62\x6F\x72\x64\x65\x72\x57\x69\x64\x74\x68","\x31\x70\x78","\x62\x6F\x72\x64\x65\x72\x43\x6F\x6C\x6F\x72","\x77\x68\x69\x74\x65","\x68\x65\x69\x67\x68\x74","\x34\x30\x70\x78","\x62\x6F\x72\x64\x65\x72\x52\x61\x64\x69\x75\x73","\x35\x70\x78","\x7A\x49\x6E\x64\x65\x78","\x31\x30\x30\x30","\x77\x69\x64\x74\x68","\x32\x30\x30\x70\x78","\x6D\x61\x72\x67\x69\x6E\x54\x6F\x70","\x35\x30\x70\x78","\x63\x75\x72\x73\x6F\x72","\x70\x6F\x69\x6E\x74\x65\x72","\x74\x65\x78\x74\x41\x6C\x69\x67\x6E","\x63\x65\x6E\x74\x65\x72","\x74\x69\x74\x6C\x65","\x43\x6C\x69\x63\x6B\x20\x74\x6F\x20\x63\x65\x6E\x74\x65\x72\x20\x6D\x61\x70\x20\x6F\x6E\x20\x79\x6F\x75\x72\x20\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x66\x6F\x6E\x74\x46\x61\x6D\x69\x6C\x79","\x41\x72\x69\x61\x6C\x2C\x73\x61\x6E\x73\x2D\x73\x65\x72\x69\x66","\x66\x6F\x6E\x74\x53\x69\x7A\x65","\x31\x33\x70\x78","\x63\x6F\x6C\x6F\x72","\x70\x61\x64\x64\x69\x6E\x67\x4C\x65\x66\x74","\x31\x30\x70\x78","\x70\x61\x64\x64\x69\x6E\x67\x52\x69\x67\x68\x74","\x38\x70\x78","\x50\x75\x6C\x73\x61\x20\x61\x71\x75\xED\x20\x70\x61\x72\x61\x20\x73\x65\x6C\x65\x63\x63\x69\x6F\x6E\x61\x72\x20\x74\x75\x20\x75\x62\x69\x63\x61\x63\x69\xF3\x6E","\x61\x64\x64\x44\x6F\x6D\x4C\x69\x73\x74\x65\x6E\x65\x72","\x65\x76\x65\x6E\x74","\x67\x65\x6F\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x6C\x61\x74\x69\x74\x75\x64\x65","\x63\x6F\x6F\x72\x64\x73","\x6C\x6F\x6E\x67\x69\x74\x75\x64\x65","\x23\x6C\x61\x74\x69\x74\x75\x64\x65","\x28","\x29","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x6D\x61\x70\x73\x2E\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2F\x3F\x71\x3D","\x47\x65\x6F\x63\x6F\x64\x65\x72","\x4F\x4B","\x54\x75\x20\x64\x69\x72\x65\x63\x63\x69\xF3\x6E\x20\x64\x65\x20\x65\x6E\x74\x72\x65\x67\x61\x20\x65\x73\x3A\x20","\x66\x6F\x72\x6D\x61\x74\x74\x65\x64\x5F\x61\x64\x64\x72\x65\x73\x73","\x4E\x6F\x20\x61\x64\x64\x72\x65\x73\x73\x20\x63\x6F\x75\x6C\x64\x20\x62\x65\x20\x72\x65\x74\x72\x69\x65\x76\x65\x64\x2E","\x47\x65\x6F\x63\x6F\x64\x65\x72\x20\x66\x61\x69\x6C\x65\x64\x20\x64\x75\x65\x20\x74\x6F\x20","\x67\x65\x6F\x63\x6F\x64\x65","\x44\x52\x4F\x50","\x41\x6E\x69\x6D\x61\x74\x69\x6F\x6E","\x73\x65\x74\x43\x65\x6E\x74\x65\x72","\x67\x65\x74\x43\x75\x72\x72\x65\x6E\x74\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x65\x6E\x74\x72\x79\x2E\x31\x34\x35\x30\x31\x31\x38\x34\x31\x34","\x6F\x77\x6C\x43\x61\x72\x6F\x75\x73\x65\x6C","\x2E\x6F\x77\x6C\x2D\x63\x61\x72\x6F\x75\x73\x65\x6C","\x6E\x6F\x73\x76\x65\x6D\x6F\x73\x32","\x2E\x6D\x6F\x64\x61\x6C\x76","\x65\x6E\x74\x72\x79\x2E\x38\x36\x35\x35\x37\x37\x36\x39\x31","\x65\x6E\x74\x72\x79\x2E\x31\x31\x36\x31\x33\x33\x35\x30\x34","\x65\x6E\x74\x72\x79\x2E\x35\x31\x36\x30\x38\x32\x36\x30\x34","\x65\x6E\x74\x72\x79\x2E\x37\x35\x31\x38\x38\x34\x35\x32\x30","\x64\x65\x6D\x6F","\x49\x6E\x67\x72\x65\x73\x61\x20\x74\x75\x20\x6E\x6F\x6D\x62\x72\x65\x20\x63\x6F\x6D\x70\x6C\x65\x74\x6F","\x49\x6E\x67\x72\x65\x73\x61\x20\x65\x6C\x20\x6E\x6F\x6D\x62\x72\x65\x20\x64\x65\x20\x74\x75\x20\x6E\x65\x67\x6F\x63\x69\x6F","\x53\x65\x6C\x65\x63\x63\x69\x6F\x6E\x61\x20\x65\x6C\x20\x74\x69\x70\x6F\x20\x64\x65\x20\x6E\x65\x67\x6F\x63\x69\x6F","\x49\x6E\x67\x72\x65\x73\x61\x20\x75\x6E\x20\x6E\xFA\x6D\x65\x72\x6F\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70","\x26\x74\x65\x78\x74\x3D\x2A\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\u2122\x2A","\u2705\x20\x5F\x52\x65\x67\x69\x73\x74\x72\x6F\x20\x63\x6F\x6E\x20\xE9\x78\x69\x74\x6F\x5F","\x2A\uD83D\uDE03\x20\x4E\x6F\x6D\x62\x72\x65\x3A\x2A","\x2A\uD83D\uDCBC\x20\x4E\x6F\x6D\x62\x72\x65\x20\x64\x65\x6C\x20\x4E\x65\x67\x6F\x63\x69\x6F\x3A\x2A","\x2A\uD83D\uDED2\x20\x54\x69\x70\x6F\x20\x64\x65\x20\x4E\x65\x67\x6F\x63\x69\x6F\x3A\x2A","\x2A\x50\x2E\x44\x2E\x2A","\x47\x75\x61\x72\x64\x61\x20\x6E\x75\x65\x73\x74\x72\x6F\x20\x63\x6F\x6E\x74\x61\x63\x74\x6F\x20\x63\x6F\x6D\x6F\x20\x2A\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\x2A\x20\x70\x61\x72\x61\x20\x72\x65\x63\x69\x62\x69\x72\x20\x74\x6F\x64\x61\x20\x6C\x61\x20\x69\x6E\x66\x6F\x72\x6D\x61\x63\x69\xF3\x6E\uD83D\uDE09\uD83D\uDC4D"];const pedido_store={categories:{'\x43\x31':{items:{'\x49\x31':{name:_0xb1e6[0],price:0.00,qty:0,img:_0xb1e6[1],detalles:_0xb1e6[2]},'\x49\x32':{name:_0xb1e6[3],price:19.99,qty:0,img:_0xb1e6[4],detalles:_0xb1e6[5]},'\x49\x33':{name:_0xb1e6[6],price:59.99,qty:0,img:_0xb1e6[7],detalles:_0xb1e6[8]},'\x49\x34':{name:_0xb1e6[9],price:119.99,qty:0,img:_0xb1e6[10],detalles:_0xb1e6[11]},'\x49\x35':{name:_0xb1e6[12],price:239.99,qty:0,img:_0xb1e6[13],detalles:_0xb1e6[14]}},namec:_0xb1e6[15]}},user_data:{user_name:{value:_0xb1e6[16],error:_0xb1e6[16]},user_phone:{value:_0xb1e6[16],error:_0xb1e6[16]},user_dir:{value:_0xb1e6[16],error:_0xb1e6[16]},user_zone:{value:_0xb1e6[16],error:_0xb1e6[16]},user_mail:{value:_0xb1e6[16],error:_0xb1e6[16]}}};var dialog=document[_0xb1e6[18]](_0xb1e6[17]);let menu_sections=_0xb1e6[16];const categories=document[_0xb1e6[18]](_0xb1e6[19]);Object[_0xb1e6[26]](pedido_store[_0xb1e6[25]])[_0xb1e6[24]](([_0xad79x5,_0xad79x6],_0xad79x7)=>{menu_sections= menu_sections+ `${_0xb1e6[20]}${_0xad79x5}${_0xb1e6[21]}${_0xad79x6[_0xb1e6[22]]}${_0xb1e6[23]}`});categories[_0xb1e6[27]]= menu_sections;const newCancel=(_0xad79x9,_0xad79xa)=>{pedido_store[_0xb1e6[25]][`${_0xb1e6[16]}${_0xad79xa}${_0xb1e6[16]}`][_0xb1e6[29]][`${_0xb1e6[16]}${_0xad79x9}${_0xb1e6[16]}`][_0xb1e6[28]]= 0;console[_0xb1e6[30]](pedido_store[_0xb1e6[25]][`${_0xb1e6[16]}${_0xad79xa}${_0xb1e6[16]}`][_0xb1e6[29]][`${_0xb1e6[16]}${_0xad79x9}${_0xb1e6[16]}`][_0xb1e6[28]]);document[_0xb1e6[18]](`${_0xb1e6[16]}${_0xad79xa}${_0xb1e6[32]}${_0xad79x9}${_0xb1e6[33]}`)[_0xb1e6[31]]= pedido_store[_0xb1e6[25]][`${_0xb1e6[16]}${_0xad79xa}${_0xb1e6[16]}`][_0xb1e6[29]][`${_0xb1e6[16]}${_0xad79x9}${_0xb1e6[16]}`][_0xb1e6[28]];addItemToShoppingCart()};const newPlus=(_0xad79x9,_0xad79xa)=>{pedido_store[_0xb1e6[25]][`${_0xb1e6[16]}${_0xad79xa}${_0xb1e6[16]}`][_0xb1e6[29]][`${_0xb1e6[16]}${_0xad79x9}${_0xb1e6[16]}`][_0xb1e6[28]]++;document[_0xb1e6[18]](`${_0xb1e6[16]}${_0xad79xa}${_0xb1e6[32]}${_0xad79x9}${_0xb1e6[33]}`)[_0xb1e6[31]]= pedido_store[_0xb1e6[25]][`${_0xb1e6[16]}${_0xad79xa}${_0xb1e6[16]}`][_0xb1e6[29]][`${_0xb1e6[16]}${_0xad79x9}${_0xb1e6[16]}`][_0xb1e6[28]];addItemToShoppingCart()};const newMinus=(_0xad79x9,_0xad79xa)=>{if(pedido_store[_0xb1e6[25]][`${_0xb1e6[16]}${_0xad79xa}${_0xb1e6[16]}`][_0xb1e6[29]][`${_0xb1e6[16]}${_0xad79x9}${_0xb1e6[16]}`][_0xb1e6[28]]- 1>= 0){pedido_store[_0xb1e6[25]][`${_0xb1e6[16]}${_0xad79xa}${_0xb1e6[16]}`][_0xb1e6[29]][`${_0xb1e6[16]}${_0xad79x9}${_0xb1e6[16]}`][_0xb1e6[28]]--;document[_0xb1e6[18]](`${_0xb1e6[16]}${_0xad79xa}${_0xb1e6[32]}${_0xad79x9}${_0xb1e6[33]}`)[_0xb1e6[31]]= pedido_store[_0xb1e6[25]][`${_0xb1e6[16]}${_0xad79xa}${_0xb1e6[16]}`][_0xb1e6[29]][`${_0xb1e6[16]}${_0xad79x9}${_0xb1e6[16]}`][_0xb1e6[28]];addItemToShoppingCart()}};const ItemCreator=(_0xad79xe,_0xad79xa)=>{let _0xad79xf=`${_0xb1e6[16]}`;Object[_0xb1e6[26]](_0xad79xe)[_0xb1e6[24]](([_0xad79x5,_0xad79x6],_0xad79x7)=>{_0xad79xf= _0xad79xf+ `${_0xb1e6[34]}${_0xad79x6[_0xb1e6[35]]}${_0xb1e6[36]}${_0xad79x6[_0xb1e6[37]]}${_0xb1e6[38]}${_0xad79x6[_0xb1e6[39]]}${_0xb1e6[40]}${_0xad79x6[_0xb1e6[41]]}${_0xb1e6[42]}${_0xad79xa}${_0xb1e6[32]}${_0xad79x5}${_0xb1e6[43]}${_0xad79x6[_0xb1e6[28]]}${_0xb1e6[44]}${_0xad79xa}${_0xb1e6[32]}${_0xad79x5}${_0xb1e6[45]}${_0xad79xa}${_0xb1e6[32]}${_0xad79x5}${_0xb1e6[46]}`});return _0xad79xf};Object[_0xb1e6[26]](pedido_store[_0xb1e6[25]])[_0xb1e6[24]](([_0xad79x5,_0xad79x6],_0xad79x7)=>{let _0xad79x10=document[_0xb1e6[48]](_0xb1e6[47]);_0xad79x10[_0xb1e6[49]]= `${_0xb1e6[50]}${_0xad79x5}${_0xb1e6[16]}`;_0xad79x10[_0xb1e6[53]][_0xb1e6[52]](_0xb1e6[51]);_0xad79x10[_0xb1e6[27]]= `${_0xb1e6[54]}${_0xad79x5+ _0xb1e6[55]}${_0xb1e6[56]}${_0xad79x6[_0xb1e6[22]]}${_0xb1e6[57]}`;let _0xad79x11=document[_0xb1e6[48]](_0xb1e6[58]);_0xad79x11[_0xb1e6[49]]= _0xad79x5;_0xad79x11[_0xb1e6[53]][_0xb1e6[52]](_0xb1e6[59]);_0xad79x11[_0xb1e6[53]][_0xb1e6[52]](_0xb1e6[60]);let _0xad79x12=ItemCreator(_0xad79x6[_0xb1e6[29]],_0xad79x5);_0xad79x11[_0xb1e6[27]]= _0xad79x12;_0xad79x10[_0xb1e6[61]](_0xad79x11);document[_0xb1e6[18]](_0xb1e6[62])[_0xb1e6[61]](_0xad79x10)});Object[_0xb1e6[26]](pedido_store[_0xb1e6[25]])[_0xb1e6[24]](([_0xad79x5,_0xad79x6],_0xad79x7)=>{Object[_0xb1e6[26]](_0xad79x6[_0xb1e6[29]])[_0xb1e6[24]](([_0xad79x13,_0xad79x14],_0xad79x15)=>{document[_0xb1e6[18]](`${_0xb1e6[16]}${_0xad79x5}${_0xb1e6[32]}${_0xad79x13}${_0xb1e6[65]}`)[_0xb1e6[64]](_0xb1e6[63],()=>{newMinus(_0xad79x13,_0xad79x5)});document[_0xb1e6[18]](`${_0xb1e6[16]}${_0xad79x5}${_0xb1e6[32]}${_0xad79x13}${_0xb1e6[66]}`)[_0xb1e6[64]](_0xb1e6[63],()=>{newPlus(_0xad79x13,_0xad79x5)})})});Object[_0xb1e6[26]](pedido_store[_0xb1e6[68]])[_0xb1e6[24]](([_0xad79x5,_0xad79x6],_0xad79x7)=>{document[_0xb1e6[18]](`${_0xb1e6[16]}${_0xad79x5}${_0xb1e6[16]}`)[_0xb1e6[64]](_0xb1e6[67],(_0xad79x16)=>{pedido_store[_0xb1e6[68]][`${_0xb1e6[16]}${_0xad79x5}${_0xb1e6[16]}`]= _0xad79x16[_0xb1e6[69]][_0xb1e6[31]]})});document[_0xb1e6[18]](`${_0xb1e6[80]}`)[_0xb1e6[64]](_0xb1e6[70],(_0xad79x16)=>{_0xad79x16[_0xb1e6[71]]();let _0xad79x17=_0xb1e6[16];Object[_0xb1e6[26]](pedido_store[_0xb1e6[68]])[_0xb1e6[24]](([_0xad79x5,_0xad79x6],_0xad79x7)=>{if((_0xad79x6[_0xb1e6[31]]=== _0xb1e6[16]|| _0xad79x6[_0xb1e6[31]]=== _0xb1e6[72])&& _0xad79x6[_0xb1e6[73]]!== _0xb1e6[16]){_0xad79x17+= `${_0xb1e6[74]}${_0xad79x6[_0xb1e6[73]]}${_0xb1e6[75]}`}});if(_0xad79x17!== _0xb1e6[16]){document[_0xb1e6[18]](`${_0xb1e6[76]}`)[_0xb1e6[27]]= _0xad79x17;$(_0xb1e6[78])[_0xb1e6[77]](1000);setTimeout(function(){$(_0xb1e6[78])[_0xb1e6[79]](1000)},2000)}});const comprarButton=document[_0xb1e6[82]](_0xb1e6[81]);comprarButton[_0xb1e6[64]](_0xb1e6[63],comprarButtonClicked);const shoppingCartItemsContainer=document[_0xb1e6[82]](_0xb1e6[83]);const ItemCheckout=(_0xad79xe)=>{let _0xad79x1b=_0xb1e6[16];let _0xad79x1c=_0xb1e6[16];let _0xad79x1d=_0xb1e6[16];let _0xad79x1e=_0xb1e6[16];var _0xad79x1f=document[_0xb1e6[18]](_0xb1e6[84]);var _0xad79x20=document[_0xb1e6[18]](_0xb1e6[85]);var _0xad79x21=document[_0xb1e6[82]](_0xb1e6[86]);Object[_0xb1e6[26]](_0xad79xe)[_0xb1e6[24]](([_0xad79x5,_0xad79x14],_0xad79x15)=>{let _0xad79x22=_0xb1e6[16];Object[_0xb1e6[26]](_0xad79x14[_0xb1e6[29]])[_0xb1e6[24]](([_0xad79x13,_0xad79x6],_0xad79x7)=>{if(_0xad79x22=== _0xb1e6[16]&& _0xad79x6[_0xb1e6[28]]> 0){_0xad79x22= `${_0xb1e6[74]}${_0xad79x14[_0xb1e6[22]]}${_0xb1e6[75]}`;_0xad79x1e= _0xad79x1e+ _0xad79x22}});Object[_0xb1e6[26]](_0xad79x14[_0xb1e6[29]])[_0xb1e6[24]](([_0xad79x13,_0xad79x6],_0xad79x7)=>{if(_0xad79x6[_0xb1e6[28]]> 0){_0xad79x1e= _0xad79x1e+ `${_0xb1e6[87]}${_0xad79x6[_0xb1e6[35]]}${_0xb1e6[88]}${_0xad79x6[_0xb1e6[39]]}${_0xb1e6[89]}${_0xad79x6[_0xb1e6[37]]}${_0xb1e6[90]}${_0xad79x5}${_0xb1e6[32]}${_0xad79x13}${_0xb1e6[91]}${_0xad79x6[_0xb1e6[28]]}${_0xb1e6[44]}${_0xad79x5}${_0xb1e6[32]}${_0xad79x13}${_0xb1e6[92]}${_0xad79x5}${_0xb1e6[32]}${_0xad79x13}${_0xb1e6[93]}${Number[_0xb1e6[95]](_0xad79x6[_0xb1e6[28]]* _0xad79x6[_0xb1e6[37]])[_0xb1e6[94]](2)}${_0xb1e6[96]}${_0xad79x5}${_0xb1e6[32]}${_0xad79x13}${_0xb1e6[97]}`;_0xad79x1b+= _0xad79x6[_0xb1e6[28]]+ _0xb1e6[98]+ _0xb1e6[99]+ _0xb1e6[98]+ _0xb1e6[100]+ _0xb1e6[98]+ _0xad79x6[_0xb1e6[39]]+ _0xb1e6[98]+ _0xb1e6[100]+ _0xb1e6[98]+ _0xb1e6[101]+ _0xb1e6[98]+ _0xb1e6[102]+ _0xad79x6[_0xb1e6[37]]+ _0xb1e6[98]+ _0xb1e6[100]+ _0xb1e6[98]+ _0xb1e6[103]+ _0xb1e6[98]+ _0xb1e6[102]+ (_0xad79x6[_0xb1e6[28]]* _0xad79x6[_0xb1e6[37]])[_0xb1e6[94]](2)+ _0xb1e6[104]+ _0xb1e6[105];_0xad79x1c+= _0xad79x6[_0xb1e6[28]]+ _0xb1e6[106]+ _0xb1e6[107]+ _0xb1e6[106]+ _0xb1e6[108]+ _0xb1e6[106]+ _0xad79x6[_0xb1e6[39]]+ _0xb1e6[104]}})});_0xad79x1f[_0xb1e6[27]]= `${_0xb1e6[16]}${_0xad79x1b}${_0xb1e6[16]}`;_0xad79x20[_0xb1e6[27]]= `${_0xb1e6[16]}${_0xad79x1c}${_0xb1e6[16]}`;return _0xad79x1e};function addItemToShoppingCart(){document[_0xb1e6[18]](_0xb1e6[109])[_0xb1e6[27]]= ItemCheckout(pedido_store[_0xb1e6[25]]);let _0xad79x24=0;Object[_0xb1e6[26]](pedido_store[_0xb1e6[25]])[_0xb1e6[24]](([_0xad79x5,_0xad79x6],_0xad79x7)=>{Object[_0xb1e6[26]](_0xad79x6[_0xb1e6[29]])[_0xb1e6[24]](([_0xad79x13,_0xad79x14],_0xad79x15)=>{if(_0xad79x14[_0xb1e6[28]]> 0){document[_0xb1e6[18]](`${_0xb1e6[16]}${_0xad79x5}${_0xb1e6[32]}${_0xad79x13}${_0xb1e6[110]}`)[_0xb1e6[64]](_0xb1e6[63],()=>{newMinus(_0xad79x13,_0xad79x5)});document[_0xb1e6[18]](`${_0xb1e6[16]}${_0xad79x5}${_0xb1e6[32]}${_0xad79x13}${_0xb1e6[111]}`)[_0xb1e6[64]](_0xb1e6[63],()=>{newPlus(_0xad79x13,_0xad79x5)});document[_0xb1e6[18]](`${_0xb1e6[16]}${_0xad79x5}${_0xb1e6[32]}${_0xad79x13}${_0xb1e6[112]}`)[_0xb1e6[64]](_0xb1e6[63],()=>{newCancel(_0xad79x13,_0xad79x5)});_0xad79x24+= _0xad79x14[_0xb1e6[28]]}})});if(_0xad79x24> 0){document[_0xb1e6[18]](_0xb1e6[113])[_0xb1e6[27]]= `${_0xb1e6[16]}${_0xad79x24}${_0xb1e6[16]}`;setTimeout(function(){$(_0xb1e6[114])[_0xb1e6[77]](1000)},500)}else {setTimeout(function(){$(_0xb1e6[114])[_0xb1e6[79]](1000)},500)};updateShoppingCartTotal(pedido_store[_0xb1e6[25]])}function ertd(){var _0xad79x26=document[_0xb1e6[18]](_0xb1e6[115])[_0xb1e6[27]]= shoppingCartItemsContainer[_0xb1e6[116]]}function updateShoppingCartTotal(_0xad79xe){let _0xad79x28=0;Object[_0xb1e6[26]](_0xad79xe)[_0xb1e6[24]](([_0xad79x5,_0xad79x6],_0xad79x7)=>{Object[_0xb1e6[26]](_0xad79x6[_0xb1e6[29]])[_0xb1e6[24]](([_0xad79x13,_0xad79x14],_0xad79x15)=>{_0xad79x28+= _0xad79x14[_0xb1e6[37]]* _0xad79x14[_0xb1e6[28]]})});document[_0xb1e6[82]](_0xb1e6[117])[_0xb1e6[27]]= `${_0xb1e6[102]}${Number[_0xb1e6[95]](_0xad79x28)[_0xb1e6[94]](2)}${_0xb1e6[16]}`;let _0xad79x29=_0xad79x28;var _0xad79x2a=document[_0xb1e6[82]](_0xb1e6[118])[_0xb1e6[27]]= `${_0xb1e6[102]}${_0xad79x29[_0xb1e6[94]](2)}${_0xb1e6[16]}`;var _0xad79x2b=_0xad79x2a;document[_0xb1e6[18]](_0xb1e6[119])[_0xb1e6[27]]= _0xad79x2b;document[_0xb1e6[82]](_0xb1e6[120])[_0xb1e6[27]]= `${_0xb1e6[102]}${_0xad79x29[_0xb1e6[94]](2)}${_0xb1e6[16]}`;let _0xad79x2c=_0xad79x28;var _0xad79x2d=document[_0xb1e6[18]](_0xb1e6[121]);_0xad79x2d[_0xb1e6[64]](_0xb1e6[67],function(){var _0xad79x2e=_0xad79x2d[_0xb1e6[31]];document[_0xb1e6[82]](_0xb1e6[122])[_0xb1e6[27]]= `${_0xb1e6[102]}${Number(_0xad79x2e)[_0xb1e6[94]](2)}${_0xb1e6[16]}`;_0xad79x2c= _0xad79x28+ Number(_0xad79x2e);document[_0xb1e6[82]](_0xb1e6[120])[_0xb1e6[27]]= `${_0xb1e6[102]}${_0xad79x2c[_0xb1e6[94]](2)}${_0xb1e6[16]}`});var _0xad79x2f=document[_0xb1e6[82]](_0xb1e6[123]);_0xad79x2f[_0xb1e6[64]](_0xb1e6[124],function(){var _0xad79x30=_0xad79x2f[_0xb1e6[31]];document[_0xb1e6[82]](_0xb1e6[123])[_0xb1e6[27]]= `${_0xb1e6[102]}${Number(_0xad79x30)[_0xb1e6[94]](2)}${_0xb1e6[16]}`;var _0xad79x31=document[_0xb1e6[18]](_0xb1e6[126])[_0xb1e6[125]];var _0xad79x32=Number(_0xad79x31[_0xb1e6[127]](_0xb1e6[102],_0xb1e6[16]));var _0xad79x33=_0xad79x30- _0xad79x32;document[_0xb1e6[18]](_0xb1e6[128])[_0xb1e6[27]]= `${_0xb1e6[102]}${_0xad79x33[_0xb1e6[94]](2)}${_0xb1e6[16]}`;if(_0xad79x30=== _0xb1e6[16]){document[_0xb1e6[18]](_0xb1e6[128])[_0xb1e6[27]]= `${_0xb1e6[129]}`}});let _0xad79x34=_0xad79x28;var _0xad79x35=document[_0xb1e6[18]](_0xb1e6[121]);_0xad79x35[_0xb1e6[64]](_0xb1e6[67],function(){var _0xad79x36=_0xad79x35[_0xb1e6[31]];document[_0xb1e6[82]](_0xb1e6[130])[_0xb1e6[27]]= `${_0xb1e6[102]}${Number(_0xad79x36)[_0xb1e6[94]](2)}${_0xb1e6[16]}`;_0xad79x34= _0xad79x28+ Number(_0xad79x36);var _0xad79x37=document[_0xb1e6[82]](_0xb1e6[131]);_0xad79x37[_0xb1e6[132]]= function(){document[_0xb1e6[82]](_0xb1e6[122])[_0xb1e6[27]]= `${_0xb1e6[102]}${Number(0)[_0xb1e6[94]](2)}${_0xb1e6[16]}`;_0xad79x34= _0xad79x28+ Number(0);document[_0xb1e6[82]](_0xb1e6[120])[_0xb1e6[27]]= `${_0xb1e6[102]}${_0xad79x34[_0xb1e6[94]](2)}${_0xb1e6[16]}`;document[_0xb1e6[82]](_0xb1e6[130])[_0xb1e6[27]]= `${_0xb1e6[102]}${Number(0)[_0xb1e6[94]](2)}${_0xb1e6[16]}`;_0xad79x34= _0xad79x28+ Number(0);document[_0xb1e6[82]](_0xb1e6[133])[_0xb1e6[27]]= `${_0xb1e6[102]}${_0xad79x34[_0xb1e6[94]](2)}${_0xb1e6[16]}`};var _0xad79x38=document[_0xb1e6[82]](_0xb1e6[133])[_0xb1e6[27]]= `${_0xb1e6[102]}${_0xad79x34[_0xb1e6[94]](2)}${_0xb1e6[16]}`;var _0xad79x39=_0xad79x38;document[_0xb1e6[18]](_0xb1e6[134])[_0xb1e6[27]]= _0xad79x39});var _0xad79x38=document[_0xb1e6[82]](_0xb1e6[133])[_0xb1e6[27]]= `${_0xb1e6[102]}${_0xad79x34[_0xb1e6[94]](2)}${_0xb1e6[16]}`;var _0xad79x39=_0xad79x38;document[_0xb1e6[18]](_0xb1e6[134])[_0xb1e6[27]]= _0xad79x39;var _0xad79x3a=document[_0xb1e6[82]](_0xb1e6[135]);_0xad79x3a[_0xb1e6[132]]= function(){document[_0xb1e6[82]](_0xb1e6[122])[_0xb1e6[27]]= `${_0xb1e6[102]}${Number(0)[_0xb1e6[94]](2)}${_0xb1e6[16]}`;_0xad79x34= _0xad79x28+ Number(0);document[_0xb1e6[82]](_0xb1e6[120])[_0xb1e6[27]]= `${_0xb1e6[102]}${_0xad79x34[_0xb1e6[94]](2)}${_0xb1e6[16]}`;document[_0xb1e6[82]](_0xb1e6[130])[_0xb1e6[27]]= `${_0xb1e6[102]}${Number(0)[_0xb1e6[94]](2)}${_0xb1e6[16]}`;_0xad79x34= _0xad79x28+ Number(0);var _0xad79x38=document[_0xb1e6[82]](_0xb1e6[133])[_0xb1e6[27]]= `${_0xb1e6[102]}${_0xad79x34[_0xb1e6[94]](2)}${_0xb1e6[16]}`};var _0xad79x38=document[_0xb1e6[82]](_0xb1e6[133])[_0xb1e6[27]]= `${_0xb1e6[102]}${_0xad79x34[_0xb1e6[94]](2)}${_0xb1e6[16]}`}function removeShoppingCartItem(_0xad79x3c){updateShoppingCartTotal(pedido_store[_0xb1e6[25]])}function quantityChanged(_0xad79x3c){updateShoppingCartTotal(pedido_store[_0xb1e6[25]])}function comprarButtonClicked(){shoppingCartItemsContainer[_0xb1e6[27]]= _0xb1e6[16];updateShoppingCartTotal()}$(_0xb1e6[140])[_0xb1e6[139]](function(){return document[_0xb1e6[18]](_0xb1e6[136])[_0xb1e6[27]]= Math[_0xb1e6[138]](Math[_0xb1e6[137]]()* 999)+ 1000});function goToPage(){var _0xad79x40=document[_0xb1e6[82]](_0xb1e6[140])[_0xb1e6[31]];var _0xad79x41=document[_0xb1e6[18]](_0xb1e6[141])[_0xb1e6[125]];var _0xad79x42=document[_0xb1e6[143]](_0xb1e6[142]);for(var _0xad79x43=0,_0xad79x44=_0xad79x42[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x42[_0xad79x43]){var _0xad79x45=(_0xad79x42[_0xad79x43][_0xb1e6[31]]+ _0xb1e6[105])};if(_0xad79x45=== undefined){_0xad79x45= _0xb1e6[16]};if(_0xad79x45=== _0xb1e6[105]){_0xad79x45= _0xb1e6[16]}};var _0xad79x46=document[_0xb1e6[143]](_0xb1e6[145]);for(var _0xad79x43=0,_0xad79x44=_0xad79x46[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x46[_0xad79x43]){var _0xad79x47=(_0xad79x46[_0xad79x43][_0xb1e6[31]]+ _0xb1e6[105])};if(_0xad79x47=== undefined){_0xad79x47= _0xb1e6[16]};if(_0xad79x47=== _0xb1e6[105]){_0xad79x47= _0xb1e6[16]}};var _0xad79x48=document[_0xb1e6[143]](_0xb1e6[146]);for(var _0xad79x43=0,_0xad79x44=_0xad79x48[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x48[_0xad79x43]){var _0xad79x49=(_0xad79x48[_0xad79x43][_0xb1e6[31]]+ _0xb1e6[105])};if(_0xad79x49=== undefined){_0xad79x49= _0xb1e6[16]};if(_0xad79x49=== _0xb1e6[105]){_0xad79x49= _0xb1e6[16]}};var _0xad79x4a=document[_0xb1e6[143]](_0xb1e6[121]);for(var _0xad79x43=0,_0xad79x44=_0xad79x4a[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x4a[_0xad79x43]){var _0xad79x4b=(_0xad79x4a[_0xad79x43][_0xb1e6[31]])};if(_0xad79x4b=== undefined){_0xad79x4b= _0xb1e6[16]};if(_0xad79x4b=== _0xb1e6[105]){_0xad79x4b= _0xb1e6[16]}};var _0xad79x4c=Number(_0xad79x41[_0xb1e6[127]](_0xb1e6[102],_0xb1e6[16]));var _0xad79x4d=document[_0xb1e6[18]](_0xb1e6[147])[_0xb1e6[31]];var _0xad79x4e=document[_0xb1e6[18]](_0xb1e6[148])[_0xb1e6[31]];var _0xad79x4f=document[_0xb1e6[143]](_0xb1e6[149]);for(var _0xad79x43=0,_0xad79x44=_0xad79x4f[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x4f[_0xad79x43][_0xb1e6[150]]=== true){var _0xad79x50=_0xb1e6[105]+ document[_0xb1e6[18]](_0xb1e6[151])[_0xb1e6[125]];var _0xad79x51=document[_0xb1e6[18]](_0xb1e6[152])[_0xb1e6[31]];var _0xad79x52=_0xb1e6[105]+ document[_0xb1e6[82]](_0xb1e6[153])[_0xb1e6[125]];var _0xad79x53=(_0xb1e6[154]+ _0xb1e6[105]+ _0xad79x4f[_0xad79x43][_0xb1e6[31]]+ _0xb1e6[98]+ _0xad79x51+ _0xad79x52+ _0xad79x50)};if(_0xad79x53=== undefined){_0xad79x53= _0xb1e6[16]};if(_0xad79x53=== _0xb1e6[105]){_0xad79x53= _0xb1e6[16]}};var _0xad79x4f=document[_0xb1e6[143]](_0xb1e6[155]);for(var _0xad79x43=0,_0xad79x44=_0xad79x4f[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x4f[_0xad79x43][_0xb1e6[150]]=== true){var _0xad79x4d=document[_0xb1e6[18]](_0xb1e6[147])[_0xb1e6[31]];var _0xad79x4e=document[_0xb1e6[18]](_0xb1e6[148])[_0xb1e6[31]];var _0xad79x53=(_0xb1e6[154]+ _0xb1e6[105]+ _0xad79x4f[_0xad79x43][_0xb1e6[31]]+ _0xb1e6[105]+ _0xad79x4d+ _0xb1e6[98]+ _0xad79x4e)};if(_0xad79x53=== undefined){_0xad79x53= _0xb1e6[16]};if(_0xad79x53=== _0xb1e6[105]){_0xad79x53= _0xb1e6[16]}};var _0xad79x4f=document[_0xb1e6[143]](_0xb1e6[156]);for(var _0xad79x43=0,_0xad79x44=_0xad79x4f[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x4f[_0xad79x43][_0xb1e6[150]]=== true){var _0xad79x53=(_0xb1e6[154]+ _0xb1e6[105]+ _0xad79x4f[_0xad79x43][_0xb1e6[31]])};if(_0xad79x53=== undefined){_0xad79x53= _0xb1e6[16]};if(_0xad79x53=== _0xb1e6[105]){_0xad79x53= _0xb1e6[16]}};var _0xad79x54=document[_0xb1e6[143]](_0xb1e6[157]);for(var _0xad79x43=0,_0xad79x44=_0xad79x54[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x54[_0xad79x43][_0xb1e6[150]]){var _0xad79x55=_0xb1e6[158]+ (_0xad79x54[_0xad79x43][_0xb1e6[31]])};if(_0xad79x55=== undefined){_0xad79x55= _0xb1e6[16]};if(_0xad79x55=== _0xb1e6[105]){_0xad79x55= _0xb1e6[16]}};var _0xad79x54=document[_0xb1e6[143]](_0xb1e6[159]);for(var _0xad79x43=0,_0xad79x44=_0xad79x54[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x54[_0xad79x43][_0xb1e6[150]]){var _0xad79x55=_0xb1e6[160]+ (_0xad79x54[_0xad79x43][_0xb1e6[31]]);var _0xad79x56=_0xb1e6[161]+ document[_0xb1e6[18]](_0xb1e6[128])[_0xb1e6[125]]};if(_0xad79x55=== undefined){_0xad79x55= _0xb1e6[16]};if(_0xad79x56=== undefined){_0xad79x56= _0xb1e6[16]};if(_0xad79x56=== _0xb1e6[105]){_0xad79x56= _0xb1e6[16]};if(_0xad79x55=== _0xb1e6[105]){_0xad79x55= _0xb1e6[16]}};var _0xad79x54=document[_0xb1e6[143]](_0xb1e6[162]);for(var _0xad79x43=0,_0xad79x44=_0xad79x54[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x54[_0xad79x43][_0xb1e6[150]]){var _0xad79x55=_0xb1e6[160]+ (_0xad79x54[_0xad79x43][_0xb1e6[31]])+ `${_0xb1e6[16]}${(Number(_0xad79x4b)+ Number(_0xad79x4c[_0xb1e6[94]](2)))[_0xb1e6[94]](2)}${_0xb1e6[16]}`+ _0xb1e6[105]+ _0xb1e6[163]};if(_0xad79x55=== undefined){_0xad79x55= _0xb1e6[16]};if(_0xad79x55=== _0xb1e6[105]){_0xad79x55= _0xb1e6[16]}};var _0xad79x54=document[_0xb1e6[143]](_0xb1e6[164]);for(var _0xad79x43=0,_0xad79x44=_0xad79x54[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x54[_0xad79x43][_0xb1e6[150]]){var _0xad79x55=_0xb1e6[160]+ (_0xad79x54[_0xad79x43][_0xb1e6[31]])};if(_0xad79x55=== undefined){_0xad79x55= _0xb1e6[16]};if(_0xad79x55=== _0xb1e6[105]){_0xad79x55= _0xb1e6[16]}};var _0xad79x57=document[_0xb1e6[143]](_0xb1e6[165]);for(var _0xad79x43=0,_0xad79x44=_0xad79x57[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x57[_0xad79x43][_0xb1e6[150]]){var _0xad79x58=(_0xad79x57[_0xad79x43][_0xb1e6[31]]+ _0xb1e6[105])};if(_0xad79x58=== undefined){_0xad79x58= _0xb1e6[16]};if(_0xad79x55=== _0xb1e6[105]){_0xad79x55= _0xb1e6[16]}};var _0xad79x57=document[_0xb1e6[143]](_0xb1e6[166]);for(var _0xad79x43=0,_0xad79x44=_0xad79x57[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x57[_0xad79x43][_0xb1e6[150]]){var _0xad79x58=(_0xad79x57[_0xad79x43][_0xb1e6[31]]+ _0xb1e6[105])};if(_0xad79x58=== undefined){_0xad79x58= _0xb1e6[16]};if(_0xad79x55=== _0xb1e6[105]){_0xad79x55= _0xb1e6[16]}};var _0xad79x57=document[_0xb1e6[143]](_0xb1e6[167]);for(var _0xad79x43=0,_0xad79x44=_0xad79x57[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x57[_0xad79x43][_0xb1e6[150]]){var _0xad79x58=(_0xad79x57[_0xad79x43][_0xb1e6[31]]+ _0xb1e6[105])};if(_0xad79x58=== undefined){_0xad79x58= _0xb1e6[16]};if(_0xad79x55=== _0xb1e6[105]){_0xad79x55= _0xb1e6[16]}};var _0xad79x59=document[_0xb1e6[18]](_0xb1e6[168])[_0xb1e6[31]]+ _0xb1e6[105];var _0xad79x5a=document[_0xb1e6[143]](_0xb1e6[168]);for(var _0xad79x43=0,_0xad79x44=_0xad79x5a[_0xb1e6[144]];_0xad79x43< _0xad79x44;_0xad79x43++){if(_0xad79x5a[_0xad79x43][_0xb1e6[150]]){var _0xad79x59=(_0xad79x5a[_0xad79x43][_0xb1e6[31]]+ _0xb1e6[105])};if(_0xad79x59=== undefined){_0xad79x59= _0xb1e6[16]};if(_0xad79x55=== _0xb1e6[105]){_0xad79x55= _0xb1e6[16]}};var _0xad79x5b=document[_0xb1e6[82]](_0xb1e6[169])[_0xb1e6[125]];if(_0xad79x5b== null|| _0xad79x5b[_0xb1e6[144]]== 0|| /^\s+$/[_0xb1e6[170]](_0xad79x5b)){alert(_0xb1e6[171]);return false};if(_0xad79x45== null|| _0xad79x45[_0xb1e6[144]]== 0|| /^\s+$/[_0xb1e6[170]](_0xad79x45)){alert(_0xb1e6[172]);return false};if(_0xad79x47== null|| _0xad79x47[_0xb1e6[144]]== 0|| /^\s+$/[_0xb1e6[170]](_0xad79x47)){alert(_0xb1e6[173]);return false};if(_0xad79x49== null|| _0xad79x49[_0xb1e6[144]]== 0|| /^\s+$/[_0xb1e6[170]](_0xad79x49)){alert(_0xb1e6[174]);return false};var _0xad79x5c=_0xb1e6[175]+ _0xb1e6[105]+ _0xb1e6[176]+ _0xb1e6[105]+ _0xb1e6[177]+ _0xb1e6[105]+ _0xb1e6[178]+ _0xb1e6[98]+ _0xb1e6[98]+ _0xb1e6[179]+ _0xb1e6[98]+ _0xad79x40+ _0xb1e6[98]+ _0xb1e6[179]+ _0xb1e6[105]+ _0xb1e6[180]+ _0xb1e6[105]+ _0xad79x5b+ _0xb1e6[105]+ _0xb1e6[181]+ _0xb1e6[98]+ _0xb1e6[102]+ `${_0xb1e6[16]}${(Number(_0xad79x4b)+ Number(_0xad79x4c[_0xb1e6[94]](2)))[_0xb1e6[94]](2)}${_0xb1e6[16]}`+ _0xb1e6[105]+ _0xb1e6[180]+ _0xb1e6[105]+ _0xb1e6[182]+ _0xb1e6[105]+ _0xad79x58+ _0xb1e6[98]+ _0xad79x59+ _0xad79x45+ _0xad79x47+ _0xad79x49+ _0xb1e6[98]+ _0xb1e6[180]+ _0xb1e6[105]+ _0xad79x55+ _0xad79x56+ _0xb1e6[105]+ _0xb1e6[181]+ _0xb1e6[98]+ _0xb1e6[102]+ `${_0xb1e6[16]}${(Number(_0xad79x4b)+ Number(_0xad79x4c[_0xb1e6[94]](2)))[_0xb1e6[94]](2)}${_0xb1e6[16]}`+ _0xb1e6[105]+ _0xb1e6[105]+ _0xb1e6[183]+ _0xb1e6[98]+ _0xad79x40;var _0xad79x5d= new MobileDetect(window[_0xb1e6[185]][_0xb1e6[184]]);if(_0xad79x5d[_0xb1e6[186]]()){window[_0xb1e6[190]](document[_0xb1e6[18]](_0xb1e6[188])[_0xb1e6[187]]= _0xb1e6[189]+ _0xad79x5c)}else {window[_0xb1e6[190]](document[_0xb1e6[18]](_0xb1e6[188])[_0xb1e6[187]]= _0xb1e6[191]+ _0xad79x5c)}}$(_0xb1e6[193])[_0xb1e6[192]](_0xb1e6[63],function(_0xad79x3c){_0xad79x3c[_0xb1e6[71]]()});$(_0xb1e6[201])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[196])[_0xb1e6[195]](_0xb1e6[194]);$(_0xb1e6[198])[_0xb1e6[197]](_0xb1e6[194]);$(_0xb1e6[199])[_0xb1e6[197]](_0xb1e6[194]);$(_0xb1e6[200])[_0xb1e6[197]](_0xb1e6[194])});$(_0xb1e6[202])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[198])[_0xb1e6[195]](_0xb1e6[194]);$(_0xb1e6[196])[_0xb1e6[197]](_0xb1e6[194]);$(_0xb1e6[199])[_0xb1e6[197]](_0xb1e6[194]);$(_0xb1e6[200])[_0xb1e6[197]](_0xb1e6[194])});$(_0xb1e6[203])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[199])[_0xb1e6[195]](_0xb1e6[194]);$(_0xb1e6[196])[_0xb1e6[197]](_0xb1e6[194]);$(_0xb1e6[198])[_0xb1e6[197]](_0xb1e6[194]);$(_0xb1e6[200])[_0xb1e6[197]](_0xb1e6[194])});$(_0xb1e6[204])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[200])[_0xb1e6[195]](_0xb1e6[194]);$(_0xb1e6[196])[_0xb1e6[197]](_0xb1e6[194]);$(_0xb1e6[198])[_0xb1e6[197]](_0xb1e6[194]);$(_0xb1e6[199])[_0xb1e6[197]](_0xb1e6[194])});$(_0xb1e6[213])[_0xb1e6[192]](_0xb1e6[63],function(_0xad79x5e){const _0xad79x5f=$(_0xad79x5e[_0xb1e6[69]])[_0xb1e6[207]](_0xb1e6[205])[_0xb1e6[206]](_0xb1e6[205]);const _0xad79x60=$(_0xad79x5e[_0xb1e6[69]])[_0xb1e6[207]](_0xb1e6[210])[_0xb1e6[209]](_0xb1e6[208]);if(_0xad79x60[_0xb1e6[206]](_0xb1e6[208])){_0xad79x60[0][_0xad79x5f?_0xb1e6[211]:_0xb1e6[212]]()}});$(_0xb1e6[213])[_0xb1e6[192]](_0xb1e6[63],function(_0xad79x5e){const _0xad79x5f=$(_0xad79x5e[_0xb1e6[69]])[_0xb1e6[207]](_0xb1e6[205])[_0xb1e6[206]](_0xb1e6[205]);const _0xad79x60=$(_0xad79x5e[_0xb1e6[69]])[_0xb1e6[207]](_0xb1e6[210])[_0xb1e6[209]](_0xb1e6[208]);if(_0xad79x60[_0xb1e6[206]](_0xb1e6[208])){_0xad79x60[0][_0xad79x5f?_0xb1e6[211]:_0xb1e6[212]]()}});$(document)[_0xb1e6[220]](function(){var _0xad79x61=$(_0xb1e6[216])[_0xb1e6[215]]()[_0xb1e6[214]];$(window)[_0xb1e6[192]](_0xb1e6[217],function(){if($(window)[_0xb1e6[218]]()>= _0xad79x61){$(_0xb1e6[216])[_0xb1e6[195]](_0xb1e6[219])}else {$(_0xb1e6[216])[_0xb1e6[197]](_0xb1e6[219])}})});$(_0xb1e6[223])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[222])[_0xb1e6[195]](_0xb1e6[221])});var wer=document[_0xb1e6[82]](_0xb1e6[224])[_0xb1e6[125]];function sdf(){if(wer= _0xb1e6[16]){$(_0xb1e6[226])[_0xb1e6[195]](_0xb1e6[225])}}$(_0xb1e6[222])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[228])[_0xb1e6[195]](_0xb1e6[227]);$(_0xb1e6[222])[_0xb1e6[195]](_0xb1e6[229])});$(_0xb1e6[232])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[228])[_0xb1e6[197]](_0xb1e6[227]);$(_0xb1e6[231])[_0xb1e6[195]](_0xb1e6[230])});$(_0xb1e6[233])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[228])[_0xb1e6[197]](_0xb1e6[227]);$(_0xb1e6[231])[_0xb1e6[197]](_0xb1e6[230]);$(_0xb1e6[222])[_0xb1e6[197]](_0xb1e6[229])});const images=document[_0xb1e6[235]](_0xb1e6[234]);const titles=document[_0xb1e6[235]](_0xb1e6[236]);const price=document[_0xb1e6[235]](_0xb1e6[237]);const cantidad=document[_0xb1e6[235]](_0xb1e6[238]);const containerimage=document[_0xb1e6[82]](_0xb1e6[239]);const imageContainer=document[_0xb1e6[82]](_0xb1e6[240]);const copy=document[_0xb1e6[82]](_0xb1e6[241]);const closeModal=document[_0xb1e6[82]](_0xb1e6[242]);images[_0xb1e6[24]]((_0xad79x6c)=>{_0xad79x6c[_0xb1e6[64]](_0xb1e6[63],()=>{addImage(_0xad79x6c[_0xb1e6[244]](_0xb1e6[243]),_0xad79x6c[_0xb1e6[244]](_0xb1e6[245]))})});titles[_0xb1e6[24]]((_0xad79x6d)=>{_0xad79x6d[_0xb1e6[64]](_0xb1e6[63],()=>{})});const addImage=(_0xad79x6f,_0xad79x70)=>{containerimage[_0xb1e6[53]][_0xb1e6[247]](_0xb1e6[246]);imageContainer[_0xb1e6[53]][_0xb1e6[247]](_0xb1e6[248]);imageContainer[_0xb1e6[243]]= _0xad79x6f;copy[_0xb1e6[27]]= _0xad79x70};closeModal[_0xb1e6[64]](_0xb1e6[63],()=>{containerimage[_0xb1e6[53]][_0xb1e6[247]](_0xb1e6[246]);imageContainer[_0xb1e6[53]][_0xb1e6[247]](_0xb1e6[248])});function limpiarformas(){document[_0xb1e6[18]](_0xb1e6[159])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[162])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[164])[_0xb1e6[150]]= false;var _0xad79x72=document[_0xb1e6[18]](_0xb1e6[249])[_0xb1e6[31]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[128])[_0xb1e6[125]]= _0xb1e6[16]}function limpiarformase(){document[_0xb1e6[18]](_0xb1e6[157])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[162])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[164])[_0xb1e6[150]]= false}function limpiarformaspl(){document[_0xb1e6[18]](_0xb1e6[159])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[157])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[164])[_0xb1e6[150]]= false;var _0xad79x72=document[_0xb1e6[18]](_0xb1e6[249])[_0xb1e6[31]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[128])[_0xb1e6[125]]= _0xb1e6[16]}function limpiarformaspy(){document[_0xb1e6[18]](_0xb1e6[159])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[162])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[157])[_0xb1e6[150]]= false;var _0xad79x72=document[_0xb1e6[18]](_0xb1e6[249])[_0xb1e6[31]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[128])[_0xb1e6[125]]= _0xb1e6[16]}function limpiarfac(){document[_0xb1e6[18]](_0xb1e6[166])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[167])[_0xb1e6[150]]= false}function limpiarfac(){document[_0xb1e6[18]](_0xb1e6[166])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[167])[_0xb1e6[150]]= false}function limpiarconsu(){document[_0xb1e6[18]](_0xb1e6[168])[_0xb1e6[31]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[165])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[167])[_0xb1e6[150]]= false}function limpiarcliente(){document[_0xb1e6[18]](_0xb1e6[168])[_0xb1e6[31]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[165])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[166])[_0xb1e6[150]]= false;$(_0xb1e6[251])[_0xb1e6[195]](_0xb1e6[250])}function linpiarreserdomi(){document[_0xb1e6[18]](_0xb1e6[151])[_0xb1e6[125]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[149])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[121])[_0xb1e6[31]]= _0xb1e6[252];document[_0xb1e6[18]](_0xb1e6[152])[_0xb1e6[31]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[155])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[147])[_0xb1e6[31]]= _0xb1e6[252];document[_0xb1e6[18]](_0xb1e6[148])[_0xb1e6[31]]= _0xb1e6[16];limpiaringd();limpiaringdmap();document[_0xb1e6[18]](_0xb1e6[253])[_0xb1e6[125]]= _0xb1e6[16]}function linpiarreservar(){document[_0xb1e6[18]](_0xb1e6[155])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[156])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[147])[_0xb1e6[31]]= _0xb1e6[252];document[_0xb1e6[18]](_0xb1e6[148])[_0xb1e6[31]]= _0xb1e6[16]}function linpiardelivery(){document[_0xb1e6[18]](_0xb1e6[157])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[159])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[162])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[164])[_0xb1e6[150]]= false;limpiaringd();limpiaringdmap();document[_0xb1e6[18]](_0xb1e6[149])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[156])[_0xb1e6[150]]= false;document[_0xb1e6[18]](_0xb1e6[121])[_0xb1e6[31]]= _0xb1e6[252];document[_0xb1e6[18]](_0xb1e6[152])[_0xb1e6[31]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[151])[_0xb1e6[125]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[253])[_0xb1e6[125]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[151])[_0xb1e6[125]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[249])[_0xb1e6[31]]= _0xb1e6[16];document[_0xb1e6[18]](_0xb1e6[128])[_0xb1e6[125]]= _0xb1e6[16]}function limpiaringd(){document[_0xb1e6[18]](_0xb1e6[253])[_0xb1e6[150]]= false}function limpiaringdmap(){document[_0xb1e6[18]](_0xb1e6[254])[_0xb1e6[150]]= false}$(_0xb1e6[258])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[256])[_0xb1e6[197]](_0xb1e6[255]);$(_0xb1e6[251])[_0xb1e6[197]](_0xb1e6[250]);$(_0xb1e6[257])(_0xb1e6[255])});$(_0xb1e6[259])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[256])[_0xb1e6[195]](_0xb1e6[255]);$(_0xb1e6[251])[_0xb1e6[197]](_0xb1e6[250])});$(_0xb1e6[260])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[256])[_0xb1e6[197]](_0xb1e6[255]);$(_0xb1e6[251])[_0xb1e6[195]](_0xb1e6[250])});$(_0xb1e6[267])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[262])[_0xb1e6[195]](_0xb1e6[261]);$(_0xb1e6[264])[_0xb1e6[197]](_0xb1e6[263]);$(_0xb1e6[266])[_0xb1e6[197]](_0xb1e6[265])});$(_0xb1e6[131])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[264])[_0xb1e6[195]](_0xb1e6[263]);$(_0xb1e6[264])[_0xb1e6[195]](_0xb1e6[263]);$(_0xb1e6[266])[_0xb1e6[195]](_0xb1e6[265])});$(_0xb1e6[268])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[262])[_0xb1e6[197]](_0xb1e6[261])});$(_0xb1e6[135])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[264])[_0xb1e6[197]](_0xb1e6[263]);$(_0xb1e6[266])[_0xb1e6[197]](_0xb1e6[265])});$(_0xb1e6[274])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[269])[_0xb1e6[195]](_0xb1e6[261]);$(_0xb1e6[271])[_0xb1e6[197]](_0xb1e6[270]);$(_0xb1e6[273])[_0xb1e6[197]](_0xb1e6[272])});$(_0xb1e6[275])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[269])[_0xb1e6[197]](_0xb1e6[261]);$(_0xb1e6[271])[_0xb1e6[195]](_0xb1e6[270]);$(_0xb1e6[273])[_0xb1e6[195]](_0xb1e6[272])});var map;function initialize(){var _0xad79x80={center: new google[_0xb1e6[276]].LatLng(-0.1769941,-78.478394,17),zoom:17};map=  new google[_0xb1e6[276]].Map(document[_0xb1e6[18]](_0xb1e6[277]),_0xad79x80);var _0xad79x81=document[_0xb1e6[48]](_0xb1e6[58]);var _0xad79x82= new GeolocationControl(_0xad79x81,map);map[_0xb1e6[281]][google[_0xb1e6[276]][_0xb1e6[280]][_0xb1e6[279]]][_0xb1e6[278]](_0xad79x81)}function GeolocationControl(_0xad79x84,map){var _0xad79x85=document[_0xb1e6[48]](_0xb1e6[58]);_0xad79x85[_0xb1e6[283]][_0xb1e6[282]]= _0xb1e6[284];_0xad79x85[_0xb1e6[283]][_0xb1e6[285]]= _0xb1e6[286];_0xad79x85[_0xb1e6[283]][_0xb1e6[287]]= _0xb1e6[288];_0xad79x85[_0xb1e6[283]][_0xb1e6[289]]= _0xb1e6[290];_0xad79x85[_0xb1e6[283]][_0xb1e6[291]]= _0xb1e6[292];_0xad79x85[_0xb1e6[283]][_0xb1e6[293]]= _0xb1e6[294];_0xad79x85[_0xb1e6[283]][_0xb1e6[295]]= _0xb1e6[296];_0xad79x85[_0xb1e6[283]][_0xb1e6[297]]= _0xb1e6[298];_0xad79x85[_0xb1e6[283]][_0xb1e6[299]]= _0xb1e6[300];_0xad79x85[_0xb1e6[283]][_0xb1e6[301]]= _0xb1e6[302];_0xad79x85[_0xb1e6[283]][_0xb1e6[303]]= _0xb1e6[304];_0xad79x85[_0xb1e6[305]]= _0xb1e6[306];_0xad79x84[_0xb1e6[61]](_0xad79x85);var _0xad79x86=document[_0xb1e6[48]](_0xb1e6[58]);_0xad79x86[_0xb1e6[283]][_0xb1e6[307]]= _0xb1e6[308];_0xad79x86[_0xb1e6[283]][_0xb1e6[309]]= _0xb1e6[310];_0xad79x86[_0xb1e6[283]][_0xb1e6[311]]= _0xb1e6[290];_0xad79x86[_0xb1e6[283]][_0xb1e6[312]]= _0xb1e6[313];_0xad79x86[_0xb1e6[283]][_0xb1e6[314]]= _0xb1e6[313];_0xad79x86[_0xb1e6[283]][_0xb1e6[299]]= _0xb1e6[315];_0xad79x85[_0xb1e6[283]][_0xb1e6[295]]= _0xb1e6[296];_0xad79x86[_0xb1e6[27]]= _0xb1e6[316];_0xad79x85[_0xb1e6[61]](_0xad79x86);google[_0xb1e6[276]][_0xb1e6[318]][_0xb1e6[317]](_0xad79x85,_0xb1e6[63],geolocate)}function geolocate(){if(navigator[_0xb1e6[319]]){navigator[_0xb1e6[319]][_0xb1e6[337]](function(_0xad79x88){var _0xad79x89= new google[_0xb1e6[276]].LatLng(_0xad79x88[_0xb1e6[321]][_0xb1e6[320]],_0xad79x88[_0xb1e6[321]][_0xb1e6[322]]);let _0xad79x8a=_0xb1e6[16];var _0xad79x8b=document[_0xb1e6[82]](_0xb1e6[323])[_0xb1e6[27]]= _0xad79x89;var _0xad79x8c=document[_0xb1e6[18]](_0xb1e6[320])[_0xb1e6[125]];var _0xad79x8d=_0xad79x8c[_0xb1e6[127]](_0xb1e6[324],_0xb1e6[16]);var _0xad79x8e=_0xad79x8d[_0xb1e6[127]](_0xb1e6[325],_0xb1e6[16]);var _0xad79x8f=_0xad79x8e[_0xb1e6[127]](_0xb1e6[106],_0xb1e6[16]);var _0xad79x90=document[_0xb1e6[18]](_0xb1e6[151])[_0xb1e6[27]]= _0xb1e6[326]+ _0xad79x8f;var _0xad79x91=document[_0xb1e6[82]](_0xb1e6[153]);var _0xad79x92= new google[_0xb1e6[276]][_0xb1e6[327]];_0xad79x92[_0xb1e6[333]]({'\x6C\x6F\x63\x61\x74\x69\x6F\x6E':_0xad79x89},function(_0xad79x93,_0xad79x94){if(_0xad79x94=== _0xb1e6[328]){if(_0xad79x93[0]){_0xad79x91[_0xb1e6[27]]= _0xb1e6[329]+ _0xad79x93[0][_0xb1e6[330]]}else {_0xad79x91[_0xb1e6[27]]= _0xb1e6[331]}}else {_0xad79x91[_0xb1e6[27]]= _0xb1e6[332]+ _0xad79x94}});marker=  new google[_0xb1e6[276]].Marker({position:_0xad79x89,draggable:true,animation:google[_0xb1e6[276]][_0xb1e6[335]][_0xb1e6[334]],map:map});map[_0xb1e6[336]](_0xad79x89)})}}initialize();var ws=document[_0xb1e6[18]](_0xb1e6[136])[_0xb1e6[125]];document[_0xb1e6[18]](_0xb1e6[338])[_0xb1e6[27]]= ws;$(_0xb1e6[340])[_0xb1e6[339]]({loop:false,margin:10,nav:true,responsive:{0:{items:1},600:{items:2},1000:{items:3}}});$(_0xb1e6[342])[_0xb1e6[192]](_0xb1e6[63],function(){$(_0xb1e6[342])[_0xb1e6[195]](_0xb1e6[341])});function goToPageayuda(){var _0xad79x45=document[_0xb1e6[18]](_0xb1e6[343])[_0xb1e6[31]];var _0xad79x97=document[_0xb1e6[18]](_0xb1e6[344])[_0xb1e6[31]];var _0xad79x98=document[_0xb1e6[18]](_0xb1e6[345])[_0xb1e6[31]];var _0xad79x49=document[_0xb1e6[18]](_0xb1e6[346])[_0xb1e6[31]];if(_0xad79x45== null|| _0xad79x45[_0xb1e6[144]]== 0|| /^\s+$/[_0xb1e6[170]](_0xad79x45)){return (document[_0xb1e6[18]](_0xb1e6[347])[_0xb1e6[27]]= _0xb1e6[348])};if(_0xad79x97== null|| _0xad79x97[_0xb1e6[144]]== 0|| /^\s+$/[_0xb1e6[170]](_0xad79x97)){return (document[_0xb1e6[18]](_0xb1e6[347])[_0xb1e6[27]]= _0xb1e6[349])};if(_0xad79x98== null|| _0xad79x98[_0xb1e6[144]]== 0|| /^\s+$/[_0xb1e6[170]](_0xad79x98)){return (document[_0xb1e6[18]](_0xb1e6[347])[_0xb1e6[27]]= _0xb1e6[350])};if(_0xad79x49== null|| _0xad79x49[_0xb1e6[144]]== 0|| /^\s+$/[_0xb1e6[170]](_0xad79x49)){return (document[_0xb1e6[18]](_0xb1e6[347])[_0xb1e6[27]]= _0xb1e6[351])};var _0xad79x5c=_0xb1e6[352]+ _0xb1e6[105]+ _0xb1e6[353]+ _0xb1e6[105]+ _0xb1e6[180]+ _0xb1e6[105]+ _0xb1e6[105]+ _0xb1e6[354]+ _0xb1e6[105]+ _0xad79x45+ _0xb1e6[98]+ _0xb1e6[105]+ _0xb1e6[105]+ _0xb1e6[355]+ _0xb1e6[105]+ _0xad79x97+ _0xb1e6[98]+ _0xb1e6[105]+ _0xb1e6[105]+ _0xb1e6[356]+ _0xb1e6[105]+ _0xad79x98+ _0xb1e6[98]+ _0xb1e6[105]+ _0xb1e6[180]+ _0xb1e6[105]+ _0xb1e6[105]+ _0xb1e6[357]+ _0xb1e6[98]+ _0xb1e6[358];var _0xad79x5d= new MobileDetect(window[_0xb1e6[185]][_0xb1e6[184]]);if(_0xad79x5d[_0xb1e6[186]]()){window[_0xb1e6[190]](document[_0xb1e6[18]](_0xb1e6[188])[_0xb1e6[187]]= _0xb1e6[189]+ _0xad79x5c)}else {window[_0xb1e6[190]](document[_0xb1e6[18]](_0xb1e6[188])[_0xb1e6[187]]= _0xb1e6[191]+ _0xad79x5c)}}
+/*
+pedido_store : Variable del tipo objeto que se encargara de 
+registrar que productos y en que cantidad han sido seleccionados
+en el pedido
+*/
+const pedido_store = {
+    /*PROPIEDAD : TIPO LISTA DE OBJETOS*/
+    categories:{
+      //CATEGORIAS DE PRODUCTOS A OFERTAR
+      'C1':{
+      items:{
+
+        'I1':{
+            name:'GRATIS 7 días',
+                  price:0.00,
+            qty:0,
+            img:'img/whatsapp-marketing-gratis.webp',
+
+            detalles:'<ul class="features"><li><i></i> Licencia GRATIS</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Chatbot/autorespuestas</li><li></i> Módulo de reportes</li><li><i "></i> Extractor de Grupos</li><li class="disabled-option"> <span class="">Filtro de Números</span></li><li><span class="">Instalación Gratuita</span></li><li><span class="">Importar contactos desde chats</span></li><li><span class="">Programar envíos</span></li></ul>',
+            },
+        
+        'I2':{
+            name:'Licencia Mensual',
+                       price:19.99,
+            qty:0,
+            img:'img/whatsapp-masivo-precios-mensual.webp',
+            detalles:'<ul class="features"><li><i></i> Licencia 1 mes</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Chatbot/autorespuestas</li><li></i> Módulo de reportes</li><li><i "></i> Extractor de Grupos</li><li class="disabled-option"><i "></i> <span class="">Filtro de Números</span></li><li><span class="">Instalación Gratuita</span></li><li><span class="">Importar contactos desde chats</span></li><li><span class="">Programar envíos</span></li><li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación Personalizada</span></li></ul>',
+            },
+  
+        'I3':{
+            name:'Licencia Trimestral',
+           
+            price:59.99,
+            qty:0,
+            img:'img/whatsapp-masivo-precios-3-meses.webp',
+            detalles:'<ul class="features"><li><i></i> Licencia 3 mes</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Chatbot/autorespuestas</li><li></i> Módulo de reportes</li><li><i "></i> Extractor de Grupos</li><li class="disabled-option"><i "></i> <span class="">Filtro de Números</span></li><li><span class="">Instalación Gratuita</span></li><li><span class="">Importar contactos desde chats</span></li><li><span class="">Programar envíos</span></li><li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación Personalizada</span></li></ul>',
+            },
+        'I4':{
+            name:'Licencia Semestral',
+           
+            price:119.99,
+            qty:0,
+            img:'img/whatsapp-masivo-precios-6-meses.webp',
+            detalles:'<ul class="features"><li><i></i> Licencia 6 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Chatbot/autorespuestas</li><li></i> Módulo de reportes</li><li><i "></i> Extractor de Grupos</li><li class="disabled-option"><i "></i> <span class="">Filtro de Números</span></li><li><span class="">Instalación Gratuita</span></li><li><span class="">Importar contactos desde chats</span></li><li><span class="">Programar envíos</span></li><li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación Personalizada</span></li><li><span class="masc">WhatsApp Ecomerce</span></li><li><span class="masc">Chat Multiagente Web</span></li></ul>',
+            },
+        'I5':{
+        //NOMBRE DEL ITEM
+        name:'Licencia Anual',
+        //PRECIO BASE DEL ITEM
+       
+        price:239.99,
+        //CANTIDAD ESCOGIDA DEL ITEM
+        qty:0,
+        //FUENTE DE LA IMAGEN
+        img:'img/whatsapp-marketing-precios.webp',
+        detalles:'<ul class="features"><li><i></i> Licencia 12 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Chatbot/autorespuestas</li><li></i> Módulo de reportes</li><li><i "></i> Extractor de Grupos</li><li class="disabled-option"><i "></i> <span class="">Filtro de Números</span></li><li><span class="">Instalación Gratuita</span></li><li><span class="">Importar contactos desde chats</span></li><li><span class="">Programar envíos</span></li><li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación Personalizada</span></li><li><span class="masc">WhatsApp Ecomerce</span></li><li><span class="masc">Chat Multiagente Web</span></li><li><span class="masc">Extensión Chrome</span></li><li><span class="masc">Envío Masivo a Bases de Datos</span></li></ul>',
+        },
+        
+        
+       
+        
+      },
+        /*NOMBRE CATEGORIA*/
+        namec:'Servicio Destacado:',
+      },
+      // 'C2':{
+      //    items:{
+          
+      //     'I1':{
+      //       //NOMBRE DEL ITEM
+      //       name:'Mascara Led con Cuello 7 Colores',
+      //       //PRECIO BASE DEL ITEM
+      //       price:123.20,
+      //       //CANTIDAD ESCOGIDA DEL ITEM
+      //       qty:0,
+      //       //FUENTE DE LA IMAGEN
+      //       img:'equipo1.jpg',
+      //       },
+      //       'I2':{
+      //       name:'LUPA CON PEDESTAL',
+      //       price:127.00,
+      //       qty:0,
+      //       img:'equipo2.jpg',
+      //       },
+      //       'I3':{
+      //       name:'EQUIPO 4 EN 1 MICRO GALVÁNICA',
+      //       price:343.00,
+      //       qty:0,
+      //       img:'equipo3.jpg',
+      //       },
+      //       'I4':{
+      //       name:'PRESOTERAPIA',
+      //       price:518.00,
+      //       qty:0,
+      //       img:'equipo4.jpg',
+      //       },
+      //   },
+      //   namec:'Equipos',
+      // },
+      // 'C3':{
+      //   items:{
+         
+      //     'I1':{
+      //       //NOMBRE DEL ITEM
+      //       name:'CAMILLA FACIAL Y CORPORAL MÁS TABURETE',
+      //       //PRECIO BASE DEL ITEM
+      //       price:275.00,
+      //       //CANTIDAD ESCOGIDA DEL ITEM
+      //       qty:0,
+      //       //FUENTE DE LA IMAGEN
+      //       img:'mobiliario1.jpg',
+      //       },
+      //       'I2':{
+      //       name:'CAMILLA FACIAL Y CORPORAL',
+      //       price:350.00,
+      //       qty:0,
+      //       img:'mobiliario2.jpg',
+      //       },
+      //       'I3':{
+      //       name:'MESA 3 NIVELES BLANCA CON CAJÓN',
+      //       price:80.00,
+      //       qty:0,
+      //       img:'mobiliario3.jpg',
+      //       },
+      //       'I4':{
+      //       name:'MESA DE 2 NIVELES CON CAJÓN',
+      //       price:120.00,
+      //       qty:0,
+      //       img:'mobiliario4.jpg',
+      //       },
+      //   },
+      //   namec:'Mobiliario',
+      // }
+    },
+    // items:{
+    // 'I1':{
+    //   //NOMBRE DEL ITEM
+    //   name:'Papas Fritas',
+    //   //PRECIO BASE DEL ITEM
+    //   price:1.99,
+    //   //CANTIDAD ESCOGIDA DEL ITEM
+    //   qty:0,
+    //   //FUENTE DE LA IMAGEN
+    //   img:'papas.png',
+    // },
+    // 'I2':{
+    //   name:'Hamburguesa',
+    //   price:2.99,
+    //   qty:0,
+    //   img:'hamburguesa.png',
+    // },
+    // 'I3':{
+    //   name:'Pizza',
+    //   price:1.99,
+    //   qty:0,
+    //   img:'pizza.png',
+    // },
+    // 'I4':{
+    //   name:'Alitas BBQ',
+    //   price:5.99,
+    //   qty:0,
+    //   img:'alitas.png',
+    //   },
+    // },
+    //DATOS A CONTROLAR DEL USUARIO
+    user_data:{
+      user_name:{
+        //VALOR ACTUAL EN EL CAMPO
+        value:'',
+        //ERROR A DESPLEGAR EN CASO DE NO RELLENAR CAMPO
+        error:'',
+      },
+      user_phone:{
+        value:'',
+        error:'',
+      },
+      user_dir:{
+        value:'',
+        error:'',
+      },
+      user_zone:{
+        value:'',
+        error:'',
+      },
+      user_mail:{
+        value:'',
+        error:'',
+      }
+    }
+  };
+  //CONTROLADORES DEL DIALOGO/MODAL
+  var dialog = document.getElementById('myFirstDialog');    
+  /*document.getElementById('show').onclick = function() {    
+      //MOSTRAR DIALOGO
+      dialog.show();    
+  };*/    
+  /*  document.getElementById('hide').onclick = function() {    
+        //OCULTAR DIALOGO
+        dialog.close();    
+  };*/
+  let menu_sections = '';    
+  const categories = document.getElementById('menu-sections');
+  Object.entries(pedido_store.categories).forEach(([key,item],ind) => {
+    menu_sections = menu_sections + `<div class="section-item"><a href="#${key}a">${item.namec}</a></div>`;
+  });
+  categories.innerHTML = menu_sections;
+  
+  /*
+  PARA LOS METODOS DE ALTERACION DE CANTIDAD ELEGIDA DE UNO U OTRO ITEM
+  USAREMOS EL ID DE LA CATEGORIA Y EL ID DEL ITEM SELECCIONADO PARA CONTROLAR LAS CANTIDADES
+  */
+  const newCancel = (target,catg_id) => {
+    //SE ELIMINAN LA CANTIDAD ASIGNADA A UN ITEM OBJETIVO (SE VUELVE 0)
+    pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty']=0;
+    console.log(pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty']);
+    document.getElementById(`${catg_id}-${target}-qty`).value = pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty'];
+    addItemToShoppingCart();
+  }
+  
+  const newPlus = (target,catg_id) => {
+    //SE LE SUMA 1 A LA CANTIDAD DEL ITEM OBJETIVO
+    pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty']++;
+    document.getElementById(`${catg_id}-${target}-qty`).value =  pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty'];
+    addItemToShoppingCart();
+  }
+  
+  const newMinus = (target,catg_id) => {
+    //SE LE RESTA 1 A LA CANTIDAD DEL ITEM OBJETIVO MIENTRAS EL RESULTADO SEA MAYOR O IGUAL A 0
+    //ASI SE DEBEN EVITAR CANTIDADES NEGATIVAS
+    if( pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty']-1 >= 0){
+    pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty']--;
+    document.getElementById(`${catg_id}-${target}-qty`).value =  pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty'];
+    addItemToShoppingCart();
+    }
+  }
+  /*CON ESTA FUNCION GENERAMOS EL CONTROLADOR GRAFICO DE CADA ITEM
+  EN FUNCION DE CUANTOS ITEMS TENGAMOS EN NUESTRA VARIABLE GLOBAL*/
+  const ItemCreator = (itemList,catg_id) => {
+  
+    let IM = ``;
+  
+    Object.entries(itemList).forEach(([key,item],ind) => {
+      IM = IM + 
+      `<div class="item-card">
+  
+        <div class="item shadow mb-4">
+          
+          <div class="modal-container">
+     
+           <img class="item-image" src="${item.img}">
+          </div>
+          <div class="containerpro">
+
+          <h4 class="item-price">$${item.price}</h4>
+          <h3 class="item-title" id="">${item.name}</h3>
+          <div class="item-details">
+          <p class="item-price">${item.detalles}</p>
+         
+            
+            <div class="item_cantidadg">
+            <div class="item_cantidadt">
+              <button id="${catg_id}-${key}-m" class="minus" ></button>
+              <input class="quantity item_cantidad " type="number" name="" min="0" value=${item.qty}  id="${catg_id}-${key}-qty">
+              <button id="${catg_id}-${key}-p" class="plus"></button>
+            </div>    
+            </div>                     
+          </div>
+          </div>
+        </div>
+      </div>`;
+    });
+  
+    return IM;
+  }
+  //RECORREMOS CADA CATEGORIA
+  Object.entries(pedido_store.categories).forEach(([key,item],ind) => {
+    //GENERAMOS UN MENU CONTENEDOR POR CATEGORIA
+    let container = document.createElement("section");
+    container.id = `menu-container-${key}`;
+    container.classList.add("item-menu");
+  
+    container.innerHTML = `<p class="pcategory" id=${key+"a"}>${item.namec}</p>`;//new added
+  
+  
+  
+  
+    //GENERAMOS EL CONTENEDOR DE LOS PRODUCTOS DE LA CATEGORIA
+    let menu_sec = document.createElement("div");
+    menu_sec.id=key;
+    menu_sec.classList.add("row");
+    menu_sec.classList.add("owl-carousel");
+    //GENERAMOS NUESTROS PRODUCTOS
+    let menu_sec_items = ItemCreator(item.items,key);
+    //ASIGNAMOS ETIQUETAS AL DIV OBJETIVO 
+    menu_sec.innerHTML = menu_sec_items;
+    //INSERTAMOS EN EL CONTENEDOR POR CATEGORIA LOS PRODUCTOS GENERADOS
+    container.appendChild(menu_sec);
+    //INSERTAMOS EN EL SLIDER NUESTRO CONTENEDOR DE LA CATEGORIA
+    document.getElementById('slides-container').appendChild(container);
+  });
+  
+  Object.entries(pedido_store.categories).forEach(([key,item],ind) => {
+    Object.entries(item.items).forEach(([_key,_item],_ind)=> {
+      document.getElementById(`${key}-${_key}-m`).addEventListener("click",() => {
+        newMinus(_key,key);
+      });
+      document.getElementById(`${key}-${_key}-p`).addEventListener("click",() => {
+        newPlus(_key,key);
+      });
+    });
+  });
+  
+  Object.entries(pedido_store.user_data).forEach(([key,item],ind) => {
+    document.getElementById(`${key}`).addEventListener("change",(ev) => {
+      pedido_store.user_data[`${key}`] = ev.target.value;
+    });
+  });
+  //CONTROLADOR DE EVENTO EN CASO DE SUBMIT
+  
+  document.getElementById(`gform`).addEventListener("submit",(ev) => {
+      ev.preventDefault();
+      let errors ='';
+      //RECORREMOS CADA VALOR DEL OBJETO CONTROLADOR DE LA DATA DEL FORMULARIO
+      Object.entries(pedido_store.user_data).forEach(([key,item],ind) => {
+        //SI EL CAMPO PRESENTA VALOR '' Y EL MISMO TIENE UN ERROR A MOSTRAR
+        //CARGAREMOS EN NUESTRO MODAL/DIALOGO EL MENSAJE DE ERROR DE DICHO CAMPO
+        if( (item.value === '' || item.value==="*") && item.error !== ''){
+         errors += `<h4>${item.error}</h4>`;
+        }
+      });
+      if(errors !== ''){
+        document.getElementById(`order-msg`).innerHTML = errors;
+       
+        //dialog.show();
+        $(".orderDialog").fadeIn(1000);
+        setTimeout(function() {
+          $(".orderDialog").fadeOut(1000);
+          //dialog.close();
+        },2000);
+      }
+  });
+
+
+  
+   
+  const comprarButton = document.querySelector('.comprarButton');
+  comprarButton.addEventListener('click', comprarButtonClicked);
+  
+  const shoppingCartItemsContainer = document.querySelector(
+    '.shoppingCartItemsContainer'
+   
+  );
+  
+  
+  /*
+  function addToCartClicked(event) {
+  
+    const button = event.target;
+    const item = button.closest('.item');
+    const itemTitle = item.querySelector('.item-title').textContent;
+    const itemPrice = item.querySelector('.item-price').textContent;
+    const itemImage = item.querySelector('.item-image').src;
+    const itemCantidad = item.querySelector('.item_cantidad').value;
+    const itemtotal = item.querySelector('.item_total');
+  
+    //addItemToShoppingCart(itemTitle, itemPrice, itemImage, itemCantidad, itemtotal);
+  }
+  */
+  
+  //FUNCION PARA GENERAR LOS ITEMS QUE SE ESTEN SOLICITANDO EN EL CARRITO
+  //SI Y SOLO SI ESTOS TIENEN UNA CANTIDAD SOLICITADA MAYOR A 0
+  const ItemCheckout = (itemList) => {
+    let productoslist="";
+    let productoslist2="";
+    let productocategory="";
+    let cart_content = '';
+  
+    var productoslistcategorya=document.getElementById('fantasma');
+    var productoslistcategorya2=document.getElementById('entry.1625517509');
+    var pushlistadeproducots=document.querySelector('.pedidocli');
+  
+    Object.entries(itemList).forEach(([key,_item],_ind) =>{
+      let cart_catg = '';
+      Object.entries(_item.items).forEach(([_key,item],ind) => {
+        if(cart_catg === '' && item.qty > 0){
+          cart_catg = `<h4>${_item.namec}</h4>`;
+          cart_content = cart_content + cart_catg;
+          
+        }
+      });
+  
+      Object.entries(_item.items).forEach(([_key,item],ind) => {
+      if(item.qty > 0){
+      cart_content = cart_content + 
+      `<div class=" shoppingCartItem">
+        <span>
+            <div class="shopping-cart-item" >
+                <img class="imgpedido" src=${item.img} class="shopping-cart-image">
+                <h6 class="shopping-cart-item-title shoppingCartItemTitle text-truncate ml-3 mb-0  " id="itemtitulowa">${item.name}</h6>
+            </div>
+        </span>
+        <span>
+        <p class="item-price mb-0 shoppingCartItemPrice itempricewa" >$${item.price}</p>
+        </span>
+        <div class="item_cantidadt">
+          <button id="${key}-${_key}-m-s" class="minus" ></button>
+          <input class="quantity item_cantidad " type="number" name="" min="0" value=${item.qty}  id="${key}-${_key}-qty">
+          <button id="${key}-${_key}-p-s" class="plus"></button>
+        </div>
+        <span class="xcerrar">
+          <p class="item-total mb-0 shoppingCartItemTotal itemtotal" >$${Number.parseFloat(item.qty*item.price).toFixed(2)}</p>
+  
+          <button class="btn btn-danger buttonDelete" type="button" id="${key}-${_key}-c"><span class="icon-bin"></span> </button>
+        
+        </span>
+      </div>`
+  
+      productoslist += item.qty+"%20"+"*x*"+"%20"+"*|*"+"%20"+item.name+"%20"+"*|*"+"%20"+"precio"+"%20"+"$"+ item.price+"%20"+"*|*"+"%20"+"*total:*"+"%20"+"$"+(item.qty*item.price).toFixed(2)+"\n"+"%0A";
+        
+      productoslist2 += item.qty+" "+"x"+" "+"|"+" "+item.name+"\n";
+      
+  
+        }
+      });
+    });
+    productoslistcategorya.innerHTML=`${productoslist}`;
+    productoslistcategorya2.innerHTML=`${productoslist2}`;
+    return cart_content;
+  }
+  
+  function addItemToShoppingCart(/*itemTitle, itemPrice, itemImage, itemCantidad, itemtotal*/) {
+  
+    document.getElementById('cart_list').innerHTML = ItemCheckout(pedido_store.categories);
+    let cart_amt =0;
+    Object.entries(pedido_store.categories).forEach(([key,item],ind) =>{
+      Object.entries(item.items).forEach(([_key,_item],_ind) => {
+      if(_item.qty > 0){
+        document.getElementById(`${key}-${_key}-m-s`).addEventListener("click",() => {
+          newMinus(_key,key);
+        });
+        document.getElementById(`${key}-${_key}-p-s`).addEventListener("click",() => {
+          newPlus(_key,key);
+        });
+        document.getElementById(`${key}-${_key}-c`).addEventListener("click",() => {
+          newCancel(_key,key);
+        });
+        cart_amt += _item.qty;
+      }
+      });
+    });
+     if(cart_amt > 0){
+      document.getElementById('cart_amt').innerHTML = `${cart_amt}`;
+      setTimeout(function() {
+      $(".unowhat").fadeIn(1000);
+      },500);
+     }
+     else{
+      setTimeout(function() {
+      $(".unowhat").fadeOut(1000);
+      },500);
+  }
+   
+    updateShoppingCartTotal(pedido_store.categories);
+  }
+
+
+  
+  
+  
+    function ertd(){
+  
+    var leteryu = document
+      .getElementById('cardnegocioid')
+      .innerHTML =  shoppingCartItemsContainer.childElementCount;
+  
+    }
+  
+  
+    
+  
+  function updateShoppingCartTotal(itemList) {
+  
+    let cartTotal = 0;
+    Object.entries(itemList).forEach(([key,item],ind) => {
+      //cartTotal += item.price*item.qty;
+      Object.entries(item.items).forEach(([_key,_item],_ind)=> {
+        cartTotal += _item.price*_item.qty;
+      });
+    });
+  
+    
+    document.querySelector('.shoppingCartTotal').innerHTML=`$${Number.parseFloat(cartTotal).toFixed(2)}`;
+  
+  
+    
+    let cartTotal3 = cartTotal;
+  
+  
+    var qqq=document.querySelector('.shoppingCartTotal2').innerHTML=`$${cartTotal3.toFixed(2)}`;
+    // console.log("updateShoppingCartTotal -> qqq", qqq)
+  
+    
+    var qwey=qqq;
+  
+    document.getElementById('entry.985986529').innerHTML=qwey;
+  
+  
+  
+    document.querySelector('.shoppingCartcambio').innerHTML=`$${cartTotal3.toFixed(2)}`;
+  
+  
+    let cartTotal4 = cartTotal;
+  
+  
+    var selectoptionq=document.getElementById('entry.686290451');
+    
+    
+    selectoptionq.addEventListener('change', function(){
+      
+      var recepoptionq=selectoptionq.value;
+    
+       document.querySelector('.deliverysub2').innerHTML=`$${Number(recepoptionq).toFixed(2)}`;
+    
+      cartTotal4=cartTotal + Number(recepoptionq);
+  
+  
+    document.querySelector('.shoppingCartcambio').innerHTML=`$${cartTotal4.toFixed(2)}`;
+    
+    });  // bubtotal ,bubtotal 2 y cambio 
+  
+  
+  
+  
+  
+  
+  
+    var def=document.querySelector('.monto');
+  
+    def.addEventListener('keyup', function(){
+  
+      var recepoptionc=def.value;
+  
+       document.querySelector('.monto').innerHTML=`$${Number(recepoptionc).toFixed(2)}`;
+  
+       var wert=document.getElementById('totalwa3').textContent;
+  
+       var total4a= Number(wert.replace('$',''));
+  
+    var  cartTotal4a= recepoptionc - total4a ;
+  
+    // var totalfp = Number(
+    //   totalf.replace('$', ''));
+    
+      document.getElementById('entry.580204725').innerHTML=`$${cartTotal4a.toFixed(2)}`;
+  
+    
+      if(recepoptionc===''){
+  
+        document.getElementById('entry.580204725').innerHTML=`$0,00`;
+      }
+  });
+  
+  
+  
+  
+  
+  // 
+  
+  let cartTotal2 = cartTotal;
+  
+  
+  var selectoption=document.getElementById('entry.686290451');
+  
+  
+  selectoption.addEventListener('change', function(){
+    
+    var recepoption=selectoption.value;
+  
+   
+  
+  
+     document.querySelector('.deliverysub').innerHTML=`$${Number(recepoption).toFixed(2)}`;
+  
+    
+  
+  
+  
+    cartTotal2=cartTotal + Number(recepoption);
+  
+  
+  
+  
+  
+    var quitardelivery = document.querySelector(".deliveryoper");
+  
+    
+   
+    
+    quitardelivery.onclick = function(){
+  
+        document.querySelector('.deliverysub2').innerHTML=`$${Number(0).toFixed(2)}`;
+  
+        cartTotal2=cartTotal+ Number(0);
+    
+        document.querySelector('.shoppingCartcambio').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+   
+  
+      
+  
+        document.querySelector('.deliverysub').innerHTML=`$${Number(0).toFixed(2)}`;
+  
+        cartTotal2=cartTotal+ Number(0);
+  
+       
+  
+      document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+      
+    }
+    
+    var eee=document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+  
+  
+    var qxx=eee;
+      
+    document.getElementById('entry.802449909').innerHTML=qxx;
+  
+  
+  });
+  
+  
+  var eee=document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+  
+  
+  var qxx=eee;
+    
+  document.getElementById('entry.802449909').innerHTML=qxx;
+  
+  // 
+  
+  
+  
+  // 
+  
+  var quitardelivery2 = document.querySelector(".deliveryoperr");
+  
+  
+  
+  quitardelivery2.onclick = function(){
+  
+    document.querySelector('.deliverysub2').innerHTML=`$${Number(0).toFixed(2)}`;
+  
+    cartTotal2=cartTotal+ Number(0);
+  
+  
+    document.querySelector('.shoppingCartcambio').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+    
+  
+    document.querySelector('.deliverysub').innerHTML=`$${Number(0).toFixed(2)}`;
+  
+    cartTotal2=cartTotal+ Number(0);
+  
+   
+  
+    
+  
+    var eee=document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+  
+  }
+  
+  
+  
+  
+  
+  // document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+  
+    var eee=document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+    
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  function removeShoppingCartItem(event) {
+    /*const buttonClicked = event.target;
+    buttonClicked.closest('.shoppingCartItem').remove();*/
+    updateShoppingCartTotal(pedido_store.categories);
+   
+  }
+  
+  function quantityChanged(event) {
+    /*const input = event.target;
+    input.value <= 0 ? (input.value = 1) : null;*/
+    updateShoppingCartTotal(pedido_store.categories); 
+  }
+  
+  
+  
+  function comprarButtonClicked() {
+    shoppingCartItemsContainer.innerHTML = '';
+    updateShoppingCartTotal();
+   
+  
+  }
+  
+  
+  
+  
+  $(".ordernumber").val(function(){
+    return document.getElementById('intro').innerHTML=Math.floor(Math.random() * 999) + 1000
+  
+  })
+  
+  
+  
+  
+  
+  
+  function goToPage(){
+    
+  
+    var orden = document.querySelector('.ordernumber').value;  
+  
+    // var email = document.getElementById('entry.1156212193').value;
+    // var whatsapp = document.getElementById('entry.1632691641').value;
+  
+    // var delivery = document.getElementById('entry.686290451').value;
+  
+    // var direccion = document.getElementById('entry.150273747').value;
+    
+    // var nombre = document.getElementById('entry.2030044025').value;
+  
+    var totalf = document.getElementById('totalwa').textContent;
+  
+  
+    var data1 = document.getElementsByName('entry.2030044025');
+  
+  
+    for (var i = 0, length = data1.length; i < length; i++) {
+      if (data1[i]) {
+     
+        var nombre = (data1[i].value+"%0A");
+    
+     
+    
+      }
+    
+      if (nombre=== undefined) {
+        nombre = '';
+        
+    
+    }
+  
+    if (nombre=== "%0A") {
+      nombre = '';
+      
+  
+  }
+    }
+  
+    var data2 = document.getElementsByName('entry.1156212193');
+  
+  
+    for (var i = 0, length = data2.length; i < length; i++) {
+      if (data2[i]) {
+     
+        var email = (data2[i].value+"%0A");
+    
+     
+    
+      }
+    
+      if (email=== undefined) {
+        email = '';
+        
+    
+    }
+  
+    if (email=== "%0A") {
+      email = '';
+      
+  
+  }
+    }
+  
+    var data3 = document.getElementsByName('entry.1632691641');
+  
+  
+    for (var i = 0, length = data3.length; i < length; i++) {
+      if (data3[i]) {
+     
+        var whatsapp = (data3[i].value+"%0A");
+    
+     
+    
+      }
+    
+      if (whatsapp=== undefined) {
+        whatsapp = '';
+        
+    
+    }
+  
+    if (whatsapp=== "%0A") {
+      whatsapp = '';
+      
+  
+  }
+    }
+  
+  
+    var data4 = document.getElementsByName('entry.686290451');
+  
+  
+    for (var i = 0, length = data4.length; i < length; i++) {
+      if (data4[i]) {
+     
+        var delivery = (data4[i].value);
+    
+     
+    
+      }
+    
+      if (delivery=== undefined) {
+        delivery = '';
+        
+    
+    }
+  
+    if (delivery=== "%0A") {
+      delivery = '';
+      
+  
+  }
+  
+  
+    }
+  
+  
+  //   var data5 = document.getElementsByName('entry.803987817');
+  
+  
+  //   for (var i = 0, length = data5.length; i < length; i++) {
+  //     if (data5[i]) {
+     
+  //       var direccion = ("*Dirección:*"+"%20"+data5[i].value+"%0A");
+    
+     
+    
+  //     }
+    
+  //     if (direccion=== undefined) {
+  //       direccion = '';
+        
+    
+  //   }
+  
+  //   if (direccion=== "%0A") {
+  //     direccion = '';
+      
+  
+  // }
+  
+  
+  //   }
+  
+  
+  
+    var totalfp = Number(
+      totalf.replace('$', '')
+    );
+    
+    // if(  totalfp <= 10|| /^\s+$/.test(totalfp) )  {
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Tu pedido mínimo debe ser de $10.00")
+  
+    
+  //     document.getElementById("demo").innerHTML =
+  //      "Aún no haz selecionado prodcutos"
+  
+  //         $('.demo').addClass('showmsg');
+  
+  
+  //         setTimeout(function() {
+  //           $(".showmsg").fadeOut(1500);
+  //           },500);
+          
+    
+  // }
+  
+  
+  var dia = document.getElementById('entry.1164560529').value;
+    
+  var hora = document.getElementById('entry.404593967').value;
+  
+  
+  
+    
+  var reservad = document.getElementsByName('entry.1067299390');
+      
+      
+  for (var i = 0, length = reservad.length; i < length; i++) {
+    if (reservad[i].checked===true) {
+  
+  
+  
+        var geolocal="%0A"+document.getElementById('entry.1441018699').textContent;
+  
+  
+      var direccion = document.getElementById('entry.803987817').value;
+      //docs.google.com/forms/d/e/1FAIpQLSclWHdimbOn2b18CPRaSz5RVoeLA-pxJudums5VtjnYhuVSRg/viewform?usp=pp_url&entry.1441018699=geolocalizacion&entry.2092178738=direccionmaps
+     
+  
+      var dmap="%0A"+document.querySelector(".address").textContent;
+  
+      var opcionlocal = ("Opción de entrega"+"%0A"+reservad[i].value+"%20"+direccion+dmap+geolocal);
+      // return  (document.getElementById("").innerHTML =
+      //   "Ingresa tu número de cédula");
+  
+      // if(geolocal==="%0A                            "){
+      //   geolocal = '';
+  
+      // }
+      // if(dmap="%0A                            "){
+      //   dmap = '';
+  
+      // }
+  
+      // if(direccion="%0A                            "){
+      //   direccion = '';
+  
+      // }
+    
+    }
+  
+    if ( opcionlocal=== undefined) {
+      opcionlocal = '';
+    
+  }
+  
+  if (opcionlocal=== "%0A") {
+    opcionlocal = '';
+    
+  }
+  
+  }
+  
+  
+  var reservad = document.getElementsByName('entry.398428276');
+      
+      
+  for (var i = 0, length = reservad.length; i < length; i++) {
+    if (reservad[i].checked===true) {
+  
+      var dia = document.getElementById('entry.1164560529').value;
+    
+  var hora = document.getElementById('entry.404593967').value;
+  
+  
+      var opcionlocal = ("Opción de entrega"+"%0A"+reservad[i].value+"%0A" +dia+"%20"+hora);
+      // return  (document.getElementById("").innerHTML =
+      //   "Ingresa tu número de cédula");
+    
+    }
+  
+    if ( opcionlocal=== undefined) {
+      opcionlocal = '';
+    
+  }
+  
+  if (opcionlocal==="%0A") {
+    opcionlocal = '';
+    
+  }
+  
+  }
+  
+  
+  var reservad = document.getElementsByName('entry.1612018657');
+      
+      
+  for (var i = 0, length = reservad.length; i < length; i++) {
+    if (reservad[i].checked===true) {
+  
+      
+  
+  
+      var opcionlocal = ("Opción de entrega"+"%0A"+reservad[i].value);
+      // return  (document.getElementById("").innerHTML =
+      //   "Ingresa tu número de cédula");
+    
+    }
+  
+    if ( opcionlocal=== undefined) {
+      opcionlocal = '';
+    
+  }
+  
+  if (opcionlocal==="%0A") {
+    opcionlocal = '';
+    
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  var radios = document.getElementsByName('entry.696366128');
+  
+  
+  for (var i = 0, length = radios.length; i < length; i++) {
+    if (radios[i].checked) {
+   
+      var retornapagos ="💳*Forma de pago:* %20"+ (radios[i].value);
+  
+   
+  
+    }
+  
+    if (retornapagos=== undefined) {
+      retornapagos = '';
+      
+  
+  }
+  
+  
+  if (retornapagos=== "%0A") {
+    retornapagos = '';
+    
+  
+  }
+  }
+  
+  var radios = document.getElementsByName('entry.1405646315');
+  
+  
+  for (var i = 0, length = radios.length; i < length; i++) {
+    if (radios[i].checked) {
+   
+      var retornapagos ="*💳Forma de pago:* %20"+ (radios[i].value);
+  
+      var cambio="%0ACambio:%20"+ document.getElementById('entry.580204725').textContent;
+  
+    }
+  
+    if (retornapagos=== undefined) {
+      retornapagos = '';
+      
+  
+  }
+  
+  if (cambio=== undefined) {
+    cambio = '';
+    
+  
+  }
+  
+  
+  if (cambio=== "%0A") {
+    cambio = '';
+    
+  
+  }
+  
+  
+  
+  
+  
+  if (retornapagos=== "%0A") {
+    retornapagos = '';
+    
+  
+  }
+  }
+  
+  var radios = document.getElementsByName('entry.1179942020');
+  
+  
+  for (var i = 0, length = radios.length; i < length; i++) {
+    if (radios[i].checked) {
+   
+      var retornapagos ="*💳Forma de pago:* %20"+ (radios[i].value)+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+"%0A"+"*Haz una captura y envíanos por aquí* 👇";
+   
+  
+    }
+  
+    if (retornapagos=== undefined) {
+      retornapagos = '';
+      
+  
+  }
+  
+  if (retornapagos=== "%0A") {
+    retornapagos = '';
+    
+  
+  }
+  }
+  
+  var radios = document.getElementsByName('entry.2095367105');
+  
+  
+  for (var i = 0, length = radios.length; i < length; i++) {
+    if (radios[i].checked) {
+   
+      var retornapagos ="*💳Forma de pago:* %20"+ (radios[i].value);
+  
+   
+  
+    }
+  
+    if (retornapagos=== undefined) {
+      retornapagos = '';
+      
+  
+  }
+  
+  if (retornapagos=== "%0A") {
+    retornapagos = '';
+    
+  
+  }
+  }
+  
+  
+  // cedula para facturar
+  // var facturafc = document.getElementsByClassName('facf');
+  
+  
+  // $('div.myClass');
+  
+  // $('.eti4').on('click', function(){
+  //   $('.datos4').addClass('show btnpagos');
+  //   $('.datos1').removeClass('show btnpagos');
+  //   $('.datos2').removeClass('show btnpagos');
+  //   $('.datos3').removeClass('show btnpagos');
+  // })
+  
+  // var wert="";
+  
+  // var wsd=document.getElementById('entry.709227128');
+  
+  
+   
+  //     if (document.getElementById("entry.709227128").checked = true) {
+     
+  //       var retornafc = wsd.value;
+    
+    
+  //     }
+    
+  //     if (retornafc=== undefined) {
+  //       retornafc = '';
+        
+  //     }
+  
+      var fact = document.getElementsByName('entry.709227128');
+  
+  
+      for (var i = 0, length = fact.length; i < length; i++) {
+        if (fact[i].checked) {
+       
+          var mostrarfac = (fact[i].value+"%0A");
+      
+       
+      
+        }
+      
+        if (mostrarfac=== undefined) {
+          mostrarfac = '';
+          
+      
+      }
+  
+      if (retornapagos=== "%0A") {
+        retornapagos = '';
+        
+      
+      }
+  
+      }
+  
+      var fact = document.getElementsByName('entry.2016983664');
+  
+  
+      for (var i = 0, length = fact.length; i < length; i++) {
+        if (fact[i].checked) {
+       
+          var mostrarfac = (fact[i].value+"%0A");
+      
+       
+      
+        }
+      
+        if (mostrarfac=== undefined) {
+          mostrarfac = '';
+          
+      
+      }
+  
+  
+  
+      if (retornapagos=== "%0A") {
+        retornapagos = '';
+        
+      
+      }
+      }
+  
+      var fact = document.getElementsByName('entry.1758756268');
+  
+  
+      for (var i = 0, length = fact.length; i < length; i++) {
+        if (fact[i].checked) {
+       
+          var mostrarfac = (fact[i].value+"%0A");
+      
+       
+      
+        }
+      
+        if (mostrarfac=== undefined) {
+          mostrarfac = '';
+          
+      
+      }
+  
+  
+      if (retornapagos=== "%0A") {
+        retornapagos = '';
+        
+      
+      }
+      }
+  
+  
+  
+  
+  
+      
+  var mostrarcedula=document.getElementById('entry.2420597').value+"%0A";
+  
+  
+  
+  
+  
+  
+  
+  var factm= document.getElementsByName('entry.2420597');
+  
+  
+  for (var i = 0, length = factm.length; i < length; i++) {
+    if (factm[i].checked) {
+   
+      var mostrarcedula = (factm[i].value+"%0A");
+  
+   
+  
+    }
+  
+    if (mostrarcedula=== undefined) {
+      mostrarcedula = '';
+      
+  
+  }
+  if (retornapagos=== "%0A") {
+    retornapagos = '';
+    
+  
+  }
+  }
+  
+    
+  
+  var mostrarpedidof=document.querySelector('.fantasma').textContent;
+  
+  // if( mostrarpedidof === ''|| /^\s+$/.test(totalfp) )  {
+  //   document.getElementById("demo").innerHTML =
+  //   "Aún no haz selecionado productos "
+  
+  // }
+    
+  // var mostrarpedidof2=document.querySelector('.ter').textContent;
+  // if(mostrarpedidof2 == null || mostrarpedidof2 .length == 0 || /^\s+$/.test(mostrarpedidof2 )) {
+  //   alert("Aún no seleccionas productos 😅");
+  
+  // }
+  
+  if(mostrarpedidof == null || mostrarpedidof .length == 0 || /^\s+$/.test(mostrarpedidof )) {
+    alert("Aún no seleccionas productos 😅");
+    return false;
+  }
+
+  if(nombre == null || nombre .length == 0 || /^\s+$/.test(nombre )) {
+    alert("Llena el campo con tus nombres completos 😅");
+    return false;
+  }
+    
+  if(email == null || email .length == 0 || /^\s+$/.test(email )) {
+    alert("Ingresa tu mejor correo electrónico 😅");
+    return false;
+  }
+    
+  if(whatsapp == null || whatsapp .length == 0 || /^\s+$/.test(whatsapp )) {
+    alert("Ingresa tu número de WhatsApp 😅");
+    return false;
+  }
+    
+  
+  // if(totalfp<= 10 || /^\s+$/.test(totalfp)) {
+  //   alert("tu pedido minimó debe ser de $100");
+  //   return false;
+  // }
+  
+    // if(  totalfp <= 10|| /^\s+$/.test(totalfp) )  {
+      // return (document.getElementById("demo").innerHTML =
+      // "Tu pedido mínimo debe ser de $10.00")
+    
+  // var qw= document.getElementById('latitude').textContent;
+  
+  
+  // var qa=qw.replace('(','');
+  // var az=qa.replace(')','');
+  // var zx=az.replace(' ','');
+  //   var  mapi = 'https://maps.google.com/?q='+zx;
+  
+  //   // mapi.innerHTML=`${mapi}`;
+  
+  //   document.getElementById('entry.1441018699').innerHTML=mapi;
+  
+  // $("#latitude").change(function() {
+  //   //Si el checkbox está seleccionado
+  //   if($(this).is(":change")) {
+      
+  //     document.getElementById('entry.1441018699').innerHTML=mapi;
+  
+  //   }
+  //   else {
+  //     alert("El checkbox no está seleccionado");
+  //   }
+  
+   
+  
+    
+  //   });
+    
+    
+  
+  
+  
+  
+  
+  // var mapi="";
+  
+  // var insertmapgs=document.getElementById("entry.1441018699");
+  
+  
+  // var qw= document.getElementById('latitude').textContent;
+  
+  
+  // var qa=qw.replace('(','');
+  // var az=qa.replace(')','');
+  // var zx=az.replace(' ',''); 
+  // // "-0.0897748,-78.4149483"
+  
+  
+  // mapi = 'https://maps.google.com/?q='+zx;
+  
+  
+  //     insertmapgs.innerHTML=`${mapi}`;
+    
+  
+  
+  
+  
+  
+  // var billete= document.getElementById('entry.580204725').textContent;
+  
+  
+  // for (var i = 0, length = billete.length; i < length; i++) {
+  //   if (billete[i].checked) {
+   
+  //     var cambio = (billete[i].value+"%0A");
+  
+   
+  
+  //   }
+  
+  //   if (cambio=== undefined) {
+  //     cambio = '';
+      
+  
+  // }
+  // if (cambio=== "%0A") {
+  //   cambio = '';
+    
+  
+  // }
+  // }
+  
+  // var myWindow = window.open ("https://midominio.com/"+"Demo Ecommerce BurgerKings" + "%20" + "%0A"+"✅  _Pedido confirmado_" + "Orden N°"+orden + "%0A"+"_________________________" + "%0A"+"%0A"+
+  //  "*Nombre*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*Email*" +"%0A" + email +  "%20" + "%0A"+"%0A"+"*Costo Delivery*"+"%0A" + delivery + "%20" +"%0A"+ "%0A"+"*Dirección con referencia*"+"%0A" +direccion+"%0A"+totalf+ pedidof+ "%0A"+"%0A"+
+  //   "%0A"+"%0A"+ "%0A" +"_________________________" + "%0A" + "%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como  para recibir 15 minutos antes el link de Zoom. Empezamos puntual 😉👍");
+  
+  
+  
+  // var myWindow = window.open("https://midominio.com/"+"*Demo Ecommerce FastFood*" + "%20" + "%0A"+"✅ *Pedido confirmado*"+"%0A"+"_Orden N°_"+ "%20"+"---"+"%20"+orden+"%20"+"---"+ "%0A"+"_________________________" + "%0A"+"%0A"+"*Tu pedido es:*"+ "%0A"+ "%0A"+mostrarpedidof+ "%0A"+ "%0A"+"*Total:*"+ "%20"+totalfp+ "%0A"+"_________________________"+ "%0A"+"%0A"+
+  //  "*Nombre:*" +"%20"+ nombre+"%0A"+"*Email:*" +"%20" + email+"%0A"+"*Costo Delivery:*"+"%20" + delivery+"%0A"+"*Dirección con referencia:*"+"%20" +direccion+"%0A" +"_________________________"  + "%0A"+"%0A"+"*Forma de pago:*"+"%0A"+ retornapagos+"%0A"+"%0A"+"*Total:*"+ "%20"+totalfp+"%0A"+"%0A"+ "_Para ver más demos ingresa al siguiente link:_"+"%0A");
+  
+  
+  
+  // }
+  
+  
+  
+  
+  // var whatsapp_number ="&text=*Demo WhatsApp Ecommerce*" + "%0A"+"*WhatBulkSender - WhatsEcom - 2020*"+ "%0A"+"✅ *Pedido confirmado*"+"%0A"+"_Orden N°_"+"%20"+ "%20"+"---"+"%20"+orden+"%20"+"---"+ "%0A"+"_________________________" + "%0A"+"*Tu pedido es:*"+ "%0A"+mostrarpedidof+ "%0A"+"Subotal:"+"%20"+ `$${totalfp.toFixed(2)}`+ "%0A"+"Delivery:"+"%20"+"$"+(Number(delivery)).toFixed(2)+ "%0A" +"*Total:*"+ "%20"+ "$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+ "%0A"+"_________________________"+ "%0A"+'*🙂Datos del Cliente:*'+ "%0A"+mostrarfac+"%20"+mostrarcedula+nombre+email+whatsapp+"%20"+"_________________________" +"%0A"+"*📍Datos de entrega:*"+"%0A"+opcionlocal+"%0A" +"_________________________"  + "%0A"+ retornapagos+ "%0A"  +"*Subtotal:*"+ "%20"+"$"+ totalfp.toFixed(2)+"%0A"+"*Delivery:*"+"%20"+"$"+`${(Number(delivery)).toFixed(2) }`+"%0A"+"*Total:*"+ "%20"+"$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+"%0A"+"*Orden N°:*"+ "%20"+orden;
+    
+  
+  
+  var whatsapp_number ="&text=*Orden exitosa*" + "%0A"+"*WhatsBulkSender-2021*"+ "%0A"+"✅ *Detalle de la orden:*"+"%0A"+"_Orden N°_"+"%20"+ "%20"+"---"+"%20"+orden+"%20"+"---"+ "%0A"+"_________________________" + "%0A"+mostrarpedidof+ "%0A"+"*Total:*"+ "%20"+ "$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+ "%0A"+"_________________________"+ "%0A"+'*🙂Datos del Cliente:*'+ "%0A"+mostrarfac+"%20"+mostrarcedula+nombre+email+whatsapp+"%20"+"_________________________" +"%0A"+ retornapagos+cambio+"%0A"+"*Total:*"+ "%20"+"$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+"%0A"+"%0A"+"*Orden N°:*"+ "%20"+orden;
+    
+    
+    
+    
+     var md = new MobileDetect(window.navigator.userAgent);
+     if (md.mobile()) {
+     
+  
+    //   if (mostrarpedidof===''){
+  
+     
+     
+    //     document.getElementById("demo").innerHTML =
+    //        "Aún no haz selecionado prodcutos"
+  
+    //       $('.demo').addClass('showmsg');
+  
+  
+    //       setTimeout(function() {
+    //         $(".showmsg").fadeOut(1500);
+    //         },500);
+          
+        
+        
+  
+  
+    //     // return (document.getElementById("demo").innerHTML =
+    //     //   "Aún no haz selecionado prodcutos")
+    //   }
+    //  else{
+      window.open(document.getElementById("enviarwa").href = "https://api.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+    //  }
+        
+      
+  
+    
+       
+  
+      
+     
+  
+     } else {
+     
+       window.open(document.getElementById("enviarwa").href = "https://web.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+  
+      
+  
+  
+     }
+  
+  
+   
+  
+     
+  }
+  
+  $("#boton").on("click",function(event){
+    event.preventDefault();
+  });
+  
+  
+  
+  // animacion formas de pago 
+  
+  $('.eti1').on('click', function(){
+    $('.datos1').addClass('show btnpagos');
+   
+    $('.datos2').removeClass('show btnpagos');
+    $('.datos3').removeClass('show btnpagos');
+    $('.datos4').removeClass('show btnpagos');
+  
+  })
+  
+  
+  $('.eti2').on('click', function(){
+    $('.datos2').addClass('show btnpagos');
+    $('.datos1').removeClass('show btnpagos');
+    $('.datos3').removeClass('show btnpagos');
+    $('.datos4').removeClass('show btnpagos');
+  })
+  
+  $('.eti3').on('click', function(){
+    $('.datos3').addClass('show btnpagos');
+    $('.datos1').removeClass('show btnpagos');
+    $('.datos2').removeClass('show btnpagos');
+    $('.datos4').removeClass('show btnpagos');
+  })
+  
+  $('.eti4').on('click', function(){
+    $('.datos4').addClass('show btnpagos');
+    $('.datos1').removeClass('show btnpagos');
+    $('.datos2').removeClass('show btnpagos');
+    $('.datos3').removeClass('show btnpagos');
+  })
+  
+  // stylos input
+  
+  $('.btn-plus, .btn-minus').on('click', function(e) {
+    const isNegative = $(e.target).closest('.btn-minus').is('.btn-minus');
+    const input = $(e.target).closest('.input-group').find('input');
+    if (input.is('input')) {
+      input[0][isNegative ? 'stepDown' : 'stepUp']()
+    }
+  })
+  
+  
+  // stylos input
+  
+  $('.btn-plus, .btn-minus').on('click', function(e) {
+    const isNegative = $(e.target).closest('.btn-minus').is('.btn-minus');
+    const input = $(e.target).closest('.input-group').find('input');
+    if (input.is('input')) {
+      input[0][isNegative ? 'stepDown' : 'stepUp']()
+    }
+  })
+  
+  $(document).ready(function(){
+    var altura =$('.row-centered').offset().top;
+    $(window).on('scroll', function(){
+      if ($(window).scrollTop()>= altura){
+        $('.row-centered').addClass('row-centered2');
+      } else{
+        $('.row-centered').removeClass('row-centered2');
+      }
+    })
+  });
+  
+  $('.plus').on('click', function(){
+    $('#cardnegocioid').addClass('mostrarcart');
+  
+  })
+  
+  var wer=document.querySelector('.separatescrol').textContent;
+  
+  function sdf(){
+  
+  
+  if(wer=""){
+  
+    $('.psinproductos').addClass('msinproductos');
+  }
+  
+  
+  }
+  
+  // $('#cardnegocioid').on('click', function(){
+  //   $('#nav').addClass('mostrarmenu2');
+  //   $('#cardnegocioid').addClass('chaoboton');
+  // })
+  
+  
+  
+  
+  
+  $('#cardnegocioid').on('click', function(){
+    $('#nav').addClass('mostrarmenu2');
+   
+    $('#cardnegocioid').addClass('chaoboton');
+  })
+
+  
+  $('.continuar,.but34').on('click', function(){
+    $('#nav').removeClass('mostrarmenu2');
+    $('.hul2').addClass('mostrarmenu3');
+    
+  })
+  
+
+   $('.seguirc,.cerrardata').on('click', function(){
+    $('#nav').removeClass('mostrarmenu2');
+    $('.hul2').removeClass('mostrarmenu3');
+    $('#cardnegocioid').removeClass('chaoboton');
+ 
+    
+  })
+
+
+
+
+
+  const images = document.querySelectorAll('.item-image'); 
+
+  const titles = document.querySelectorAll('.item-title'); 
+  const price = document.querySelectorAll('.item-price');
+
+  const cantidad = document.querySelectorAll('.item_cantidadg');
+
+const containerimage = document.querySelector('.container-img');
+
+
+const imageContainer =document.querySelector('.img-show');
+
+const copy = document.querySelector('.copy');
+
+const closeModal = document.querySelector('.bx.bx-x');
+
+  images.forEach(image =>{
+    image.addEventListener('click',()=>{
+addImage(image.getAttribute('src'),image.getAttribute('alt'));
+
+
+   
+    })
+
+  })
+
+titles.forEach(titlesf =>{
+  titlesf.addEventListener('click',()=>{
+
+
+  })
+})
+
+ 
+const addImage = (srcImage, altImage)=>{
+  containerimage.classList.toggle('move');
+  imageContainer.classList.toggle('show');
+  imageContainer.src = srcImage;
+  copy.innerHTML = altImage;
+
+  
+ 
+}
+
+// const addTitle = (titlef)=>{
+//   containerimage.classList.toggle('move');
+//   imageContainer.classList.toggle('show');
+
+//   titles.innerHTML = ;
+
+  
+ 
+// }
+
+
+closeModal.addEventListener('click', ()=>{
+
+  containerimage.classList.toggle('move');
+  imageContainer.classList.toggle('show');
+})
+
+
+  // $('.seguirc').on('click', function(){$('.derechafinal').addClass('mostrarmenu2');$('#cardnegocioid').addClass('chaoboton');})
+
+  // $('.continuar').on('click', function(){
+    
+  //   $('#cardnegocioid').removeClass('mostrarcart');
+  // })
+  
+  // $('#cardnegocioid', function(){
+  //   $('#nav').addClass('mostrarmenu2');
+  // se auto ejecuta })
+  
+  // $('.seguirc ,.continuar').on('click', function(){
+  //   $('#nav').removeClass('mostrarmenu2');
+  //   $('#cardnegocioid').removeClass('chaoboton');
+  // })
+  
+  
+  // $('.mostrarmenu2').on('click', function(){
+  //   $('#nav').removeClass('mostrarmenu2');
+  //   // $('#nav').removeClass('mostrarmenu2');
+  //   $('#cardnegocioid').removeClass('chaoboton');
+  
+  // })
+  
+  function limpiarformas(){
+  
+    document.getElementById("entry.1405646315").checked = false;
+  
+   
+  
+    document.getElementById("entry.1179942020").checked = false;
+    document.getElementById("entry.2095367105").checked = false;
+    var fdg=document.getElementById('entry.1280846489').value='';
+    
+    document.getElementById('entry.580204725').textContent='';
+   
+   
+  }
+  
+  function limpiarformase(){
+  
+    document.getElementById("entry.696366128").checked = false;
+    document.getElementById("entry.1179942020").checked = false;
+    document.getElementById("entry.2095367105").checked = false;
+   
+  }
+  
+  function limpiarformaspl(){
+  
+    document.getElementById("entry.1405646315").checked = false;
+    document.getElementById("entry.696366128").checked = false;
+    document.getElementById("entry.2095367105").checked = false;
+  
+    var fdg=document.getElementById('entry.1280846489').value='';
+    
+    document.getElementById('entry.580204725').textContent='';
+   
+  }
+  
+  function limpiarformaspy(){
+  
+    document.getElementById("entry.1405646315").checked = false;
+    document.getElementById("entry.1179942020").checked = false;
+    document.getElementById("entry.696366128").checked = false;
+    var fdg=document.getElementById('entry.1280846489').value='';
+    
+    document.getElementById('entry.580204725').textContent='';
+   
+  }
+  
+  
+  // limpiar factura
+  
+  
+  function limpiarfac(){
+  
+    document.getElementById("entry.2016983664").checked = false;
+    document.getElementById("entry.1758756268").checked = false;
+   
+   
+  }
+  function limpiarfac(){
+  
+    document.getElementById("entry.2016983664").checked = false;
+    document.getElementById("entry.1758756268").checked = false;
+   
+   
+  }
+  
+  
+  function limpiarconsu(){
+    
+  
+    document.getElementById('entry.2420597').value = '';
+    document.getElementById("entry.709227128").checked = false;
+    document.getElementById("entry.1758756268").checked = false;
+  
+  }
+  
+  
+  
+  function limpiarcliente(){
+  
+    document.getElementById('entry.2420597').value = '';
+    document.getElementById("entry.709227128").checked = false;
+  
+    document.getElementById("entry.2016983664").checked = false;
+  
+    $('.datosfacturacion').addClass('datoschao');
+  }
+  
+  
+  
+  
+  function linpiarreserdomi(){
+   
+    document.getElementById('entry.1441018699').textContent='';
+    
+  
+    document.getElementById("entry.1067299390").checked = false;
+    document.getElementById('entry.686290451').value = '0';
+    document.getElementById('entry.803987817').value = '';
+  
+    document.getElementById("entry.398428276").checked = false;
+    document.getElementById('entry.1164560529').value = '0';
+    document.getElementById('entry.404593967').value = '';
+  
+   
+  
+   limpiaringd();
+   limpiaringdmap();
+   
+   document.getElementById("entry.2092178738").textContent='';
+    // linpiarreservar();
+    // linpiardelivery();
+  //  document.querySelector('#totalwa p').textContent='0.00';
+  
+  }
+  
+  
+  function linpiarreservar(){
+  
+    document.getElementById("entry.398428276").checked = false;
+    document.getElementById("entry.1612018657").checked = false;
+  
+    document.getElementById('entry.1164560529').value = '0';
+    document.getElementById('entry.404593967').value = '';
+  
+  
+  }
+  
+  function linpiardelivery(){
+  
+  
+  
+    document.getElementById("entry.696366128").checked = false;
+  
+    document.getElementById("entry.1405646315").checked = false;
+    
+    document.getElementById("entry.1179942020").checked = false;
+    
+    document.getElementById("entry.2095367105").checked = false;
+  
+  
+    limpiaringd();
+  
+    limpiaringdmap();
+    document.getElementById("entry.1067299390").checked = false;
+    
+  document.getElementById("entry.1612018657").checked = false;
+  
+    document.getElementById('entry.686290451').value = '0';
+    document.getElementById('entry.803987817').value = '';
+    // document.querySelector('#latitude').textContent='';
+    // document.querySelector('#address').textContent='';
+    document.getElementById('entry.1441018699').textContent='';
+    document.getElementById('entry.2092178738').textContent='';
+    document.getElementById("entry.1441018699").textContent = '';
+  
+    document.getElementById('entry.1280846489').value='';
+  
+  document.getElementById('entry.580204725').textContent='';
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+  function limpiaringd(){
+  
+  
+    document.getElementById("entry.2092178738").checked = false;
+  
+  
+  }
+  
+  function limpiaringdmap(){
+  
+  
+    document.getElementById("entry.150273747").checked = false;
+  
+  
+  }
+  
+  
+  
+  
+  $('.consumidorsinfac').on('click', function(){
+    
+  
+    $('.datafac').removeClass('showinputcedula');
+  
+  
+    $('.datosfacturacion').removeClass('datoschao');
+    $('#cedulafac')('showinputcedula');
+    
+  
+  
+  })
+  
+  $('.faccedula').on('click', function(){
+    
+    $('.datafac').addClass('showinputcedula');
+    $('.datosfacturacion').removeClass('datoschao');
+  
+  })
+  
+  
+  $('.clientefac').on('click', function(){
+  
+    
+    $('.datafac').removeClass('showinputcedula');
+  
+    $('.datosfacturacion').addClass('datoschao');
+  
+  })
+  
+  
+  
+  
+  $('.deliveryope').on('click', function(){
+      
+    $('.opedetalle').addClass('showpocion');
+    $('.diahora').removeClass('verdiahora');
+  
+    $('.formasdepagos').removeClass('quitarformasdepago');
+  
+  })
+  
+  $('.deliveryoper').on('click', function(){
+      
+    $('.diahora').addClass('verdiahora');
+  
+  
+    $('.diahora').addClass('verdiahora');
+  
+    $('.formasdepagos').addClass('quitarformasdepago');
+  
+    // $('.formasdepagos').remove('.formasdepagos');
+   
+  
+    
+  
+  })
+  
+  
+  
+  
+  
+  
+  
+  $('.deliveryoper , .deliveryoperr').on('click', function(){
+    
+  
+    $('.opedetalle').removeClass('showpocion');
+  
+  
+  
+    // $('#cedulafac')('showinputcedula');
+  
+  
+  })
+  
+  $('.deliveryoperr').on('click', function(){
+    
+  
+    $('.diahora').removeClass('verdiahora');
+  
+    $('.formasdepagos').removeClass('quitarformasdepago');
+  
+    // $('#cedulafac')('showinputcedula');
+  
+  
+  })
+  
+  $('.mapalocor').on('click', function(){
+    
+  
+    $('.direcreg').addClass('showpocion');
+  
+    $('.mapcanvas').removeClass('showcanvas');
+    $('.googlemaps').removeClass('googledisplay');
+  
+  })
+  
+  
+  
+  $('.mapalocor2').on('click', function(){
+    
+  
+    $('.direcreg').removeClass('showpocion');
+  
+    $('.mapcanvas').addClass('showcanvas');
+  
+    $('.googlemaps').addClass('googledisplay');
+  
+  
+  })
+  
+  
+  
+  var map;
+  
+  function initialize() {
+  
+    var mapOptions = {
+        center: new google.maps.LatLng(-0.1769941, -78.478394,17),
+        zoom: 17
+    };
+  
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  
+    // Create the DIV to hold the control and call the constructor passing in this DIV
+    var geolocationDiv = document.createElement('div');
+    var geolocationControl = new GeolocationControl(geolocationDiv, map);
+  
+    map.controls[google.maps.ControlPosition.TOP_CENTER].push(geolocationDiv);
+  
+    // map.addListener("click", (event) => {
+    //   addMarker(event.latLng);
+    // });
+  
+    // addMarker(mapOptions);
+  
+  
+  }
+  
+  function GeolocationControl(controlDiv, map) {
+  
+    // Set CSS for the control button
+    var controlUI = document.createElement('div');
+    controlUI.style.backgroundColor = '#25d366';
+    controlUI.style.borderStyle = 'solid';
+    controlUI.style.borderWidth = '1px';
+    controlUI.style.borderColor = 'white';
+    controlUI.style.height = '40px';
+    controlUI.style.borderRadius = '5px';
+    controlUI.style.zIndex = '1000';
+    controlUI.style.width= '200px';
+    controlUI.style.marginTop = '50px';
+    controlUI.style.cursor = 'pointer';
+    controlUI.style.textAlign = 'center';
+    controlUI.title = 'Click to center map on your location';
+    controlDiv.appendChild(controlUI);
+  
+    // Set CSS for the control text
+    var controlText = document.createElement('div');
+    controlText.style.fontFamily = 'Arial,sans-serif';
+    controlText.style.fontSize = '13px';
+    controlText.style.color = 'white';
+    controlText.style.paddingLeft = '10px';
+    controlText.style.paddingRight = '10px';
+    controlText.style.marginTop = '8px';
+    controlUI.style.zIndex = '1000';
+    controlText.innerHTML = 'Pulsa aquí para seleccionar tu ubicación';
+    controlUI.appendChild(controlText);
+  
+    // Setup the click event listeners to geolocate user
+    google.maps.event.addDomListener(controlUI, 'click', geolocate);
+  }
+  
+  
+  
+  
+  // var qw= document.getElementById('latitude').textContent;
+  
+  
+  // var qa=qw.replace('(','');
+  // var az=qa.replace(')','');
+  // var zx=az.replace(' ','');
+  //   var  mapi = 'https://maps.google.com/?q='+zx;
+  
+  //   // mapi.innerHTML=`${mapi}`;
+  
+  //   document.getElementById('entry.1441018699').innerHTML=mapi;
+  
+  // $("#latitude").change(function() {
+  //   //Si el checkbox está seleccionado
+  //   if($(this).is(":change")) {
+      
+  //     document.getElementById('entry.1441018699').innerHTML=mapi;
+  
+  //   }
+  //   else {
+  //     alert("El checkbox no está seleccionado");
+  //   }
+  
+    
+  //   });
+  
+  
+  function geolocate() {
+    
+  
+    if (navigator.geolocation) {
+  
+        navigator.geolocation.getCurrentPosition(function (position) {
+  
+            var pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+  
+            let post='';
+  
+  
+  
+  
+      var latDiv =document.querySelector('#latitude').innerHTML=pos;
+  
+    
+  var sw=document.getElementById('latitude').textContent;
+   
+  var qa=sw.replace('(','');
+  var qw=qa.replace(')','');
+  var qz=qw.replace(' ','');
+  
+  var latDiv2 =document.getElementById('entry.1441018699').innerHTML='https://maps.google.com/?q='+qz;
+    
+     
+   
+  
+      var addrDiv =document.querySelector('.address');
+  
+  
+  
+      var geocoder=new google.maps.Geocoder;
+  
+  
+  
+          geocoder.geocode({'location': pos}, function(results, status){
+                if (status === 'OK'){
+                    if (results[0]){
+                        addrDiv.innerHTML ='Tu dirección de entrega es: '+ results[0].formatted_address;
+  
+                        
+  
+                    } else {
+                        addrDiv.innerHTML = 'No address could be retrieved.'
+                    }
+                } else {
+                    addrDiv.innerHTML = "Geocoder failed due to " + status;
+                }
+  
+              
+                    
+            });
+  
+          
+  
+  
+            // Create a marker and center map on user location
+            marker = new google.maps.Marker({
+                position: pos,
+                draggable: true,
+                animation: google.maps.Animation.DROP,
+                map: map
+            });
+  
+            map.setCenter(pos);
+  
+            // function setMapOnAll(maker) {
+            //   for (let i = 0; i < marker.length; i++) {
+            //     marker[i].setMap();
+            //   }
+            // }
+            
+            // function clearMarkers() {
+            
+            //   $(".delyveryoper").click(function() {
+            //       //Si el checkbox está seleccionado
+            //       if($(this).is("clicked")) {
+            //         setMapOnAll(null);
+            //       }
+            //       else {
+            //         alert("El checkbox no está seleccionado");
+            //       }
+                
+            //     });
+  
+               
+             
+            // }
+  
+            // clearMarkers();
+  
+  
+  
+  
+        
+        });
+  
+  
+  
+        
+    }
+  
+   
+  }
+  
+  initialize();
+  
+  
+  var ws=document.getElementById('intro').textContent;
+  
+  
+  document.getElementById('entry.1450118414').innerHTML=ws;
+  
+  
+  $('.owl-carousel').owlCarousel({
+    // stagePadding: 10,
+  
+    loop:false,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+  })
+  
+  
+  
+  $('.modalv').on('click', function(){$('.modalv').addClass('nosvemos2')})
+
+ 
+//   $('#C1-I1-p,#C1-I2-p,#C1-I3-p,#C1-I4-p,#C1-I5-p').addClass('energon');
+
+//   $('#C1-I1-p,#C1-I2-p,#C1-I3-p,#C1-I4-p,#C1-I5-p').on('click', function(){
+    
+
+//     $('.plust').addClass('energont');
+//     $('.minus').addClass('displaymq');
+//     $('.quantity').addClass('displaymq');
+  
+  
+//   })
+
+
+
+
+// let pbtn = document.querySelector('.plus');
+
+
+//  let ptbtn = document.querySelector('.plust');
+//  let mbtn = document.querySelector('.minus');
+//  let qbtn = document.querySelector('.quantity');
+
+//   $('.plust').on('click', function(){
+ 
+
+//     ptbtn.innerText='';
+
+//     mbtn.style.display='inline-block'; 
+//     qbtn.style.display='inline-block';
+
+//     $('#C1-I1-p,#C1-I2-p,#C1-I3-p,#C1-I4-p,#C1-I5-p').removeClass('energon');
+//     // $('#C2-I1-p,').removeClass('energon');
+//    $('.plust').removeClass('energont');
+     
+//    $('.minus').removeClass('displaymq');
+//    $('.quantity').removeClass('displaymq');
+   
+     
+//      })
+
+
+
+function goToPageayuda(){
+    var nombre = document.getElementById('entry.865577691').value;
+    var nombrenegocio = document.getElementById('entry.116133504').value;
+    var tipodenegocio = document.getElementById('entry.516082604').value;
+    var whatsapp = document.getElementById('entry.751884520').value;
+    // var diaprueba = document.getElementById('entry.1087253973').value;
+    // var horaprueba = document.getElementById('entry.1527657423').value;
+  
+    if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa tu nombre completo")
+    }
+    if( nombrenegocio == null || nombrenegocio.length == 0 || /^\s+$/.test(nombrenegocio) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa el nombre de tu negocio")
+    }
+    if( tipodenegocio == null || tipodenegocio.length == 0 || /^\s+$/.test(tipodenegocio) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Selecciona el tipo de negocio")
+    }
+    if( whatsapp == null || whatsapp.length == 0 || /^\s+$/.test(whatsapp) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa un número de WhatsApp")
+    }
+    // if( diaprueba == null || diaprueba.length == 0 || /^\s+$/.test(diaprueba) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Selecciona el día para la prueba")
+    // }
+    // if( horaprueba == null || horaprueba.length == 0 || /^\s+$/.test(horaprueba) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Selecciona una hora")
+    // }
+  
+//   var myWindow = window.open ("https://api.whatsapp.com/send?phone=593996517199&text="+"Capacitación y Prueba gratis de" + "%20" + "*WhatsBulkSender™*" + "%0A"+"✅ _Registro confirmado_" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*Nombre*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*Nombre del Negocio*" +"%0A" + nombrenegocio +  "%20" + "%0A"+"%0A"+"*Tipo de Negocio*"+"%0A" + tipodenegocio + "%20" +"%0A"+ "%0A"+ "_________________________" + "%0A" + "%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como *WhatsBulkSender* para recibir actualizaciones y soporte 😉👍");
+  
+  
+  //  window.location = "https://api.whatsapp.com/send?phone=593996517199&text="+ "*Hola me llamo:*" + "%0A" + nombre + "%20" +"%0A" + nombrenegocio +  "%20" + "%0A" + tipodenegocio + "%20" + "%0A";
+  
+  
+  
+  
+
+var whatsapp_number ="&text=*WhatsBulkSender™*" + "%0A"+"✅ _Registro con éxito_" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*😃 Nombre:*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*💼 Nombre del Negocio:*" +"%0A" + nombrenegocio +  "%20" + "%0A"+"%0A"+"*🛒 Tipo de Negocio:*"+"%0A" + tipodenegocio + "%20" + "%0A"+"_________________________" + "%0A"+"%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como *WhatsBulkSender* para recibir toda la información😉👍";
+  
+  
+  
+
+
+
+   var md = new MobileDetect(window.navigator.userAgent);
+   if (md.mobile()) {
+   
+
+  //   if (mostrarpedidof===''){
+
+   
+   
+  //     document.getElementById("demo").innerHTML =
+  //        "Aún no haz selecionado prodcutos"
+
+  //       $('.demo').addClass('showmsg');
+
+
+  //       setTimeout(function() {
+  //         $(".showmsg").fadeOut(1500);
+  //         },500);
+        
+      
+      
+
+
+  //     // return (document.getElementById("demo").innerHTML =
+  //     //   "Aún no haz selecionado prodcutos")
+  //   }
+  //  else{
+    window.open(document.getElementById("enviarwa").href = "https://api.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+  //  }
+      
+    
+
+  
+     
+
+    
+   
+
+   } else {
+   
+     window.open(document.getElementById("enviarwa").href = "https://web.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+
+    
+
+
+   }
+
+  
+  
+  }
