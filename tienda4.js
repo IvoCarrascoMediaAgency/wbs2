@@ -21,7 +21,7 @@ const pedido_store = {
         
         'I2':{
             name:'Licencia Mensual',
-                       price:19.99,
+                       price:29.99,
             qty:0,
             img:'img/whatsapp-masivo-precios-mensual.webp',
             detalles:'<ul class="features"><li><i></i> Licencia 1 mes</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Chatbot/autorespuestas</li><li></i> Módulo de reportes</li><li><i "></i> Extractor de Grupos</li><li class="disabled-option"><i "></i> <span class="">Filtro de Números</span></li><li><span class="">Instalación Gratuita</span></li><li><span class="">Importar contactos desde chats</span></li><li><span class="">Programar envíos</span></li><li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación Personalizada</span></li></ul>',
@@ -30,7 +30,7 @@ const pedido_store = {
         'I3':{
             name:'Licencia Trimestral',
            
-            price:59.99,
+            price:89.99,
             qty:0,
             img:'img/whatsapp-masivo-precios-3-meses.webp',
             detalles:'<ul class="features"><li><i></i> Licencia 3 mes</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Chatbot/autorespuestas</li><li></i> Módulo de reportes</li><li><i "></i> Extractor de Grupos</li><li class="disabled-option"><i "></i> <span class="">Filtro de Números</span></li><li><span class="">Instalación Gratuita</span></li><li><span class="">Importar contactos desde chats</span></li><li><span class="">Programar envíos</span></li><li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación Personalizada</span></li></ul>',
@@ -38,7 +38,7 @@ const pedido_store = {
         'I4':{
             name:'Licencia Semestral',
            
-            price:119.99,
+            price:179.99,
             qty:0,
             img:'img/whatsapp-masivo-precios-6-meses.webp',
             detalles:'<ul class="features"><li><i></i> Licencia 6 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Chatbot/autorespuestas</li><li></i> Módulo de reportes</li><li><i "></i> Extractor de Grupos</li><li class="disabled-option"><i "></i> <span class="">Filtro de Números</span></li><li><span class="">Instalación Gratuita</span></li><li><span class="">Importar contactos desde chats</span></li><li><span class="">Programar envíos</span></li><li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación Personalizada</span></li><li><span class="masc">WhatsApp Ecomerce</span></li><li><span class="masc">Chat Multiagente Web</span></li></ul>',
@@ -48,7 +48,7 @@ const pedido_store = {
         name:'Licencia Anual',
         //PRECIO BASE DEL ITEM
        
-        price:239.99,
+        price:359.99,
         //CANTIDAD ESCOGIDA DEL ITEM
         qty:0,
         //FUENTE DE LA IMAGEN
