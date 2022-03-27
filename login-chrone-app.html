@@ -23,7 +23,7 @@
            <input name="password" type="password" class="Input" value="" size="20" /> 
          </span></td> 
          <td><span class="cnt"> 
-           <input value="Entrar" target="_parent" onclick="window.parent.document.getElementById('modalv').style.display='none';" type="button" class="boton"/> 
+           <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"/> 
          </span></td> 
        </tr> 
        <tr> 
@@ -34,26 +34,27 @@
 
 <script language="JavaScript"> 
 
-// function Login(){ 
-// var done=0; 
-// var usuario=document.login.usuario.value; 
-// var password=document.login.password.value; 
-// if (usuario=="USUARIO1" && password=="CONTRASEÑA1") { 
-//        window.location="https://whatsbulksender.com"; 
-// } 
-// if (usuario=="USUARIO2" && password=="CONTRASEÑA2") { 
-// window.location="https://whatsbulksender.com"; 
-// } 
-// if (usuario=="" && password=="") { 
-// window.location="errorpopup.html"; 
-// } 
-// } 
-        // </script> 
+function Login(){ 
+var done=0; 
+var usuario=document.login.usuario.value; 
+var password=document.login.password.value; 
+if (usuario=="USUARIO1" && password=="CONTRASEÑA1") { 
+       window.location="https://whatsbulksender.com"; 
+} 
+if (usuario=="USUARIO2" && password=="CONTRASEÑA2") { 
+window.location="https://whatsbulksender.com"; 
+} 
+if (usuario=="" && password=="") { 
+window.location="errorpopup.html"; 
+} 
+} 
+        </script> 
  
 
 
 
 
+</body>
 
 
 </html>
