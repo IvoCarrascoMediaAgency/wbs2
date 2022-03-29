@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>Ejemplo de inyectar datos desde hijo </h1>
+
+
+<form name="login"> 
+     <table width="200" border="0"> 
+       <tr> 
+         <th scope="row"><h2>Usuario</h2></th> 
+         <td><span class="cnt"> 
+           <input name="usuario" id="usuario" type="text" class="Input" value="" size="20" /> 
+         </span></td> 
+       </tr> 
+       <tr> 
+         <th height="33" scope="row"><h2>Clave</h2></th> 
+         <td><span class="cnt"> 
+           <input name="password" type="password" id="clave" class="Input" value="" size="20" /> 
+         </span></td> 
+         <td><span class="spaner">   <span class="cnt"> 
+          <input value="Validar" target="_parent" onclick=to_close(); type="button" class="boton"/> 
+        </span></span></td> 
+
+         
+       </tr> 
+
+      
+       
+     </table> 
+</form> 
+
+
+  
+
+
+  
+  
+
+   </div>
+
+   <script>
+
+     function to_close(){
+
+      var usuario = document.getElementById('usuario').value;
+  if(usuario.length == 0) {
+    alert('No has escrito nada en el usuario');
+    return;
+  }
+  var clave = document.getElementById('clave').value;
+  if (clave.length < 6) {
+    alert('La clave no es válida');
+    return;
+  }
+       self.close();
+     }
+   </script>
+
+</body>
+</html>
