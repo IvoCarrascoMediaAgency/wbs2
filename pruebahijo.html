@@ -201,7 +201,7 @@
            </span></td> 
          </tr> 
          <tr> 
-           <th height="33" scope="row"><h2>Password:</h2></th> 
+           <th height="33" scope="row"><h2>Pin:</h2></th> 
 
            <td><span class="cnt"> 
              <input name="password" type="password" id="clave" class="Input" value="" size="20" /> 
@@ -265,16 +265,27 @@
   
 
      var usuario = document.getElementById('usuario').value;
- if(usuario.length == 0) {
-   alert('No has escrito nada en el usuario');
+ if(usuario.length == 0 ) {
+   alert('Recuerda tu usuario debe ser de 6 caracteres.');
    return;
  }
- var clave = document.getElementById('clave').value;
- if (clave.length < 6) {
-   alert('La clave no es válida');
+ if(usuario.length < 5 ) {
+   alert('Recuerda tu usuario debe ser de 6 caracteres.');
    return;
  }
-      self.close();
+ 
+
+
+  var clave = document.getElementById('clave').value;
+  if (clave.length < 4 ) {
+   alert('Recuerda tu PIN debe ser de 4 caracteres');
+   return;
+ }
+ if (clave.length > 4 ) {
+   alert('Recuerda tu PIN debe ser de 4 caracteres');
+   return;
+ }
+    self.close();
     }
   </script>
        
