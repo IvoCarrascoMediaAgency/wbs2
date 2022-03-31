@@ -15,10 +15,10 @@ const pedido_store = {
   
         'I1':{
         //NOMBRE DEL ITEM
-        name:'Licencia Anual',
+        name:'Licencia Mensual',
         //PRECIO BASE DEL ITEM
-        antes:197.99,
-        price:99,
+        antes:39.99,
+        price:19.99,
         //CANTIDAD ESCOGIDA DEL ITEM
         qty:0,
         //FUENTE DE LA IMAGEN
@@ -1414,7 +1414,7 @@ const pedido_store = {
     
   
   
-  var whatsapp_number ="&text=*Orden exitosa*" + "%0A"+"*WhatsBulkSender-2021*"+ "%0A"+"✅ *Detalle de la orden:*"+"%0A"+"_Orden N°_"+"%20"+ "%20"+"---"+"%20"+orden+"%20"+"---"+ "%0A"+"_________________________" + "%0A"+mostrarpedidof+ "%0A"+"*Total:*"+ "%20"+ "$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+ "%0A"+"_________________________"+ "%0A"+'*🙂Datos del Cliente:*'+ "%0A"+mostrarfac+"%20"+mostrarcedula+nombre+email+whatsapp+"%20"+"_________________________" +"%0A"+ retornapagos+cambio+"%0A"+"*Total:*"+ "%20"+"$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+"%0A"+"%0A"+"*Orden N°:*"+ "%20"+orden;
+  var whatsapp_number ="&text=*Orden exitosa*" + "%0A"+"*WhatsBulkSender-2022*"+ "%0A"+"✅ *Detalle de la orden:*"+"%0A"+"_Orden N°_"+"%20"+ "%20"+"---"+"%20"+orden+"%20"+"---"+ "%0A"+"_________________________" + "%0A"+mostrarpedidof+ "%0A"+"30 días adicionales por tiempo limitado."+ "%0A"+"*Total:*"+ "%20"+ "$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+ "%0A"+"_________________________"+ "%0A"+'*🙂Datos del Cliente:*'+ "%0A"+mostrarfac+"%20"+mostrarcedula+nombre+email+whatsapp+"%20"+"_________________________" +"%0A"+ retornapagos+cambio+"%0A"+"*Total:*"+ "%20"+"$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+"%0A"+"%0A"+"*Orden N°:*"+ "%20"+orden;
     
     
     
