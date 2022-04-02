@@ -15,9 +15,9 @@ const pedido_store = {
             antes:39.99,
             price:19.99,
             qty:0,
-            img:'img/whatsapp-marketing-gratis.webp',
+            img:'img/licencia-mensual-whatsapp-masivo.webp',
   
-            detalles:'<ul class="features"><li><i></i> <span class="masc">50% de Descuento</span></li><li><i></i> Licencia 30 días</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Multidispositivos PC MAC Android IOS</li><li><i "></i>Adjunta video, imagen, audio, catálogos, documentos.</li><li></i> Genera informes de envíos masivos.</li><li><span class="">Instalación gratuita</span></li><li> <span class="masc">Soporte 15 días</span></li><li><span class="masc">Actualizaciones</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li></ul>',
+            detalles:'<ul class="features"><li><i></i> <span class="masc">50% de Descuento</span></li><li><i></i> <span class="masc">+30 días GRATIS</span></li><li><i></i> Licencia 30 días</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Multidispositivos PC MAC Android IOS</li><li><i "></i>Adjunta video, imagen, audio, catálogos, documentos.</li><li></i> Genera informes de envíos masivos.</li><li><span class="">Instalación gratuita</span></li><li> <span class="masc">Soporte 15 días</span></li><li><span class="masc">Actualizaciones</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li></ul>',
             },
         
         'I2':{
@@ -25,8 +25,8 @@ const pedido_store = {
             antes:119.99,
             price:39.99,
             qty:0,
-            img:'img/whatsapp-masivo-precios-mensual.webp',
-            detalles:'<ul class="features"><li><i></i> <span class="masc">65% de Descuento</span></li><li><i></i> Licencia 90 días</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Multidispositivos PC MAC Android IOS</li><li><i "></i>Adjunta video, imagen, audio, catálogos, documentos.</li><li></i> Genera informes de envíos masivos.</li><li><span class="">Instalación gratuita</span></li><li> <span class="masc">Soporte 30 días</span></li><li><span class="masc">Actualizaciones</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li></ul>',
+            img:'img/licencia-trimestral-whatsapp-masivo.webp',
+            detalles:'<ul class="features"><li><i></i> <span class="masc">65% de Descuento</span></li><li><i></i> <span class="masc">+30 días GRATIS</span></li><li><i></i> Licencia 90 días</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Multidispositivos PC MAC Android IOS</li><li><i "></i>Adjunta video, imagen, audio, catálogos, documentos.</li><li></i> Genera informes de envíos masivos.</li><li><span class="">Instalación gratuita</span></li><li> <span class="masc">Soporte 30 días</span></li><li><span class="masc">Actualizaciones</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li></ul>',
             },
   
         'I3':{
@@ -34,16 +34,16 @@ const pedido_store = {
             antes:239.99,
             price:69.99,
             qty:0,
-            img:'img/whatsapp-masivo-precios-3-meses.webp',
-            detalles:'<ul class="features"><li><i></i> <span class="masc">70% de Descuento</span></li><li><i></i> Licencia 180 días</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Multidispositivos PC MAC Android IOS</li><li><i "></i>Adjunta video, imagen, audio, catálogos, documentos.</li><li></i> Genera informes de envíos masivos.</li><li><span class="">Instalación gratuita</span></li><li> <span class="masc">Soporte 60 días</span></li><li><span class="masc">Actualizaciones</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li></ul>',
+            img:'img/licencia-semestral-whatsapp-masivo.webp',
+            detalles:'<ul class="features"><li><i></i> <span class="masc">70% de Descuento</span></li><li><i></i> <span class="masc">+30 días GRATIS</span></li><li><i></i> Licencia 180 días</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Multidispositivos PC MAC Android IOS</li><li><i "></i>Adjunta video, imagen, audio, catálogos, documentos.</li><li></i> Genera informes de envíos masivos.</li><li><span class="">Instalación gratuita</span></li><li> <span class="masc">Soporte 60 días</span></li><li><span class="masc">Actualizaciones</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li></ul>',
             },
         'I4':{
             name:'Licencia Anual',
             antes:479.99,
             price:119.99,
             qty:0,
-            img:'img/whatsapp-masivo-precios-6-meses.webp',
-            detalles:'<ul class="features"><li><i></i> <span class="masc">75% de Descuento</span></li><li><i></i> Licencia 360 días</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Multidispositivos PC MAC Android IOS</li><li><i "></i>Adjunta video, imagen, audio, catálogos, documentos.</li><li></i> Genera informes de envíos masivos.</li><li><span class="">Instalación gratuita</span></li><li> <span class="masc">Soporte 120 días</span></li><li><span class="masc">Actualizaciones</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><span class="masc">WhatsApp Ecomerce</span></li><li><span class="masc">Chat Multiagente Web</span></li></ul>',
+            img:'img/licencia-anual-whatsapp-masivo.webp',
+            detalles:'<ul class="features"><li><i></i> <span class="masc">75% de Descuento</span></li><li><i></i> <span class="masc">+30 días GRATIS</span></li><li><i></i> Licencia 360 días</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i "></i> Multidispositivos PC MAC Android IOS</li><li><i "></i>Adjunta video, imagen, audio, catálogos, documentos.</li><li></i> Genera informes de envíos masivos.</li><li><span class="">Instalación gratuita</span></li><li> <span class="masc">Soporte 120 días</span></li><li><span class="masc">Actualizaciones</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><span class="masc">WhatsApp Ecomerce</span></li><li><span class="masc">Chat Multiagente Web</span></li></ul>',
             },
         'I5':{
         //NOMBRE DEL ITEM
@@ -54,7 +54,7 @@ const pedido_store = {
         //CANTIDAD ESCOGIDA DEL ITEM
         qty:0,
         //FUENTE DE LA IMAGEN
-        img:'img/whatsapp-marketing-precios.webp',
+        img:'img/licencia-lifetime-whatsapp-masivo.webp',
         detalles:'<ul class="features"><li><i></i> <span class="masc">50% de Descuento</strong></span></li><li> Licencia de por vida</li><li><i class="fas fa-stop-circle"></i> Mensajes y campañas ilimitadas</li><li><i "></i> Mensajes personalizados</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i></i> Multidispositivos PC MAC Android IOS</li><li><i></i>Adjunta video,imagen,audio,catálogos,documentos.</li><li><i></i> Genera informes de envíos masivos.</li><li><span class="">Instalación gratuita</span></li><li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><span class="masc">WhatsApp Ecomerce</span></li><li><span class="masc">Chat Multiagente Web</span></li><li><span class="masc">Envío Masivo a Bases de Datos</span></li></ul>',
         },
         'I6':{
@@ -66,8 +66,8 @@ const pedido_store = {
           //CANTIDAD ESCOGIDA DEL ITEM
           qty:0,
           //FUENTE DE LA IMAGEN
-          img:'img/whatsapp-marketing-precios.webp',
-          detalles:'<ul class="features"><li><i></i> <span class="masc">Vende nuestro software o crea tu negocio con tu propia marca.</strong></span></li><li>Plataforma web-Ecommerce para la venta de licencias.</li><li>Dominio y Hosting</li><li><i "></i> Cuentas de WhatsApp ilimitadas</li><li><i></i> Multidispositivos PC MAC Android IOS</li><li><i></i>Adjunta video,imagen,audio,catálogos,documentos.</li><li><i></i> Genera informes de envíos masivos.</li><li><span class="">Instalación gratuita</span></li><li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><span class="masc">WhatsApp Ecomerce</span></li><li><span class="masc">Chat Multiagente Web</span></li><li><span class="masc">Envío Masivo a Bases de Datos</span></li></ul>',
+          img:'img/licencia-white-label-whatsapp-masivo.webp',
+          detalles:'<ul class="features"><li><i></i> <span class="masc">Vende nuestro software o crea tu negocio con tu propia marca.</strong></span></li><li>Plataforma web-Ecommerce para la venta de licencias.</li><li>Dominio y Hosting</li><li><i "></i> Plantillas publicitarias y artes para redes sociales con tu propio logo</li><li><i></i> Capacitación y soporte</li><li><span class="masc">Chat Multiagente Web</span></li></ul>',
           },
         
         
