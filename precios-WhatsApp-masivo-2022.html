@@ -356,11 +356,7 @@ p.pgracias {
 
 
     @media (min-width: 768px){
-        .pruebaf {
-
-
-height: 500px;
-}
+    
 
         .logofinal img {
     width: 80%;
@@ -418,6 +414,11 @@ h3{
 }
 
 @media screen and (min-width: 950px){
+    .pruebaf {
+
+
+height: 500px;
+}
   
 
     .prueba2p {
@@ -642,7 +643,7 @@ h3{
            
         <div class="form2" id="contacto2">
             <form  
-            id="gform2"  name="gform2" target="hidden_iframe" onsubmit="submitted=true;"
+            id="gform2"  name="gform2" target="hidden_iframe" onsubmit="return miFuncion(this)"
             action="https://docs.google.com/forms/d/e/1FAIpQLSclWHdimbOn2b18CPRaSz5RVoeLA-pxJudums5VtjnYhuVSRg/formResponse?" method="GET">
                 <!-- <div class="FormField"> -->
 
@@ -1516,6 +1517,19 @@ $('.form2').on('submit',function(e){
            speedAsDuration: true
           
        });
+
+       function miFuncion(a) {
+    var response = grecaptcha.getResponse();
+
+    if(response.length == 0){
+        alert("Captcha no verificado");
+        return false;
+      event.preventDefault();
+    } else {
+      alert("Captcha verificado");
+      return true;
+    }
+  }
 
        </script>
 
