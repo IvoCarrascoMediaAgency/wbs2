@@ -6,17 +6,7 @@
 </head>
 
 <body>
-<SCRIPT  language=JavaScript> 
-function go(){
 
-if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
-        document.form.submit(); 
-    } 
-    else{ 
-         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
-    } 
-} 
-</SCRIPT> 
 <FORM name=form action="#">
 
 <P>Usuario:    <INPUT type=text name=login> 
@@ -24,5 +14,27 @@ if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='U
 <INPUT onclick=go() type=button value=Acceder>
 
 </FORM> 
+
+
+<SCRIPT  language=JavaScript> 
+    function go(){
+    
+    if (document.form.password.value=='1234' && document.form.login.value=='admin'){ 
+            document.form.submit(); 
+
+            $('.modalv').toggle('nosvemos2');
+
+
+            self.close();
+        } 
+        else{ 
+             alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+        } 
+    } 
+    </SCRIPT> 
+
+
 </body>
+
+
 </html>
