@@ -1,1 +1,769 @@
-var _0x46b1=["\x74\x6F\x70","\x6F\x66\x66\x73\x65\x74","\x2E\x72\x6F\x77\x2D\x63\x65\x6E\x74\x65\x72\x65\x64","\x73\x63\x72\x6F\x6C\x6C","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x72\x6F\x77\x2D\x63\x65\x6E\x74\x65\x72\x65\x64\x32","\x61\x64\x64\x43\x6C\x61\x73\x73","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x6F\x6E","\x72\x65\x61\x64\x79","\x2E\x77\x69\x73\x74\x69\x61","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x6C\x65\x6E\x67\x74\x68","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x65\x6D\x62\x65\x64\x2D\x73\x73\x6C\x2E\x77\x69\x73\x74\x69\x61\x2E\x63\x6F\x6D\x2F\x64\x65\x6C\x69\x76\x65\x72\x69\x65\x73\x2F","\x74\x68\x75\x6D\x62","\x64\x61\x74\x61\x73\x65\x74","\x2E\x77\x65\x62\x70","\x73\x72\x63","\x6C\x6F\x61\x64","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x63\x6C\x69\x63\x6B","\x69\x66\x72\x61\x6D\x65","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x66\x72\x61\x6D\x65\x62\x6F\x72\x64\x65\x72","\x30","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x61\x6C\x6C\x6F\x77\x66\x75\x6C\x6C\x73\x63\x72\x65\x65\x6E","","\x6D\x6F\x7A\x61\x6C\x6C\x6F\x77\x66\x75\x6C\x6C\x73\x63\x72\x65\x65\x6E","\x77\x65\x62\x6B\x69\x74\x61\x6C\x6C\x6F\x77\x66\x75\x6C\x6C\x73\x63\x72\x65\x65\x6E","\x6F\x61\x6C\x6C\x6F\x77\x66\x75\x6C\x6C\x73\x63\x72\x65\x65\x6E","\x6D\x73\x61\x6C\x6C\x6F\x77\x66\x75\x6C\x6C\x73\x63\x72\x65\x65\x6E","\x2F\x2F\x66\x61\x73\x74\x2E\x77\x69\x73\x74\x69\x61\x2E\x6E\x65\x74\x2F\x65\x6D\x62\x65\x64\x2F\x69\x66\x72\x61\x6D\x65\x2F","\x65\x6D\x62\x65\x64","\x3F\x76\x69\x64\x65\x6F\x46\x6F\x61\x6D\x3D\x74\x72\x75\x65","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x69\x6E\x70\x75\x74","\x68\x65\x69\x67\x68\x74","\x73\x74\x79\x6C\x65","\x61\x75\x74\x6F","\x73\x63\x72\x6F\x6C\x6C\x48\x65\x69\x67\x68\x74","\x70\x78","\x68\x65\x69\x67\x68\x74\x3A","\x70\x78\x3B\x6F\x76\x65\x72\x66\x6C\x6F\x77\x2D\x79\x3A\x61\x75\x74\x6F\x3B","\x65\x61\x63\x68","\x23\x65\x64\x61\x64","\x6D\x6F\x73\x74\x72\x61\x72\x6D\x65\x6E\x75\x32","\x23\x6E\x61\x76","\x2E\x6D\x65\x6E\x75\x77\x62\x73","\x2E\x63\x65\x72\x72\x61\x72\x78\x2C\x2E\x78\x71\x2C\x2E\x69\x63\x6F\x6E\x6F\x73\x6D\x65\x6E\x75\x32\x2C\x2E\x6D\x65\x6E\x75\x6D\x6F\x76\x69\x6C\x63\x68\x61\x74","\x72\x69\x67\x68\x74","\x63\x73\x73","\x2E\x63\x61\x72\x64\x6D\x65\x6E\x75","\x2E\x61\x63\x6C\x69\x65\x6E\x74\x65\x73\x2C\x2E\x61\x63\x68\x61\x74\x2C\x2E\x61\x63\x6C\x69\x65\x6E\x74\x65\x73\x32\x2C\x2E\x63\x61\x72\x64\x6E\x65\x67\x6F\x63\x69\x6F\x2C\x2E\x61\x63\x6C\x69\x65\x6E\x74\x65\x73\x34\x2C\x2E\x6D\x65\x6E\x75\x6D\x6F\x76\x69\x6C\x63\x68\x61\x74\x2C\x2E\x62\x74\x6E\x6E\x61\x76\x70\x2C\x2E\x62\x74\x6E\x70\x78","\x2D\x31\x30\x30\x25","\x23\x63\x65\x72\x72\x61\x72\x63\x68\x61\x74\x2C\x2E\x6D\x65\x6E\x75\x77\x62\x73","\x6D\x6F\x73\x74\x72\x61\x72\x73\x75\x62\x6D","\x74\x6F\x67\x67\x6C\x65\x43\x6C\x61\x73\x73","\x2E\x75\x6C\x63\x68\x61\x74","\x2E\x78\x78\x63\x2C\x2E\x63\x65\x72\x72\x61\x72\x78\x2C\x2E\x78\x71\x2C\x2E\x69\x63\x6F\x6E\x6F\x73\x6D\x65\x6E\x75\x32\x2C\x2E\x6D\x65\x6E\x75\x6D\x6F\x76\x69\x6C\x63\x68\x61\x74","\x68\x61\x73\x68","\x23","\x69\x63\x6F\x6E\x6E\x6F\x6E\x65","\x2E\x6D\x65\x6E\x75\x77\x62\x73\x2C\x20\x2E\x6D\x65\x6E\x75\x6D\x6F\x76\x69\x6C\x32","\x73\x68\x6F\x77","\x2E\x64\x61\x74\x6F\x73\x31\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x31\x62","\x2E\x64\x61\x74\x6F\x73\x32\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x32\x62","\x2E\x64\x61\x74\x6F\x73\x33\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x33\x62","\x2E\x64\x61\x74\x6F\x73\x34\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x34\x62","\x2E\x64\x61\x74\x6F\x73\x35\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x35\x62","\x2E\x64\x61\x74\x6F\x73\x36\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x36\x62","\x2E\x64\x61\x74\x6F\x73\x37\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x37\x62","\x2E\x64\x61\x74\x6F\x73\x38\x20\x2C\x20\x2E\x64\x61\x74\x6F\x73\x38\x62","\x2E\x65\x74\x69\x31\x20\x2C\x20\x2E\x65\x74\x69\x31\x62","\x2E\x65\x74\x69\x32\x20\x2C\x20\x2E\x65\x74\x69\x32\x62","\x2E\x65\x74\x69\x33\x20\x2C\x20\x2E\x65\x74\x69\x33\x62","\x2E\x65\x74\x69\x34\x20\x2C\x20\x2E\x65\x74\x69\x34\x62","\x2E\x65\x74\x69\x35\x20\x2C\x20\x2E\x65\x74\x69\x35\x62","\x2E\x65\x74\x69\x36\x20\x2C\x20\x2E\x65\x74\x69\x36\x62","\x2E\x65\x74\x69\x37\x20\x2C\x20\x2E\x65\x74\x69\x37\x62","\x2E\x65\x74\x69\x38\x20\x2C\x20\x2E\x65\x74\x69\x38\x62","\x73\x65\x6C\x65\x63\x74\x20\x74\x72\x69\x70\x69\x6D\x67","\x6D\x6F\x73\x74\x72\x61\x72\x63\x61\x72\x64\x6D\x65\x6E\x75","\x23\x63\x61\x72\x64\x6D\x65\x6E\x75","\x2E\x63\x61\x72\x64\x6E\x65\x67\x6F\x63\x69\x6F","\x23\x63\x65\x72\x72\x61\x72\x63\x68\x61\x74","\x66\x61\x64\x65\x49\x6E","\x2E\x75\x6E\x6F\x77\x68\x61\x74","\x23\x73\x6C\x69\x64\x65\x72","\x23\x62\x74\x6E\x2D\x6E\x65\x78\x74","\x23\x62\x74\x6E\x2D\x70\x72\x65\x76","\x23\x73\x6C\x69\x64\x65\x72\x20\x2E\x73\x6C\x69\x64\x65\x72\x5F\x5F\x73\x65\x63\x74\x69\x6F\x6E\x3A\x66\x69\x72\x73\x74","\x69\x6E\x73\x65\x72\x74\x42\x65\x66\x6F\x72\x65","\x23\x73\x6C\x69\x64\x65\x72\x20\x2E\x73\x6C\x69\x64\x65\x72\x5F\x5F\x73\x65\x63\x74\x69\x6F\x6E\x3A\x6C\x61\x73\x74","\x6D\x61\x72\x67\x69\x6E\x2D\x6C\x65\x66\x74","\x2D","\x25","\x69\x6E\x73\x65\x72\x74\x41\x66\x74\x65\x72","\x61\x6E\x69\x6D\x61\x74\x65","\x76\x61\x6C\x75\x65","\x65\x6E\x74\x72\x79\x2E\x38\x36\x35\x35\x37\x37\x36\x39\x31","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x65\x6E\x74\x72\x79\x2E\x31\x31\x36\x31\x33\x33\x35\x30\x34","\x65\x6E\x74\x72\x79\x2E\x35\x31\x36\x30\x38\x32\x36\x30\x34","\x65\x6E\x74\x72\x79\x2E\x37\x35\x31\x38\x38\x34\x35\x32\x30","\x74\x65\x73\x74","\x64\x65\x6D\x6F","\x49\x6E\x67\x72\x65\x73\x61\x20\x74\x75\x20\x6E\x6F\x6D\x62\x72\x65\x20\x63\x6F\x6D\x70\x6C\x65\x74\x6F","\x49\x6E\x67\x72\x65\x73\x61\x20\x65\x6C\x20\x6E\x6F\x6D\x62\x72\x65\x20\x64\x65\x20\x74\x75\x20\x6E\x65\x67\x6F\x63\x69\x6F","\x53\x65\x6C\x65\x63\x63\x69\x6F\x6E\x61\x20\x65\x6C\x20\x74\x69\x70\x6F\x20\x64\x65\x20\x6E\x65\x67\x6F\x63\x69\x6F","\x49\x6E\x67\x72\x65\x73\x61\x20\x75\x6E\x20\x6E\xFA\x6D\x65\x72\x6F\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70","\x26\x74\x65\x78\x74\x3D\x2A\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\u2122\x2A","\x25\x30\x41","\u2705\x20\x5F\x52\x65\x67\x69\x73\x74\x72\x6F\x20\x63\x6F\x6E\x66\x69\x72\x6D\x61\x64\x6F\x5F","\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F","\x2A\uD83D\uDE03\x20\x4E\x6F\x6D\x62\x72\x65\x3A\x2A","\x25\x32\x30","\x2A\uD83D\uDCBC\x20\x4E\x6F\x6D\x62\x72\x65\x20\x64\x65\x6C\x20\x4E\x65\x67\x6F\x63\x69\x6F\x3A\x2A","\x2A\uD83D\uDED2\x20\x54\x69\x70\x6F\x20\x64\x65\x20\x4E\x65\x67\x6F\x63\x69\x6F\x3A\x2A","\x2A\uD83E\uDD16\x20\x44\x65\x73\x63\x61\x72\x67\x61\x20\x65\x6C\x20\x73\x6F\x66\x74\x77\x61\x72\x65\x20\x65\x6E\x20\x65\x6C\x20\x73\x69\x67\x75\x69\x65\x6E\x74\x65\x20\x6C\x69\x6E\x6B\x3A\x2A","\x68\x74\x74\x70\x3A\x2F\x2F\x62\x69\x74\x2E\x6C\x79\x2F\x57\x68\x61\x74\x73\x41\x70\x70\x4D\x61\x73\x69\x76\x6F\x47\x52\x41\x54\x49\x53","\x2A\uD83D\uDE80\x20\x43\x75\x72\x73\x6F\x20\x70\x61\x73\x6F\x20\x61\x20\x70\x61\x73\x6F\x20\x56\x65\x6E\x64\x65\x20\x63\x6F\x6E\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x4D\x61\x73\x69\x76\x6F\x20\x32\x30\x32\x31\x3A\x2A","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x79\x6F\x75\x74\x75\x2E\x62\x65\x2F\x64\x56\x39\x5F\x65\x45\x6B\x36\x35\x7A\x45","\x2A\x50\x2E\x44\x2E\x2A","\x47\x75\x61\x72\x64\x61\x20\x6E\x75\x65\x73\x74\x72\x6F\x20\x63\x6F\x6E\x74\x61\x63\x74\x6F\x20\x63\x6F\x6D\x6F\x20\x2A\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\x2A\x20\x70\x61\x72\x61\x20\x61\x63\x74\x69\x76\x61\x72\x20\x6C\x61\x20\x68\x65\x72\x72\x61\x6D\x69\x65\x6E\x74\x61\x2C\x20\x72\x65\x63\x69\x62\x69\x72\x20\x61\x63\x74\x75\x61\x6C\x69\x7A\x61\x63\x69\x6F\x6E\x65\x73\x20\x79\x20\x73\x6F\x70\x6F\x72\x74\x65\x20\uD83D\uDE09\uD83D\uDC4D","\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x6E\x61\x76\x69\x67\x61\x74\x6F\x72","\x6D\x6F\x62\x69\x6C\x65","\x68\x72\x65\x66","\x65\x6E\x76\x69\x61\x72\x77\x61","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x70\x69\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x73\x65\x6E\x64\x3F\x70\x68\x6F\x6E\x65\x3D\x35\x39\x33\x39\x39\x36\x35\x31\x37\x31\x39\x39","\x6F\x70\x65\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x65\x62\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x73\x65\x6E\x64\x3F\x70\x68\x6F\x6E\x65\x3D\x35\x39\x33\x39\x39\x36\x35\x31\x37\x31\x39\x39","\x65\x64\x61\x64","\x77\x68\x61\x74\x65\x72\x72\x6F\x72","\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x6E\x6F\x6E\x65","\xBF\x43\x6F\x6D\x6F\x20\x70\x6F\x64\x65\x6D\x6F\x73\x20\x61\x79\x75\x64\x61\x72\x74\x65\x3F\x20\uD83D\uDE3D\uD83D\uDC47","\x20\x63\x6F\x6C\x6F\x72\x3A\x20\x23\x32\x35\x64\x33\x36\x36\x3B\x20\x70\x6F\x73\x69\x74\x69\x6F\x6E\x3A\x20\x72\x65\x6C\x61\x74\x69\x76\x65\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x3A\x20\x31\x35\x70\x78\x3B\x20\x20\x6D\x61\x72\x67\x69\x6E\x3A\x20\x30\x20\x32\x36\x70\x78\x20\x32\x30\x70\x78\x3B\x20\x62\x6F\x72\x64\x65\x72\x2D\x72\x61\x64\x69\x75\x73\x3A\x20\x31\x35\x70\x78\x3B\x20\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72\x3A\x20\x23\x66\x66\x66\x3B\x20\x63\x6F\x6C\x6F\x72\x3A\x20\x23\x34\x61\x34\x61\x34\x61\x3B\x20\x62\x6F\x78\x2D\x73\x68\x61\x64\x6F\x77\x3A\x20\x30\x20\x31\x70\x78\x20\x32\x70\x78\x20\x30\x20\x72\x67\x62\x28\x30\x20\x30\x20\x30\x20\x2F\x20\x33\x30\x25\x29\x3B\x20\x74\x72\x61\x6E\x73\x69\x74\x69\x6F\x6E\x3A\x20\x30\x2E\x35\x73\x20\x65\x61\x73\x65\x2D\x69\x6E\x2D\x6F\x75\x74\x3B","\x68\x65\x69\x67\x68\x74\x20\x30","\x26\x74\x65\x78\x74\x3D","\x65\x6E\x76\x69\x61\x72\x77\x61\x32","\u2705\x20\x5F\x52\x65\x67\x69\x73\x74\x72\x6F\x20\x63\x6F\x6E\x20\xE9\x78\x69\x74\x6F\x5F","\x47\x75\x61\x72\x64\x61\x20\x6E\x75\x65\x73\x74\x72\x6F\x20\x63\x6F\x6E\x74\x61\x63\x74\x6F\x20\x63\x6F\x6D\x6F\x20\x2A\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\x2A\x20\x70\x61\x72\x61\x20\x72\x65\x63\x69\x62\x69\x72\x20\x74\x6F\x64\x61\x20\x6C\x61\x20\x69\x6E\x66\x6F\x72\x6D\x61\x63\x69\xF3\x6E\uD83D\uDE09\uD83D\uDC4D"];$(document)[_0x46b1[9]](function(){var _0xdde8x1=$(_0x46b1[2])[_0x46b1[1]]()[_0x46b1[0]];$(window)[_0x46b1[8]](_0x46b1[3],function(){if($(window)[_0x46b1[4]]()>= _0xdde8x1){$(_0x46b1[2])[_0x46b1[6]](_0x46b1[5])}else {$(_0x46b1[2])[_0x46b1[7]](_0x46b1[5]);$(window)[_0x46b1[3]](function(){return false})}})});(function(){var _0xdde8x2=document[_0x46b1[11]](_0x46b1[10]);for(var _0xdde8x3=0;_0xdde8x3< _0xdde8x2[_0x46b1[12]];_0xdde8x3++){var _0xdde8x4=_0x46b1[13]+ _0xdde8x2[_0xdde8x3][_0x46b1[15]][_0x46b1[14]]+ _0x46b1[16];var _0xdde8x5= new Image();_0xdde8x5[_0x46b1[17]]= _0xdde8x4;_0xdde8x5[_0x46b1[20]](_0x46b1[18],function(){_0xdde8x2[_0xdde8x3][_0x46b1[19]](_0xdde8x5)}(_0xdde8x3));_0xdde8x2[_0xdde8x3][_0x46b1[20]](_0x46b1[21],function(){var _0xdde8x6=document[_0x46b1[23]](_0x46b1[22]);_0xdde8x6[_0x46b1[26]](_0x46b1[24],_0x46b1[25]);_0xdde8x6[_0x46b1[26]](_0x46b1[27],_0x46b1[28]);_0xdde8x6[_0x46b1[26]](_0x46b1[29],_0x46b1[28]);_0xdde8x6[_0x46b1[26]](_0x46b1[30],_0x46b1[28]);_0xdde8x6[_0x46b1[26]](_0x46b1[31],_0x46b1[28]);_0xdde8x6[_0x46b1[26]](_0x46b1[32],_0x46b1[28]);_0xdde8x6[_0x46b1[26]](_0x46b1[17],_0x46b1[33]+ this[_0x46b1[15]][_0x46b1[34]]+ _0x46b1[35]);this[_0x46b1[36]]= _0x46b1[28];this[_0x46b1[19]](_0xdde8x6)})}})();$(_0x46b1[46])[_0x46b1[45]](function(){this[_0x46b1[26]](_0x46b1[39],_0x46b1[43]+ (this[_0x46b1[41]])+ _0x46b1[44])})[_0x46b1[8]](_0x46b1[37],function(){this[_0x46b1[39]][_0x46b1[38]]= _0x46b1[40];this[_0x46b1[39]][_0x46b1[38]]= (this[_0x46b1[41]])+ _0x46b1[42]});$(_0x46b1[49])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[48])[_0x46b1[6]](_0x46b1[47])});$(_0x46b1[50])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[48])[_0x46b1[7]](_0x46b1[47])});$(_0x46b1[54])[_0x46b1[21]](function(){$(_0x46b1[53])[_0x46b1[52]](_0x46b1[51],_0x46b1[25])});$(_0x46b1[56])[_0x46b1[21]](function(){$(_0x46b1[53])[_0x46b1[52]](_0x46b1[51],_0x46b1[55])});$(_0x46b1[60])[_0x46b1[21]](function(){$(_0x46b1[59])[_0x46b1[58]](_0x46b1[57])});$(_0x46b1[50])[_0x46b1[21]](function(){$(_0x46b1[59])[_0x46b1[7]](_0x46b1[57])});function moverseA(_0xdde8x8){location[_0x46b1[61]]= _0x46b1[62]+ _0xdde8x8}$(_0x46b1[64])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[49])[_0x46b1[58]](_0x46b1[63])});$(_0x46b1[74])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[66])[_0x46b1[6]](_0x46b1[65]);$(_0x46b1[67])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[68])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[69])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[70])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[71])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[72])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[73])[_0x46b1[7]](_0x46b1[65])});$(_0x46b1[75])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[67])[_0x46b1[6]](_0x46b1[65]);$(_0x46b1[66])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[68])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[69])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[70])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[71])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[72])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[73])[_0x46b1[7]](_0x46b1[65])});$(_0x46b1[76])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[68])[_0x46b1[6]](_0x46b1[65]);$(_0x46b1[66])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[67])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[69])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[70])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[71])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[72])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[73])[_0x46b1[7]](_0x46b1[65])});$(_0x46b1[77])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[69])[_0x46b1[6]](_0x46b1[65]);$(_0x46b1[66])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[67])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[68])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[70])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[71])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[72])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[73])[_0x46b1[7]](_0x46b1[65])});$(_0x46b1[78])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[70])[_0x46b1[6]](_0x46b1[65]);$(_0x46b1[66])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[67])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[68])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[69])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[71])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[72])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[73])[_0x46b1[7]](_0x46b1[65])});$(_0x46b1[79])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[71])[_0x46b1[6]](_0x46b1[65]);$(_0x46b1[66])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[67])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[68])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[69])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[70])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[72])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[73])[_0x46b1[7]](_0x46b1[65])});$(_0x46b1[80])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[72])[_0x46b1[6]](_0x46b1[65]);$(_0x46b1[66])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[67])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[68])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[69])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[70])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[71])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[73])[_0x46b1[7]](_0x46b1[65])});$(_0x46b1[81])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[73])[_0x46b1[6]](_0x46b1[65]);$(_0x46b1[66])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[67])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[68])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[69])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[70])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[71])[_0x46b1[7]](_0x46b1[65]);$(_0x46b1[72])[_0x46b1[7]](_0x46b1[65])});$(_0x46b1[74])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[74])[_0x46b1[6]](_0x46b1[82]);$(_0x46b1[75])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[76])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[77])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[78])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[79])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[80])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[81])[_0x46b1[7]](_0x46b1[82])});$(_0x46b1[75])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[75])[_0x46b1[6]](_0x46b1[82]);$(_0x46b1[74])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[76])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[77])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[78])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[79])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[80])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[81])[_0x46b1[7]](_0x46b1[82])});$(_0x46b1[76])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[76])[_0x46b1[6]](_0x46b1[82]);$(_0x46b1[74])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[75])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[77])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[78])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[79])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[80])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[81])[_0x46b1[7]](_0x46b1[82])});$(_0x46b1[77])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[77])[_0x46b1[6]](_0x46b1[82]);$(_0x46b1[74])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[75])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[76])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[78])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[79])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[80])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[81])[_0x46b1[7]](_0x46b1[82])});$(_0x46b1[78])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[78])[_0x46b1[6]](_0x46b1[82]);$(_0x46b1[74])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[75])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[76])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[77])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[79])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[80])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[81])[_0x46b1[7]](_0x46b1[82])});$(_0x46b1[79])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[79])[_0x46b1[6]](_0x46b1[82]);$(_0x46b1[74])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[75])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[76])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[77])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[78])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[80])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[81])[_0x46b1[7]](_0x46b1[82])});$(_0x46b1[80])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[80])[_0x46b1[6]](_0x46b1[82]);$(_0x46b1[74])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[75])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[76])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[77])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[78])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[79])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[81])[_0x46b1[7]](_0x46b1[82])});$(_0x46b1[81])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[81])[_0x46b1[6]](_0x46b1[82]);$(_0x46b1[74])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[75])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[76])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[77])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[78])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[79])[_0x46b1[7]](_0x46b1[82]);$(_0x46b1[80])[_0x46b1[7]](_0x46b1[82])});$(_0x46b1[85])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[84])[_0x46b1[6]](_0x46b1[83])});$(_0x46b1[86])[_0x46b1[8]](_0x46b1[21],function(){$(_0x46b1[84])[_0x46b1[58]](_0x46b1[83])});setTimeout(function(){$(_0x46b1[88])[_0x46b1[87]](1000)},8500);var slider=$(_0x46b1[89]);var siguiente=$(_0x46b1[90]);var anterior=$(_0x46b1[91]);$(_0x46b1[94])[_0x46b1[93]](_0x46b1[92]);slider[_0x46b1[52]](_0x46b1[95],_0x46b1[96]+ 100+ _0x46b1[97]);function moverD(){slider[_0x46b1[99]]({marginLeft:_0x46b1[96]+ 200+ _0x46b1[97]},700,function(){$(_0x46b1[92])[_0x46b1[98]](_0x46b1[94]);slider[_0x46b1[52]](_0x46b1[95],_0x46b1[96]+ 100+ _0x46b1[97])})}function moverI(){slider[_0x46b1[99]]({marginLeft:0},700,function(){$(_0x46b1[94])[_0x46b1[93]](_0x46b1[92]);slider[_0x46b1[52]](_0x46b1[95],_0x46b1[96]+ 100+ _0x46b1[97])})}siguiente[_0x46b1[8]](_0x46b1[21],function(){moverD();clearInterval(interval)});anterior[_0x46b1[8]](_0x46b1[21],function(){moverI();clearInterval(interval)});autoplay();function goToPage(){var _0xdde8xf=document[_0x46b1[102]](_0x46b1[101])[_0x46b1[100]];var _0xdde8x10=document[_0x46b1[102]](_0x46b1[103])[_0x46b1[100]];var _0xdde8x11=document[_0x46b1[102]](_0x46b1[104])[_0x46b1[100]];var _0xdde8x12=document[_0x46b1[102]](_0x46b1[105])[_0x46b1[100]];if(_0xdde8xf== null|| _0xdde8xf[_0x46b1[12]]== 0|| /^\s+$/[_0x46b1[106]](_0xdde8xf)){return (document[_0x46b1[102]](_0x46b1[107])[_0x46b1[36]]= _0x46b1[108])};if(_0xdde8x10== null|| _0xdde8x10[_0x46b1[12]]== 0|| /^\s+$/[_0x46b1[106]](_0xdde8x10)){return (document[_0x46b1[102]](_0x46b1[107])[_0x46b1[36]]= _0x46b1[109])};if(_0xdde8x11== null|| _0xdde8x11[_0x46b1[12]]== 0|| /^\s+$/[_0x46b1[106]](_0xdde8x11)){return (document[_0x46b1[102]](_0x46b1[107])[_0x46b1[36]]= _0x46b1[110])};if(_0xdde8x12== null|| _0xdde8x12[_0x46b1[12]]== 0|| /^\s+$/[_0x46b1[106]](_0xdde8x12)){return (document[_0x46b1[102]](_0x46b1[107])[_0x46b1[36]]= _0x46b1[111])};var _0xdde8x13=_0x46b1[112]+ _0x46b1[113]+ _0x46b1[114]+ _0x46b1[113]+ _0x46b1[115]+ _0x46b1[113]+ _0x46b1[113]+ _0x46b1[116]+ _0x46b1[113]+ _0xdde8xf+ _0x46b1[117]+ _0x46b1[113]+ _0x46b1[113]+ _0x46b1[118]+ _0x46b1[113]+ _0xdde8x10+ _0x46b1[117]+ _0x46b1[113]+ _0x46b1[113]+ _0x46b1[119]+ _0x46b1[113]+ _0xdde8x11+ _0x46b1[117]+ _0x46b1[113]+ _0x46b1[115]+ _0x46b1[113]+ _0x46b1[113]+ _0x46b1[120]+ _0x46b1[113]+ _0x46b1[121]+ _0x46b1[113]+ _0x46b1[113]+ _0x46b1[122]+ _0x46b1[113]+ _0x46b1[123]+ _0x46b1[113]+ _0x46b1[113]+ _0x46b1[115]+ _0x46b1[113]+ _0x46b1[113]+ _0x46b1[124]+ _0x46b1[117]+ _0x46b1[125];var _0xdde8x14= new MobileDetect(window[_0x46b1[127]][_0x46b1[126]]);if(_0xdde8x14[_0x46b1[128]]()){window[_0x46b1[132]](document[_0x46b1[102]](_0x46b1[130])[_0x46b1[129]]= _0x46b1[131]+ _0xdde8x13)}else {window[_0x46b1[132]](document[_0x46b1[102]](_0x46b1[130])[_0x46b1[129]]= _0x46b1[133]+ _0xdde8x13)}}function obtenerdatos2(){var _0xdde8xf=document[_0x46b1[102]](_0x46b1[134])[_0x46b1[100]];$(_0x46b1[86])[_0x46b1[8]](_0x46b1[21],function(){document[_0x46b1[102]](_0x46b1[135])[_0x46b1[39]]= _0x46b1[136]});if(_0xdde8xf== null|| _0xdde8xf[_0x46b1[12]]== 0|| /^\s+$/[_0x46b1[106]](_0xdde8xf)){return (document[_0x46b1[102]](_0x46b1[135])[_0x46b1[36]]= _0x46b1[137],document[_0x46b1[102]](_0x46b1[135])[_0x46b1[39]]= _0x46b1[138])};document[_0x46b1[102]](_0x46b1[134])[_0x46b1[100]]= _0x46b1[28];document[_0x46b1[102]](_0x46b1[134])[_0x46b1[39]]= _0x46b1[139];var _0xdde8x16=_0x46b1[140]+ _0xdde8xf;var _0xdde8x14= new MobileDetect(window[_0x46b1[127]][_0x46b1[126]]);if(_0xdde8x14[_0x46b1[128]]()){window[_0x46b1[132]](document[_0x46b1[102]](_0x46b1[141])[_0x46b1[129]]= _0x46b1[131]+ _0xdde8x16)}else {window[_0x46b1[132]](document[_0x46b1[102]](_0x46b1[141])[_0x46b1[129]]= _0x46b1[133]+ _0xdde8x16)}}function goToPageayuda(){var _0xdde8xf=document[_0x46b1[102]](_0x46b1[101])[_0x46b1[100]];var _0xdde8x10=document[_0x46b1[102]](_0x46b1[103])[_0x46b1[100]];var _0xdde8x11=document[_0x46b1[102]](_0x46b1[104])[_0x46b1[100]];var _0xdde8x12=document[_0x46b1[102]](_0x46b1[105])[_0x46b1[100]];if(_0xdde8xf== null|| _0xdde8xf[_0x46b1[12]]== 0|| /^\s+$/[_0x46b1[106]](_0xdde8xf)){return (document[_0x46b1[102]](_0x46b1[107])[_0x46b1[36]]= _0x46b1[108])};if(_0xdde8x10== null|| _0xdde8x10[_0x46b1[12]]== 0|| /^\s+$/[_0x46b1[106]](_0xdde8x10)){return (document[_0x46b1[102]](_0x46b1[107])[_0x46b1[36]]= _0x46b1[109])};if(_0xdde8x11== null|| _0xdde8x11[_0x46b1[12]]== 0|| /^\s+$/[_0x46b1[106]](_0xdde8x11)){return (document[_0x46b1[102]](_0x46b1[107])[_0x46b1[36]]= _0x46b1[110])};if(_0xdde8x12== null|| _0xdde8x12[_0x46b1[12]]== 0|| /^\s+$/[_0x46b1[106]](_0xdde8x12)){return (document[_0x46b1[102]](_0x46b1[107])[_0x46b1[36]]= _0x46b1[111])};var _0xdde8x13=_0x46b1[112]+ _0x46b1[113]+ _0x46b1[142]+ _0x46b1[113]+ _0x46b1[115]+ _0x46b1[113]+ _0x46b1[113]+ _0x46b1[116]+ _0x46b1[113]+ _0xdde8xf+ _0x46b1[117]+ _0x46b1[113]+ _0x46b1[113]+ _0x46b1[118]+ _0x46b1[113]+ _0xdde8x10+ _0x46b1[117]+ _0x46b1[113]+ _0x46b1[113]+ _0x46b1[119]+ _0x46b1[113]+ _0xdde8x11+ _0x46b1[117]+ _0x46b1[113]+ _0x46b1[115]+ _0x46b1[113]+ _0x46b1[113]+ _0x46b1[124]+ _0x46b1[117]+ _0x46b1[143];var _0xdde8x14= new MobileDetect(window[_0x46b1[127]][_0x46b1[126]]);if(_0xdde8x14[_0x46b1[128]]()){window[_0x46b1[132]](document[_0x46b1[102]](_0x46b1[130])[_0x46b1[129]]= _0x46b1[131]+ _0xdde8x13)}else {window[_0x46b1[132]](document[_0x46b1[102]](_0x46b1[130])[_0x46b1[129]]= _0x46b1[133]+ _0xdde8x13)}}
+
+  
+ 
+ 
+  $(document).ready(function(){
+    var altura =$('.row-centered').offset().top;
+    $(window).on('scroll', function(){
+      if ($(window).scrollTop()>= altura){
+        $('.row-centered').addClass('row-centered2');
+      } else{
+        $('.row-centered').removeClass('row-centered2');
+
+        $(window).scroll(function() { return false; });
+
+      }
+    })
+  });
+
+
+
+  ( function() {
+
+    var wistia = document.querySelectorAll( ".wistia" );
+    
+    for (var i = 0; i < wistia.length; i++) {
+    
+    var source = "https://embed-ssl.wistia.com/deliveries/"+ wistia[i].dataset.thumb +".webp";
+    
+    var image = new Image();
+    image.src = source;
+    image.addEventListener( "load", function() {
+    wistia[ i ].appendChild( image );
+    }( i ) );
+    
+    wistia[i].addEventListener( "click", function() {
+    
+    var iframe = document.createElement( "iframe" );
+    
+        iframe.setAttribute( "frameborder", "0" );
+        iframe.setAttribute( "allowfullscreen", "" );
+        iframe.setAttribute( "mozallowfullscreen", "" );
+        iframe.setAttribute( "webkitallowfullscreen", "" );
+        iframe.setAttribute( "oallowfullscreen", "" );
+        iframe.setAttribute( "msallowfullscreen", "" );
+        iframe.setAttribute( "src", "//fast.wistia.net/embed/iframe/"+ this.dataset.embed +"?videoFoam=true" );
+    
+        this.innerHTML = "";
+        this.appendChild( iframe );
+    } );    
+    };
+    
+    } )();
+
+    
+ //texterea
+ $('#edad').each(function () {
+  this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:auto;');
+}).on('input', function () {
+  this.style.height = 'auto';
+  this.style.height = (this.scrollHeight) + 'px';
+});
+
+
+$('.menuwbs').on('click', function(){
+    $('#nav').addClass('mostrarmenu2');
+  })
+  
+  $('.cerrarx,.xq,.iconosmenu2,.menumovilchat').on('click', function(){
+    $('#nav').removeClass('mostrarmenu2');
+  })
+
+  
+  $('.aclientes,.achat,.aclientes2,.cardnegocio,.aclientes4,.menumovilchat,.btnnavp,.btnpx').click(function() {
+    $('.cardmenu').css('right', '0');
+    
+    });
+    
+    
+    $('#cerrarchat,.menuwbs').click(function() {
+    $('.cardmenu').css('right', '-100%');
+    document.getElementById('edad').value = '';
+    
+    });
+
+    $('.xxc,.cerrarx,.xq,.iconosmenu2,.menumovilchat').click(function() {
+
+        
+            $('.ulchat').toggleClass('mostrarsubm');
+  
+        
+        
+        });
+
+        $('.cerrarx,.xq,.iconosmenu2,.menumovilchat').click(function() {
+
+        
+            $('.ulchat').removeClass('mostrarsubm');
+  
+        
+        
+        });
+
+
+
+
+  
+  function moverseA(reservar) {
+    location.hash = "#" + reservar;
+  }
+  
+  
+  $('.menuwbs, .menumovil2').on('click', function(){ 
+    $('.menuwbs').toggleClass('iconnone');
+  })
+  
+  
+  $('.eti1 , .eti1b').on('click', function(){
+    $('.datos1 , .datos1b').addClass('show');
+    $('.datos2 , .datos2b').removeClass('show');
+    $('.datos3 , .datos3b').removeClass('show');
+    $('.datos4 , .datos4b').removeClass('show');
+    $('.datos5 , .datos5b').removeClass('show');
+    $('.datos6 , .datos6b').removeClass('show');
+    $('.datos7 , .datos7b').removeClass('show');
+    $('.datos8 , .datos8b').removeClass('show');
+  })
+  
+  $('.eti2 , .eti2b').on('click', function(){
+    $('.datos2 , .datos2b').addClass('show');
+    $('.datos1 , .datos1b').removeClass('show');
+    $('.datos3 , .datos3b').removeClass('show');
+    $('.datos4 , .datos4b').removeClass('show');
+    $('.datos5 , .datos5b').removeClass('show');
+    $('.datos6 , .datos6b').removeClass('show');
+    $('.datos7 , .datos7b').removeClass('show');
+    $('.datos8 , .datos8b').removeClass('show');
+  })
+  
+  
+    $('.eti3 , .eti3b').on('click', function(){
+      $('.datos3 , .datos3b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos4 , .datos4b').removeClass('show');
+      $('.datos5 , .datos5b').removeClass('show');
+      $('.datos6 , .datos6b').removeClass('show');
+      $('.datos7 , .datos7b').removeClass('show');
+      $('.datos8 , .datos8b').removeClass('show');
+    })
+  
+    $('.eti4 , .eti4b').on('click', function(){
+      $('.datos4 , .datos4b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos3 , .datos3b').removeClass('show');
+      $('.datos5 , .datos5b').removeClass('show');
+      $('.datos6 , .datos6b').removeClass('show');
+      $('.datos7 , .datos7b').removeClass('show');
+      $('.datos8 , .datos8b').removeClass('show');
+    })
+  
+    $('.eti5 , .eti5b').on('click', function(){
+      $('.datos5 , .datos5b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos3 , .datos3b').removeClass('show');
+      $('.datos4 , .datos4b').removeClass('show');
+      $('.datos6 , .datos6b').removeClass('show');
+      $('.datos7 , .datos7b').removeClass('show');
+      $('.datos8 , .datos8b').removeClass('show');
+    })
+  
+    $('.eti6 , .eti6b').on('click', function(){
+      $('.datos6 , .datos6b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos3 , .datos3b').removeClass('show');
+      $('.datos4 , .datos4b').removeClass('show');
+      $('.datos5 , .datos5b').removeClass('show');
+      $('.datos7 , .datos7b').removeClass('show');
+      $('.datos8 , .datos8b').removeClass('show');
+    })
+  
+  
+    $('.eti7 , .eti7b').on('click', function(){
+      $('.datos7 , .datos7b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos3 , .datos3b').removeClass('show');
+      $('.datos4 , .datos4b').removeClass('show');
+      $('.datos5 , .datos5b').removeClass('show');
+      $('.datos6 , .datos6b').removeClass('show');
+      $('.datos8 , .datos8b').removeClass('show');
+    })
+  
+    $('.eti8 , .eti8b').on('click', function(){
+      $('.datos8 , .datos8b').addClass('show');
+      $('.datos1 , .datos1b').removeClass('show');
+      $('.datos2 , .datos2b').removeClass('show');
+      $('.datos3 , .datos3b').removeClass('show');
+      $('.datos4 , .datos4b').removeClass('show');
+      $('.datos5 , .datos5b').removeClass('show');
+      $('.datos6 , .datos6b').removeClass('show');
+      $('.datos7 , .datos7b').removeClass('show');
+      
+    })
+  
+  
+  $('.eti1 , .eti1b').on('click', function(){
+      $('.eti1 , .eti1b').addClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    
+  $('.eti2 , .eti2b').on('click', function(){
+      $('.eti2 , .eti2b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti3 , .eti3b').on('click', function(){
+      $('.eti3 , .eti3b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti4 , .eti4b').on('click', function(){
+      $('.eti4 , .eti4b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti5 , .eti5b').on('click', function(){
+      $('.eti5 , .eti5b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti6 , .eti6b').on('click', function(){
+      $('.eti6 , .eti6b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti7 , .eti7b').on('click', function(){
+      $('.eti7 , .eti7b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti8 , .eti8b').removeClass('select tripimg');
+  
+    })
+  
+    $('.eti8 , .eti8b').on('click', function(){
+      $('.eti8 , .eti8b').addClass('select tripimg');
+      $('.eti1 , .eti1b').removeClass('select tripimg');
+      $('.eti2 , .eti2b').removeClass('select tripimg');
+      $('.eti3 , .eti3b').removeClass('select tripimg');
+      $('.eti4 , .eti4b').removeClass('select tripimg');
+      $('.eti5 , .eti5b').removeClass('select tripimg');
+      $('.eti6 , .eti6b').removeClass('select tripimg');
+      $('.eti7 , .eti7b').removeClass('select tripimg');
+  
+    })
+  
+    
+  
+    
+  
+  //   Whatsapp Chat
+  
+  
+  
+  $('.cardnegocio').on('click', function(){
+    $('#cardmenu').addClass('mostrarcardmenu');
+  })
+  
+  $('#cerrarchat').on('click', function(){
+    $('#cardmenu').toggleClass('mostrarcardmenu');
+  })
+    
+    // $('.cardmenu').on('click', function(){
+    //   $('#cardmenu').removeClass('mostrarcardmenu');
+    //    $('#cardmenu').removeClass('cardmenu');
+    
+    // })
+    
+    // mostrar despues de 2 segundos el mensaje a whatsapp falso
+    
+    
+      setTimeout(function() {
+          $(".unowhat").fadeIn(1000);
+      },8500);
+  
+  
+    //   setTimeout(function() {
+    //     $(".unowhat").fadeOut(3000);
+    // },19500); oculta despues de 3 segundos el 1
+    
+  
+    
+  // $('.num').counterUp({delay:1,time:200});
+    
+  
+  
+  // new slider
+  
+  //almacenar slider en una variable
+  var slider = $('#slider');
+  //almacenar botones
+  var siguiente = $('#btn-next');
+  var anterior = $('#btn-prev');
+  
+  //mover ultima imagen al primer lugar
+  $('#slider .slider__section:last').insertBefore('#slider .slider__section:first');
+  //mostrar la primera imagen con un margen de -100%
+  slider.css('margin-left', '-'+100+'%');
+  
+  function moverD() {
+      slider.animate({
+          marginLeft:'-'+200+'%'
+      } ,700, function(){
+          $('#slider .slider__section:first').insertAfter('#slider .slider__section:last');
+          slider.css('margin-left', '-'+100+'%');
+      });
+  }
+  
+  function moverI() {
+      slider.animate({
+          marginLeft:0
+      } ,700, function(){
+          $('#slider .slider__section:last').insertBefore('#slider .slider__section:first');
+          slider.css('margin-left', '-'+100+'%');
+      });
+  }
+  
+  // function autoplay() {
+  // 	interval = setInterval(function(){
+  // 		moverD();
+  // 	}, 9000);
+  // }
+  siguiente.on('click',function() {
+      moverD();
+      clearInterval(interval);
+      // autoplay();
+  });
+  
+  anterior.on('click',function() {
+      moverI();
+      clearInterval(interval);
+      // autoplay();
+  });
+  
+  
+   autoplay();
+  
+  //  smooth sroll navbar 
+  //  const scroll = new SmoothScroll('.navbar a[href*="#"]', {
+  //  	speed: 2000 });
+  
+  //  contador de clientes
+  
+  function goToPage(){
+    var nombre = document.getElementById('entry.865577691').value;
+    var nombrenegocio = document.getElementById('entry.116133504').value;
+    var tipodenegocio = document.getElementById('entry.516082604').value;
+    var whatsapp = document.getElementById('entry.751884520').value;
+    // var diaprueba = document.getElementById('entry.1087253973').value;
+    // var horaprueba = document.getElementById('entry.1527657423').value;
+  
+    if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa tu nombre completo")
+    }
+    if( nombrenegocio == null || nombrenegocio.length == 0 || /^\s+$/.test(nombrenegocio) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa el nombre de tu negocio")
+    }
+    if( tipodenegocio == null || tipodenegocio.length == 0 || /^\s+$/.test(tipodenegocio) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Selecciona el tipo de negocio")
+    }
+    if( whatsapp == null || whatsapp.length == 0 || /^\s+$/.test(whatsapp) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa un número de WhatsApp")
+    }
+    // if( diaprueba == null || diaprueba.length == 0 || /^\s+$/.test(diaprueba) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Selecciona el día para la prueba")
+    // }
+    // if( horaprueba == null || horaprueba.length == 0 || /^\s+$/.test(horaprueba) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Selecciona una hora")
+    // }
+  
+//   var myWindow = window.open ("https://api.whatsapp.com/send?phone=593996517199&text="+"Capacitación y Prueba gratis de" + "%20" + "*WhatsBulkSender™*" + "%0A"+"✅ _Registro confirmado_" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*Nombre*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*Nombre del Negocio*" +"%0A" + nombrenegocio +  "%20" + "%0A"+"%0A"+"*Tipo de Negocio*"+"%0A" + tipodenegocio + "%20" +"%0A"+ "%0A"+ "_________________________" + "%0A" + "%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como *WhatsBulkSender* para recibir actualizaciones y soporte 😉👍");
+  
+  
+  //  window.location = "https://api.whatsapp.com/send?phone=593996517199&text="+ "*Hola me llamo:*" + "%0A" + nombre + "%20" +"%0A" + nombrenegocio +  "%20" + "%0A" + tipodenegocio + "%20" + "%0A";
+  
+  
+  
+  
+
+var whatsapp_number ="&text=*WhatsBulkSender™*"+ "%0A"+"✅ _Registro confirmado_" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*😃 Nombre:*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*💼 Nombre del Negocio:*" +"%0A" + nombrenegocio +  "%20" + "%0A"+"%0A"+"*🛒 Tipo de Negocio:*"+"%0A" + tipodenegocio + "%20" + "%0A"+"_________________________" + "%0A"+"%0A"+"*🤖 Descarga el software en el siguiente link:*"+"%0A"+"http://bit.ly/WhatsAppMasivoGRATIS"+"%0A"+"%0A"+ "*🚀 Curso paso a paso Vende con WhatsApp Masivo 2021:*"+"%0A"+"https://youtu.be/dV9_eEk65zE"+"%0A"+"%0A"+ "_________________________" + "%0A" + "%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como *WhatsBulkSender* para activar la herramienta, recibir actualizaciones y soporte 😉👍";
+  
+
+  
+
+
+
+   var md = new MobileDetect(window.navigator.userAgent);
+   if (md.mobile()) {
+   
+
+  //   if (mostrarpedidof===''){
+
+   
+   
+  //     document.getElementById("demo").innerHTML =
+  //        "Aún no haz selecionado prodcutos"
+
+  //       $('.demo').addClass('showmsg');
+
+
+  //       setTimeout(function() {
+  //         $(".showmsg").fadeOut(1500);
+  //         },500);
+        
+      
+      
+
+
+  //     // return (document.getElementById("demo").innerHTML =
+  //     //   "Aún no haz selecionado prodcutos")
+  //   }
+  //  else{
+    window.open(document.getElementById("enviarwa").href = "https://api.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+  //  }
+      
+    
+
+  
+     
+
+    
+   
+
+   } else {
+   
+     window.open(document.getElementById("enviarwa").href = "https://web.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+
+    
+
+
+   }
+
+  
+  
+  }
+  
+  
+  
+  
+      // console.log("La multiplicación es: "+multiplicaruno)
+      
+  // var linkcreado5 = document.nombreobtenido2.value = multiplicaruno;
+  // alert(linkcreado5)
+  
+  
+  
+  // function multiplicar2() {
+  //   var n3 = document.getElementById("preciod2").value;
+  //   var n4 = document.getElementById("fichavalor2").value;
+  //   var multiplicardos = parseInt(n3) * parseInt(n4);
+  //     alert("La multiplicación es: "+multiplicardos)
+  
+  
+   
+  
+  // }
+  
+  // function total(){
+  
+  // alert("multiplicaruno+multiplicardos")
+  // alert("La multiplicación es: "+multiplicaruno+multiplicardos)
+          // var linkcreado = document.nombreobtenido2.value = "https://api.whatsapp.com/send?phone="+ multiplicaruno +"&text=" + multiplicardos;
+  
+  
+  
+  
+  
+  
+  
+  // document.getElementById("nombreobtenido2").write= parseInt(multiplicar1) + parseInt(multiplicar2);
+  
+  
+  // function carritototal(){
+  
+  
+  
+  
+  
+  
+  // var total = document.nombreobtenido2.value=  a1+a2;
+  
+    // document.getElementById("nombreobtenido2").write= parseInt(multiplicar1) + parseInt(multiplicar2);
+  
+  
+      // alert("La multiplicación es: "+multiplicar1 + multiplicar2 )
+  
+    
+    // var linkcreado2 = document.registro.nombreobtenido2.value =  carritototal;
+    
+  
+  
+  // document.write(carritototal);
+  
+   
+  
+  
+    // var myWindow = window.open ("https://api.whatsapp.com/send?phone=593996517199&text="+"Tu pedido ha sido registrado con éxito" + "%20" + "*:)*" + "%0A"+"✅ _Detalle de su pedido_" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*Nombre*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*Nombre del Negocio*" +"%0A" + nombrenegocio +  "%20" + "%0A"+"%0A"+"*Tipo de Negocio*"+"%0A" + tipodenegocio + "%20" +"%0A"+ "%0A"+"*Día y hora de la prueba*"+"%0A" +diaprueba+"%0A" +carritototal+ "%0A"+ "_________________________" + "%0A" + "%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como *Software de WhatsApp Marketing* para recibir 15 minutos antes el link de Zoom. Empezamos puntual 😉👍");
+    // var linkcreado2 = document.registro.nombreobtenido2.value =  carritototal;
+  
+  
+  
+
+  
+  
+  //chatsend
+
+
+  
+  
+  function obtenerdatos2(){
+    var nombre = document.getElementById('edad').value;
+  
+ 
+  
+    $('#cerrarchat').on('click', function(){
+   
+        document.getElementById("whaterror").style="display: none";
+      })
+
+    if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+       
+        return (document.getElementById("whaterror").innerHTML =
+        "¿Como podemos ayudarte? 😽👇",document.getElementById("whaterror").style=" color: #25d366; position: relative; padding: 15px;  margin: 0 26px 20px; border-radius: 15px; background-color: #fff; color: #4a4a4a; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%); transition: 0.5s ease-in-out;")
+      }
+
+   
+  
+
+  
+
+      document.getElementById('edad').value = '';
+      document.getElementById('edad').style ="height 0";
+
+    var myWindow = "&text="+nombre;
+  
+    var md = new MobileDetect(window.navigator.userAgent);
+       if (md.mobile()) {
+  
+        window.open(document.getElementById("enviarwa2").href = "https://api.whatsapp.com/send?phone=593996517199" + myWindow);
+  
+      } else {
+       
+        window.open(document.getElementById("enviarwa2").href = "https://web.whatsapp.com/send?phone=593996517199" + myWindow);
+   
+       
+   
+   
+      }
+      $('.cardmenu').css('right', '-100%');
+   
+  }
+
+
+//   function obtenerdatosf(){
+  
+//     var nombre = document.getElementById('edad').value;
+   
+  
+//     $('#cerrarchat').on('click', function(){
+   
+//         document.getElementById("whaterror").style="display: none";
+//       })
+
+//     if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+       
+//         return (document.getElementById("whaterror").innerHTML =
+//         "¿Como podemos ayudarte? 😽👇",document.getElementById("whaterror").style=" color: #25d366; position: relative; padding: 15px;  margin: 0 26px 20px; border-radius: 15px; background-color: #fff; color: #4a4a4a; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%); transition: 0.5s ease-in-out;")
+//       }
+
+
+//       document.getElementById('edad').value = '';
+//       document.getElementById('edad').style ="height 0";
+
+//     var myWindow = "&text="+nombre;
+//  )
+  
+//     var md = new MobileDetect(window.navigator.userAgent);
+//        if (md.mobile()) {
+  
+//         window.open(document.getElementById("enviarwa").href = "https://api.whatsapp.com/send?phone=593996517199" + myWindow);
+  
+//       } else {
+       
+//         window.open(document.getElementById("enviarwa").href = "https://web.whatsapp.com/send?phone=593996517199" + myWindow);
+   
+       
+   
+   
+//       }
+   
+//   }
+
+
+
+function goToPageayuda(){
+    var nombre = document.getElementById('entry.865577691').value;
+    var nombrenegocio = document.getElementById('entry.116133504').value;
+    var tipodenegocio = document.getElementById('entry.516082604').value;
+    var whatsapp = document.getElementById('entry.751884520').value;
+    // var diaprueba = document.getElementById('entry.1087253973').value;
+    // var horaprueba = document.getElementById('entry.1527657423').value;
+  
+    if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa tu nombre completo")
+    }
+    if( nombrenegocio == null || nombrenegocio.length == 0 || /^\s+$/.test(nombrenegocio) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa el nombre de tu negocio")
+    }
+    if( tipodenegocio == null || tipodenegocio.length == 0 || /^\s+$/.test(tipodenegocio) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Selecciona el tipo de negocio")
+    }
+    if( whatsapp == null || whatsapp.length == 0 || /^\s+$/.test(whatsapp) ) {
+       
+      return (document.getElementById("demo").innerHTML =
+      "Ingresa un número de WhatsApp")
+    }
+    // if( diaprueba == null || diaprueba.length == 0 || /^\s+$/.test(diaprueba) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Selecciona el día para la prueba")
+    // }
+    // if( horaprueba == null || horaprueba.length == 0 || /^\s+$/.test(horaprueba) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Selecciona una hora")
+    // }
+  
+//   var myWindow = window.open ("https://api.whatsapp.com/send?phone=593996517199&text="+"Capacitación y Prueba gratis de" + "%20" + "*WhatsBulkSender™*" + "%0A"+"✅ _Registro confirmado_" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*Nombre*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*Nombre del Negocio*" +"%0A" + nombrenegocio +  "%20" + "%0A"+"%0A"+"*Tipo de Negocio*"+"%0A" + tipodenegocio + "%20" +"%0A"+ "%0A"+ "_________________________" + "%0A" + "%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como *WhatsBulkSender* para recibir actualizaciones y soporte 😉👍");
+  
+  
+  //  window.location = "https://api.whatsapp.com/send?phone=593996517199&text="+ "*Hola me llamo:*" + "%0A" + nombre + "%20" +"%0A" + nombrenegocio +  "%20" + "%0A" + tipodenegocio + "%20" + "%0A";
+  
+  
+  
+  
+
+var whatsapp_number ="&text=*WhatsBulkSender™*" + "%0A"+"✅ _Registro con éxito_" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*😃 Nombre:*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*💼 Nombre del Negocio:*" +"%0A" + nombrenegocio +  "%20" + "%0A"+"%0A"+"*🛒 Tipo de Negocio:*"+"%0A" + tipodenegocio + "%20" + "%0A"+"_________________________" + "%0A"+"%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como *WhatsBulkSender* para recibir toda la información😉👍";
+  
+  
+  
+
+
+
+   var md = new MobileDetect(window.navigator.userAgent);
+   if (md.mobile()) {
+   
+
+  //   if (mostrarpedidof===''){
+
+   
+   
+  //     document.getElementById("demo").innerHTML =
+  //        "Aún no haz selecionado prodcutos"
+
+  //       $('.demo').addClass('showmsg');
+
+
+  //       setTimeout(function() {
+  //         $(".showmsg").fadeOut(1500);
+  //         },500);
+        
+      
+      
+
+
+  //     // return (document.getElementById("demo").innerHTML =
+  //     //   "Aún no haz selecionado prodcutos")
+  //   }
+  //  else{
+    window.open(document.getElementById("enviarwa").href = "https://api.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+  //  }
+      
+    
+
+  
+     
+
+    
+   
+
+   } else {
+   
+     window.open(document.getElementById("enviarwa").href = "https://web.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+
+    
+
+
+   }
+
+  
+  
+  }
