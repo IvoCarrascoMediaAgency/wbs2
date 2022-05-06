@@ -1055,7 +1055,7 @@ button.btn.btn-success.ml-auto.comprarButton {
 }
 
 .show {
-    display: grid;
+    /* display: grid; */
   
  }
 
@@ -2229,6 +2229,25 @@ input#botona{background-color: #25d366;
 }
 
 .displaymq{
+  display: none;
+}
+
+.chao1,.chao2,.chao3{
+  display: none;
+}
+
+.fanlink {
+  display: none;
+}
+
+.pdatosc, .facconsu{
+  display: none;
+}
+
+.linkoculp{
+  display: none;
+}
+.fantasmasend{
   display: none;
 }
   
