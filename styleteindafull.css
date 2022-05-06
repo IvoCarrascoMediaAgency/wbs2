@@ -25,6 +25,12 @@ div#slides-container {
     /* padding-right: 15px; */
     /* padding-left: 15px; */
 }
+body {
+  background-image: url(img/backchat.webp);
+  margin: 0;
+  background-position: initial;
+  background-repeat: repeat;
+}
 
 
 
