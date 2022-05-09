@@ -2205,6 +2205,7 @@ input#botona{background-color: #25d366;
   .spanenviar {
     display: grid;
     justify-content: center;
+    margin-bottom: 10px;
   }
   
   
@@ -2278,6 +2279,12 @@ div#fantasmaimgnamef {
   display: grid;
   grid-template-columns: 50px 50px;
   width: 90px;
+}
+
+.recapcha1 {
+  margin-bottom: 10px;
+  display: grid;
+    justify-content: center;
 }
   
   
