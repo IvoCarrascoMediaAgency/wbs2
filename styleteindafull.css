@@ -712,7 +712,7 @@ span.icon-bin {
   position: fixed;
   margin-top: 3px;
   width: 55px;
-  z-index: 1000;
+  z-index: 3;
   display: grid;
   grid-template-columns: auto;
   align-items: center;
@@ -1126,12 +1126,12 @@ button.btn.btn-success.ml-auto.comprarButton {
 
 p.cc {
 
-  margin: 0 0 5px 0;
+  margin: 0 0 0px 0;
   color: #25d367;
 }
 
 label.cc {
-  margin: 10px 0;
+  /* margin: 10px 0; */
 }
 /*  */
 label.faccedula, label.consumidorsinfac, label.clientefac {
@@ -1403,6 +1403,8 @@ span.xcerrar {
   /* height: calc(100% - 263px); */
   border: 1px solid rgba(0,0,0,.1);
   border-radius: 7px;
+  align-items: center;
+    display: grid;
 
 
 
@@ -1552,6 +1554,8 @@ span.xcerrar {
   align-content: center;
   }
 
+  
+
   .separatescrol {
     width: 93%;
     overflow-y: scroll;
@@ -1579,7 +1583,7 @@ span.xcerrar {
 
 .formasdepagos p {
 
-  margin: 10px 0;
+ margin-top: 10px;
   color: #25d367;
 }
 
@@ -1623,7 +1627,7 @@ nav.navbar.navbar-dark.bg-dark {
   
   form#gform2 {
     display: grid;
-    grid-gap: 10px;
+    /* grid-gap: 10px; */
     width: 90%;
     margin: 0 auto;
     color: #888;
@@ -1632,7 +1636,7 @@ nav.navbar.navbar-dark.bg-dark {
   form#gform2 input {
     font-size: 15px;
     line-height: 1.8;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border: 1px solid #999999;
     border-radius: 6px;
     /* background-color: #ffffff; */
@@ -1698,7 +1702,7 @@ nav.navbar.navbar-dark.bg-dark {
   
   .datosfacturacion {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 5px;
   }
   
   .mfac.datafac{
@@ -2123,6 +2127,7 @@ nav.navbar.navbar-dark.bg-dark {
   
   textarea.ch23{
     border: 1px solid transparent;
+    resize: none;
   }
   
   .deliverysub2{
@@ -2255,6 +2260,24 @@ input#botona{background-color: #25d366;
 }
 .fantasmasend{
   display: none;
+}
+.fantasmaimgname{
+  display: none;
+}
+
+img.imgsendf {
+  width: 100%;
+}
+
+div#fantasmaimgnamef {
+  display: grid;
+  justify-content: center;
+}
+
+.imgsend {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  width: 90px;
 }
   
   
