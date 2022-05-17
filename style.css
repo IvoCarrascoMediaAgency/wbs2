@@ -2408,6 +2408,17 @@ p.texn {
     text-align: center;
 }
 
+p.terminos {
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+    
+}
+
+p.terminos a{
+    text-decoration: none;
+    color: #33d670;
+}
 
    
 
