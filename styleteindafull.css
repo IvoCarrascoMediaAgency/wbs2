@@ -254,6 +254,7 @@ main#main {
     z-index: 1000;
 }
 
+
 /* end modal img */
 
 .map {
@@ -2356,7 +2357,7 @@ div#fantasmaimgnamef {
   z-index: 2000;
 }
 
-.newcerrar{
+.newcerrar,.newcerrar2{
   position: relative;
 }
 
@@ -2627,7 +2628,7 @@ p.caracteristicasp1,.eninternet {
 .btn24 {
   display: block;
   text-align: start;
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
 }
 

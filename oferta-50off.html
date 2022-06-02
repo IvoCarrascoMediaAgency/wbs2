@@ -157,6 +157,10 @@ h2{
     transform: translateY(0) scale(1);
     transition: transform 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
+.exit-intent-popup2.visible {
+    transform: translateY(0) scale(1);
+    transition: transform 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
 
 .exit-intent-popup {
     position: fixed;
@@ -169,7 +173,38 @@ h2{
     transform: translateY(60%) scale(0);
 }
 
-.newsletter {
+.exit-intent-popup2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(33, 33, 33, 0.8);
+    transform: translateY(60%) scale(0);
+}
+
+
+.exit-intent-popup2{
+    display: none;
+}
+.active2 {
+   display: grid;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  /* overflow-y: scroll; */
+  z-index: 2001;
+}
+
+
+
+.newsletter,.newsletter2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -180,7 +215,42 @@ h2{
     border-radius: 20px;
     border: 2px solid #00bfa5;
 }
+.btnofer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
 
+.intro2{
+    display: none;
+}
+
+span#close2 {
+    position: absolute;
+    top: 0;
+    right: -10px;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+    background: rgba(0,0,0,.1);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.unopop2{
+    position: relative;
+}
+
+.newcerrar2{
+    display: flex;
+}
+
+a#btn25 {
+    color: #00bfa5;
+    background: white;
+}
     </style>
 <!-- 
     <nav class="navbar navbar-dark bg-dark">
@@ -238,10 +308,19 @@ h2{
         </span>
         <br>
 
+        <div class="btnofer">
+
+        
                <div class=" btn24">
                     <a href="#masvendidos1"  class="" rel="noopener noreferrer">Ir a la Oferta</a>
             
                 </div>
+
+                <div class=" btn24">
+                    <a id="btn25"   class="" rel="noopener noreferrer">Solicitar una prueba</a>
+            
+                </div>
+            </div>
         
     </div>
 
@@ -1290,7 +1369,7 @@ h2{
     
     <div class="newsofer">
         <span >
-            El precio especial para que    <strong>empieces a enviar propuestas irresistibles a través de WhatsApp </strong>terminará cuando el contador llegue a 0<strong></strong><span id="current_date2">terminará cuando el contador llegue a 0</span></strong>  
+            El precio especial para que    <strong>empieces a enviar propuestas irresistibles a través de WhatsApp </strong>terminará cuando el contador llegue a 0<strong></strong><span id="current_date2"></span></strong>  
         </span> 
 
     </div>
@@ -1645,7 +1724,78 @@ h2{
 </div>
 <!--  end pop up exit -->
 
+<!-- modaldemo -->
+<div  id="exit2" 
+class="exit-intent-popup2">
 
+
+    <div class="newsletter2">
+        <div class="newcerrar2">
+          
+
+<div class="unopop2">
+    <span id="close2" class="close2">x</span>
+
+    <img class="popimg2" src="img/garantia-7-dias-whatsbulksender.webp" alt="" srcset="">
+    <div class="form3" id="contacto3">
+        <p class="pform">¡Prueba <strong>GRATIS</strong> por tiempo limitado!</p>
+                            <form id="gform3" name="gform3" target="hidden_iframe2" onsubmit="submitted=true;return submitUserForm2();" action="https://docs.google.com/forms/d/e/1FAIpQLSfo7slYK4dMUyORkJpv1_Zlt1cGd6vr-QEeQjeBrcWWNJVe3g/formResponse?">
+                                <label for="entry.865577691"></label>
+                                <input class="inputform2"  type="text"  name="entry.865577691" id="entry.865577691" placeholder="Nombre y Apellido" required>
+                                <label for="entry.116133504"></label>
+                                    <input class="inputform2"  type="text"  name="entry.116133504" id="entry.116133504" placeholder="Nombre del Negocio" required>
+                                    
+                                    <label for="entry.516082604" ></label>
+                                    <select class="selectb" id="entry.516082604"  name="entry.516082604" placeholder="Rol" title="Por favor escribe cual es tu rol" required>
+                                        <option value="Tipo de Negocio">Tipo de Negocio</option>
+                                        <option value="Empresa">Empresa</option>
+                                    <option value="Emprendimiento">Emprendimiento</option>
+                                    <option value="Freelancer">Freelancer</option>
+                                    <option value="Agencia Digital">Agencia Digital</option>
+                                    <option value="Afiliado">Afiliado/a</option>
+                                    
+                            
+                                    </select>
+            
+                                    <label for="entry.751884520"></label>
+                                    <input class="inputform2" type="number"  name="entry.751884520" id="entry.751884520" placeholder="Número de WhatsApp" required>
+                     
+        
+                            
+                                    <div class="recapcha2">
+                                        <div class="g-recaptcha" data-sitekey="6LcIwjsfAAAAACqpA6hMhPvQgPIlI5rewcduo7Ue"data-callback="verifyCaptcha2"></div>
+                                        <div id="g-recaptcha-error2"></div>
+                                    </div>
+        
+                                    <label for="boton"  id="enviarwat" class="enviarwat">  </label>
+        
+                                    <input class="inputform2" id="boton" type="submit" class="sumitb" name=""  target="_blank" value="Enviar">
+        
+                            </form>
+        
+                            <iframe name="hidden_iframe2" id="hidden_iframe2" style="display:none;" onload="if(submitted){}"></iframe>
+                    
+                    
+                    </div>
+</div>
+       
+
+<div class="intro2">
+    <span class="ordernumber2"></span>
+    <span id="intro"></span>
+</div>
+        
+
+
+       
+    
+        
+      
+
+    </div>
+    </div>
+</div>
+<!-- end modaldemo -->
 
 
 </footer>
