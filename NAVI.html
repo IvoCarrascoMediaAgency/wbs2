@@ -6,17 +6,14 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link  rel="icon"   href="favicon.ico" type="image/ico" />
-  
+    <!-- <meta http-equiv="refresh" content="2; url=https://whatsbulksender.com/precios-WhatsApp-masivo-2022"> -->
     <meta http-equiv="resfresh" content="2">
     <meta name="HandheldFriendly" content="true" />
     <meta name="language" content="Spanish">
     <meta name="description" content="WhatsApp Marketing Software | WhatsApp Masivo | Chat Bots | whatsbulksender.com">
 
-    <link rel="stylesheet" href="style.css">
+    
    
-  
-   
-    <link rel="stylesheet" href="iconosr/iconosr.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
@@ -57,7 +54,7 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js"></script>
-    <title>Herramientas de WhatsApp Marketing | WhatsApp Masivo | Chat Bots | whatsbulksender.com</title>
+    <title>WhatsBulkSender | WhatsApp Masivo | Chat Bots | whatsbulksender.com</title>
 
     <!-- Facebook Pixel Code -->
 
@@ -103,6 +100,9 @@
 <!-- codigo google Analitics  -->
 <style>
 
+@import url(https://www.whatsbulksender.com/style.css);
+@import url(https://www.whatsbulksender.com/iconosr/iconosr.css);
+ 
   main{
     
     display: grid;
@@ -131,12 +131,138 @@
     display: grid;
    
     justify-content: end;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
 }
 form.login2 {
   display: grid;
     justify-items: flex-end;
     width: auto;
 }
+
+.nonemodalv{
+  display: none;
+}
+.hidpa{
+
+  display: none;
+
+}
+
+/* html, body, div, iframe { margin:0; padding:0; height:100%; } */
+
+.chaover{
+  display: none;
+}
+
+.disclaimer {
+    /* display: grid; */
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.exit-intent-popup{
+    position: absolute;
+    display: none;
+}
+
+.visible{
+    display: flex;
+}
+
+.boton3{
+    text-decoration: none;
+    color: #33d670;
+    font-weight: bold;
+    cursor: pointer;
+}
+.exit-intent-popup.visible {
+    transform: translateY(0) scale(1);
+    transition: transform 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.exit-intent-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(33, 33, 33, 0.8);
+    transform: translateY(60%) scale(0);
+}
+.newsletter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #00bfa5;
+}
+
+.btnmodal{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+ 
+}
+
+.botonmodal{
+  cursor: pointer;
+  border: 1px solid #777;
+  padding: 7px;
+  border-radius: 15px;
+
+
+}
+.botonmodal1{
+  
+  color: #33d670;
+  cursor: pointer;
+  border: 1px solid#33d670;
+  padding: 7px;
+  border-radius: 15px;
+
+
+  
+
+}
+
+a.close.botonmodal,a.botonmodal1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menuwbs{
+  display: none;
+}
+
+
+a.botonmodal1:hover {
+background: #33d670;
+   color: white;
+   transition: 0.5s all;
+   
+}
+
+a.botonmodal:hover {
+background: #777;
+   color: white;
+   transition: 0.5s all;
+   
+}
+
+
+
 </style>
 </head>
 
@@ -148,12 +274,12 @@ form.login2 {
             
             <nav class="navwbs">
                 <!-- <img class="logoms" src="img/whatsapp-masivo-ecuador.webp" alt="Whats Bulk Sender | Software WhatsApp Marketing" srcset=""> -->
-                <a class="logoms" href="#"><img  src="img/whatsapp-masivo-ecuador.webp" alt="Whats Bulk Sender | Software WhatsApp Marketing" srcset=""><span class=""></span></a> 
+                <a class="logoms" href="#"><img  src="../img/whatsapp-masivo-ecuador.webp" alt="Whats Bulk Sender | Software WhatsApp Marketing" srcset=""><span class=""></span></a> 
 
 
                     <div class="logoimg">
                         
-                        <a class="logoms2" href="#"><img  src="img/whatsapp-masivo-ecuador.webp" alt="Whats Bulk Sender | Software WhatsApp Marketing" srcset=""><span class=""></span></a> 
+                        <a class="logoms2" href="#"><img  src="../img/whatsapp-masivo-ecuador.webp" alt="Whats Bulk Sender | Software WhatsApp Marketing" srcset=""><span class=""></span></a> 
 
 
 
@@ -210,11 +336,17 @@ form.login2 {
     <P><strong>Ciiente:</strong>     <INPUT type=text name=login> 
     <P><strong>PIN:</strong> <INPUT type=password name=password> 
       <div class="btngo">
-    <INPUT onclick=go() class="boton" type=button value=Acceder>
+      
+        <a   class="boton botonmodal1" onclick="go()"  class="txt_bold">Ingresar</a> 
+        <a class="boton botonmodal" onclick="go2()"  class="txt_bold">Cerrar X</a>  
+
     </div>
     
     </FORM> 
+<div class="disclaimer">
 
+    <small >Ingresa tus credenciales para activar la licencia del software, la garantía y las próximas actualizaciones. Para más información comunicate con  <a class="boton3" onclick="go3()"  class="txt_bold"> Soporte.</a>  </small>
+</div>
 
   
   
@@ -223,11 +355,29 @@ form.login2 {
   
      </div>
 
+     <div class="exit-intent-popup">
 
+      <div class="newsletter">
+
+
+
+    
+
+        <strong>¡Hey!</strong> Recuerda ingresar con tus credenciales para  <strong>activar la licencia de uso, activar la garantía y las próximas actualizaciones.</strong> <br> <br>
+<div class="btnmodal">
+  <a   class="botonmodal1" onclick="go6()"  >Acceder</a> 
+  <a  onclick="go5()"  class="close botonmodal">Cerrar X</a>  
+
+</div>
+
+
+
+     </div>
+
+    </div>
 </div>
       
 
-    
        
      
       
@@ -252,21 +402,20 @@ form.login2 {
     
 <footer>
   <script>
-    
-    var _0x28f8=["\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x6F\x70\x65\x6E\x65\x72","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x68\x61\x74\x73\x62\x75\x6C\x6B\x73\x65\x6E\x64\x65\x72\x2E\x63\x6F\x6D\x2F\x70\x72\x65\x63\x69\x6F\x73\x2D\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\x2E\x68\x74\x6D\x6C","\x63\x6C\x6F\x73\x65"];window[_0x28f8[2]][_0x28f8[1]][_0x28f8[0]]= _0x28f8[3];self[_0x28f8[4]]()
 
-         
+function _0x1b5e(){const _0x35e2f2=['252260zwnZNp','114096omGxGG','userAgent','classList','visible','form','login','querySelector','value','opener','56RiDmFm','27758016PNEmgC','Xime','mouseout','24KESXuZ','https://api.whatsapp.com/send?phone=593996517199&text=Hola!\x20solicito\x20ayuda\x20mi\x20nombre\x20es:....','href','clientY','925736vRgJIP','removeEventListener','open','className','relatedTarget','1345620zvhXOb','navigator','426264rMTwfv','removeClass','.exit-intent-popup','target','Por\x20favor\x20ingresa\x20tus\x20credenciales\x20correctas.','close','toElement','location','addEventListener','12LDcqqd','https://web.whatsapp.com/','add','641780QcdimJ','remove','9HjlSsp','mobile'];_0x1b5e=function(){return _0x35e2f2;};return _0x1b5e();}const _0x583a08=_0x2748;(function(_0x29d1d0,_0x297586){const _0x540871=_0x2748,_0x39af74=_0x29d1d0();while(!![]){try{const _0x726d0f=parseInt(_0x540871(0x95))/0x1*(-parseInt(_0x540871(0x9d))/0x2)+parseInt(_0x540871(0xb5))/0x3+parseInt(_0x540871(0xaa))/0x4*(-parseInt(_0x540871(0x98))/0x5)+parseInt(_0x540871(0xb3))/0x6+parseInt(_0x540871(0xa6))/0x7*(-parseInt(_0x540871(0xae))/0x8)+parseInt(_0x540871(0x9a))/0x9*(-parseInt(_0x540871(0x9c))/0xa)+parseInt(_0x540871(0xa7))/0xb;if(_0x726d0f===_0x297586)break;else _0x39af74['push'](_0x39af74['shift']());}catch(_0x5b6c85){_0x39af74['push'](_0x39af74['shift']());}}}(_0x1b5e,0x7632c));function go(){const _0x1e18c9=_0x2748;document['form']['password'][_0x1e18c9(0xa4)]=='6362'&&document[_0x1e18c9(0xa1)][_0x1e18c9(0xa2)]['value']==_0x1e18c9(0xa8)?self[_0x1e18c9(0x91)]():alert(_0x1e18c9(0x90));}function go2(){const _0xb85458=_0x2748;window[_0xb85458(0xa5)]['location'][_0xb85458(0xac)]='https://web.whatsapp.com/',self[_0xb85458(0x91)]();}const mouseEvent=_0x43e55e=>{const _0x2eaebd=_0x2748,_0xdcc53c=!_0x43e55e[_0x2eaebd(0x92)]&&!_0x43e55e[_0x2eaebd(0xb2)]&&_0x43e55e[_0x2eaebd(0xad)]<0xa;_0xdcc53c&&(document[_0x2eaebd(0xaf)]('mouseout',mouseEvent),document['querySelector'](_0x2eaebd(0x8e))['classList'][_0x2eaebd(0x97)](_0x2eaebd(0xa0)));},exit=_0x2a9581=>{const _0x15769e=_0x2748;_0x2a9581[_0x15769e(0x8f)][_0x15769e(0xb1)]===_0x15769e(0x91)&&document['querySelector'](_0x15769e(0x8e))[_0x15769e(0x9f)][_0x15769e(0x99)](_0x15769e(0xa0));};document[_0x583a08(0xa3)](_0x583a08(0x8e))[_0x583a08(0x94)]('click',exit),setTimeout(()=>{const _0x3d8dad=_0x583a08;document['addEventListener'](_0x3d8dad(0xa9),mouseEvent),document['addEventListener']('keydown',exit);},0x3e8);function go3(){const _0x70d01f=_0x583a08;var _0x2cf37f=new MobileDetect(window[_0x70d01f(0xb4)][_0x70d01f(0x9e)]);_0x2cf37f[_0x70d01f(0x9b)]()?(window['open'](_0x70d01f(0xab)),self[_0x70d01f(0x91)]()):(window[_0x70d01f(0xb0)]('https://web.whatsapp.com/send?phone=593996517199&text=Hola!\x20solicito\x20ayuda\x20mi\x20nombre\x20es:....'),self[_0x70d01f(0x91)]());}function _0x2748(_0x4ba7cd,_0x2cacef){const _0x1b5e2d=_0x1b5e();return _0x2748=function(_0x2748e3,_0x2ecc90){_0x2748e3=_0x2748e3-0x8e;let _0x1299f9=_0x1b5e2d[_0x2748e3];return _0x1299f9;},_0x2748(_0x4ba7cd,_0x2cacef);}function go5(){const _0x3febec=_0x583a08;window[_0x3febec(0xa5)][_0x3febec(0x93)][_0x3febec(0xac)]=_0x3febec(0x96),self['close']();}function go6(){const _0x3e7364=_0x583a08;$('.exit-intent-popup')[_0x3e7364(0xb6)](_0x3e7364(0xa0));}
   </script>
+          
+            
+
        
 
   
 </footer>
 
     
-   
-   
-
 
 
   
 </html>
+
