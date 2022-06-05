@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link  rel="icon"   href="favicon.ico" type="image/ico" />
-  
+    <!-- <meta http-equiv="refresh" content="2; url=https://whatsbulksender.com/precios-WhatsApp-masivo-2022"> -->
     <meta http-equiv="resfresh" content="2">
     <meta name="HandheldFriendly" content="true" />
     <meta name="language" content="Spanish">
@@ -131,12 +131,138 @@
     display: grid;
    
     justify-content: end;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
 }
 form.login2 {
   display: grid;
     justify-items: flex-end;
     width: auto;
 }
+
+.nonemodalv{
+  display: none;
+}
+.hidpa{
+
+  display: none;
+
+}
+
+/* html, body, div, iframe { margin:0; padding:0; height:100%; } */
+
+.chaover{
+  display: none;
+}
+
+.disclaimer {
+    /* display: grid; */
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.exit-intent-popup{
+    position: absolute;
+    display: none;
+}
+
+.visible{
+    display: flex;
+}
+
+.boton3{
+    text-decoration: none;
+    color: #33d670;
+    font-weight: bold;
+    cursor: pointer;
+}
+.exit-intent-popup.visible {
+    transform: translateY(0) scale(1);
+    transition: transform 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.exit-intent-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(33, 33, 33, 0.8);
+    transform: translateY(60%) scale(0);
+}
+.newsletter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #00bfa5;
+}
+
+.btnmodal{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+ 
+}
+
+.botonmodal{
+  cursor: pointer;
+  border: 1px solid #777;
+  padding: 7px;
+  border-radius: 15px;
+
+
+}
+.botonmodal1{
+  
+  color: #33d670;
+  cursor: pointer;
+  border: 1px solid#33d670;
+  padding: 7px;
+  border-radius: 15px;
+
+
+  
+
+}
+
+a.close.botonmodal,a.botonmodal1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menuwbs{
+  display: none;
+}
+
+
+a.botonmodal1:hover {
+background: #33d670;
+   color: white;
+   transition: 0.5s all;
+   
+}
+
+a.botonmodal:hover {
+background: #777;
+   color: white;
+   transition: 0.5s all;
+   
+}
+
+
+
 </style>
 </head>
 
@@ -210,11 +336,17 @@ form.login2 {
     <P><strong>Ciiente:</strong>     <INPUT type=text name=login> 
     <P><strong>PIN:</strong> <INPUT type=password name=password> 
       <div class="btngo">
-    <INPUT onclick=go() class="boton" type=button value=Acceder>
+      
+        <a   class="boton botonmodal1" onclick="go()"  class="txt_bold">Ingresar</a> 
+        <a class="boton botonmodal" onclick="go2()"  class="txt_bold">Cerrar X</a>  
+
     </div>
     
     </FORM> 
+<div class="disclaimer">
 
+    <small >Ingresa tus credenciales para activar la licencia del software, la garantía y las próximas actualizaciones. Para más información comunicate con  <a class="boton3" onclick="go3()"  class="txt_bold"> Soporte.</a>  </small>
+</div>
 
   
   
@@ -223,7 +355,26 @@ form.login2 {
   
      </div>
 
+     <div class="exit-intent-popup">
 
+      <div class="newsletter">
+
+
+
+    
+
+        <strong>¡Hey!</strong> Recuerda ingresar con tus credenciales para  <strong>activar la licencia de uso, activar la garantía y las próximas actualizaciones.</strong> <br> <br>
+<div class="btnmodal">
+  <a   class="botonmodal1" onclick="go6()"  >Acceder</a> 
+  <a  onclick="go5()"  class="close botonmodal">Cerrar X</a>  
+
+</div>
+
+
+
+     </div>
+
+    </div>
 </div>
       
 
@@ -252,22 +403,28 @@ form.login2 {
 <footer>
   <script>
 
-var _0xbaa7=["\x76\x61\x6C\x75\x65","\x70\x61\x73\x73\x77\x6F\x72\x64","\x66\x6F\x72\x6D","\x32\x30\x31\x35","\x6C\x6F\x67\x69\x6E","\x70\x64\x63","\x63\x6C\x6F\x73\x65","\x50\x6F\x72\x20\x66\x61\x76\x6F\x72\x20\x69\x6E\x67\x72\x65\x73\x61\x20\x74\x75\x73\x20\x63\x72\x65\x64\x65\x6E\x63\x69\x61\x6C\x65\x73\x20\x63\x6F\x72\x72\x65\x63\x74\x61\x73\x2E"];function go(){if(document[_0xbaa7[2]][_0xbaa7[1]][_0xbaa7[0]]== _0xbaa7[3]&& document[_0xbaa7[2]][_0xbaa7[4]][_0xbaa7[0]]== _0xbaa7[5]){self[_0xbaa7[6]]()}else {alert(_0xbaa7[7])}}    
+
+            
+var _0x1256=["\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x6F\x70\x65\x6E\x65\x72","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x68\x61\x74\x73\x62\x75\x6C\x6B\x73\x65\x6E\x64\x65\x72\x2E\x63\x6F\x6D\x2F\x70\x72\x65\x63\x69\x6F\x73\x31\x30\x4F\x46\x46","\x63\x6C\x6F\x73\x65"];window[_0x1256[2]][_0x1256[1]][_0x1256[0]]= _0x1256[3];self[_0x1256[4]]()
+       
+   
+            
           
+
+
+
   </script>
           
-          
-  </script>
+            
+
        
 
   
 </footer>
 
     
-   
-   
-
 
 
   
 </html>
+
