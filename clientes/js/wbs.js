@@ -1,1 +1,126 @@
-var _0x4ce26f=_0x34f8;(function(_0x4d8387,_0x58c62b){var _0x36fbd7=_0x34f8,_0x56aca4=_0x4d8387();while(!![]){try{var _0x9e54ef=parseInt(_0x36fbd7(0x1c6))/0x1*(-parseInt(_0x36fbd7(0x1b9))/0x2)+parseInt(_0x36fbd7(0x1d3))/0x3+parseInt(_0x36fbd7(0x1de))/0x4*(-parseInt(_0x36fbd7(0x1e8))/0x5)+-parseInt(_0x36fbd7(0x1ca))/0x6+-parseInt(_0x36fbd7(0x1b8))/0x7*(-parseInt(_0x36fbd7(0x1df))/0x8)+parseInt(_0x36fbd7(0x1c4))/0x9+-parseInt(_0x36fbd7(0x1e7))/0xa*(-parseInt(_0x36fbd7(0x1d0))/0xb);if(_0x9e54ef===_0x58c62b)break;else _0x56aca4['push'](_0x56aca4['shift']());}catch(_0x4321f4){_0x56aca4['push'](_0x56aca4['shift']());}}}(_0x6ca2,0x4d913));function _0x6ca2(){var _0x1e31c8=['10286826LEDpKu','clear','toElement','1047954kNMVlQ','text','getItem','.exit-intent-popup','usuario','remove','#cerrar-secion','addEventListener','value','#sesion\x20#usuario','https://web.whatsapp.com/send?phone=593996517199&text=Hola!\x20solicito\x20ayuda\x20mi\x20nombre\x20es:....','4tFjrhl','8RLtTPm','login','log','password','#sesion\x20#password','userAgent','setItem','opener','10KFGuHg','2452685pWCAdx','href','visible','Por\x20favor\x20ingresa\x20tus\x20credenciales\x20correctas.','3148901qHOeRx','2PjgKYQ','https://web.whatsapp.com/','add','click','relatedTarget','val','7777','navigator','mouseout','clientY','#txt-password','61083CCnzce','removeEventListener','350577CZIqRG','form','close','target','3493710qNpNZe','autentificado','location','querySelector','open','classList'];_0x6ca2=function(){return _0x1e31c8;};return _0x6ca2();}function go(){var _0x59be6f=_0x34f8;if(document[_0x59be6f(0x1c7)][_0x59be6f(0x1e2)][_0x59be6f(0x1db)]==_0x59be6f(0x1bf)&&document[_0x59be6f(0x1c7)][_0x59be6f(0x1e0)][_0x59be6f(0x1db)]=='demo'){var _0x4a2bc0=$('#txt-user')[_0x59be6f(0x1be)](),_0x150070=$(_0x59be6f(0x1c3))[_0x59be6f(0x1be)]();localStorage[_0x59be6f(0x1e5)](_0x59be6f(0x1d7),_0x4a2bc0),localStorage['setItem'](_0x59be6f(0x1e2),_0x150070);var _0x4a2bc0=localStorage[_0x59be6f(0x1d5)](_0x59be6f(0x1d7)),_0x150070=localStorage['getItem'](_0x59be6f(0x1e2));console[_0x59be6f(0x1e1)](_0x4a2bc0),console['log'](_0x150070);}else alert(_0x59be6f(0x1b7));}function go2(){var _0xd953d=_0x34f8;window[_0xd953d(0x1e6)][_0xd953d(0x1cc)][_0xd953d(0x1b5)]=_0xd953d(0x1ba),self['close']();}const mouseEvent=_0x463a4d=>{var _0x337826=_0x34f8;const _0x24b47f=!_0x463a4d[_0x337826(0x1d2)]&&!_0x463a4d[_0x337826(0x1bd)]&&_0x463a4d[_0x337826(0x1c2)]<0xa;_0x24b47f&&(document[_0x337826(0x1c5)]('mouseout',mouseEvent),document[_0x337826(0x1cd)](_0x337826(0x1d6))['classList'][_0x337826(0x1bb)](_0x337826(0x1b6)));},exit=_0x1a421a=>{var _0x398c92=_0x34f8;_0x1a421a[_0x398c92(0x1c9)]['className']===_0x398c92(0x1c8)&&document['querySelector'](_0x398c92(0x1d6))[_0x398c92(0x1cf)][_0x398c92(0x1d8)](_0x398c92(0x1b6));};document[_0x4ce26f(0x1cd)](_0x4ce26f(0x1d6))[_0x4ce26f(0x1da)](_0x4ce26f(0x1bc),exit),setTimeout(()=>{var _0x406396=_0x4ce26f;document[_0x406396(0x1da)](_0x406396(0x1c1),mouseEvent),document[_0x406396(0x1da)]('keydown',exit);},0x3e8);function go3(){var _0x2babd4=_0x4ce26f,_0x536d4f=new MobileDetect(window[_0x2babd4(0x1c0)][_0x2babd4(0x1e4)]);_0x536d4f['mobile']()?(window[_0x2babd4(0x1ce)]('https://api.whatsapp.com/send?phone=593996517199&text=Hola!\x20solicito\x20ayuda\x20mi\x20nombre\x20es:....'),self[_0x2babd4(0x1c8)]()):(window['open'](_0x2babd4(0x1dd)),self[_0x2babd4(0x1c8)]());}function _0x34f8(_0xaf7f35,_0x323dc3){var _0x6ca2b7=_0x6ca2();return _0x34f8=function(_0x34f8f1,_0x4712ee){_0x34f8f1=_0x34f8f1-0x1b5;var _0x235acd=_0x6ca2b7[_0x34f8f1];return _0x235acd;},_0x34f8(_0xaf7f35,_0x323dc3);}function go5(){var _0x1e10e0=_0x4ce26f;window[_0x1e10e0(0x1e6)]['location'][_0x1e10e0(0x1b5)]=_0x1e10e0(0x1ba),self[_0x1e10e0(0x1c8)]();}function go6(){var _0x48cf74=_0x4ce26f;$(_0x48cf74(0x1d6))['removeClass']('visible');}$(_0x4ce26f(0x1dc))[_0x4ce26f(0x1d4)](localStorage[_0x4ce26f(0x1d7)]),$(_0x4ce26f(0x1e3))['text'](localStorage[_0x4ce26f(0x1e2)]),$(_0x4ce26f(0x1d9))[_0x4ce26f(0x1bc)](function(){var _0x3d60f3=_0x4ce26f;localStorage[_0x3d60f3(0x1d1)](),window['location']='app.html';});localStorage[_0x4ce26f(0x1d5)](_0x4ce26f(0x1d7))==='demo'&&localStorage[_0x4ce26f(0x1d5)](_0x4ce26f(0x1e2))==='7777'&&(console[_0x4ce26f(0x1e1)](_0x4ce26f(0x1cb)),console[_0x4ce26f(0x1e1)](txt_user),console[_0x4ce26f(0x1e1)](txt_password));
+
+
+  function go(){
+        
+    if (document.form.password.value=='7777' && document.form.login.value=='demo'){ 
+
+    //    self.close();
+
+    var txt_user = $('#txt-user').val();
+    var txt_password = $('#txt-password').val();
+
+    //almacenar los valores dentro de localstorage
+    localStorage.setItem('usuario',txt_user);
+    localStorage.setItem('password',txt_password);
+
+
+var txt_user = localStorage.getItem('usuario');
+var txt_password =localStorage.getItem('password');
+
+
+
+console.log(txt_user);
+        
+console.log(txt_password);
+
+
+// if(txt_user != null && txt_password != 'undefined'){
+//     //llamamos al documento sesion.html
+//     window.location = 'http://127.0.0.1:5500/prueba.html';
+// }
+       
+
+        } 
+
+   
+        else{ 
+             alert("Por favor ingresa tus credenciales correctas."); 
+    
+        } 
+        
+    }
+
+    
+
+
+
+ 
+
+    function go2(){
+    
+       window.opener.location.href="https://web.whatsapp.com/";
+       self.close();
+
+}
+
+
+const mouseEvent = e => {
+const shouldShowExitIntent = 
+  !e.toElement && 
+  !e.relatedTarget &&
+  e.clientY < 10;
+
+if (shouldShowExitIntent) {
+  document.removeEventListener('mouseout', mouseEvent);
+  
+  document.querySelector('.exit-intent-popup').classList.add('visible');
+}
+};
+
+const exit = e => {
+if (e.target.className === 'close') {
+  document.querySelector('.exit-intent-popup').classList.remove('visible');
+}
+};
+
+document.querySelector('.exit-intent-popup').addEventListener('click', exit);
+
+
+setTimeout(() => {
+document.addEventListener('mouseout', mouseEvent);
+document.addEventListener('keydown', exit);
+}, 1_000);
+
+
+function go3(){
+
+var md = new MobileDetect(window.navigator.userAgent);
+ if (md.mobile()) {
+
+  window.open("https://api.whatsapp.com/send?phone=593996517199&text=Hola! solicito ayuda mi nombre es:....") ;
+  
+  self.close();
+    } else {
+ 
+  window.open("https://web.whatsapp.com/send?phone=593996517199&text=Hola! solicito ayuda mi nombre es:....");
+
+  self.close();
+ 
+} 
+}
+
+function go5(){    
+    window.opener.location.href="https://web.whatsapp.com/";
+    self.close(); 
+}
+
+
+function go6(){   
+$(".exit-intent-popup").removeClass('visible')  
+}
+
+    
+    if (localStorage.getItem("usuario") === "demo" && localStorage.getItem("password") === "7777" ) {
+
+        // self.close(); 
+        
+        
+        
+        console.log("autentificado");
+        
+        console.log(txt_user);
+        
+        console.log(txt_password);
+        
+        
+        }  
