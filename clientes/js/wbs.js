@@ -37,6 +37,20 @@ console.log(txt_password);
              alert("Por favor ingresa tus credenciales correctas."); 
     
         } 
+        if (localStorage.getItem("usuario") === "demo" && localStorage.getItem("password") === "7777" ) {
+
+            // self.close(); 
+            
+            
+            
+            console.log("autentificado");
+            
+            console.log(txt_user);
+            
+            console.log(txt_password);
+            
+            
+            }  
         
     }
 
@@ -110,17 +124,4 @@ $(".exit-intent-popup").removeClass('visible')
 }
 
     
-    if (localStorage.getItem("usuario") === "demo" && localStorage.getItem("password") === "7777" ) {
-
-        // self.close(); 
-        
-        
-        
-        console.log("autentificado");
-        
-        console.log(txt_user);
-        
-        console.log(txt_password);
-        
-        
-        }  
+    
