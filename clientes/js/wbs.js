@@ -6,12 +6,12 @@
 
     //    self.close();
 
-    var txt_user = $('#txt-user').val();
-    var txt_password = $('#txt-password').val();
+    var txt_user = $('#txt-user');
+    var txt_password = $('#txt-password');
 
     //almacenar los valores dentro de localstorage
-    localStorage.setItem('usuario',txt_user);
-    localStorage.setItem('password',txt_password);
+    localStorage.setItem('usuario',txt_user.value);
+    localStorage.setItem('password',txt_password.value);
 
 
 var txt_user = localStorage.getItem('usuario');
