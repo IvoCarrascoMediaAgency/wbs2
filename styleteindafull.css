@@ -2605,7 +2605,7 @@ p.caracteristicasp1,.eninternet {
     border: 5px solid;
 }
 
-.btn24 a{
+.btn24 a,.btn26a a,.btn27a a,.btn26b a,.btn27b a{
   padding: 10px;
   color: #fff;
   border: 1px solid #128c7e;
@@ -2619,11 +2619,9 @@ p.caracteristicasp1,.eninternet {
   -moz-border-radius: 5px;
   border-radius: 5px;
   text-decoration: none;
-
-
-
-  
 }
+
+
 
 .btn24 {
   display: block;
@@ -2687,6 +2685,72 @@ div#contacto2 {
   background: white;
   border-radius: 10px;
 }
+
+.os{
+  /* display: grid; */
+}
+
+.plataforms {
+  margin-bottom: 50px;
+}
+
+.macan{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+
+}
+
+.masvendidos3a p,.masvendidos3b p{
+  background: #faf5e9;
+    display: block;
+    /* height: 200px; */
+    align-items: center;
+    align-content: center;
+    /* margin-bottom: 100px; */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.macandro{
+  /* display: grid;
+  justify-items: center;
+  align-items: center; */
+
+}
+
+.win{
+
+  /* display: grid;
+
+ 
+  justify-items: center;
+align-items: center; */
+
+}
+
+.imgwin{
+  width: 200px;
+  margin-bottom: 20px;
+ 
+}
+
+.imgmac{
+  width: 50px;
+
+}
+
+.imgandroid{
+  width: 100%;
+}
+
+
+
 
 
   @media  (max-width: 375px) {
@@ -2767,6 +2831,14 @@ div#contacto2 {
 .recibiras{
   width: 50%;
 }
+
+.os{
+   display: grid;
+
+  grid-template-columns: 50% 50%; 
+  /* justify-items: center;  */
+}
+
 
 
 
