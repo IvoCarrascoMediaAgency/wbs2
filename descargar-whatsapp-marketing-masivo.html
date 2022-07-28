@@ -153,6 +153,10 @@
     width: 80%;
     margin: 10px auto;
 }
+
+.adioslabel{
+    display: none;
+}
 @media screen and (min-width: 768px){
     nav.navwbs {
     display: grid;
@@ -333,11 +337,12 @@
 
                         <!-- <h3>¿Quieres beneficiarte del <span>50% de descuento</span>?</h3> -->
                         <h3>Prueba la versión 2022 🤩</h3>
+                        <p>📢 Los links te llegan al WhatsApp</p>
                         <br>
                         <!-- <p>Solicita tu demo de lunes a viernes  (Zona horaria Bogota, Mexico DF, Lima, Quito)</p> -->
                         
                         
-                            <!-- <P>Promo📢 Día del Padre 🎉🧔 obtén el 50% de descuento <strong>hasta el 20 de junio del 2020.</strong></P> -->
+                            <!-- <P>PromoDía del Padre 🎉🧔 obtén el 50% de descuento <strong>hasta el 20 de junio del 2020.</strong></P> -->
                                 <!-- <img class="precio1" src="img/plan-emprendedor.png" alt=""> -->
                         <!-- <p ><strong>ANTES <s>$50,00/mes</s></strong> <span>🤩 <strong>Ahora 24,99/mes</strong></span> </p> -->
                                  <div class="ulprueba">
@@ -357,11 +362,11 @@
                                     <form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSfo7slYK4dMUyORkJpv1_Zlt1cGd6vr-QEeQjeBrcWWNJVe3g/formResponse?">
                                         <label for="entry.865577691"></label>
                                         <input type="text" name="entry.865577691" id="entry.865577691" placeholder="Nombre y Apellido" required="">
-                                        <label for="entry.116133504"></label>
-                                            <input type="text" name="entry.116133504" id="entry.116133504" placeholder="Nombre del Negocio" required="">
+                                      <label class="adioslabel" for="entry.865577691"></label>
+                                            <input class="adioslabel" type="text" name="entry.865577691" id="entry.865577691" placeholder="Nombre del Negocio" > 
                                             
-                                            <label for="entry.516082604"></label>
-                                            <select class="selectb" id="entry.516082604" name="entry.516082604" placeholder="Rol" title="Por favor escribe cual es tu rol" required="">
+                                            <label class="adioslabel" for="entry.516082604"></label>
+                                            <select class="selectb adioslabel" id="entry.516082604" name="entry.516082604" placeholder="Rol" title="Por favor escribe cual es tu rol" >
                                                 <option value="Tipo de Negocio">Tipo de Negocio</option>
                                                 <option value="Empresa">Empresa</option>
                                             <option value="Emprendimiento">Emprendimiento</option>
@@ -369,7 +374,7 @@
                                             <option value="Agencia Digital">Agencia Digital</option>
                                             <option value="Afiliado">Afiliado/a</option>
                                            
-                                           
+                                       
                                        
                                     
                                             </select>
@@ -416,7 +421,7 @@
                 
                                             <label for="boton" id="enviarwa" class="enviarwa">  </label>
                 
-                                            <input id="boton" type="submit" class="sumitb" name="" onclick="goToPage();" target="_blank" value="Probar GRATIS">
+                                            <input id="boton" type="submit" class="sumitb" name="" onclick="goToPage();" target="_blank" value="🤖 Probar GRATIS">
                 
                                     </form>
                 
@@ -841,7 +846,7 @@
 
     
   
-    <script src="js/main.js"></script>
+    <script src="main2.js"></script>
 
 
     <script src=""
