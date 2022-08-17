@@ -2247,9 +2247,11 @@ input#botona,input#button{background-color: #25d366;
   display: none;
 }
 
-.chao1,.chao2,.chao3{
+.chao2,.chao3{
   display: none;
 }
+
+
 
 .fanlink {
   display: none;
