@@ -6,17 +6,14 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link  rel="icon"   href="favicon.ico" type="image/ico" />
-  
+    <!-- <meta http-equiv="refresh" content="2; url=https://whatsbulksender.com/precios-WhatsApp-masivo-2022"> -->
     <meta http-equiv="resfresh" content="2">
     <meta name="HandheldFriendly" content="true" />
     <meta name="language" content="Spanish">
     <meta name="description" content="WhatsApp Marketing Software | WhatsApp Masivo | Chat Bots | whatsbulksender.com">
 
-    <link rel="stylesheet" href="style.css">
+    
    
-  
-   
-    <link rel="stylesheet" href="iconosr/iconosr.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
@@ -103,6 +100,9 @@
 <!-- codigo google Analitics  -->
 <style>
 
+@import url(https://www.whatsbulksender.com/style.css);
+@import url(https://www.whatsbulksender.com/iconosr/iconosr.css);
+ 
   main{
     
     display: grid;
@@ -131,12 +131,138 @@
     display: grid;
    
     justify-content: end;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
 }
 form.login2 {
   display: grid;
     justify-items: flex-end;
     width: auto;
 }
+
+.nonemodalv{
+  display: none;
+}
+.hidpa{
+
+  display: none;
+
+}
+
+/* html, body, div, iframe { margin:0; padding:0; height:100%; } */
+
+.chaover{
+  display: none;
+}
+
+.disclaimer {
+    /* display: grid; */
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.exit-intent-popup{
+    position: absolute;
+    display: none;
+}
+
+.visible{
+    display: flex;
+}
+
+.boton3{
+    text-decoration: none;
+    color: #33d670;
+    font-weight: bold;
+    cursor: pointer;
+}
+.exit-intent-popup.visible {
+    transform: translateY(0) scale(1);
+    transition: transform 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.exit-intent-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(33, 33, 33, 0.8);
+    transform: translateY(60%) scale(0);
+}
+.newsletter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #00bfa5;
+}
+
+.btnmodal{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+ 
+}
+
+.botonmodal{
+  cursor: pointer;
+  border: 1px solid #777;
+  padding: 7px;
+  border-radius: 15px;
+
+
+}
+.botonmodal1{
+  
+  color: #33d670;
+  cursor: pointer;
+  border: 1px solid#33d670;
+  padding: 7px;
+  border-radius: 15px;
+
+
+  
+
+}
+
+a.close.botonmodal,a.botonmodal1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menuwbs{
+  display: none;
+}
+
+
+a.botonmodal1:hover {
+background: #33d670;
+   color: white;
+   transition: 0.5s all;
+   
+}
+
+a.botonmodal:hover {
+background: #777;
+   color: white;
+   transition: 0.5s all;
+   
+}
+
+
+
 </style>
 </head>
 
@@ -148,12 +274,12 @@ form.login2 {
             
             <nav class="navwbs">
                 <!-- <img class="logoms" src="img/whatsapp-masivo-ecuador.webp" alt="Whats Bulk Sender | Software WhatsApp Marketing" srcset=""> -->
-                <a class="logoms" href="#"><img  src="img/whatsapp-masivo-ecuador.webp" alt="Whats Bulk Sender | Software WhatsApp Marketing" srcset=""><span class=""></span></a> 
+                <a class="logoms" href="#"><img  src="../img/whatsapp-masivo-ecuador.webp" alt="Whats Bulk Sender | Software WhatsApp Marketing" srcset=""><span class=""></span></a> 
 
 
                     <div class="logoimg">
                         
-                        <a class="logoms2" href="#"><img  src="img/whatsapp-masivo-ecuador.webp" alt="Whats Bulk Sender | Software WhatsApp Marketing" srcset=""><span class=""></span></a> 
+                        <a class="logoms2" href="#"><img  src="../img/whatsapp-masivo-ecuador.webp" alt="Whats Bulk Sender | Software WhatsApp Marketing" srcset=""><span class=""></span></a> 
 
 
 
@@ -207,14 +333,20 @@ form.login2 {
   
   <FORM  class="login2" name=form action="https://whatsbulksender.com/contacto.html">
 
-    <P><strong>Ciiente:</strong>     <INPUT type=text name=login> 
-    <P><strong>PIN:</strong> <INPUT type=password name=password> 
+    <P><strong>Ciiente:</strong>     <INPUT id="txt-user" type=text name=login> 
+    <P><strong>PIN:</strong> <INPUT id="txt-password" type=password name=password> 
       <div class="btngo">
-    <INPUT onclick=go() class="boton" type=button value=Acceder>
+      
+        <a   class="boton botonmodal1" onclick="go()" id="txt-sub" class="txt_bold">Ingresar</a> 
+        <a class="boton botonmodal" onclick="go2()"  class="txt_bold">Cerrar X</a>  
+
     </div>
     
     </FORM> 
+<div class="disclaimer">
 
+    <small >Ingresa tus credenciales para activar la licencia del software, la garantía y las próximas actualizaciones. Para más información comunicate con  <a class="boton3" onclick="go3()"  class="txt_bold"> Soporte.</a>  </small>
+</div>
 
   
   
@@ -223,7 +355,26 @@ form.login2 {
   
      </div>
 
+     <div class="exit-intent-popup">
 
+      <div class="newsletter">
+
+
+
+    
+
+        <strong>¡Hey!</strong> Recuerda ingresar con tus credenciales para  <strong>activar la licencia de uso, activar la garantía y las próximas actualizaciones.</strong> <br> <br>
+<div class="btnmodal">
+  <a   class="botonmodal1" onclick="go6()"  >Acceder</a> 
+  <a  onclick="go5()"  class="close botonmodal">Cerrar X</a>  
+
+</div>
+
+
+
+     </div>
+
+    </div>
 </div>
       
 
@@ -252,20 +403,88 @@ form.login2 {
 <footer>
   <script>
 
-var _0xf3cc=["\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x6F\x70\x65\x6E\x65\x72","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x68\x61\x74\x73\x62\x75\x6C\x6B\x73\x65\x6E\x64\x65\x72\x2E\x63\x6F\x6D\x2F\x70\x72\x65\x63\x69\x6F\x73\x2D\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\x2E\x68\x74\x6D\x6C","\x63\x6C\x6F\x73\x65"];window[_0xf3cc[2]][_0xf3cc[1]][_0xf3cc[0]]= _0xf3cc[3];self[_0xf3cc[4]]()
+function go(){
+        
+        if (document.form.password.value=='6688' && document.form.login.value=='MAPREU'){ 
 
-          
-  </script>
-       
-
+           self.close();
+           
   
-</footer>
+            } 
+            else{ 
+                 alert("Por favor ingresa tus credenciales correctas."); 
+        
+            } 
+            
+        }
+    
+  
+        function go2(){
+        
+           window.opener.location.href="https://web.whatsapp.com/";
+           self.close();
+ 
+}
+
+
+const mouseEvent = e => {
+  const shouldShowExitIntent = 
+      !e.toElement && 
+      !e.relatedTarget &&
+      e.clientY < 10;
+
+  if (shouldShowExitIntent) {
+      document.removeEventListener('mouseout', mouseEvent);
+      
+      document.querySelector('.exit-intent-popup').classList.add('visible');
+  }
+};
+
+const exit = e => {
+  if (e.target.className === 'close') {
+      document.querySelector('.exit-intent-popup').classList.remove('visible');
+  }
+};
+
+document.querySelector('.exit-intent-popup').addEventListener('click', exit);
+
+
+setTimeout(() => {
+  document.addEventListener('mouseout', mouseEvent);
+  document.addEventListener('keydown', exit);
+}, 1_000);
+
+
+function go3(){
+ 
+  var md = new MobileDetect(window.navigator.userAgent);
+     if (md.mobile()) {
+
+      window.open("https://api.whatsapp.com/send?phone=593996517199&text=Hola! solicito ayuda mi nombre es:....") ;
+      
+      self.close();
+        } else {
+     
+      window.open("https://web.whatsapp.com/send?phone=593996517199&text=Hola! solicito ayuda mi nombre es:....");
+ 
+      self.close();
+     
+    } 
+}
+
+function go5(){    
+        window.opener.location.href="https://web.whatsapp.com/";
+        self.close(); 
+}
+
+
+function go6(){   
+ $(".exit-intent-popup").removeClass('visible')  
+}
 
     
-   
-   
+  </script>
+</footer>
 
-
-
-  
 </html>
+
