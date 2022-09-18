@@ -403,21 +403,65 @@ background: #777;
 <footer>
   <script>
 
+
+        
+       // if (document.form.password.value=='6688' && document.form.login.value=='MAPREU'){ 
+
+
+
+    
 function go(){
         
         if (document.form.password.value=='6688' && document.form.login.value=='MAPREU'){ 
 
            self.close();
+
+        var txt_user = $('#txt-user').val();
+        var txt_password = $('#txt-password').val();
+
+        //almacenar los valores dentro de localstorage
+        localStorage.setItem('usuario',txt_user);
+        localStorage.setItem('password',txt_password);
+
+
+    var txt_user = localStorage.getItem('usuario');
+    var txt_password =localStorage.getItem('password');
+
+
+
+    
+
            
   
             } 
+
+       
             else{ 
                  alert("Por favor ingresa tus credenciales correctas."); 
         
             } 
             
         }
-    
+
+        
+
+        
+if (localStorage.getItem("usuario") === "MAPREU" && localStorage.getItem("password") === "6688" ) {
+
+self.close(); 
+
+  
+
+console.log("autentificado");
+
+console.log(txt_user);
+
+console.log(txt_password);
+
+
+}  
+
+     
   
         function go2(){
         
@@ -482,7 +526,6 @@ function go6(){
  $(".exit-intent-popup").removeClass('visible')  
 }
 
-    
   </script>
 </footer>
 
