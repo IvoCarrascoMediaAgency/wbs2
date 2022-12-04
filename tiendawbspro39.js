@@ -1,4 +1,3434 @@
-var _0x5a55=["\x73\x68\x69\x66\x74","\x70\x75\x73\x68","\x6F\x6E\x63\x6F\x6E\x74\x65\x78\x74\x6D\x65\x6E\x75","\x23\x65\x78\x69\x74","\x74\x6F\x70","\x2E\x72\x6F\x77\x2D\x63\x65\x6E\x74\x65\x72\x65\x64\x77","\x6F\x6E","\x72\x65\x61\x64\x79","\x6D\x6F\x75\x73\x65\x6F\x75\x74","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x63\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x72\x65\x6D\x6F\x76\x65","\x2E\x65\x78\x69\x74\x2D\x69\x6E\x74\x65\x6E\x74\x2D\x70\x6F\x70\x75\x70","\x6B\x65\x79\x64\x6F\x77\x6E","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x62\x74\x6E\x32\x35","\x76\x69\x73\x69\x62\x6C\x65","\x74\x6F\x67\x67\x6C\x65\x43\x6C\x61\x73\x73","\x2E\x65\x78\x69\x74\x2D\x69\x6E\x74\x65\x6E\x74\x2D\x70\x6F\x70\x75\x70\x32","\x63\x6C\x69\x63\x6B","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x68\x6F\x74\x6D\x2E\x61\x72\x74\x2F\x4C\x69\x63\x65\x6E\x63\x69\x61\x31\x32\x4D\x65\x73\x65\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x68\x6F\x74\x6D\x2E\x61\x72\x74\x2F\x4C\x69\x63\x65\x6E\x63\x69\x61\x32\x34\x4D\x65\x73\x65\x73","","\x6D\x65\x6E\x75\x2D\x73\x65\x63\x74\x69\x6F\x6E\x73","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x65\x63\x74\x69\x6F\x6E\x2D\x69\x74\x65\x6D\x22\x3E\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x23","\x65\x6E\x74\x72\x69\x65\x73","\x63\x61\x74\x65\x67\x6F\x72\x69\x65\x73","\x69\x74\x65\x6D\x73","\x76\x61\x6C\x75\x65","\x2D","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x71\x74\x79","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x63\x61\x72\x64\x22\x3E\x0A\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x20\x73\x68\x61\x64\x6F\x77\x20\x6D\x62\x2D\x34\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x6F\x64\x61\x6C\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x22\x3E\x0A\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x6D\x67\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x69\x6D\x61\x67\x65\x22\x20\x73\x72\x63\x3D\x22","\x64\x65\x74\x61\x6C\x6C\x65\x73","\x3C\x2F\x70\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x70\x72\x69\x63\x65\x20\x66\x61\x6E\x6C\x69\x6E\x6B\x22\x20\x69\x64\x3D\x22\x6C\x69\x6E\x6B\x70\x61\x67\x6F\x22\x3E","\x6C\x69\x6E\x6B\x70\x61\x67\x6F","\x66\x6F\x72\x45\x61\x63\x68","\x69\x64","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x63\x61\x74\x65\x67\x6F\x72\x79\x22\x20\x69\x64\x3D","\x61","\x3E","\x72\x6F\x77","\x61\x64\x64","\x73\x6C\x69\x64\x65\x73\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2D\x6D","\x2D\x70","\x75\x73\x65\x72\x5F\x64\x61\x74\x61","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x20\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x49\x74\x65\x6D\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x68\x6F\x70\x70\x69\x6E\x67\x2D\x63\x61\x72\x74\x2D\x69\x74\x65\x6D\x22\x20\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x6D\x67\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6D\x67\x70\x65\x64\x69\x64\x6F\x22\x20\x73\x72\x63\x3D","\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x68\x6F\x70\x70\x69\x6E\x67\x2D\x63\x61\x72\x74\x2D\x69\x6D\x61\x67\x65\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x68\x36\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x68\x6F\x70\x70\x69\x6E\x67\x2D\x63\x61\x72\x74\x2D\x69\x74\x65\x6D\x2D\x74\x69\x74\x6C\x65\x20\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x49\x74\x65\x6D\x54\x69\x74\x6C\x65\x20\x74\x65\x78\x74\x2D\x74\x72\x75\x6E\x63\x61\x74\x65\x20\x6D\x6C\x2D\x33\x20\x6D\x62\x2D\x30\x20\x20\x22\x20\x69\x64\x3D\x22\x69\x74\x65\x6D\x74\x69\x74\x75\x6C\x6F\x77\x61\x22\x3E","\x3C\x2F\x70\x3E\x0A\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x20\x62\x74\x6E\x2D\x64\x61\x6E\x67\x65\x72\x20\x62\x75\x74\x74\x6F\x6E\x44\x65\x6C\x65\x74\x65\x22\x20\x74\x79\x70\x65\x3D\x22\x62\x75\x74\x74\x6F\x6E\x22\x20\x69\x64\x3D\x22","\x2D\x63\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x63\x6F\x6E\x2D\x62\x69\x6E\x22\x3E\x3C\x2F\x73\x70\x61\x6E\x3E\x20\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x73\x70\x61\x6E\x3E\x0A\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6C\x69\x6E\x6B\x6F\x63\x75\x6C\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x6C\x69\x6E\x6B\x6F\x63\x75\x6C\x70\x22\x20\x3E\x24","\x6E\x61\x6D\x65","\x25\x32\x30","\x24","\x74\x6F\x46\x69\x78\x65\x64","\x0A","\x20","\x78","\x7C","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x63\x61\x72\x74\x5F\x6C\x69\x73\x74","\x2D\x6D\x2D\x73","\x2D\x70\x2D\x73","\x2D\x63","\x63\x68\x69\x6C\x64\x45\x6C\x65\x6D\x65\x6E\x74\x43\x6F\x75\x6E\x74","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x73\x75\x62\x32","\x6B\x65\x79\x75\x70","\x65\x6E\x74\x72\x79\x2E\x35\x38\x30\x32\x30\x34\x37\x32\x35","\x24\x30\x2C\x30\x30","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x6F\x70\x65\x72","\x65\x6E\x74\x72\x79\x2E\x38\x30\x32\x34\x34\x39\x39\x30\x39","\x2E\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x54\x6F\x74\x61\x6C\x64\x65\x6C\x69\x76\x65\x72\x79","\x66\x6C\x6F\x6F\x72","\x2E\x6F\x72\x64\x65\x72\x6E\x75\x6D\x62\x65\x72","\x74\x6F\x74\x61\x6C\x77\x61","\x65\x6E\x74\x72\x79\x2E\x32\x30\x33\x30\x30\x34\x34\x30\x32\x35","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x4E\x61\x6D\x65","\x65\x6E\x74\x72\x79\x2E\x31\x31\x35\x36\x32\x31\x32\x31\x39\x33","\x72\x65\x70\x6C\x61\x63\x65","\x6C\x65\x6E\x67\x74\x68","\x65\x6E\x74\x72\x79\x2E\x38\x30\x33\x39\x38\x37\x38\x31\x37","\x25\x30\x41","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x65\x6E\x74\x72\x79\x2E\x33\x39\x38\x34\x32\x38\x32\x37\x36","\x4F\x70\x63\x69\xF3\x6E\x20\x64\x65\x20\x65\x6E\x74\x72\x65\x67\x61","\x63\x68\x65\x63\x6B\x65\x64","\x65\x6E\x74\x72\x79\x2E\x31\x34\x30\x35\x36\x34\x36\x33\x31\x35","\x2A\x48\x61\x7A\x20\x75\x6E\x61\x20\x63\x61\x70\x74\x75\x72\x61\x20\x79\x20\x65\x6E\x76\xED\x61\x6E\x6F\x73\x20\x70\x6F\x72\x20\x61\x71\x75\xED\x2A\x20\uD83D\uDC47","\x2A\uD83D\uDCB3\x46\x6F\x72\x6D\x61\x20\x64\x65\x20\x70\x61\x67\x6F\x3A\x2A\x20\x25\x32\x30","\x65\x6E\x74\x72\x79\x2E\x37\x30\x39\x32\x32\x37\x31\x32\x38","\x65\x6E\x74\x72\x79\x2E\x32\x34\x32\x30\x35\x39\x37","\x74\x65\x73\x74","\x49\x6E\x67\x72\x65\x73\x61\x20\x74\x75\x20\x6D\x65\x6A\x6F\x72\x20\x63\x6F\x72\x72\x65\x6F\x20\x65\x6C\x65\x63\x74\x72\xF3\x6E\x69\x63\x6F\x20\uD83D\uDE05","\u2705\x20\x2A\x44\x65\x74\x61\x6C\x6C\x65\x20\x64\x65\x20\x6C\x61\x20\x6F\x72\x64\x65\x6E\x3A\x2A","\x5F\x4F\x72\x64\x65\x6E\x20\x4E\xB0\x5F","\x2D\x2D\x2D","\x2A\uD83D\uDE42\x44\x61\x74\x6F\x73\x20\x64\x65\x6C\x20\x43\x6C\x69\x65\x6E\x74\x65\x3A\x2A","\x73\x68\x6F\x77\x20\x62\x74\x6E\x70\x61\x67\x6F\x73","\x2E\x64\x61\x74\x6F\x73\x31","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x2E\x64\x61\x74\x6F\x73\x33","\x61\x64\x64\x43\x6C\x61\x73\x73","\x2E\x65\x74\x69\x32","\x2E\x64\x61\x74\x6F\x73\x34","\x69\x73","\x74\x61\x72\x67\x65\x74","\x66\x69\x6E\x64","\x2E\x69\x6E\x70\x75\x74\x2D\x67\x72\x6F\x75\x70","\x63\x6C\x6F\x73\x65\x73\x74","\x2E\x62\x74\x6E\x2D\x70\x6C\x75\x73\x2C\x20\x2E\x62\x74\x6E\x2D\x6D\x69\x6E\x75\x73","\x2E\x72\x6F\x77\x2D\x63\x65\x6E\x74\x65\x72\x65\x64","\x2E\x68\x75\x6C\x32","\x2E\x70\x73\x69\x6E\x70\x72\x6F\x64\x75\x63\x74\x6F\x73","\x23\x6E\x61\x76","\x6D\x6F\x73\x74\x72\x61\x72\x6D\x65\x6E\x75\x33","\x23\x63\x61\x72\x64\x6E\x65\x67\x6F\x63\x69\x6F\x69\x64","\x2E\x73\x65\x67\x75\x69\x72\x63\x2C\x2E\x63\x65\x72\x72\x61\x72\x64\x61\x74\x61","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x2E\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x2D\x69\x6D\x67","\x2E\x69\x6D\x67\x2D\x73\x68\x6F\x77","\x2E\x62\x78\x2E\x62\x78\x2D\x78","\x73\x72\x63","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x65\x6E\x74\x72\x79\x2E\x32\x30\x39\x35\x33\x36\x37\x31\x30\x35","\x65\x6E\x74\x72\x79\x2E\x31\x32\x38\x30\x38\x34\x36\x34\x38\x39","\x66\x61\x6E\x74\x61\x73\x6D\x61\x73\x65\x6E\x64","\x65\x6E\x74\x72\x79\x2E\x36\x39\x36\x33\x36\x36\x31\x32\x38","\x65\x6E\x74\x72\x79\x2E\x31\x37\x35\x38\x37\x35\x36\x32\x36\x38","\x65\x6E\x74\x72\x79\x2E\x36\x38\x36\x32\x39\x30\x34\x35\x31","\x30","\x65\x6E\x74\x72\x79\x2E\x31\x31\x36\x34\x35\x36\x30\x35\x32\x39","\x65\x6E\x74\x72\x79\x2E\x34\x30\x34\x35\x39\x33\x39\x36\x37","\x65\x6E\x74\x72\x79\x2E\x31\x31\x37\x39\x39\x34\x32\x30\x32\x30","\x65\x6E\x74\x72\x79\x2E\x32\x30\x39\x32\x31\x37\x38\x37\x33\x38","\x73\x68\x6F\x77\x69\x6E\x70\x75\x74\x63\x65\x64\x75\x6C\x61","\x2E\x64\x61\x74\x61\x66\x61\x63","\x2E\x64\x61\x74\x6F\x73\x66\x61\x63\x74\x75\x72\x61\x63\x69\x6F\x6E","\x2E\x64\x69\x61\x68\x6F\x72\x61","\x2E\x66\x6F\x72\x6D\x61\x73\x64\x65\x70\x61\x67\x6F\x73","\x71\x75\x69\x74\x61\x72\x66\x6F\x72\x6D\x61\x73\x64\x65\x70\x61\x67\x6F","\x73\x68\x6F\x77\x70\x6F\x63\x69\x6F\x6E","\x6D\x61\x70\x2D\x63\x61\x6E\x76\x61\x73","\x6D\x61\x70\x73","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x73\x6F\x6C\x69\x64","\x62\x6F\x72\x64\x65\x72\x57\x69\x64\x74\x68","\x62\x6F\x72\x64\x65\x72\x43\x6F\x6C\x6F\x72","\x73\x74\x79\x6C\x65","\x74\x69\x74\x6C\x65","\x66\x6F\x6E\x74\x53\x69\x7A\x65","\x70\x61\x64\x64\x69\x6E\x67\x4C\x65\x66\x74","\x6D\x61\x72\x67\x69\x6E\x54\x6F\x70","\x7A\x49\x6E\x64\x65\x78","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x61\x64\x64\x44\x6F\x6D\x4C\x69\x73\x74\x65\x6E\x65\x72","\x6C\x61\x74\x69\x74\x75\x64\x65","\x6C\x6F\x6E\x67\x69\x74\x75\x64\x65","\x28","\x29","\x2E\x61\x64\x64\x72\x65\x73\x73","\x4F\x4B","\x4E\x6F\x20\x61\x64\x64\x72\x65\x73\x73\x20\x63\x6F\x75\x6C\x64\x20\x62\x65\x20\x72\x65\x74\x72\x69\x65\x76\x65\x64\x2E","\x4D\x61\x72\x6B\x65\x72","\x65\x6E\x74\x72\x79\x2E\x31\x34\x35\x30\x31\x31\x38\x34\x31\x34","\x6E\x6F\x73\x76\x65\x6D\x6F\x73\x32","\x2E\x6D\x6F\x64\x61\x6C\x76","\x70\x72\x65\x70\x65\x6E\x64","\x67\x2D\x72\x65\x63\x61\x70\x74\x63\x68\x61\x2D\x65\x72\x72\x6F\x72\x31","\x6D\x6F\x73\x74\x72\x61\x72\x63\x61\x72\x64\x6D\x65\x6E\x75","\x2E\x63\x61\x72\x64\x6D\x65\x6E\x75","\x65\x64\x61\x64","\x26\x74\x65\x78\x74\x3D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x70\x69\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x73\x65\x6E\x64\x3F\x70\x68\x6F\x6E\x65\x3D\x35\x39\x33\x39\x39\x36\x35\x31\x37\x31\x39\x39","\x65\x6E\x74\x72\x79\x2E\x38\x36\x35\x35\x37\x37\x36\x39\x31","\x76\x61\x6C","\x26\x74\x65\x78\x74\x3D\x2A\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\u2122\x2A","\x2A\uD83D\uDE03\x20\x4E\x6F\x6D\x62\x72\x65\x3A\x2A","\x2A\uD83D\uDFE2\x20\x56\x65\x72\x73\x69\xF3\x6E\x20\x64\x65\x20\x50\x72\x75\x65\x62\x61\x3A\x2A","\x2A","\x2A\x50\x2E\x44\x2E\x2A","\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x65\x62\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x73\x65\x6E\x64\x3F\x70\x68\x6F\x6E\x65\x3D\x35\x39\x33\x39\x39\x36\x35\x31\x37\x31\x39\x39","\x67\x2D\x72\x65\x63\x61\x70\x74\x63\x68\x61\x2D\x65\x72\x72\x6F\x72\x32","\x3C\x73\x70\x61\x6E\x20\x73\x74\x79\x6C\x65\x3D\x22\x63\x6F\x6C\x6F\x72\x3A\x72\x65\x64\x3B\x22\x3E\x54\x68\x69\x73\x20\x66\x69\x65\x6C\x64\x20\x69\x73\x20\x72\x65\x71\x75\x69\x72\x65\x64\x2E\x3C\x2F\x73\x70\x61\x6E\x3E","\x41\x46","\x41\x4C","\x41\x6C\x65\x6D\x61\x6E\x69\x61","\x44\x45","\x41\x44","\x41\x4F","\x41\x49","\x41\x51","\x41\x47","\x53\x41","\x44\x5A","\x41\x52","\x41\x72\x6D\x65\x6E\x69\x61","\x41\x4D","\x41\x57","\x41\x55","\x41\x75\x73\x74\x72\x69\x61","\x41\x54","\x41\x5A","\x42\xE9\x6C\x67\x69\x63\x61","\x42\x45","\x42\x53","\x42\x48","\x42\x44","\x42\x42","\x42\x65\x6C\x69\x63\x65","\x42\x5A","\x42\x4A","\x42\x54","\x42\x59","\x42\x69\x72\x6D\x61\x6E\x69\x61","\x4D\x4D","\x42\x4F","\x42\x41","\x42\x57","\x42\x52","\x42\x4E","\x42\x47","\x42\x46","\x42\x75\x72\x75\x6E\x64\x69","\x42\x49","\x43\x56","\x4B\x48","\x43\x4D","\x43\x41","\x54\x44","\x43\x4C","\x43\x4E","\x43\x59","\x56\x41","\x43\x4F","\x4B\x4D","\x43\x47","\x43\x44","\x4B\x50","\x4B\x52","\x43\x6F\x73\x74\x61\x20\x64\x65\x20\x4D\x61\x72\x66\x69\x6C","\x43\x49","\x43\x52","\x43\x72\x6F\x61\x63\x69\x61","\x48\x52","\x43\x55","\x43\x57","\x44\x69\x6E\x61\x6D\x61\x72\x63\x61","\x44\x4B","\x44\x4D","\x45\x43","\x45\x47","\x53\x56","\x41\x45","\x45\x52","\x53\x4B","\x53\x49","\x45\x53","\x55\x53","\x45\x73\x74\x6F\x6E\x69\x61","\x45\x45","\x45\x54","\x50\x48","\x46\x49","\x46\x69\x79\x69","\x46\x4A","\x46\x72\x61\x6E\x63\x69\x61","\x46\x52","\x47\x41","\x47\x4D","\x47\x45","\x47\x48","\x47\x49","\x47\x72\x61\x6E\x61\x64\x61","\x47\x44","\x47\x52","\x47\x4C","\x47\x50","\x47\x55","\x47\x54","\x47\x75\x61\x79\x61\x6E\x61\x20\x46\x72\x61\x6E\x63\x65\x73\x61","\x47\x46","\x47\x75\x65\x72\x6E\x73\x65\x79","\x47\x47","\x47\x75\x69\x6E\x65\x61","\x47\x4E","\x47\x75\x69\x6E\x65\x61\x20\x45\x63\x75\x61\x74\x6F\x72\x69\x61\x6C","\x47\x51","\x47\x57","\x47\x75\x79\x61\x6E\x61","\x47\x59","\x48\x54","\x48\x4E","\x48\x4B","\x48\x55","\x49\x4E","\x49\x6E\x64\x6F\x6E\x65\x73\x69\x61","\x49\x44","\x49\x52","\x49\x72\x61\x6B","\x49\x51","\x49\x45","\x42\x56","\x49\x4D","\x43\x58","\x4E\x46","\x49\x53","\x42\x4D","\x49\x73\x6C\x61\x73\x20\x43\x61\x69\x6D\xE1\x6E","\x4B\x59","\x43\x43","\x43\x4B","\x41\x58","\x46\x4F","\x49\x73\x6C\x61\x73\x20\x47\x65\x6F\x72\x67\x69\x61\x73\x20\x64\x65\x6C\x20\x53\x75\x72\x20\x79\x20\x53\x61\x6E\x64\x77\x69\x63\x68\x20\x64\x65\x6C\x20\x53\x75\x72","\x47\x53","\x48\x4D","\x49\x73\x6C\x61\x73\x20\x4D\x61\x6C\x64\x69\x76\x61\x73","\x4D\x56","\x46\x4B","\x4D\x50","\x4D\x48","\x50\x4E","\x53\x42","\x49\x73\x6C\x61\x73\x20\x54\x75\x72\x63\x61\x73\x20\x79\x20\x43\x61\x69\x63\x6F\x73","\x54\x43","\x55\x4D","\x56\x47","\x56\x49","\x49\x4C","\x49\x74\x61\x6C\x69\x61","\x49\x54","\x4A\x4D","\x4A\x50","\x4A\x45","\x4A\x4F","\x4B\x5A","\x4B\x45","\x4B\x47","\x4B\x49","\x4B\x57","\x4C\xED\x62\x61\x6E\x6F","\x4C\x42","\x4C\x61\x6F\x73","\x4C\x41","\x4C\x53","\x4C\x56","\x4C\x52","\x4C\x69\x62\x69\x61","\x4C\x59","\x4C\x49","\x4C\x54","\x4C\x75\x78\x65\x6D\x62\x75\x72\x67\x6F","\x4C\x55","\x4D\x58","\x4D\x43","\x4D\x4F","\x4D\x4B","\x4D\x47","\x4D\x59","\x4D\x61\x6C\x61\x77\x69","\x4D\x57","\x4D\x61\x6C\x69","\x4D\x4C","\x4D\x54","\x4D\x41","\x4D\x51","\x4D\x55","\x4D\x61\x75\x72\x69\x74\x61\x6E\x69\x61","\x4D\x52","\x59\x54","\x46\x4D","\x4D\x44","\x4D\x4E","\x4D\x45","\x4D\x53","\x4D\x5A","\x4E\x41","\x4E\x52","\x4E\x50","\x4E\x49","\x4E\x69\x67\x65\x72","\x4E\x45","\x4E\x69\x67\x65\x72\x69\x61","\x4E\x47","\x4E\x55","\x4E\x4F","\x4E\x75\x65\x76\x61\x20\x43\x61\x6C\x65\x64\x6F\x6E\x69\x61","\x4E\x43","\x4E\x5A","\x4F\x4D","\x4E\x4C","\x50\x4B","\x50\x57","\x50\x61\x6C\x65\x73\x74\x69\x6E\x61","\x50\x53","\x50\x41","\x50\x47","\x50\x59","\x50\x45","\x50\x46","\x50\x4C","\x50\x6F\x72\x74\x75\x67\x61\x6C","\x50\x54","\x50\x52","\x51\x61\x74\x61\x72","\x51\x41","\x47\x42","\x43\x46","\x43\x5A","\x44\x4F","\x53\x53","\x52\x45","\x52\x57","\x52\x4F","\x52\x55","\x53\x61\x68\x61\x72\x61\x20\x4F\x63\x63\x69\x64\x65\x6E\x74\x61\x6C","\x45\x48","\x57\x53","\x41\x53","\x42\x4C","\x53\x61\x6E\x20\x43\x72\x69\x73\x74\xF3\x62\x61\x6C\x20\x79\x20\x4E\x69\x65\x76\x65\x73","\x4B\x4E","\x53\x4D","\x4D\x46","\x53\x61\x6E\x20\x50\x65\x64\x72\x6F\x20\x79\x20\x4D\x69\x71\x75\x65\x6C\xF3\x6E","\x50\x4D","\x56\x43","\x53\x48","\x53\x61\x6E\x74\x61\x20\x4C\x75\x63\xED\x61","\x4C\x43","\x53\x54","\x53\x4E","\x52\x53","\x53\x43","\x53\x4C","\x53\x47","\x53\x58","\x53\x59","\x53\x4F","\x4C\x4B","\x5A\x41","\x53\x44","\x53\x45","\x53\x75\x69\x7A\x61","\x43\x48","\x53\x75\x72\x69\x6E\xE1\x6D","\x53\x52","\x53\x76\x61\x6C\x62\x61\x72\x64\x20\x79\x20\x4A\x61\x6E\x20\x4D\x61\x79\x65\x6E","\x53\x4A","\x53\x5A","\x54\x4A","\x54\x48","\x54\x61\x69\x77\xE1\x6E","\x54\x57","\x54\x61\x6E\x7A\x61\x6E\x69\x61","\x54\x5A","\x49\x4F","\x54\x65\x72\x72\x69\x74\x6F\x72\x69\x6F\x73\x20\x41\x75\x73\x74\x72\x61\x6C\x65\x73\x20\x79\x20\x41\x6E\x74\xE1\x72\x74\x69\x63\x61\x73\x20\x46\x72\x61\x6E\x63\x65\x73\x65\x73","\x54\x46","\x54\x4C","\x54\x47","\x54\x4B","\x54\x4F","\x54\x54","\x54\x4E","\x54\x75\x72\x6B\x6D\x65\x6E\x69\x73\x74\xE1\x6E","\x54\x4D","\x54\x52","\x54\x56","\x55\x41","\x55\x47","\x55\x59","\x55\x5A","\x56\x55","\x56\x45","\x56\x4E","\x57\x46","\x59\x65\x6D\x65\x6E","\x59\x45","\x44\x4A","\x5A\x4D","\x5A\x57","\x23\x6F\x66\x65\x72\x74\x61\x42\x61\x72\x72\x61\x54\x6F\x70","\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73","\x64\x65","\x72\x61\x6E\x64\x6F\x6D","\x45\x6D\x70\x72\x65\x6E\x64\x65\x64\x6F\x72\x65\x73\x20\x50\x52\x4F\x20\x79\x20\x44\x75\x65\xF1\x6F\x73\x20\x64\x65\x20\x4E\x65\x67\x6F\x63\x69\x6F","\x23\x6F\x66\x65\x72\x74\x61\x42\x61\x72\x72\x61\x54\x6F\x70\x32","\x53\x65\x79\x63\x68\x65\x6C\x6C\x65\x73","\x54\x75\x76\x61\x6C\x75","\x2E\x66\x61\x6E\x74\x61\x73\x6D\x61","\x63\x6F\x75\x6E\x74\x72\x79","\x45\x73\x6C\x6F\x76\x61\x71\x75\x69\x61","\x48\x75\x6E\x67\x72\xED\x61","\x2E\x6F\x72\x64\x65\x72\x6E\x75\x6D\x62\x65\x72\x32","\x52\x75\x6D\x61\x6E\xED\x61","\x41\x6E\x74\x69\x67\x75\x61\x20\x79\x20\x42\x61\x72\x62\x75\x64\x61","\x6E\x61\x76\x69\x67\x61\x74\x6F\x72","\x42\x72\x75\x6E\xE9\x69","\x2A\uD83D\uDCE7\x45\x2D\x6D\x61\x69\x6C\x3A\x2A","\x2E\x65\x74\x69\x31","\x69\x6D\x67\x2F\x77\x68\x61\x74\x73\x62\x75\x6C\x6B\x73\x65\x6E\x64\x65\x72\x2D\x70\x72\x65\x63\x69\x6F\x2D\x6D\x65\x6E\x73\x75\x61\x6C\x2D\x67\x72\x61\x74\x69\x73\x2E\x77\x65\x62\x70","\x53\x61\x6E\x74\x6F\x20\x54\x6F\x6D\xE9\x20\x79\x20\x50\x72\xED\x6E\x63\x69\x70\x65","\x49\x73\x72\x61\x65\x6C","\x63\x6F\x64\x50\x61\x69\x73","\x49\x73\x6C\x61\x73\x20\x4D\x61\x72\x73\x68\x61\x6C\x6C","\x73\x65\x74\x43\x65\x6E\x74\x65\x72","\x50\x75\x65\x72\x74\x6F\x20\x52\x69\x63\x6F","\x23\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x73\x32\x62","\x73\x74\x65\x70\x44\x6F\x77\x6E","\x64\x69\x76","\x41\x6E\x64\x6F\x72\x72\x61","\x65\x76\x65\x6E\x74","\x2E\x65\x74\x69\x33","\x49\x73\x6C\x61\x73\x20\x43\x6F\x6F\x6B","\x4C\x65\x74\x6F\x6E\x69\x61","\x3C\x2F\x68\x36\x3E\x0A\x20\x20\x3C\x2F\x64\x69\x76\x3E","\x3C\x2F\x61\x3E\x3C\x2F\x64\x69\x76\x3E","\x69\x6D\x67","\x26\x74\x65\x78\x74\x3D\x2A\x4F\x72\x64\x65\x6E\x20\x65\x78\x69\x74\x6F\x73\x61\x2A","\x41\x72\x61\x62\x69\x61\x20\x53\x61\x75\x64\x69\x74\x61","\x4C\x69\x62\x65\x72\x69\x61","\x43\x6F\x72\x65\x61\x20\x64\x65\x6C\x20\x53\x75\x72","\x4C\x69\x65\x63\x68\x74\x65\x6E\x73\x74\x65\x69\x6E","\x76\x65\x72\x64\x69\x61\x68\x6F\x72\x61","\x63\x75\x72\x73\x6F\x72","\x31\x37\x34\x37\x37\x36\x38\x45\x4C\x56\x7A\x71\x6D","\x74\x65\x78\x74\x41\x6C\x69\x67\x6E","\x23\x32\x35\x64\x33\x36\x36","\x32\x38\x34\x36\x39\x38\x38\x48\x56\x75\x41\x6F\x49","\x4D\x69\x63\x72\x6F\x6E\x65\x73\x69\x61","\x4B\x61\x7A\x61\x6A\x69\x73\x74\xE1\x6E","\x65\x6E\x74\x72\x79\x2E\x39\x38\x35\x39\x38\x36\x35\x32\x39","\x2E\x6D\x61\x70\x61\x6C\x6F\x63\x6F\x72","\x3C\x2F\x68\x33\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x64\x65\x74\x61\x69\x6C\x73\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x70\x72\x69\x63\x65\x22\x3E","\x23\x65\x78\x69\x74\x32","\x72\x6F\x77\x66","\x61\x63\x74\x69\x76\x65\x32","\x4E\x75\x65\x76\x61\x20\x5A\x65\x6C\x61\x6E\x64\x61","\x43\x6F\x6C\x6F\x6D\x62\x69\x61","\x41\x72\x67\x65\x6C\x69\x61","\x45\x73\x6C\x6F\x76\x65\x6E\x69\x61","\x4A\x65\x72\x73\x65\x79","\x54\x61\x79\x69\x6B\x69\x73\x74\xE1\x6E","\x49\x73\x6C\x61\x73\x20\x42\x65\x72\x6D\x75\x64\x61\x73","\x23\x6D\x65\x6E\x75\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x2D\x43\x33","\x5A\x69\x6D\x62\x61\x62\x75\x65","\x55\x72\x75\x67\x75\x61\x79","\x23\x6D\x61\x73\x76\x65\x6E\x64\x69\x64\x6F\x73\x33\x62","\x4A\x61\x70\xF3\x6E","\x53\x61\x6D\x6F\x61","\x35\x79\x7A\x71\x66\x75\x6C","\x50\x65\x72\xFA","\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x64\x65\x20\x50\x6F\x72\x20\x56\x69\x64\x61","\x54\x6F\x6E\x67\x61","\x34\x30\x70\x78","\x23\x67\x66\x6F\x72\x6D\x32\x20\x2A","\x45\x6C\x20\x53\x61\x6C\x76\x61\x64\x6F\x72","\x66\x61\x6E\x74\x61\x73\x6D\x61\x69\x6D\x67\x6E\x61\x6D\x65\x66","\x49\x73\x6C\x61\x73\x20\x4D\x61\x72\x69\x61\x6E\x61\x73\x20\x64\x65\x6C\x20\x4E\x6F\x72\x74\x65","\x3C\x2F\x70\x3E\x0A\x0A\x20\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x73\x70\x61\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x0A\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20","\x2E\x6F\x70\x65\x64\x65\x74\x61\x6C\x6C\x65","\x2E\x66\x61\x63\x63\x65\x64\x75\x6C\x61","\x38\x34\x37\x38\x36\x39\x61\x43\x77\x4D\x53\x4E","\x47\x75\x61\x74\x65\x6D\x61\x6C\x61","\x2A\x54\x6F\x74\x61\x6C\x3A\x2A","\x49\x73\x6C\x61\x73\x20\x50\x69\x74\x63\x61\x69\x72\x6E","\x65\x6E\x76\x69\x61\x72\x77\x61","\u2705\x20\x5F\x53\x6F\x6C\x69\x63\x69\x74\x75\x64\x20\x41\x70\x72\x6F\x62\x61\x64\x61\x20\x50\x72\x75\x65\x62\x61\x20\x4E\xB0\x3A\x5F","\x43\x61\x6D\x65\x72\xFA\x6E","\x65\x6E\x74\x72\x79\x2E\x31\x35\x30\x32\x37\x33\x37\x34\x37","\x2E\x63\x6C\x69\x65\x6E\x74\x65\x66\x61\x63","\x4D\x6F\x6C\x64\x61\x76\x69\x61","\x62\x6F\x72\x64\x65\x72\x53\x74\x79\x6C\x65","\x47\x75\x61\x64\x61\x6C\x75\x70\x65","\x4D\x6F\x6E\x74\x65\x6E\x65\x67\x72\x6F","\x65\x6E\x74\x72\x79\x2E\x37\x35\x31\x38\x38\x34\x35\x32\x30","\x69\x6E\x74\x72\x6F","\x42\x68\x75\x74\xE1\x6E","\x4D\x61\x64\x61\x67\x61\x73\x63\x61\x72","\x56\x61\x6E\x75\x61\x74\x75","\x63\x68\x61\x6F\x62\x6F\x74\x6F\x6E","\x2E\x70\x65\x64\x69\x64\x6F\x63\x6C\x69","\x53\x61\x6E\x20\x56\x69\x63\x65\x6E\x74\x65\x20\x79\x20\x6C\x61\x73\x20\x47\x72\x61\x6E\x61\x64\x69\x6E\x61\x73","\x4D\x61\x6C\x61\x73\x69\x61","\x47\x69\x62\x72\x61\x6C\x74\x61\x72","\x3C\x2F\x68\x36\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x73\x70\x61\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x70\x72\x69\x63\x65\x20\x6D\x62\x2D\x30\x20\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x49\x74\x65\x6D\x50\x72\x69\x63\x65\x20\x69\x74\x65\x6D\x70\x72\x69\x63\x65\x77\x61\x22\x20\x3E\x24","\x2D\x6D\x2D\x73\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x69\x6E\x75\x73\x22\x20\x3E\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x6E\x70\x75\x74\x20\x63\x6C\x61\x73\x73\x3D\x22\x71\x75\x61\x6E\x74\x69\x74\x79\x20\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x20\x22\x20\x74\x79\x70\x65\x3D\x22\x6E\x75\x6D\x62\x65\x72\x22\x20\x6E\x61\x6D\x65\x3D\x22\x22\x20\x6D\x69\x6E\x3D\x22\x30\x22\x20\x76\x61\x6C\x75\x65\x3D","\x53\x6F\x6D\x61\x6C\x69\x61","\x42\x6F\x73\x6E\x69\x61\x20\x79\x20\x48\x65\x72\x7A\x65\x67\x6F\x76\x69\x6E\x61","\x49\x73\x6C\x61\x20\x4E\x6F\x72\x66\x6F\x6C\x6B","\x53\x69\x6E\x67\x61\x70\x75\x72","\x67\x6F\x6F\x67\x6C\x65\x64\x69\x73\x70\x6C\x61\x79","\x43\x68\x61\x64","\x49\x72\x6C\x61\x6E\x64\x61","\x56\x65\x6E\x65\x7A\x75\x65\x6C\x61","\x2E\x63\x6F\x6E\x74\x69\x6E\x75\x61\x72\x2C\x2E\x62\x75\x74\x33\x34","\x31\x70\x78","\x42\x69\x65\x6C\x6F\x72\x72\x75\x73\x69\x61","\x54\x75\x72\x71\x75\xED\x61","\x63\x61\x72\x74\x5F\x61\x6D\x74","\x72\x65\x6D\x61\x69\x6E\x54\x69\x6D\x65","\x53\x61\x6D\x6F\x61\x20\x41\x6D\x65\x72\x69\x63\x61\x6E\x61","\x47\x65\x6F\x63\x6F\x64\x65\x72\x20\x66\x61\x69\x6C\x65\x64\x20\x64\x75\x65\x20\x74\x6F\x20","\x52\x65\x69\x6E\x6F\x20\x55\x6E\x69\x64\x6F","\x38\x70\x78","\x50\x61\x72\x61\x67\x75\x61\x79","\x68\x72\x65\x66","\x23\x63\x65\x64\x75\x6C\x61\x66\x61\x63","\x2E\x6F\x77\x6C\x2D\x63\x61\x72\x6F\x75\x73\x65\x6C","\x41\x6E\x74\xE1\x72\x74\x69\x64\x61","\x50\x61\xED\x73\x65\x73\x20\x42\x61\x6A\x6F\x73","\x50\x75\x6C\x73\x61\x20\x61\x71\x75\xED\x20\x70\x61\x72\x61\x20\x73\x65\x6C\x65\x63\x63\x69\x6F\x6E\x61\x72\x20\x74\x75\x20\x75\x62\x69\x63\x61\x63\x69\xF3\x6E","\x23\x6D\x61\x73\x76\x65\x6E\x64\x69\x64\x6F\x73","\x53\x72\x69\x20\x6C\x61\x6E\x6B\x61","\x65\x6E\x74\x72\x79\x2E\x31\x36\x33\x32\x36\x39\x31\x36\x34\x31","\x65\x6E\x74\x72\x79\x2E\x31\x34\x34\x31\x30\x31\x38\x36\x39\x39","\x4C\x69\x74\x75\x61\x6E\x69\x61","\x2A\x74\x6F\x74\x61\x6C\x3A\x2A","\x65\x6E\x74\x72\x79\x2E\x31\x30\x36\x37\x32\x39\x39\x33\x39\x30","\x4F\x6D\xE1\x6E","\x52\x65\x70\xFA\x62\x6C\x69\x63\x61\x20\x44\x65\x6D\x6F\x63\x72\xE1\x74\x69\x63\x61\x20\x64\x65\x6C\x20\x43\x6F\x6E\x67\x6F","\x69\x6E\x73\x65\x72\x74\x42\x65\x66\x6F\x72\x65","\x47\x61\x6D\x62\x69\x61","\x77\x68\x69\x74\x65","\x68\x65\x69\x67\x68\x74\x20\x30","\x66\x6F\x6E\x74\x46\x61\x6D\x69\x6C\x79","\x45\x67\x69\x70\x74\x6F","\x55\x67\x61\x6E\x64\x61","\x4B\x65\x6E\x69\x61","\x3C\x75\x6C\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x65\x61\x74\x75\x72\x65\x73\x22\x3E\x3C\x6C\x69\x3E\x3C\x69\x3E\x3C\x2F\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x49\x6E\x73\x74\x61\x6C\x61\x63\x69\xF3\x6E\x20\x47\x52\x41\x54\x49\x53\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x3E\x3C\x2F\x69\x3E\x20\x31\x20\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x64\x65\x20\x31\x32\x20\x6D\x65\x73\x65\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x73\x74\x6F\x70\x2D\x63\x69\x72\x63\x6C\x65\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x79\x20\x43\x61\x6D\x70\x61\xF1\x61\x73\x20\x49\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x31\x30\x30\x25\x20\x50\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x20\x43\x75\x65\x6E\x74\x61\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x20\x4D\x75\x6C\x74\x69\x64\x69\x73\x70\x6F\x73\x69\x74\x69\x76\x6F\x73\x20\x50\x43\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x41\x64\x6A\x75\x6E\x74\x61\x20\x56\x69\x64\x65\x6F\x2C\x20\x49\x6D\x61\x67\x65\x6E\x2C\x20\x41\x75\x64\x69\x6F\x2C\x20\x43\x61\x74\xE1\x6C\x6F\x67\x6F\x73\x2C\x20\x44\x6F\x63\x75\x6D\x65\x6E\x74\x6F\x73\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x3E\x3C\x2F\x69\x3E\x49\x6D\x70\x6F\x72\x74\x61\x63\x69\xF3\x6E\x20\x79\x20\x45\x78\x70\x6F\x72\x74\x61\x63\x69\xF3\x6E\x20\x64\x65\x20\x43\x6F\x6E\x74\x61\x63\x74\x6F\x73\x2E\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x3E\x3C\x2F\x69\x3E\x53\x69\x73\x74\x65\x6D\x61\x20\x41\x6E\x74\x69\x2D\x41\x6C\x67\x6F\x72\x69\x74\x6D\x6F\x20\x64\x65\x20\x42\x6C\x6F\x71\x75\x65\x6F\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x45\x78\x74\x72\x61\x63\x74\x6F\x72\x20\x64\x65\x20\x43\x6F\x6E\x74\x61\x63\x74\x6F\x73\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x45\x6E\x76\xED\x61\x20\x49\x6D\xE1\x67\x65\x6E\x65\x73\x20\x79\x20\x56\x69\x64\x65\x6F\x73\x20\x63\x6F\x6E\x20\x44\x65\x73\x63\x72\x69\x70\x63\x69\xF3\x6E\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x43\x6F\x6D\x70\x61\x74\x69\x62\x6C\x65\x20\x63\x6F\x6E\x20\x54\x6F\x64\x61\x73\x20\x6C\x61\x73\x20\x56\x65\x72\x73\x69\x6F\x6E\x65\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x69\x6E\x63\x6C\x75\x69\x64\x61\x73\x20\x6C\x61\x73\x20\x56\x65\x72\x73\x69\x6F\x6E\x65\x73\x20\x42\x45\x54\x41\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x53\x6F\x70\x6F\x72\x74\x65\x20\x32\x34\x2F\x37\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x41\x63\x74\x75\x61\x6C\x69\x7A\x61\x63\x69\x6F\x6E\x65\x73\x20\x47\x52\x41\x54\x49\x53\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x43\x61\x70\x61\x63\x69\x74\x61\x63\x69\xF3\x6E\x20\x65\x6E\x20\x4D\x61\x72\x6B\x65\x74\x69\x6E\x67\x20\x4D\x61\x73\x69\x76\x6F\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x47\x65\x6E\x65\x72\x61\x20\x49\x6E\x66\x6F\x72\x6D\x65\x73\x20\x64\x65\x20\x45\x6E\x76\xED\x6F\x73\x20\x4D\x61\x73\x69\x76\x6F\x73\x2E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x46\x69\x6C\x74\x72\x6F\x20\x64\x65\x20\x4E\xFA\x6D\x65\x72\x6F\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x47\x65\x6E\x65\x72\x61\x64\x6F\x72\x20\x64\x65\x20\x4E\xFA\x6D\x65\x72\x6F\x73\x20\x64\x65\x20\x57\x68\x61\x73\x74\x73\x41\x70\x70\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x45\x6E\x76\xED\x6F\x73\x20\x4D\x61\x73\x69\x76\x6F\x73\x20\x61\x20\x47\x72\x75\x70\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x43\x68\x61\x74\x42\x6F\x74\x20\x41\x75\x74\x6F\x72\x65\x73\x70\x75\x65\x73\x74\x61\x73\x20\x46\x75\x6E\x6E\x65\x6C\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x50\x72\x6F\x67\x72\x61\x6D\x61\x72\x20\x43\x61\x6D\x70\x61\xF1\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x43\x6F\x6E\x74\x65\x73\x74\x61\x72\x20\x64\x65\x73\x64\x65\x20\x6C\x61\x20\x41\x70\x70\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x54\x72\x61\x6E\x73\x66\x65\x72\x69\x72\x20\x61\x20\x6F\x74\x72\x6F\x20\x44\x69\x73\x70\x6F\x73\x69\x74\x69\x76\x6F\x3C\x2F\x6C\x69\x3E\x3C\x2F\x75\x6C\x3E","\x2E\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x49\x74\x65\x6D\x73\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x25\x30\x41\x43\x61\x6D\x62\x69\x6F\x3A\x25\x32\x30","\x54\x75\x6E\x65\x7A","\x72\x65\x6D\x61\x69\x6E\x4D\x69\x6E\x75\x74\x65\x73","\x47\x72\x65\x63\x69\x61","\x6C\x6F\x67","\x49\x72\xE1\x6E","\x43\x61\x6E\x61\x64\xE1","\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x68\x36\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x69\x74\x75\x6C\x65\x73\x65\x6E\x64\x22\x20\x69\x64\x3D\x22\x22\x3E","\x73\x65\x63\x74\x69\x6F\x6E","\x55\x63\x72\x61\x6E\x69\x61","\x4A\x61\x6D\x61\x69\x63\x61","\x73\x68\x6F\x77","\x20\x20\x69\x64\x3D\x22","\x49\x73\x6C\x61\x20\x64\x65\x20\x4D\x61\x6E","\x31\x30\x30\x30","\x50\x6F\x6C\x6F\x6E\x69\x61","\x50\x61\x6C\x61\x75","\x50\x61\x6B\x69\x73\x74\xE1\x6E","\x34\x48\x78\x61\x53\x6F\x74","\x6F\x77\x6C\x43\x61\x72\x6F\x75\x73\x65\x6C","\x23\x6D\x65\x6E\x75\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x2D\x43\x32","\x4D\x75\x79\x20\x69\x6D\x70\x6F\x72\x74\x61\x6E\x74\x65\x20\x67\x75\x61\x72\x64\x61\x20\x6E\x75\x65\x73\x74\x72\x6F\x20\x63\x6F\x6E\x74\x61\x63\x74\x6F\x20\x63\x6F\x6D\x6F\x20\x2A\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\x2A\x20\x70\x61\x72\x61\x20\x72\x65\x63\x69\x62\x69\x72\x20\x74\x6F\x64\x61\x20\x6C\x61\x20\x69\x6E\x66\x6F\x72\x6D\x61\x63\x69\xF3\x6E\uD83D\uDE09\uD83D\uDC4D","\x63\x61\x72\x64\x6E\x65\x67\x6F\x63\x69\x6F\x69\x64","\x49\x73\x6C\x61\x73\x20\x48\x65\x61\x72\x64\x20\x79\x20\x4D\x63\x44\x6F\x6E\x61\x6C\x64","\x45\x73\x74\x61\x64\x6F\x73\x20\x55\x6E\x69\x64\x6F\x73","\x2A\x46\x65\x6C\x69\x63\x69\x74\x61\x63\x69\x6F\x6E\x65\x73\x2A","\x6D\x6F\x62\x69\x6C\x65","\x54\x6F\x6B\x65\x6C\x61\x75","\x53\x75\x65\x63\x69\x61","\x63\x6F\x6C\x6F\x72","\x49\x6E\x64\x69\x61","\x4E\x6F\x72\x75\x65\x67\x61","\x4D\xF3\x6E\x61\x63\x6F","\x23\x67\x66\x6F\x72\x6D\x32","\x42\x61\x68\x72\x65\x69\x6E","\x50\x61\x6E\x61\x6D\xE1","\x2A\x75\x6E\x20\x65\x73\x70\x65\x63\x69\x61\x6C\x69\x73\x74\x61\x20\x73\x65\x20\x63\x6F\x6E\x74\x61\x63\x74\x61\x72\xE1\x20\x64\x65\x20\x69\x6E\x6D\x65\x64\x69\x61\x74\x6F\x20\x70\x61\x72\x61\x20\x72\x65\x61\x6C\x69\x7A\x61\x72\x20\x6C\x61\x20\x70\x72\x75\x65\x62\x61\x2E\x2A","\x20\x63\x6F\x6C\x6F\x72\x3A\x20\x23\x32\x35\x64\x33\x36\x36\x3B\x20\x70\x6F\x73\x69\x74\x69\x6F\x6E\x3A\x20\x72\x65\x6C\x61\x74\x69\x76\x65\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x3A\x20\x31\x35\x70\x78\x3B\x20\x20\x6D\x61\x72\x67\x69\x6E\x3A\x20\x30\x20\x32\x36\x70\x78\x20\x32\x30\x70\x78\x3B\x20\x62\x6F\x72\x64\x65\x72\x2D\x72\x61\x64\x69\x75\x73\x3A\x20\x31\x35\x70\x78\x3B\x20\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72\x3A\x20\x23\x66\x66\x66\x3B\x20\x63\x6F\x6C\x6F\x72\x3A\x20\x23\x34\x61\x34\x61\x34\x61\x3B\x20\x62\x6F\x78\x2D\x73\x68\x61\x64\x6F\x77\x3A\x20\x30\x20\x31\x70\x78\x20\x32\x70\x78\x20\x30\x20\x72\x67\x62\x28\x30\x20\x30\x20\x30\x20\x2F\x20\x33\x30\x25\x29\x3B\x20\x74\x72\x61\x6E\x73\x69\x74\x69\x6F\x6E\x3A\x20\x30\x2E\x35\x73\x20\x65\x61\x73\x65\x2D\x69\x6E\x2D\x6F\x75\x74\x3B","\x67\x65\x74\x43\x75\x72\x72\x65\x6E\x74\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x69\x6D\x67\x2F\x77\x68\x61\x74\x73\x62\x75\x6C\x6B\x73\x65\x6E\x64\x65\x72\x2D\x70\x72\x65\x63\x69\x6F\x2D\x31\x32\x2D\x6D\x65\x73\x65\x73\x2D\x67\x72\x61\x74\x69\x73\x2E\x77\x65\x62\x70","\x46\x69\x6C\x69\x70\x69\x6E\x61\x73","\x53\x61\x6E\x20\x4D\x61\x72\x74\xED\x6E\x20\x28\x46\x72\x61\x6E\x63\x69\x61\x29","\x2E\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x63\x61\x6D\x62\x69\x6F","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x68\x6F\x74\x6D\x2E\x61\x72\x74\x2F\x44\x65\x50\x6F\x72\x56\x69\x64\x61","\x53\x75\x64\xE1\x6E","\uD83D\uDCB3\x2A\x46\x6F\x72\x6D\x61\x20\x64\x65\x20\x70\x61\x67\x6F\x3A\x2A\x20\x25\x32\x30","\x42\x75\x6C\x67\x61\x72\x69\x61","\x65\x6E\x76\x69\x61\x72\x77\x61\x74","\x43\x68\x69\x70\x72\x65","\x48\x6F\x6E\x67\x20\x6B\x6F\x6E\x67","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x43\x6F\x6C\x6F\x72","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x6F\x70\x65\x72\x72","\x70\x6F\x69\x6E\x74\x65\x72","\x2E\x63\x6F\x6D\x70\x72\x61\x72\x42\x75\x74\x74\x6F\x6E","\x4B\x75\x77\x61\x69\x74","\x6D\x6F\x73\x74\x72\x61\x72\x6D\x65\x6E\x75\x32","\x54\x72\x69\x6E\x69\x64\x61\x64\x20\x79\x20\x54\x6F\x62\x61\x67\x6F","\x72\x65\x6D\x6F\x76\x65\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x49\x73\x6C\x61\x73\x20\x43\x6F\x63\x6F\x73\x20\x28\x4B\x65\x65\x6C\x69\x6E\x67\x29","\x6F\x70\x65\x6E","\x41\x7A\x65\x72\x62\x61\x69\x79\xE1\x6E","\x47\x75\x61\x6D","\x49\x73\x6C\x61\x73\x20\x4D\x61\x6C\x76\x69\x6E\x61\x73","\x4E\x69\x63\x61\x72\x61\x67\x75\x61","\x2E\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x54\x6F\x74\x61\x6C\x32","\x42\x6F\x6C\x69\x76\x69\x61","\x23\x63\x6C\x6F\x73\x65\x32","\x41\x6E\x69\x6D\x61\x74\x69\x6F\x6E","\x47\x68\x61\x6E\x61","\x54\x4F\x50\x5F\x43\x45\x4E\x54\x45\x52","\x4D\x6F\x7A\x61\x6D\x62\x69\x71\x75\x65","\x49\x73\x6C\x61\x73\x20\x56\xED\x72\x67\x65\x6E\x65\x73\x20\x64\x65\x20\x6C\x6F\x73\x20\x45\x73\x74\x61\x64\x6F\x73\x20\x55\x6E\x69\x64\x6F\x73","\x65\x6E\x74\x72\x79\x2E\x31\x31\x36\x31\x33\x33\x35\x30\x34","\x72\x65\x6C\x6F\x61\x64","\x5A\x61\x6D\x62\x69\x61","\x62\x6F\x72\x64\x65\x72\x52\x61\x64\x69\x75\x73","\x2E\x6D\x6F\x6E\x74\x6F","\x2E\x63\x61\x72\x64\x6E\x65\x67\x6F\x63\x69\x6F\x32","\x2D\x6D\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x69\x6E\x75\x73\x22\x20\x3E\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x6E\x70\x75\x74\x20\x63\x6C\x61\x73\x73\x3D\x22\x71\x75\x61\x6E\x74\x69\x74\x79\x20\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x20\x22\x20\x74\x79\x70\x65\x3D\x22\x6E\x75\x6D\x62\x65\x72\x22\x20\x6E\x61\x6D\x65\x3D\x22\x22\x20\x6D\x69\x6E\x3D\x22\x30\x22\x20\x76\x61\x6C\x75\x65\x3D","\x61\x22\x3E","\x2E\x6D\x61\x70\x61\x6C\x6F\x63\x6F\x72\x32","\x57\x61\x6C\x6C\x69\x73\x20\x79\x20\x46\x75\x74\x75\x6E\x61","\x4D\x61\x63\x61\x6F","\x43\x6F\x73\x74\x61\x20\x52\x69\x63\x61","\x2D\x71\x74\x79\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x69\x64\x3D\x22","\x2E\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x54\x6F\x74\x61\x6C","\x53\x65\x72\x62\x69\x61","\x4D\xE9\x78\x69\x63\x6F","\x6D\x6F\x76\x65","\x43\x69\x75\x64\x61\x64\x20\x64\x65\x6C\x20\x56\x61\x74\x69\x63\x61\x6E\x6F","\x45\x6D\x70\x72\x65\x6E\x64\x65\x64\x6F\x72\x65\x73","\x6F\x77\x6C\x2D\x63\x61\x72\x6F\x75\x73\x65\x6C","\x41\xFA\x6E\x20\x6E\x6F\x20\x73\x65\x6C\x65\x63\x63\x69\x6F\x6E\x61\x73\x20\x70\x72\x6F\x64\x75\x63\x74\x6F\x73\x20\uD83D\uDE05","\x46\x69\x6E\x6C\x61\x6E\x64\x69\x61","\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x50\x52\x4F\x20\x57\x69\x6E\x64\x6F\x77\x73\x20\x41\x6E\x75\x61\x6C","\x54\x6F\x67\x6F","\x3C\x2F\x70\x3E\x0A\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x67\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x74\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x69\x64\x3D\x22","\x66\x6F\x72\x6D\x61\x74\x74\x65\x64\x5F\x61\x64\x64\x72\x65\x73\x73","\x2E\x67\x6F\x6F\x67\x6C\x65\x6D\x61\x70\x73","\x74\x72\x75\x6E\x63","\x6F\x6E\x63\x6C\x69\x63\x6B","\x45\x74\x69\x6F\x70\xED\x61","\x2E\x65\x74\x69\x34","\x43\x6F\x6D\x6F\x72\x61\x73","\x41\x72\x69\x61\x6C\x2C\x73\x61\x6E\x73\x2D\x73\x65\x72\x69\x66","\x53\x69\x6E\x74\x20\x4D\x61\x61\x72\x74\x65\x6E","\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x70\x72\x6F\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x68\x34\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x70\x72\x69\x63\x65\x22\x3E\x3C\x64\x65\x6C\x3E\x24","\x3C\x68\x34\x3E","\x2E\x64\x61\x74\x6F\x73\x32","\x31\x33\x70\x78","\x2E\x64\x69\x72\x65\x63\x72\x65\x67","\xBF\x43\x6F\x6D\x6F\x20\x70\x6F\x64\x65\x6D\x6F\x73\x20\x61\x79\x75\x64\x61\x72\x74\x65\x3F\x20\uD83D\uDE3D\uD83D\uDC47","\x2E\x69\x74\x65\x6D\x2D\x74\x69\x74\x6C\x65","\x52\x65\x70\xFA\x62\x6C\x69\x63\x61\x20\x43\x65\x6E\x74\x72\x6F\x61\x66\x72\x69\x63\x61\x6E\x61","\x3C\x2F\x64\x65\x6C\x3E\x3C\x2F\x68\x34\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x68\x34\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x70\x72\x69\x63\x65\x22\x3E\x24","\x31\x31\x35\x37\x37\x37\x36\x7A\x78\x70\x4C\x51\x66","\x3C\x2F\x73\x70\x61\x6E\x3E\x20\x4D\x69\x6E\x73\x2E\x3C\x2F\x70\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x63\x6F\x75\x6E\x74\x22\x3E\x20\x20\x3C\x73\x70\x61\x6E\x3E\x20","\x43\x6C\x69\x63\x6B\x20\x74\x6F\x20\x63\x65\x6E\x74\x65\x72\x20\x6D\x61\x70\x20\x6F\x6E\x20\x79\x6F\x75\x72\x20\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x74\x6F\x45\x6C\x65\x6D\x65\x6E\x74","\x72\x65\x6C\x61\x74\x65\x64\x54\x61\x72\x67\x65\x74","\x2E\x6D\x61\x70\x63\x61\x6E\x76\x61\x73","\x54\x61\x69\x6C\x61\x6E\x64\x69\x61","\x49\x73\x6C\x61\x20\x42\x6F\x75\x76\x65\x74","\x2E\x73\x65\x70\x61\x72\x61\x74\x65\x73\x63\x72\x6F\x6C","\x2D\x71\x74\x79","\x59\x69\x62\x75\x74\x69","\x42\x61\x68\x61\x6D\x61\x73","\x53\x61\x6E\x20\x4D\x61\x72\x69\x6E\x6F","\x49\x73\x6C\x61\x73\x20\x56\xED\x72\x67\x65\x6E\x65\x73\x20\x42\x72\x69\x74\xE1\x6E\x69\x63\x61\x73","\x63\x6F\x6E\x74\x72\x6F\x6C\x73","\x52\x65\x70\xFA\x62\x6C\x69\x63\x61\x20\x64\x65\x6C\x20\x43\x6F\x6E\x67\x6F","\x47\x65\x6F\x72\x67\x69\x61","\x72\x6F\x77\x2D\x63\x65\x6E\x74\x65\x72\x65\x64\x32","\x53\x69\x65\x72\x72\x61\x20\x4C\x65\x6F\x6E\x61","\x48\x6F\x6E\x64\x75\x72\x61\x73","\x23\x6F\x66\x65\x72\x74\x61\x42\x61\x72\x72\x61\x54\x6F\x70\x33","\x43\x68\x69\x6C\x65","\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x50\x52\x4F\x20\x32\x34\x20\x4D\x65\x73\x65\x73","\x61\x6E\x74\x65\x73","\x2E\x63\x6F\x70\x79","\x35\x70\x78","\x63\x73\x73","\x66\x61\x6E\x74\x61\x73\x6D\x61","\x65\x6E\x76\x69\x61\x72\x77\x61\x32","\x6D\x6F\x73\x74\x72\x61\x72\x63\x61\x72\x74","\x41\x72\x75\x62\x61","\x3C\x2F\x68\x34\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x68\x33\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x74\x69\x74\x6C\x65\x22\x20\x69\x64\x3D\x22\x22\x3E","\x23\x63\x65\x72\x72\x61\x72\x63\x68\x61\x74\x32","\x47\x65\x6F\x63\x6F\x64\x65\x72","\x6D\x79\x46\x69\x72\x73\x74\x44\x69\x61\x6C\x6F\x67","\x43\x75\x72\x61\x7A\x61\x6F","\x50\x6F\x6C\x69\x6E\x65\x73\x69\x61\x20\x46\x72\x61\x6E\x63\x65\x73\x61","\x56\x69\x65\x74\x6E\x61\x6D","\x48\x61\x69\x74\xED","\x4C\x6C\x65\x6E\x61\x20\x65\x6C\x20\x63\x61\x6D\x70\x6F\x20\x63\x6F\x6E\x20\x74\x75\x73\x20\x6E\x6F\x6D\x62\x72\x65\x73\x20\x63\x6F\x6D\x70\x6C\x65\x74\x6F\x73\x20\uD83D\uDE05","\x69\x6E\x70\x75\x74","\x6D\x61\x73\x76","\x67\x65\x6F\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x53\x65\x6E\x65\x67\x61\x6C","\x73\x74\x65\x70\x55\x70","\x2E\x62\x74\x6E\x2D\x6D\x69\x6E\x75\x73","\x32\x34\x31\x33\x34\x39\x34\x43\x48\x51\x59\x57\x76","\x23\x6F\x77\x6C\x73\x6F\x63\x69\x61\x6C","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x6F\x70\x65\x72\x20\x2C\x20\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x6F\x70\x65\x72\x72","\x4D\x61\x63\x65\x64\xF4\x6E\x69\x61","\x55\x7A\x62\x65\x6B\x69\x73\x74\xE1\x6E","\x70\x72\x69\x63\x65","\x4E\x61\x6D\x69\x62\x69\x61","\x42\x6F\x74\x73\x75\x61\x6E\x61","\x2A\x48\x61\x7A\x20\x75\x6E\x61\x20\x63\x61\x70\x74\x75\x72\x61\x20\x64\x65\x6C\x20\x70\x61\x67\x6F\x20\x79\x20\x65\x6E\x76\xED\x61\x6E\x6F\x73\x20\x70\x6F\x72\x20\x61\x71\x75\xED\x2A\x20\uD83D\uDC47","\x53\x61\x6E\x74\x61\x20\x45\x6C\x65\x6E\x61","\x37\x42\x48\x4F\x69\x55\x59","\x2A\x57\x68\x61\x74\x73\x42\x75\x6C\x6B\x53\x65\x6E\x64\x65\x72\x2D\x32\x30\x32\x32\x2A","\x62\x69\x6E\x64","\x3C\x75\x6C\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x65\x61\x74\x75\x72\x65\x73\x22\x3E\x3C\x6C\x69\x3E\x3C\x69\x3E\x3C\x2F\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x49\x6E\x73\x74\x61\x6C\x61\x63\x69\xF3\x6E\x20\x47\x52\x41\x54\x49\x53\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x3E\x3C\x2F\x69\x3E\x20\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x64\x65\x20\x70\x6F\x72\x20\x56\x49\x64\x61\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x73\x74\x6F\x70\x2D\x63\x69\x72\x63\x6C\x65\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x79\x20\x43\x61\x6D\x70\x61\xF1\x61\x73\x20\x49\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x31\x30\x30\x25\x20\x50\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x20\x43\x75\x65\x6E\x74\x61\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x20\x4D\x75\x6C\x74\x69\x64\x69\x73\x70\x6F\x73\x69\x74\x69\x76\x6F\x73\x20\x50\x43\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x41\x64\x6A\x75\x6E\x74\x61\x20\x56\x69\x64\x65\x6F\x2C\x20\x49\x6D\x61\x67\x65\x6E\x2C\x20\x41\x75\x64\x69\x6F\x2C\x20\x43\x61\x74\xE1\x6C\x6F\x67\x6F\x73\x2C\x20\x44\x6F\x63\x75\x6D\x65\x6E\x74\x6F\x73\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x3E\x3C\x2F\x69\x3E\x49\x6D\x70\x6F\x72\x74\x61\x63\x69\xF3\x6E\x20\x79\x20\x45\x78\x70\x6F\x72\x74\x61\x63\x69\xF3\x6E\x20\x64\x65\x20\x43\x6F\x6E\x74\x61\x63\x74\x6F\x73\x2E\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x3E\x3C\x2F\x69\x3E\x53\x69\x73\x74\x65\x6D\x61\x20\x41\x6E\x74\x69\x2D\x41\x6C\x67\x6F\x72\x69\x74\x6D\x6F\x20\x64\x65\x20\x42\x6C\x6F\x71\x75\x65\x6F\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x45\x78\x74\x72\x61\x63\x74\x6F\x72\x20\x64\x65\x20\x43\x6F\x6E\x74\x61\x63\x74\x6F\x73\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x45\x6E\x76\xED\x61\x20\x49\x6D\xE1\x67\x65\x6E\x65\x73\x20\x79\x20\x56\x69\x64\x65\x6F\x73\x20\x63\x6F\x6E\x20\x44\x65\x73\x63\x72\x69\x70\x63\x69\xF3\x6E\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x43\x6F\x6D\x70\x61\x74\x69\x62\x6C\x65\x20\x63\x6F\x6E\x20\x54\x6F\x64\x61\x73\x20\x6C\x61\x73\x20\x56\x65\x72\x73\x69\x6F\x6E\x65\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x69\x6E\x63\x6C\x75\x69\x64\x61\x73\x20\x6C\x61\x73\x20\x56\x65\x72\x73\x69\x6F\x6E\x65\x73\x20\x42\x45\x54\x41\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x53\x6F\x70\x6F\x72\x74\x65\x20\x32\x34\x2F\x37\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x41\x63\x74\x75\x61\x6C\x69\x7A\x61\x63\x69\x6F\x6E\x65\x73\x20\x47\x52\x41\x54\x49\x53\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x43\x61\x70\x61\x63\x69\x74\x61\x63\x69\xF3\x6E\x20\x65\x6E\x20\x4D\x61\x72\x6B\x65\x74\x69\x6E\x67\x20\x4D\x61\x73\x69\x76\x6F\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x47\x65\x6E\x65\x72\x61\x20\x49\x6E\x66\x6F\x72\x6D\x65\x73\x20\x64\x65\x20\x45\x6E\x76\xED\x6F\x73\x20\x4D\x61\x73\x69\x76\x6F\x73\x2E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x46\x69\x6C\x74\x72\x6F\x20\x64\x65\x20\x4E\xFA\x6D\x65\x72\x6F\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x47\x65\x6E\x65\x72\x61\x64\x6F\x72\x20\x64\x65\x20\x4E\xFA\x6D\x65\x72\x6F\x73\x20\x64\x65\x20\x57\x68\x61\x73\x74\x73\x41\x70\x70\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x45\x6E\x76\xED\x6F\x73\x20\x4D\x61\x73\x69\x76\x6F\x73\x20\x61\x20\x47\x72\x75\x70\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x43\x68\x61\x74\x42\x6F\x74\x20\x41\x75\x74\x6F\x72\x65\x73\x70\x75\x65\x73\x74\x61\x73\x20\x46\x75\x6E\x6E\x65\x6C\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x50\x72\x6F\x67\x72\x61\x6D\x61\x72\x20\x43\x61\x6D\x70\x61\xF1\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x43\x6F\x6E\x74\x65\x73\x74\x61\x72\x20\x64\x65\x73\x64\x65\x20\x6C\x61\x20\x41\x70\x70\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x54\x72\x61\x6E\x73\x66\x65\x72\x69\x72\x20\x61\x20\x6F\x74\x72\x6F\x20\x44\x69\x73\x70\x6F\x73\x69\x74\x69\x76\x6F\x3C\x2F\x6C\x69\x3E\x3C\x2F\x75\x6C\x3E","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x4B\x69\x72\x67\x75\x69\x73\x74\xE1\x6E","\x52\x65\x70\xFA\x62\x6C\x69\x63\x61\x20\x43\x68\x65\x63\x61","\x4D\x61\x75\x72\x69\x63\x69\x6F","\x42\x72\x61\x73\x69\x6C","\x42\x65\x6E\xED\x6E","\x49\x73\x6C\x61\x73\x20\x46\x65\x72\x6F\x65","\x77\x68\x61\x74\x65\x72\x72\x6F\x72","\x65\x6E\x74\x72\x79\x2E\x31\x36\x31\x32\x30\x31\x38\x36\x35\x37","\x65\x6E\x74\x72\x79\x2E\x31\x36\x32\x35\x35\x31\x37\x35\x30\x39","\x6F\x66\x66\x73\x65\x74","\x52\x65\x75\x6E\x69\xF3\x6E","\x74\x6F\x74\x61\x6C\x77\x61\x33","\x74\x68\x65\x6E","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x6F\x70\x65","\x52\x75\x61\x6E\x64\x61","\x4E\x65\x70\x61\x6C","\x3C\x2F\x73\x70\x61\x6E\x3E\x20\x44\xED\x61\x73\x3C\x2F\x70\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x63\x6F\x75\x6E\x74\x22\x3E\x20\x20\x3C\x73\x70\x61\x6E\x3E\x20","\x3C\x2F\x70\x3E","\x33\x32\x39\x39\x39\x30\x51\x6B\x6F\x7A\x6D\x48","\x4E\x61\x75\x72\x75","\x70\x61\x72\x73\x65\x46\x6C\x6F\x61\x74","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x70\x69\x6E\x66\x6F\x2E\x69\x6F\x2F\x6A\x73\x6F\x6E","\x4D\x6F\x6E\x67\x6F\x6C\x69\x61","\x6C\x65\x66\x74","\x73\x63\x72\x6F\x6C\x6C","\x52\x75\x73\x69\x61","\x2E\x69\x74\x65\x6D\x2D\x69\x6D\x61\x67\x65","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6D\x67\x73\x65\x6E\x64\x22\x20\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x69\x6D\x67\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6D\x67\x73\x65\x6E\x64\x66\x22\x20\x73\x72\x63\x3D","\x41\x6E\x67\x75\x69\x6C\x61","\x2D\x70\x2D\x73\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6C\x75\x73\x22\x3E\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x78\x63\x65\x72\x72\x61\x72\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x2D\x74\x6F\x74\x61\x6C\x20\x6D\x62\x2D\x30\x20\x73\x68\x6F\x70\x70\x69\x6E\x67\x43\x61\x72\x74\x49\x74\x65\x6D\x54\x6F\x74\x61\x6C\x20\x69\x74\x65\x6D\x74\x6F\x74\x61\x6C\x22\x20\x3E\x24","\x31\x34\x30\x39\x32\x35\x6F\x52\x6F\x73\x61\x72","\x67\x65\x6F\x63\x6F\x64\x65","\x54\x65\x72\x72\x69\x74\x6F\x72\x69\x6F\x20\x42\x72\x69\x74\xE1\x6E\x69\x63\x6F\x20\x64\x65\x6C\x20\x4F\x63\xE9\x61\x6E\x6F\x20\xCD\x6E\x64\x69\x63\x6F","\x2A\x78\x2A","\x2E\x63\x65\x72\x72\x61\x72\x64\x61\x74\x61\x32","\x54\x75\x20\x64\x69\x72\x65\x63\x63\x69\xF3\x6E\x20\x64\x65\x20\x65\x6E\x74\x72\x65\x67\x61\x20\x65\x73\x3A\x20","\x66\x61\x64\x65\x49\x6E","\x47\x75\x69\x6E\x65\x61\x2D\x42\x69\x73\x73\x61\x75","\x63\x6C\x6F\x73\x65","\x45\x72\x69\x74\x72\x65\x61","\x23\x6D\x65\x6E\x75\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x2D\x43\x31","\x6D\x73\x69\x6E\x70\x72\x6F\x64\x75\x63\x74\x6F\x73","\x3C\x2F\x70\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x73\x70\x61\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x74\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x69\x64\x3D\x22","\x41\x6E\x67\x6F\x6C\x61","\x2E\x64\x65\x6C\x69\x76\x65\x72\x79\x73\x75\x62","\x4D\x61\x72\x74\x69\x6E\x69\x63\x61","\x52\x65\x70\xFA\x62\x6C\x69\x63\x61\x20\x44\x6F\x6D\x69\x6E\x69\x63\x61\x6E\x61","\x74\x6F\x67\x67\x6C\x65","\x42\x61\x72\x62\x61\x64\x6F\x73","\x49\x73\x6C\x61\x73\x20\x64\x65\x20\xC5\x6C\x61\x6E\x64","\x45\x6D\x69\x72\x61\x74\x6F\x73\x20\xC1\x72\x61\x62\x65\x73\x20\x55\x6E\x69\x64\x6F\x73","\x63\x6F\x6F\x72\x64\x73","\x50\x61\x70\xFA\x61\x20\x4E\x75\x65\x76\x61\x20\x47\x75\x69\x6E\x65\x61","\x4E\x69\x75\x65","\x32\x30\x30\x70\x78","\x6D\x65\x6E\x75\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x2D","\x3C\x2F\x68\x34\x3E","\x31\x30\x70\x78","\x49\x73\x6C\x61\x20\x64\x65\x20\x4E\x61\x76\x69\x64\x61\x64","\x53\x61\x6E\x20\x42\x61\x72\x74\x6F\x6C\x6F\x6D\xE9","\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x4D\x6F\x6E\x74\x73\x65\x72\x72\x61\x74","\x2A\x7C\x2A","\x49\x6E\x67\x72\x65\x73\x61\x20\x74\x75\x20\x6E\xFA\x6D\x65\x72\x6F\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\uD83D\uDE05","\x66\x61\x64\x65\x4F\x75\x74","\x65\x6E\x74\x72\x79\x2E\x35\x31\x36\x30\x38\x32\x36\x30\x34","\x52\x65\x70\xFA\x62\x6C\x69\x63\x61\x20\x64\x65\x20\x53\x75\x64\xE1\x6E\x20\x64\x65\x6C\x20\x53\x75\x72","\x2E\x69\x74\x65\x6D\x2D\x70\x72\x69\x63\x65","\x43\x61\x6D\x62\x6F\x79\x61","\x47\x61\x62\xF3\x6E","\x6A\x73\x6F\x6E","\x44\x52\x4F\x50","\x2D\x70\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6C\x75\x73\x22\x3E\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E","\x32\x30\x47\x64\x57\x55\x73\x66","\x42\x75\x72\x6B\x69\x6E\x61\x20\x46\x61\x73\x6F","\x2E\x70\x6C\x75\x73","\x4D\x61\x70","\x70\x72\x65\x63\x69\x6F","\x4D\x61\x6C\x74\x61","\x68\x65\x69\x67\x68\x74","\x73\x68\x6F\x77\x63\x61\x6E\x76\x61\x73","\x65\x6E\x74\x72\x79\x2E\x32\x30\x31\x36\x39\x38\x33\x36\x36\x34","\x4B\x69\x72\x69\x62\x61\x74\x69","\x43\x6F\x6E\x74\x72\x6F\x6C\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x61\x6C\x74","\x6E\x61\x6D\x65\x63","\x2E\x69\x74\x65\x6D\x5F\x63\x61\x6E\x74\x69\x64\x61\x64\x67","\x43\x61\x62\x6F\x20\x56\x65\x72\x64\x65","\x23\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x73\x33\x62","\x4C\x61\x74\x4C\x6E\x67","\x43\x68\x69\x6E\x61","\x23\x6D\x61\x73\x76\x65\x6E\x64\x69\x64\x6F\x73\x33\x61","\x49\x73\x6C\x61\x6E\x64\x69\x61","\x49\x73\x6C\x61\x73\x20\x55\x6C\x74\x72\x61\x6D\x61\x72\x69\x6E\x61\x73\x20\x4D\x65\x6E\x6F\x72\x65\x73\x20\x64\x65\x20\x45\x73\x74\x61\x64\x6F\x73\x20\x55\x6E\x69\x64\x6F\x73","\x35\x30\x70\x78","\x23\x67\x66\x6F\x72\x6D\x33","\x54\x69\x6D\x6F\x72\x20\x4F\x72\x69\x65\x6E\x74\x61\x6C","\x53\x77\x61\x7A\x69\x6C\x61\x6E\x64\x69\x61","\x23\x6C\x61\x74\x69\x74\x75\x64\x65","\x4A\x6F\x72\x64\x61\x6E\x69\x61","\x4C\x65\x73\x6F\x74\x6F","\x3C\x75\x6C\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x65\x61\x74\x75\x72\x65\x73\x22\x3E\x3C\x6C\x69\x3E\x3C\x69\x3E\x3C\x2F\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x49\x6E\x73\x74\x61\x6C\x61\x63\x69\xF3\x6E\x20\x47\x52\x41\x54\x49\x53\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x3E\x3C\x2F\x69\x3E\x20\x4C\x69\x63\x65\x6E\x63\x69\x61\x20\x32\x34\x20\x6D\x65\x73\x65\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x73\x74\x6F\x70\x2D\x63\x69\x72\x63\x6C\x65\x22\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x79\x20\x43\x61\x6D\x70\x61\xF1\x61\x73\x20\x49\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x20\x4D\x65\x6E\x73\x61\x6A\x65\x73\x20\x31\x30\x30\x25\x20\x50\x65\x72\x73\x6F\x6E\x61\x6C\x69\x7A\x61\x64\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x20\x43\x75\x65\x6E\x74\x61\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x69\x6C\x69\x6D\x69\x74\x61\x64\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x20\x4D\x75\x6C\x74\x69\x64\x69\x73\x70\x6F\x73\x69\x74\x69\x76\x6F\x73\x20\x50\x43\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x41\x64\x6A\x75\x6E\x74\x61\x20\x56\x69\x64\x65\x6F\x2C\x20\x49\x6D\x61\x67\x65\x6E\x2C\x20\x41\x75\x64\x69\x6F\x2C\x20\x43\x61\x74\xE1\x6C\x6F\x67\x6F\x73\x2C\x20\x44\x6F\x63\x75\x6D\x65\x6E\x74\x6F\x73\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x3E\x3C\x2F\x69\x3E\x49\x6D\x70\x6F\x72\x74\x61\x63\x69\xF3\x6E\x20\x79\x20\x45\x78\x70\x6F\x72\x74\x61\x63\x69\xF3\x6E\x20\x64\x65\x20\x43\x6F\x6E\x74\x61\x63\x74\x6F\x73\x2E\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x3E\x3C\x2F\x69\x3E\x53\x69\x73\x74\x65\x6D\x61\x20\x41\x6E\x74\x69\x2D\x41\x6C\x67\x6F\x72\x69\x74\x6D\x6F\x20\x64\x65\x20\x42\x6C\x6F\x71\x75\x65\x6F\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x45\x78\x74\x72\x61\x63\x74\x6F\x72\x20\x64\x65\x20\x43\x6F\x6E\x74\x61\x63\x74\x6F\x73\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x45\x6E\x76\xED\x61\x20\x49\x6D\xE1\x67\x65\x6E\x65\x73\x20\x79\x20\x56\x69\x64\x65\x6F\x73\x20\x63\x6F\x6E\x20\x44\x65\x73\x63\x72\x69\x70\x63\x69\xF3\x6E\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x20\x3C\x6C\x69\x3E\x20\x3C\x69\x20\x3E\x3C\x2F\x69\x3E\x43\x6F\x6D\x70\x61\x74\x69\x62\x6C\x65\x20\x63\x6F\x6E\x20\x54\x6F\x64\x61\x73\x20\x6C\x61\x73\x20\x56\x65\x72\x73\x69\x6F\x6E\x65\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x69\x6E\x63\x6C\x75\x69\x64\x61\x73\x20\x6C\x61\x73\x20\x56\x65\x72\x73\x69\x6F\x6E\x65\x73\x20\x42\x45\x54\x41\x3C\x2F\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x6C\x69\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x53\x6F\x70\x6F\x72\x74\x65\x20\x32\x34\x2F\x37\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x41\x63\x74\x75\x61\x6C\x69\x7A\x61\x63\x69\x6F\x6E\x65\x73\x20\x47\x52\x41\x54\x49\x53\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x73\x63\x22\x3E\x43\x61\x70\x61\x63\x69\x74\x61\x63\x69\xF3\x6E\x20\x65\x6E\x20\x4D\x61\x72\x6B\x65\x74\x69\x6E\x67\x20\x4D\x61\x73\x69\x76\x6F\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x47\x65\x6E\x65\x72\x61\x20\x49\x6E\x66\x6F\x72\x6D\x65\x73\x20\x64\x65\x20\x45\x6E\x76\xED\x6F\x73\x20\x4D\x61\x73\x69\x76\x6F\x73\x2E\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x46\x69\x6C\x74\x72\x6F\x20\x64\x65\x20\x4E\xFA\x6D\x65\x72\x6F\x73\x20\x64\x65\x20\x57\x68\x61\x74\x73\x41\x70\x70\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x47\x65\x6E\x65\x72\x61\x64\x6F\x72\x20\x64\x65\x20\x4E\xFA\x6D\x65\x72\x6F\x73\x20\x64\x65\x20\x57\x68\x61\x73\x74\x73\x41\x70\x70\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x45\x6E\x76\xED\x6F\x73\x20\x4D\x61\x73\x69\x76\x6F\x73\x20\x61\x20\x47\x72\x75\x70\x6F\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x43\x68\x61\x74\x42\x6F\x74\x20\x41\x75\x74\x6F\x72\x65\x73\x70\x75\x65\x73\x74\x61\x73\x20\x46\x75\x6E\x6E\x65\x6C\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x50\x72\x6F\x67\x72\x61\x6D\x61\x72\x20\x43\x61\x6D\x70\x61\xF1\x61\x73\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x43\x6F\x6E\x74\x65\x73\x74\x61\x72\x20\x64\x65\x73\x64\x65\x20\x6C\x61\x20\x41\x70\x70\x3C\x2F\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x6C\x69\x3E\x3C\x2F\x69\x3E\u2705\x54\x72\x61\x6E\x73\x66\x65\x72\x69\x72\x20\x61\x20\x6F\x74\x72\x6F\x20\x44\x69\x73\x70\x6F\x73\x69\x74\x69\x76\x6F\x3C\x2F\x6C\x69\x3E\x3C\x2F\x75\x6C\x3E","\x2D\x71\x74\x79\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x69\x64\x3D\x22","\x2D\x31\x30\x30\x25","\x72\x6F\x77\x2D\x63\x65\x6E\x74\x65\x72\x65\x64\x32\x77","\x73\x6C\x69\x63\x65","\x23\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x73\x33\x61","\x45\x73\x70\x61\xF1\x61","\x53\x75\x64\xE1\x66\x72\x69\x63\x61","\x45\x63\x75\x61\x64\x6F\x72","\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x69\x74\x75\x63\x6F\x75\x6E\x74\x22\x3E\x45\x73\x74\x61\x20\x6F\x66\x65\x72\x74\x61\x20\x74\x65\x72\x6D\x69\x6E\x61\x20\x65\x6E\x3A\x3C\x2F\x73\x70\x61\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x61\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x75\x6E\x74\x66\x22\x3E\x0A\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x63\x6F\x75\x6E\x74\x22\x3E\x20\x20\x3C\x73\x70\x61\x6E\x3E\x20","\x77\x69\x64\x74\x68","\x3C\x2F\x73\x70\x61\x6E\x3E\x20\x48\x6F\x72\x61\x73\x3C\x2F\x70\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x63\x6F\x75\x6E\x74\x22\x3E\x20\x20\x3C\x73\x70\x61\x6E\x3E\x20","\x53\x69\x72\x69\x61","\x63\x68\x61\x6E\x67\x65","\x69\x74\x65\x6D\x2D\x6D\x65\x6E\x75","\x2E\x75\x6E\x6F\x77\x68\x61\x74\x32","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x65\x72\x72\x61\x72\x64\x61\x74\x61\x32\x22\x3E\x20\x3C\x64\x69\x76\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x63\x6F\x6E\x2D\x66\x6C\x65\x63\x68\x61\x2D\x69\x7A\x71\x22\x3E\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E\x20\x3C\x62\x72\x3E\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x67\x72\x61\x63\x69\x61\x73\x22\x3E\xA1\x47\x72\x61\x63\x69\x61\x73\x21\x20\x54\x75\x20\x70\x65\x64\x69\x64\x6F\x20\x68\x61\x20\x73\x69\x64\x6F\x20\x65\x6E\x76\x69\x61\x64\x6F\x20\x63\x6F\x6E\x20\xE9\x78\x69\x74\x6F\x2C\x20\x3C\x73\x74\x72\x6F\x6E\x67\x3E\x65\x73\x70\x65\x72\x61\x20\x75\x6E\x6F\x73\x20\x73\x65\x67\x75\x6E\x64\x6F\x73\x2C\x3C\x2F\x73\x74\x72\x6F\x6E\x67\x3E\x20\x65\x6E\x73\x65\x67\x75\x69\x64\x61\x20\x72\x65\x63\x69\x62\x69\x72\xE1\x73\x20\x75\x6E\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x63\x6F\x6E\x20\x6C\x61\x73\x20\x69\x6E\x73\x74\x72\x75\x63\x69\x6F\x6E\x65\x73\x20\x70\x61\x72\x61\x20\x72\x65\x61\x6C\x69\x7A\x61\x72\x20\x65\x6C\x20\x70\x61\x67\x6F\x2E\x20\uD83D\uDE42\x3C\x2F\x70\x3E","\x72\x65\x6D\x61\x69\x6E\x44\x61\x79\x73","\x2E\x63\x6F\x6E\x73\x75\x6D\x69\x64\x6F\x72\x73\x69\x6E\x66\x61\x63","\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F\x5F","\x41\x75\x73\x74\x72\x61\x6C\x69\x61","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x6D\x61\x70\x73\x2E\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2F\x3F\x71\x3D","\x4D\x61\x72\x72\x75\x65\x63\x6F\x73","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x67\x72\x61\x63\x69\x61\x73\x22\x3E\xA1\x47\x72\x61\x63\x69\x61\x73\x21\x20\x54\x75\x20\x66\x6F\x72\x6D\x75\x6C\x61\x72\x69\x6F\x20\x68\x61\x20\x73\x69\x64\x6F\x20\x65\x6E\x76\x69\x61\x64\x6F\x20\x63\x6F\x6E\x20\xE9\x78\x69\x74\x6F\x2C\x20\x3C\x73\x74\x72\x6F\x6E\x67\x3E\x65\x73\x70\x65\x72\x61\x20\x75\x6E\x6F\x73\x20\x73\x65\x67\x75\x6E\x64\x6F\x73\x2C\x3C\x2F\x73\x74\x72\x6F\x6E\x67\x3E\x20\x65\x6E\x73\x65\x67\x75\x69\x64\x61\x20\x72\x65\x63\x69\x62\x69\x72\xE1\x73\x20\x75\x6E\x20\x57\x68\x61\x74\x73\x41\x70\x70\x20\x63\x6F\x6E\x20\x6C\x61\x73\x20\x69\x6E\x73\x74\x72\x75\x63\x69\x6F\x6E\x65\x73\uD83D\uDE42\x3C\x2F\x70\x3E","\x72\x65\x6D\x61\x69\x6E\x48\x6F\x75\x72\x73","\x70\x61\x64\x64\x69\x6E\x67\x52\x69\x67\x68\x74","\x69\x6D\x67\x2F\x77\x68\x61\x74\x73\x62\x75\x6C\x6B\x73\x65\x6E\x64\x65\x72\x2D\x70\x72\x65\x63\x69\x6F\x2D\x32\x34\x2D\x6D\x65\x73\x65\x73\x2D\x67\x72\x61\x74\x69\x73\x2E\x77\x65\x62\x70","\x47\x72\x6F\x65\x6E\x6C\x61\x6E\x64\x69\x61","\x64\x61\x74\x6F\x73\x63\x68\x61\x6F","\x23\x6D\x61\x73\x76\x65\x6E\x64\x69\x64\x6F\x73\x31","\x23\x63\x61\x72\x64\x6D\x65\x6E\x75","\x63\x65\x6E\x74\x65\x72","\x44\x6F\x6D\x69\x6E\x69\x63\x61","\x41\x72\x67\x65\x6E\x74\x69\x6E\x61","\x2A\x4F\x72\x64\x65\x6E\x20\x4E\xB0\x3A\x2A","\x41\x66\x67\x61\x6E\x69\x73\x74\xE1\x6E","\x63\x6C\x69\x65\x6E\x74\x59","\x41\x6C\x62\x61\x6E\x69\x61","\x43\x75\x62\x61","\x49\x73\x6C\x61\x73\x20\x53\x61\x6C\x6F\x6D\xF3\x6E","\x42\x61\x6E\x67\x6C\x61\x64\x65\x73\x68","\x43\x6F\x72\x65\x61\x20\x64\x65\x6C\x20\x4E\x6F\x72\x74\x65","\x4D\x61\x79\x6F\x74\x74\x65","\x2E\x75\x6E\x6F\x77\x68\x61\x74","\x23\x67\x66\x6F\x72\x6D\x33\x20\x2A","\x23\x6F\x66\x65\x72\x74\x61\x42\x61\x72\x72\x61\x54\x6F\x70\x34","\x23\x6D\x65\x6E\x75\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x2D\x43\x34","\x23\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x73\x32\x61","\x3C","\x72\x65\x6D\x61\x69\x6E\x53\x65\x63\x6F\x6E\x64\x73","\x3C\x2F\x73\x70\x61\x6E\x3E\x20\x53\x65\x67\x2E\x3C\x2F\x70\x3E\x0A\x0A\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x3C\x2F\x61\x3E"];var _0x77be7d=_0x2aab;(function(_0x6f59x2,_0x6f59x3){var _0x6f59x4=_0x2aab,_0x6f59x5=_0x6f59x2();while(!![]){try{var _0x6f59x6=-parseInt(_0x6f59x4(0x14f))/ 0x1 + parseInt(_0x6f59x4(0x2b3))/ 0x2* (parseInt(_0x6f59x4(0x161))/ 0x3) + parseInt(_0x6f59x4(0xf2))/ 0x4* (parseInt(_0x6f59x4(0x23d))/ 0x5) + parseInt(_0x6f59x4(0x12a))/ 0x6* (parseInt(_0x6f59x4(0x134))/ 0x7) + parseInt(_0x6f59x4(0x21e))/ 0x8 + -parseInt(_0x6f59x4(0x221))/ 0x9 + -parseInt(_0x6f59x4(0x194))/ 0xa * (parseInt(_0x6f59x4(0x24a))/ 0xb);if(_0x6f59x6=== _0x6f59x3){break}else {_0x6f59x5[_0x5a55[1]](_0x6f59x5[_0x5a55[0]]())}}catch(_0x19066a){_0x6f59x5[_0x5a55[1]](_0x6f59x5[_0x5a55[0]]())}}}(_0xb4f0,0x31b72),document[_0x5a55[2]]= function(){return ![]});const myTimeout=setTimeout(myGreeting,0x493e0);function myGreeting(){var _0x6f59x9=_0x2aab;$(_0x5a55[3])[_0x6f59x9(0x1af)](_0x6f59x9(0x13e))}$(document)[_0x5a55[7]](function(){var _0x6f59xa=_0x2aab,_0x6f59xb=$(_0x6f59xa(0x258))[_0x6f59xa(0x146)]()[_0x5a55[4]];$(window)[_0x5a55[6]](_0x6f59xa(0x157),function(){var _0x6f59xc=_0x6f59xa;$(window)[_0x6f59xc(0x139)]()>= _0x6f59xb?$(_0x6f59xc(0x258))[_0x6f59xc(0x1af)](_0x6f59xc(0x1b7)):$(_0x5a55[5])[_0x6f59xc(0x15d)](_0x6f59xc(0x1b7))})});let movuevete=document[_0x77be7d(0x2cc)](_0x77be7d(0x22a));function moverseA(){var _0x6f59xf=_0x77be7d;location= _0x6f59xf(0x1d5)}const mouseEvent=(_0x6f59x12)=>{var _0x6f59x13=_0x77be7d;const _0x6f59x14=!_0x6f59x12[_0x6f59x13(0xf5)]&&  !_0x6f59x12[_0x6f59x13(0xf6)] && _0x6f59x12[_0x6f59x13(0x1de)]< 0x2;_0x6f59x14&& (document[_0x6f59x13(0x2e1)](_0x5a55[8],mouseEvent),document[_0x5a55[9]](_0x6f59x13(0xe0))[_0x6f59x13(0x1cb)][_0x6f59x13(0x2bc)](_0x6f59x13(0x13e)))},exit=(_0x6f59x15)=>{var _0x6f59x16=_0x77be7d;_0x6f59x15[_0x6f59x16(0x138)][_0x5a55[10]]=== _0x6f59x16(0x16b)&& document[_0x5a55[9]](_0x6f59x16(0xe0))[_0x6f59x16(0x1cb)][_0x5a55[11]](_0x6f59x16(0x13e)),_0x6f59x15[_0x6f59x16(0x138)][_0x6f59x16(0x26a)]=== _0x6f59x16(0x125)&& document[_0x6f59x16(0x112)](_0x6f59x16(0xe0))[_0x6f59x16(0x1cb)][_0x5a55[11]](_0x6f59x16(0x13e))};document[_0x77be7d(0x112)](_0x5a55[12])[_0x77be7d(0x270)](_0x77be7d(0x20b),exit),setTimeout(()=>{var _0x6f59x17=_0x77be7d;document[_0x6f59x17(0x270)](_0x6f59x17(0x189),mouseEvent),document[_0x5a55[14]](_0x5a55[13],exit)},0x7d0);let p=document[_0x77be7d(0x2cc)](_0x5a55[15]);p[_0x77be7d(0xde)]= muestraDemo;function muestraDemo(){var _0x6f59x1a=_0x77be7d;$(_0x6f59x1a(0x229))[_0x6f59x1a(0x1af)](_0x5a55[16]),$(_0x6f59x1a(0x2ed))[_0x6f59x1a(0x136)](_0x6f59x1a(0x20b))&& $(_0x6f59x1a(0x224))[_0x6f59x1a(0x29c)](_0x6f59x1a(0x22c))}$(_0x77be7d(0x2ed))[_0x5a55[19]](function(){var _0x6f59x1b=_0x77be7d;$(_0x5a55[18])[_0x5a55[17]](_0x6f59x1b(0x22c))});const pedido_store={'\x63\x61\x74\x65\x67\x6F\x72\x69\x65\x73':{'\x43\x31':{'\x69\x74\x65\x6D\x73':{'\x49\x31':{'\x6E\x61\x6D\x65':_0x77be7d(0xd7),'\x61\x6E\x74\x65\x73':79.98,'\x70\x72\x69\x63\x65':39.99,'\x71\x74\x79':0x0,'\x69\x6D\x67':_0x77be7d(0x1f9),'\x64\x65\x74\x61\x6C\x6C\x65\x73':_0x77be7d(0x29d),'\x6C\x69\x6E\x6B\x70\x61\x67\x6F':_0x5a55[20]},'\x49\x32':{'\x6E\x61\x6D\x65':_0x77be7d(0x108),'\x61\x6E\x74\x65\x73':159.96,'\x70\x72\x69\x63\x65':79.98,'\x71\x74\x79':0x0,'\x69\x6D\x67':_0x77be7d(0x2cb),'\x64\x65\x74\x61\x6C\x6C\x65\x73':_0x77be7d(0x1b4),'\x6C\x69\x6E\x6B\x70\x61\x67\x6F':_0x5a55[21]},'\x49\x33':{'\x6E\x61\x6D\x65':_0x77be7d(0x23f),'\x61\x6E\x74\x65\x73':0x1f3,'\x70\x72\x69\x63\x65':249.5,'\x71\x74\x79':0x0,'\x69\x6D\x67':_0x77be7d(0x1d2),'\x64\x65\x74\x61\x6C\x6C\x65\x73':_0x77be7d(0x137),'\x6C\x69\x6E\x6B\x70\x61\x67\x6F':_0x77be7d(0x2d0)}},'\x6E\x61\x6D\x65\x63':_0x5a55[22]}},'\x75\x73\x65\x72\x5F\x64\x61\x74\x61':{'\x75\x73\x65\x72\x5F\x6E\x61\x6D\x65':{'\x76\x61\x6C\x75\x65':_0x5a55[22],'\x65\x72\x72\x6F\x72':_0x5a55[22]},'\x75\x73\x65\x72\x5F\x70\x68\x6F\x6E\x65':{'\x76\x61\x6C\x75\x65':_0x5a55[22],'\x65\x72\x72\x6F\x72':_0x5a55[22]},'\x75\x73\x65\x72\x5F\x64\x69\x72':{'\x76\x61\x6C\x75\x65':_0x5a55[22],'\x65\x72\x72\x6F\x72':_0x5a55[22]},'\x75\x73\x65\x72\x5F\x7A\x6F\x6E\x65':{'\x76\x61\x6C\x75\x65':_0x5a55[22],'\x65\x72\x72\x6F\x72':_0x5a55[22]},'\x75\x73\x65\x72\x5F\x6D\x61\x69\x6C':{'\x76\x61\x6C\x75\x65':_0x5a55[22],'\x65\x72\x72\x6F\x72':_0x5a55[22]}}};var dialog=document[_0x77be7d(0x2cc)](_0x77be7d(0x11a));let menu_sections=_0x5a55[22];const categories=document[_0x77be7d(0x2cc)](_0x5a55[23]);Object[_0x5a55[25]](pedido_store[_0x77be7d(0x193)])[_0x77be7d(0x1eb)](([_0x6f59x20,_0x6f59x21],_0x6f59x22)=>{var _0x6f59x23=_0x77be7d;menu_sections= menu_sections+ (_0x5a55[24]+ _0x6f59x20+ _0x6f59x23(0xc8)+ _0x6f59x21[_0x6f59x23(0x1a2)]+ _0x6f59x23(0x213))}),categories[_0x77be7d(0x235)]= menu_sections;const newCancel=(_0x6f59x28,_0x6f59x29)=>{var _0x6f59x2a=_0x77be7d;pedido_store[_0x5a55[26]][_0x5a55[22]+ _0x6f59x29][_0x6f59x2a(0x117)][_0x5a55[22]+ _0x6f59x28][_0x6f59x2a(0x26b)]= 0x0,console[_0x6f59x2a(0x2a3)](pedido_store[_0x5a55[26]][_0x5a55[22]+ _0x6f59x29][_0x5a55[27]][_0x5a55[22]+ _0x6f59x28][_0x6f59x2a(0x26b)]),document[_0x6f59x2a(0x2cc)](_0x6f59x29+ _0x5a55[29]+ _0x6f59x28+ _0x6f59x2a(0xfb))[_0x5a55[28]]= pedido_store[_0x5a55[26]][_0x5a55[22]+ _0x6f59x29][_0x6f59x2a(0x117)][_0x5a55[22]+ _0x6f59x28][_0x6f59x2a(0x26b)],addItemToShoppingCart()},newPlus=(_0x6f59x2b,_0x6f59x2c)=>{var _0x6f59x2d=_0x77be7d;pedido_store[_0x6f59x2d(0x193)][_0x5a55[22]+ _0x6f59x2c][_0x6f59x2d(0x117)][_0x5a55[22]+ _0x6f59x2b][_0x6f59x2d(0x26b)]++,document[_0x5a55[30]](_0x6f59x2c+ _0x5a55[29]+ _0x6f59x2b+ _0x6f59x2d(0xfb))[_0x6f59x2d(0x263)]= pedido_store[_0x5a55[26]][_0x5a55[22]+ _0x6f59x2c][_0x6f59x2d(0x117)][_0x5a55[22]+ _0x6f59x2b][_0x6f59x2d(0x26b)],addItemToShoppingCart()},newMinus=(_0x6f59x2e,_0x6f59x2f)=>{var _0x6f59x30=_0x77be7d;pedido_store[_0x6f59x30(0x193)][_0x5a55[22]+ _0x6f59x2f][_0x5a55[27]][_0x5a55[22]+ _0x6f59x2e][_0x5a55[31]]- 0x1>= 0x0&& (pedido_store[_0x5a55[26]][_0x5a55[22]+ _0x6f59x2f][_0x6f59x30(0x117)][_0x5a55[22]+ _0x6f59x2e][_0x6f59x30(0x26b)]--,document[_0x6f59x30(0x2cc)](_0x6f59x2f+ _0x5a55[29]+ _0x6f59x2e+ _0x6f59x30(0xfb))[_0x6f59x30(0x263)]= pedido_store[_0x6f59x30(0x193)][_0x5a55[22]+ _0x6f59x2f][_0x6f59x30(0x117)][_0x5a55[22]+ _0x6f59x2e][_0x6f59x30(0x26b)],addItemToShoppingCart())},ItemCreator=(_0x6f59x31,_0x6f59x32)=>{var _0x6f59x33=_0x77be7d;let _0x6f59x34=_0x5a55[22];return Object[_0x6f59x33(0xe6)](_0x6f59x31)[_0x5a55[36]](([_0x6f59x35,_0x6f59x36],_0x6f59x37)=>{var _0x6f59x38=_0x6f59x33;_0x6f59x34= _0x6f59x34+ (_0x5a55[32]+ _0x6f59x36[_0x6f59x38(0x214)]+ _0x6f59x38(0xe9)+ _0x6f59x36[_0x6f59x38(0x109)][_0x6f59x38(0x1ec)](0x2)+ _0x6f59x38(0xf1)+ _0x6f59x36[_0x6f59x38(0x12f)]+ _0x6f59x38(0x115)+ _0x6f59x36[_0x6f59x38(0x1bd)]+ _0x6f59x38(0x228)+ _0x6f59x36[_0x5a55[33]]+ _0x5a55[34]+ _0x6f59x36[_0x5a55[35]]+ _0x6f59x38(0xda)+ _0x6f59x32+ _0x5a55[29]+ _0x6f59x35+ _0x6f59x38(0xc6)+ _0x6f59x36[_0x6f59x38(0x26b)]+ _0x6f59x38(0x2ab)+ _0x6f59x32+ _0x5a55[29]+ _0x6f59x35+ _0x6f59x38(0x1b5)+ _0x6f59x32+ _0x5a55[29]+ _0x6f59x35+ _0x6f59x38(0x191))}),_0x6f59x34};Object[_0x77be7d(0xe6)](pedido_store[_0x77be7d(0x193)])[_0x5a55[36]](([_0x6f59x39,_0x6f59x3a],_0x6f59x3b)=>{var _0x6f59x3c=_0x77be7d;let _0x6f59x3d=document[_0x6f59x3c(0x15f)](_0x6f59x3c(0x2a7));_0x6f59x3d[_0x5a55[37]]= _0x6f59x3c(0x17c)+ _0x6f59x39,_0x6f59x3d[_0x6f59x3c(0x1cb)][_0x6f59x3c(0x2bc)](_0x6f59x3c(0x1c3)),_0x6f59x3d[_0x6f59x3c(0x235)]= _0x5a55[38]+ (_0x6f59x39+ _0x5a55[39])+ _0x5a55[40]+ _0x6f59x3a[_0x6f59x3c(0x1a2)]+ _0x6f59x3c(0x14e);let _0x6f59x3e=document[_0x6f59x3c(0x15f)](_0x6f59x3c(0x207));_0x6f59x3e[_0x5a55[37]]= _0x6f59x39,_0x6f59x3e[_0x6f59x3c(0x1cb)][_0x5a55[42]](_0x5a55[41]),_0x6f59x3e[_0x6f59x3c(0x1cb)][_0x6f59x3c(0x2bc)](_0x6f59x3c(0xd4));let _0x6f59x3f=ItemCreator(_0x6f59x3a[_0x6f59x3c(0x117)],_0x6f59x39);_0x6f59x3e[_0x6f59x3c(0x235)]= _0x6f59x3f,_0x6f59x3d[_0x6f59x3c(0xe7)](_0x6f59x3e),document[_0x6f59x3c(0x2cc)](_0x5a55[43])[_0x6f59x3c(0xe7)](_0x6f59x3d)}),Object[_0x77be7d(0xe6)](pedido_store[_0x77be7d(0x193)])[_0x77be7d(0x1eb)](([_0x6f59x40,_0x6f59x41],_0x6f59x42)=>{var _0x6f59x43=_0x77be7d;Object[_0x6f59x43(0xe6)](_0x6f59x41[_0x6f59x43(0x117)])[_0x6f59x43(0x1eb)](([_0x6f59x44,_0x6f59x45],_0x6f59x46)=>{var _0x6f59x47=_0x6f59x43;document[_0x6f59x47(0x2cc)](_0x6f59x40+ _0x5a55[29]+ _0x6f59x44+ _0x5a55[44])[_0x5a55[14]](_0x6f59x47(0x20b),()=>{newMinus(_0x6f59x44,_0x6f59x40)}),document[_0x6f59x47(0x2cc)](_0x6f59x40+ _0x5a55[29]+ _0x6f59x44+ _0x5a55[45])[_0x5a55[14]](_0x6f59x47(0x20b),()=>{newPlus(_0x6f59x44,_0x6f59x40)})})}),Object[_0x77be7d(0xe6)](pedido_store[_0x77be7d(0x1ed)])[_0x77be7d(0x1eb)](([_0x6f59x48,_0x6f59x49],_0x6f59x4a)=>{var _0x6f59x4b=_0x77be7d;document[_0x6f59x4b(0x2cc)](_0x5a55[22]+ _0x6f59x48)[_0x6f59x4b(0x270)](_0x6f59x4b(0x1c2),(_0x6f59x4c)=>{var _0x6f59x4d=_0x6f59x4b;pedido_store[_0x5a55[46]][_0x5a55[22]+ _0x6f59x48]= _0x6f59x4c[_0x6f59x4d(0x138)][_0x6f59x4d(0x263)]})});const comprarButton=document[_0x77be7d(0x112)](_0x77be7d(0x2dc));comprarButton[_0x5a55[14]](_0x77be7d(0x20b),comprarButtonClicked);const shoppingCartItemsContainer=document[_0x77be7d(0x112)](_0x77be7d(0x29e)),ItemCheckout=(_0x6f59x51)=>{var _0x6f59x52=_0x77be7d;let _0x6f59x53=_0x5a55[22],_0x6f59x54=_0x5a55[22],_0x6f59x55=_0x5a55[22],_0x6f59x56=_0x5a55[22],_0x6f59x57=_0x5a55[22],_0x6f59x58=_0x5a55[22];var _0x6f59x59=document[_0x6f59x52(0x2cc)](_0x6f59x52(0xc7)),_0x6f59x5a=document[_0x6f59x52(0x2cc)](_0x6f59x52(0x244)),_0x6f59x5b=document[_0x6f59x52(0x2cc)](_0x6f59x52(0x10e)),_0x6f59x5c=document[_0x6f59x52(0x2cc)](_0x6f59x52(0x145)),_0x6f59x5d=document[_0x5a55[9]](_0x6f59x52(0x25f));return Object[_0x6f59x52(0xe6)](_0x6f59x51)[_0x6f59x52(0x1eb)](([_0x6f59x5e,_0x6f59x5f],_0x6f59x60)=>{var _0x6f59x61=_0x6f59x52;let _0x6f59x62=_0x5a55[22];Object[_0x6f59x61(0xe6)](_0x6f59x5f[_0x6f59x61(0x117)])[_0x6f59x61(0x1eb)](([_0x6f59x63,_0x6f59x64],_0x6f59x65)=>{var _0x6f59x66=_0x6f59x61;_0x6f59x62=== _0x5a55[22]&& _0x6f59x64[_0x6f59x66(0x26b)]> 0x0&& (_0x6f59x62= _0x6f59x66(0xea)+ _0x6f59x5f[_0x6f59x66(0x1a2)]+ _0x6f59x66(0x17d),_0x6f59x56= _0x6f59x56+ _0x6f59x62)}),Object[_0x6f59x61(0xe6)](_0x6f59x5f[_0x6f59x61(0x117)])[_0x6f59x61(0x1eb)](([_0x6f59x67,_0x6f59x68],_0x6f59x69)=>{var _0x6f59x6a=_0x6f59x61;_0x6f59x68[_0x6f59x6a(0x26b)]> 0x0&& (_0x6f59x56= _0x6f59x56+ (_0x5a55[47]+ _0x6f59x68[_0x6f59x6a(0x214)]+ _0x5a55[48]+ _0x6f59x68[_0x6f59x6a(0x1bd)]+ _0x6f59x6a(0x266)+ _0x6f59x68[_0x6f59x6a(0x12f)]+ _0x6f59x6a(0x16f)+ _0x6f59x5e+ _0x5a55[29]+ _0x6f59x67+ _0x6f59x6a(0x269)+ _0x6f59x68[_0x6f59x6a(0x26b)]+ _0x6f59x6a(0x2ab)+ _0x6f59x5e+ _0x5a55[29]+ _0x6f59x67+ _0x6f59x6a(0xcd)+ _0x6f59x5e+ _0x5a55[29]+ _0x6f59x67+ _0x6f59x6a(0x160)+ Number[_0x6f59x6a(0x151)](_0x6f59x68[_0x6f59x6a(0x26b)]* _0x6f59x68[_0x6f59x6a(0x12f)])[_0x6f59x6a(0x1ec)](0x2)+ _0x5a55[49]+ _0x6f59x5e+ _0x5a55[29]+ _0x6f59x67+ _0x5a55[50]+ _0x6f59x68[_0x6f59x6a(0x2ef)]+ _0x6f59x6a(0x246)),_0x6f59x58+= _0x6f59x6a(0x15b)+ _0x6f59x68[_0x6f59x6a(0x214)]+ _0x6f59x6a(0x2a6)+ _0x6f59x68[_0x6f59x6a(0x1bd)]+ _0x6f59x6a(0x212),_0x6f59x57+= _0x6f59x68[_0x5a55[51]]+ _0x6f59x6a(0x2dd)+ _0x6f59x68[_0x6f59x6a(0x2ef)]+ _0x6f59x6a(0x2dd)+ _0x6f59x6a(0x26e),_0x6f59x53+= _0x6f59x68[_0x5a55[31]]+ _0x6f59x6a(0x2dd)+ _0x6f59x6a(0x164)+ _0x6f59x6a(0x2dd)+ _0x6f59x6a(0x184)+ _0x5a55[52]+ _0x6f59x68[_0x6f59x6a(0x1bd)]+ _0x5a55[52]+ _0x6f59x6a(0x184)+ _0x6f59x6a(0x2dd)+ _0x6f59x6a(0x198)+ _0x6f59x6a(0x2dd)+ _0x5a55[53]+ _0x6f59x68[_0x6f59x6a(0x12f)]+ _0x6f59x6a(0x2dd)+ _0x6f59x6a(0x184)+ _0x6f59x6a(0x2dd)+ _0x6f59x6a(0x290)+ _0x6f59x6a(0x2dd)+ _0x5a55[53]+ (_0x6f59x68[_0x6f59x6a(0x26b)]* _0x6f59x68[_0x6f59x6a(0x12f)])[_0x5a55[54]](0x2)+ _0x5a55[55]+ _0x6f59x6a(0x26e),_0x6f59x54+= _0x6f59x68[_0x6f59x6a(0x26b)]+ _0x5a55[56]+ _0x5a55[57]+ _0x5a55[56]+ _0x5a55[58]+ _0x5a55[56]+ _0x6f59x68[_0x5a55[51]]+ _0x5a55[55])})}),_0x6f59x5a[_0x6f59x52(0x235)]= _0x5a55[22]+ _0x6f59x58,_0x6f59x59[_0x6f59x52(0x235)]= _0x5a55[22]+ _0x6f59x57,_0x6f59x5b[_0x6f59x52(0x235)]= _0x5a55[22]+ _0x6f59x53,_0x6f59x5c[_0x5a55[59]]= _0x5a55[22]+ _0x6f59x54,_0x6f59x56};function addItemToShoppingCart(){var _0x6f59x6c=_0x77be7d;document[_0x6f59x6c(0x2cc)](_0x5a55[60])[_0x5a55[59]]= ItemCheckout(pedido_store[_0x5a55[26]]);let _0x6f59x6d=0x0;Object[_0x6f59x6c(0xe6)](pedido_store[_0x6f59x6c(0x193)])[_0x5a55[36]](([_0x6f59x6e,_0x6f59x6f],_0x6f59x70)=>{var _0x6f59x71=_0x6f59x6c;Object[_0x6f59x71(0xe6)](_0x6f59x6f[_0x5a55[27]])[_0x5a55[36]](([_0x6f59x72,_0x6f59x73],_0x6f59x74)=>{var _0x6f59x75=_0x6f59x71;_0x6f59x73[_0x5a55[31]]> 0x0&& (document[_0x6f59x75(0x2cc)](_0x6f59x6e+ _0x5a55[29]+ _0x6f59x72+ _0x5a55[61])[_0x6f59x75(0x270)](_0x6f59x75(0x20b),()=>{newMinus(_0x6f59x72,_0x6f59x6e)}),document[_0x6f59x75(0x2cc)](_0x6f59x6e+ _0x5a55[29]+ _0x6f59x72+ _0x5a55[62])[_0x6f59x75(0x270)](_0x5a55[19],()=>{newPlus(_0x6f59x72,_0x6f59x6e)}),document[_0x6f59x75(0x2cc)](_0x6f59x6e+ _0x5a55[29]+ _0x6f59x72+ _0x5a55[63])[_0x6f59x75(0x270)](_0x6f59x75(0x20b),()=>{newCancel(_0x6f59x72,_0x6f59x6e)}),_0x6f59x6d+= _0x6f59x73[_0x6f59x75(0x26b)])})}),_0x6f59x6d> 0x0?(document[_0x6f59x6c(0x2cc)](_0x6f59x6c(0x27b))[_0x6f59x6c(0x235)]= _0x5a55[22]+ _0x6f59x6d,setTimeout(function(){var _0x6f59x76=_0x6f59x6c;$(_0x6f59x76(0x1e5))[_0x6f59x76(0x169)](0x3e8)},0x1f4)):setTimeout(function(){var _0x6f59x77=_0x6f59x6c;$(_0x6f59x77(0x1e5))[_0x6f59x77(0x186)](0x3e8)},0x1f4),updateShoppingCartTotal(pedido_store[_0x6f59x6c(0x193)])}function ertd(){var _0x6f59x79=_0x77be7d,_0x6f59x7a=document[_0x6f59x79(0x2cc)](_0x6f59x79(0x2b7))[_0x5a55[59]]= shoppingCartItemsContainer[_0x5a55[64]]}function updateShoppingCartTotal(_0x6f59x7c){var _0x6f59x7d=_0x77be7d;let _0x6f59x7e=0x0;Object[_0x6f59x7d(0xe6)](_0x6f59x7c)[_0x6f59x7d(0x1eb)](([_0x6f59x7f,_0x6f59x80],_0x6f59x81)=>{var _0x6f59x82=_0x6f59x7d;Object[_0x6f59x82(0xe6)](_0x6f59x80[_0x6f59x82(0x117)])[_0x5a55[36]](([_0x6f59x83,_0x6f59x84],_0x6f59x85)=>{var _0x6f59x86=_0x6f59x82;_0x6f59x7e+= _0x6f59x84[_0x6f59x86(0x12f)]* _0x6f59x84[_0x6f59x86(0x26b)]})}),document[_0x6f59x7d(0x112)](_0x6f59x7d(0xce))[_0x6f59x7d(0x235)]= _0x5a55[53]+ Number[_0x6f59x7d(0x151)](_0x6f59x7e)[_0x6f59x7d(0x1ec)](0x2);let _0x6f59x87=_0x6f59x7e;var _0x6f59x88=document[_0x6f59x7d(0x112)](_0x6f59x7d(0x2e8))[_0x5a55[59]]= _0x5a55[53]+ _0x6f59x87[_0x6f59x7d(0x1ec)](0x2),_0x6f59x89=_0x6f59x88;document[_0x6f59x7d(0x2cc)](_0x6f59x7d(0x225))[_0x6f59x7d(0x235)]= _0x6f59x89,document[_0x6f59x7d(0x112)](_0x6f59x7d(0x2cf))[_0x6f59x7d(0x235)]= _0x5a55[53]+ _0x6f59x87[_0x6f59x7d(0x1ec)](0x2);let _0x6f59x8a=_0x6f59x7e;var _0x6f59x8b=document[_0x6f59x7d(0x2cc)](_0x6f59x7d(0x2fb));_0x6f59x8b[_0x6f59x7d(0x270)](_0x6f59x7d(0x1c2),function(){var _0x6f59x8c=_0x6f59x7d,_0x6f59x8d=_0x6f59x8b[_0x6f59x8c(0x263)];document[_0x6f59x8c(0x112)](_0x5a55[65])[_0x6f59x8c(0x235)]= _0x5a55[53]+ Number(_0x6f59x8d)[_0x6f59x8c(0x1ec)](0x2),_0x6f59x8a= _0x6f59x7e+ Number(_0x6f59x8d),document[_0x5a55[9]](_0x6f59x8c(0x2cf))[_0x6f59x8c(0x235)]= _0x5a55[53]+ _0x6f59x8a[_0x6f59x8c(0x1ec)](0x2)});var _0x6f59x8e=document[_0x6f59x7d(0x112)](_0x6f59x7d(0xc3));_0x6f59x8e[_0x5a55[14]](_0x5a55[66],function(){var _0x6f59x8f=_0x6f59x7d,_0x6f59x90=_0x6f59x8e[_0x6f59x8f(0x263)];document[_0x5a55[9]](_0x6f59x8f(0xc3))[_0x6f59x8f(0x235)]= _0x5a55[53]+ Number(_0x6f59x90)[_0x6f59x8f(0x1ec)](0x2);var _0x6f59x91=document[_0x6f59x8f(0x2cc)](_0x6f59x8f(0x148))[_0x6f59x8f(0x2f4)],_0x6f59x92=Number(_0x6f59x91[_0x6f59x8f(0x284)](_0x5a55[53],_0x5a55[22])),_0x6f59x93=_0x6f59x90- _0x6f59x92;document[_0x5a55[30]](_0x5a55[67])[_0x5a55[59]]= _0x5a55[53]+ _0x6f59x93[_0x6f59x8f(0x1ec)](0x2),_0x6f59x90=== _0x5a55[22]&& (document[_0x6f59x8f(0x2cc)](_0x6f59x8f(0x208))[_0x6f59x8f(0x235)]= _0x5a55[68])});let _0x6f59x94=_0x6f59x7e;var _0x6f59x95=document[_0x6f59x7d(0x2cc)](_0x6f59x7d(0x2fb));_0x6f59x95[_0x5a55[14]](_0x6f59x7d(0x1c2),function(){var _0x6f59x96=_0x6f59x7d,_0x6f59x97=_0x6f59x95[_0x5a55[28]];document[_0x6f59x96(0x112)](_0x6f59x96(0x171))[_0x6f59x96(0x235)]= _0x5a55[53]+ Number(_0x6f59x97)[_0x6f59x96(0x1ec)](0x2),_0x6f59x94= _0x6f59x7e+ Number(_0x6f59x97);var _0x6f59x98=document[_0x6f59x96(0x112)](_0x5a55[69]);_0x6f59x98[_0x6f59x96(0xde)]= function(){var _0x6f59x99=_0x6f59x96;document[_0x5a55[9]](_0x6f59x99(0x248))[_0x5a55[59]]= _0x5a55[53]+ Number(0x0)[_0x6f59x99(0x1ec)](0x2),_0x6f59x94= _0x6f59x7e+ Number(0x0),document[_0x6f59x99(0x112)](_0x6f59x99(0x2cf))[_0x6f59x99(0x235)]= _0x5a55[53]+ _0x6f59x94[_0x6f59x99(0x1ec)](0x2),document[_0x6f59x99(0x112)](_0x6f59x99(0x171))[_0x6f59x99(0x235)]= _0x5a55[53]+ Number(0x0)[_0x6f59x99(0x1ec)](0x2),_0x6f59x94= _0x6f59x7e+ Number(0x0),document[_0x6f59x99(0x112)](_0x6f59x99(0x13b))[_0x6f59x99(0x235)]= _0x5a55[53]+ _0x6f59x94[_0x6f59x99(0x1ec)](0x2)};var _0x6f59x9a=document[_0x5a55[9]](_0x6f59x96(0x13b))[_0x6f59x96(0x235)]= _0x5a55[53]+ _0x6f59x94[_0x6f59x96(0x1ec)](0x2),_0x6f59x9b=_0x6f59x9a;document[_0x6f59x96(0x2cc)](_0x6f59x96(0x120))[_0x5a55[59]]= _0x6f59x9b});var _0x6f59x9c=document[_0x6f59x7d(0x112)](_0x6f59x7d(0x13b))[_0x6f59x7d(0x235)]= _0x5a55[53]+ _0x6f59x94[_0x6f59x7d(0x1ec)](0x2),_0x6f59x9d=_0x6f59x9c;document[_0x6f59x7d(0x2cc)](_0x5a55[70])[_0x5a55[59]]= _0x6f59x9d;var _0x6f59x9e=document[_0x6f59x7d(0x112)](_0x6f59x7d(0x2da));_0x6f59x9e[_0x6f59x7d(0xde)]= function(){var _0x6f59x9f=_0x6f59x7d;document[_0x5a55[9]](_0x6f59x9f(0x248))[_0x6f59x9f(0x235)]= _0x5a55[53]+ Number(0x0)[_0x6f59x9f(0x1ec)](0x2),_0x6f59x94= _0x6f59x7e+ Number(0x0),document[_0x6f59x9f(0x112)](_0x6f59x9f(0x2cf))[_0x5a55[59]]= _0x5a55[53]+ _0x6f59x94[_0x6f59x9f(0x1ec)](0x2),document[_0x6f59x9f(0x112)](_0x6f59x9f(0x171))[_0x6f59x9f(0x235)]= _0x5a55[53]+ Number(0x0)[_0x6f59x9f(0x1ec)](0x2),_0x6f59x94= _0x6f59x7e+ Number(0x0);var _0x6f59xa0=document[_0x6f59x9f(0x112)](_0x6f59x9f(0x13b))[_0x6f59x9f(0x235)]= _0x5a55[53]+ _0x6f59x94[_0x6f59x9f(0x1ec)](0x2)};var _0x6f59x9c=document[_0x6f59x7d(0x112)](_0x5a55[71])[_0x5a55[59]]= _0x5a55[53]+ _0x6f59x94[_0x6f59x7d(0x1ec)](0x2)}function removeShoppingCartItem(_0x6f59xa2){var _0x6f59xa3=_0x77be7d;updateShoppingCartTotal(pedido_store[_0x6f59xa3(0x193)])}function quantityChanged(_0x6f59xa5){var _0x6f59xa6=_0x77be7d;updateShoppingCartTotal(pedido_store[_0x6f59xa6(0x193)])}function comprarButtonClicked(){var _0x6f59xa8=_0x77be7d;shoppingCartItemsContainer[_0x6f59xa8(0x235)]= _0x5a55[22],updateShoppingCartTotal()}$(_0x5a55[73])[_0x77be7d(0x116)](function(){var _0x6f59xa9=_0x77be7d;return document[_0x6f59xa9(0x2cc)](_0x6f59xa9(0x25a))[_0x6f59xa9(0x235)]= Math[_0x5a55[72]](Math[_0x6f59xa9(0x1a6)]()* 0x3e7)+ 0x3e8});function goToPagep(){var _0x6f59xab=_0x77be7d,_0x6f59xac=document[_0x6f59xab(0x112)](_0x5a55[73])[_0x5a55[28]],_0x6f59xad=document[_0x5a55[30]](_0x5a55[74])[_0x6f59xab(0x2f4)],_0x6f59xae=document[_0x5a55[76]](_0x5a55[75]);for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xae[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xae[_0x6f59xaf]){var _0x6f59xb1=_0x6f59xae[_0x6f59xaf][_0x6f59xab(0x263)]+ _0x6f59xab(0x26e)};_0x6f59xb1=== undefined&& (_0x6f59xb1= _0x5a55[22]),_0x6f59xb1=== _0x6f59xab(0x26e)&& (_0x6f59xb1= _0x5a55[22])};var _0x6f59xb2=document[_0x6f59xab(0x10c)](_0x5a55[77]);for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xb2[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xb2[_0x6f59xaf]){var _0x6f59xb3=_0x6f59xb2[_0x6f59xaf][_0x6f59xab(0x263)]+ _0x6f59xab(0x26e)};_0x6f59xb3=== undefined&& (_0x6f59xb3= _0x5a55[22]),_0x6f59xb3=== _0x6f59xab(0x26e)&& (_0x6f59xb3= _0x5a55[22])};var _0x6f59xb4=document[_0x5a55[76]](_0x6f59xab(0x28c));for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xb4[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xb4[_0x6f59xaf]){var _0x6f59xb5=_0x6f59xb4[_0x6f59xaf][_0x6f59xab(0x263)]+ _0x6f59xab(0x26e)};_0x6f59xb5=== undefined&& (_0x6f59xb5= _0x5a55[22]),_0x6f59xb5=== _0x6f59xab(0x26e)&& (_0x6f59xb5= _0x5a55[22])};var _0x6f59xb6=document[_0x6f59xab(0x10c)](_0x6f59xab(0x2fb));for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xb6[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xb6[_0x6f59xaf]){var _0x6f59xb7=_0x6f59xb6[_0x6f59xaf][_0x6f59xab(0x263)]};_0x6f59xb7=== undefined&& (_0x6f59xb7= _0x5a55[22]),_0x6f59xb7=== _0x6f59xab(0x26e)&& (_0x6f59xb7= _0x5a55[22])};var _0x6f59xb8=Number(_0x6f59xad[_0x5a55[78]](_0x5a55[53],_0x5a55[22])),_0x6f59xb9=document[_0x5a55[30]](_0x6f59xab(0x111))[_0x6f59xab(0x263)],_0x6f59xba=document[_0x6f59xab(0x2cc)](_0x6f59xab(0x2ac))[_0x6f59xab(0x263)],_0x6f59xbb=document[_0x6f59xab(0x10c)](_0x6f59xab(0x291));for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xbb[_0x5a55[79]];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xbb[_0x6f59xaf][_0x6f59xab(0x1a0)]===  !![]){var _0x6f59xbc=_0x6f59xab(0x26e)+ document[_0x6f59xab(0x2cc)](_0x6f59xab(0x28d))[_0x6f59xab(0x2f4)],_0x6f59xbd=document[_0x5a55[30]](_0x5a55[80])[_0x6f59xab(0x263)],_0x6f59xbe=_0x5a55[81]+ document[_0x6f59xab(0x112)](_0x6f59xab(0x20f))[_0x5a55[82]],_0x6f59xbf=_0x6f59xab(0x254)+ _0x5a55[81]+ _0x6f59xbb[_0x6f59xaf][_0x6f59xab(0x263)]+ _0x6f59xab(0x2dd)+ _0x6f59xbd+ _0x6f59xbe+ _0x6f59xbc};_0x6f59xbf=== undefined&& (_0x6f59xbf= _0x5a55[22]),_0x6f59xbf=== _0x6f59xab(0x26e)&& (_0x6f59xbf= _0x5a55[22])};var _0x6f59xbb=document[_0x5a55[76]](_0x5a55[83]);for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xbb[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xbb[_0x6f59xaf][_0x6f59xab(0x1a0)]===  !![]){var _0x6f59xb9=document[_0x6f59xab(0x2cc)](_0x6f59xab(0x111))[_0x6f59xab(0x263)],_0x6f59xba=document[_0x6f59xab(0x2cc)](_0x6f59xab(0x2ac))[_0x6f59xab(0x263)],_0x6f59xbf=_0x5a55[84]+ _0x6f59xab(0x26e)+ _0x6f59xbb[_0x6f59xaf][_0x5a55[28]]+ _0x6f59xab(0x26e)+ _0x6f59xb9+ _0x5a55[52]+ _0x6f59xba};_0x6f59xbf=== undefined&& (_0x6f59xbf= _0x5a55[22]),_0x6f59xbf=== _0x6f59xab(0x26e)&& (_0x6f59xbf= _0x5a55[22])};var _0x6f59xbb=document[_0x6f59xab(0x10c)](_0x6f59xab(0x144));for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xbb[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xbb[_0x6f59xaf][_0x6f59xab(0x1a0)]===  !![]){var _0x6f59xbf=_0x6f59xab(0x254)+ _0x6f59xab(0x26e)+ _0x6f59xbb[_0x6f59xaf][_0x6f59xab(0x263)]};_0x6f59xbf=== undefined&& (_0x6f59xbf= _0x5a55[22]),_0x6f59xbf=== _0x5a55[81]&& (_0x6f59xbf= _0x5a55[22])};var _0x6f59xc0=document[_0x6f59xab(0x10c)](_0x6f59xab(0x2f1));for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xc0[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xc0[_0x6f59xaf][_0x5a55[85]]){var _0x6f59xc1=_0x6f59xab(0x2d2)+ _0x6f59xc0[_0x6f59xaf][_0x6f59xab(0x263)]};_0x6f59xc1=== undefined&& (_0x6f59xc1= _0x5a55[22]),_0x6f59xc1=== _0x5a55[81]&& (_0x6f59xc1= _0x5a55[22])};var _0x6f59xc0=document[_0x6f59xab(0x10c)](_0x5a55[86]);for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xc0[_0x5a55[79]];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xc0[_0x6f59xaf][_0x6f59xab(0x1a0)]){var _0x6f59xc1=_0x6f59xab(0x2ae)+ _0x6f59xc0[_0x6f59xaf][_0x6f59xab(0x263)],_0x6f59xc2=_0x6f59xab(0x29f)+ document[_0x6f59xab(0x2cc)](_0x6f59xab(0x208))[_0x6f59xab(0x2f4)]};_0x6f59xc1=== undefined&& (_0x6f59xc1= _0x5a55[22]),_0x6f59xc2=== undefined&& (_0x6f59xc2= _0x5a55[22]),_0x6f59xc2=== _0x6f59xab(0x26e)&& (_0x6f59xc2= _0x5a55[22]),_0x6f59xc1=== _0x6f59xab(0x26e)&& (_0x6f59xc1= _0x5a55[22])};var _0x6f59xc0=document[_0x5a55[76]](_0x6f59xab(0x1fa));for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xc0[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xc0[_0x6f59xaf][_0x6f59xab(0x1a0)]){var _0x6f59xc1=_0x6f59xab(0x2ae)+ _0x6f59xc0[_0x6f59xaf][_0x5a55[28]]+ _0x6f59xab(0x26e)+ _0x5a55[87]};_0x6f59xc1=== undefined&& (_0x6f59xc1= _0x5a55[22]),_0x6f59xc1=== _0x5a55[81]&& (_0x6f59xc1= _0x5a55[22])};var _0x6f59xc0=document[_0x6f59xab(0x10c)](_0x6f59xab(0x156));for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xc0[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xc0[_0x6f59xaf][_0x6f59xab(0x1a0)]){var _0x6f59xc1=_0x5a55[88]+ _0x6f59xc0[_0x6f59xaf][_0x6f59xab(0x263)]+ _0x5a55[81]+ _0x6f59xab(0x132)};_0x6f59xc1=== undefined&& (_0x6f59xc1= _0x5a55[22]),_0x6f59xc1=== _0x5a55[81]&& (_0x6f59xc1= _0x5a55[22])};var _0x6f59xc3=document[_0x6f59xab(0x10c)](_0x5a55[89]);for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xc3[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xc3[_0x6f59xaf][_0x6f59xab(0x1a0)]){var _0x6f59xc4=_0x6f59xc3[_0x6f59xaf][_0x6f59xab(0x263)]+ _0x6f59xab(0x26e)};_0x6f59xc4=== undefined&& (_0x6f59xc4= _0x5a55[22]),_0x6f59xc1=== _0x6f59xab(0x26e)&& (_0x6f59xc1= _0x5a55[22])};var _0x6f59xc3=document[_0x5a55[76]](_0x6f59xab(0x19c));for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xc3[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xc3[_0x6f59xaf][_0x6f59xab(0x1a0)]){var _0x6f59xc4=_0x6f59xc3[_0x6f59xaf][_0x6f59xab(0x263)]+ _0x6f59xab(0x26e)};_0x6f59xc4=== undefined&& (_0x6f59xc4= _0x5a55[22]),_0x6f59xc1=== _0x5a55[81]&& (_0x6f59xc1= _0x5a55[22])};var _0x6f59xc3=document[_0x6f59xab(0x10c)](_0x6f59xab(0x2d4));for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xc3[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xc3[_0x6f59xaf][_0x6f59xab(0x1a0)]){var _0x6f59xc4=_0x6f59xc3[_0x6f59xaf][_0x6f59xab(0x263)]+ _0x6f59xab(0x26e)};_0x6f59xc4=== undefined&& (_0x6f59xc4= _0x5a55[22]),_0x6f59xc1=== _0x6f59xab(0x26e)&& (_0x6f59xc1= _0x5a55[22])};var _0x6f59xc5=document[_0x6f59xab(0x2cc)](_0x6f59xab(0x200))[_0x5a55[28]]+ _0x6f59xab(0x26e),_0x6f59xc6=document[_0x5a55[30]](_0x6f59xab(0xc7))[_0x6f59xab(0x2f4)]+ _0x6f59xab(0x2dd),_0x6f59xc7=document[_0x6f59xab(0x10c)](_0x5a55[90]);for(var _0x6f59xaf=0x0,_0x6f59xb0=_0x6f59xc7[_0x6f59xab(0x180)];_0x6f59xaf< _0x6f59xb0;_0x6f59xaf++){if(_0x6f59xc7[_0x6f59xaf][_0x5a55[85]]){var _0x6f59xc5=_0x6f59xc7[_0x6f59xaf][_0x6f59xab(0x263)]+ _0x6f59xab(0x26e)};_0x6f59xc5=== undefined&& (_0x6f59xc5= _0x5a55[22]),_0x6f59xc1=== _0x6f59xab(0x26e)&& (_0x6f59xc1= _0x5a55[22])};var _0x6f59xc8=document[_0x6f59xab(0x112)](_0x6f59xab(0x1ee))[_0x6f59xab(0x2f4)];if(_0x6f59xc8== null|| _0x6f59xc8[_0x6f59xab(0x180)]== 0x0|| /^\s+$/[_0x5a55[91]](_0x6f59xc8)){return alert(_0x6f59xab(0xd5)),![]};if(_0x6f59xb1== null|| _0x6f59xb1[_0x6f59xab(0x180)]== 0x0|| /^\s+$/[_0x6f59xab(0x1d8)](_0x6f59xb1)){return alert(_0x6f59xab(0x123)),![]};if(_0x6f59xb3== null|| _0x6f59xb3[_0x5a55[79]]== 0x0|| /^\s+$/[_0x6f59xab(0x1d8)](_0x6f59xb3)){return alert(_0x5a55[92]),![]};if(_0x6f59xb5== null|| _0x6f59xb5[_0x6f59xab(0x180)]== 0x0|| /^\s+$/[_0x6f59xab(0x1d8)](_0x6f59xb5)){return alert(_0x6f59xab(0x185)),![]};var _0x6f59xc9=_0x6f59xab(0x215)+ _0x6f59xab(0x26e)+ _0x6f59xab(0x135)+ _0x6f59xab(0x26e)+ _0x5a55[93]+ _0x6f59xab(0x26e)+ _0x5a55[94]+ _0x5a55[52]+ _0x6f59xab(0x2dd)+ _0x5a55[95]+ _0x6f59xab(0x2dd)+ _0x6f59xac+ _0x6f59xab(0x2dd)+ _0x5a55[95]+ _0x6f59xab(0x26e)+ _0x6f59xab(0x1c8)+ _0x6f59xab(0x26e)+ _0x6f59xc8+ _0x6f59xab(0x26e)+ _0x6f59xab(0x24c)+ _0x5a55[52]+ _0x5a55[53]+ (_0x5a55[22]+ (Number(_0x6f59xb7)+ Number(_0x6f59xb8[_0x6f59xab(0x1ec)](0x2)))[_0x6f59xab(0x1ec)](0x2))+ _0x5a55[81]+ _0x6f59xab(0x1c8)+ _0x6f59xab(0x26e)+ _0x5a55[96]+ _0x5a55[81]+ _0x6f59xc4+ _0x6f59xab(0x2dd)+ _0x6f59xc5+ _0x6f59xb1+ _0x6f59xb3+ _0x6f59xb5+ _0x5a55[52]+ _0x6f59xab(0x1c8)+ _0x6f59xab(0x26e)+ _0x6f59xc1+ _0x6f59xc2+ _0x6f59xab(0x26e)+ _0x6f59xc6+ _0x5a55[52]+ _0x6f59xab(0x26e)+ _0x6f59xab(0x24c)+ _0x6f59xab(0x2dd)+ _0x5a55[53]+ (_0x5a55[22]+ (Number(_0x6f59xb7)+ Number(_0x6f59xb8[_0x6f59xab(0x1ec)](0x2)))[_0x5a55[54]](0x2))+ _0x6f59xab(0x26e)+ _0x5a55[81]+ _0x6f59xab(0x1dc)+ _0x6f59xab(0x2dd)+ _0x6f59xac,_0x6f59xca= new MobileDetect(window[_0x6f59xab(0x1f5)][_0x6f59xab(0x226)]);_0x6f59xca[_0x6f59xab(0x2bb)]()?window[_0x6f59xab(0x2e3)](document[_0x6f59xab(0x2cc)](_0x6f59xab(0x24e))[_0x6f59xab(0x283)]= _0x6f59xab(0x2eb)+ _0x6f59xc9):window[_0x6f59xab(0x2e3)](document[_0x6f59xab(0x2cc)](_0x6f59xab(0x24e))[_0x6f59xab(0x283)]= _0x6f59xab(0xe1)+ _0x6f59xc9)}$(_0x77be7d(0x1f8))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59xcb=_0x77be7d;$(_0x5a55[98])[_0x6f59xcb(0x1af)](_0x5a55[97]),$(_0x6f59xcb(0xeb))[_0x5a55[99]](_0x6f59xcb(0x232)),$(_0x5a55[100])[_0x6f59xcb(0x15d)](_0x5a55[97]),$(_0x6f59xcb(0x168))[_0x6f59xcb(0x15d)](_0x5a55[97])}),$(_0x5a55[102])[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59xcc=_0x77be7d;$(_0x6f59xcc(0xeb))[_0x5a55[101]](_0x6f59xcc(0x232)),$(_0x5a55[98])[_0x6f59xcc(0x15d)](_0x5a55[97]),$(_0x6f59xcc(0x265))[_0x6f59xcc(0x15d)](_0x6f59xcc(0x232)),$(_0x6f59xcc(0x168))[_0x5a55[99]](_0x6f59xcc(0x232))}),$(_0x77be7d(0x20e))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59xcd=_0x77be7d;$(_0x6f59xcd(0x265))[_0x6f59xcd(0x1af)](_0x6f59xcd(0x232)),$(_0x6f59xcd(0x2f7))[_0x6f59xcd(0x15d)](_0x6f59xcd(0x232)),$(_0x6f59xcd(0xeb))[_0x6f59xcd(0x15d)](_0x6f59xcd(0x232)),$(_0x5a55[103])[_0x6f59xcd(0x15d)](_0x6f59xcd(0x232))}),$(_0x77be7d(0xe2))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59xce=_0x77be7d;$(_0x5a55[103])[_0x5a55[101]](_0x6f59xce(0x232)),$(_0x5a55[98])[_0x6f59xce(0x15d)](_0x5a55[97]),$(_0x6f59xce(0xeb))[_0x5a55[99]](_0x6f59xce(0x232)),$(_0x6f59xce(0x265))[_0x5a55[99]](_0x6f59xce(0x232))}),$(_0x5a55[109])[_0x5a55[6]](_0x77be7d(0x20b),function(_0x6f59xcf){var _0x6f59xd0=_0x77be7d;const _0x6f59xd1=$(_0x6f59xcf[_0x5a55[105]])[_0x6f59xd0(0x1fb)](_0x6f59xd0(0x129))[_0x5a55[104]](_0x6f59xd0(0x129)),_0x6f59xd2=$(_0x6f59xcf[_0x5a55[105]])[_0x5a55[108]](_0x5a55[107])[_0x5a55[106]](_0x6f59xd0(0x124));_0x6f59xd2[_0x5a55[104]](_0x6f59xd0(0x124))&& _0x6f59xd2[0x0][_0x6f59xd1?_0x6f59xd0(0x206):_0x6f59xd0(0x128)]()}),$(_0x77be7d(0x1fe))[_0x5a55[6]](_0x77be7d(0x20b),function(_0x6f59xd3){var _0x6f59xd4=_0x77be7d;const _0x6f59xd5=$(_0x6f59xd3[_0x6f59xd4(0x138)])[_0x6f59xd4(0x1fb)](_0x6f59xd4(0x129))[_0x5a55[104]](_0x6f59xd4(0x129)),_0x6f59xd6=$(_0x6f59xd3[_0x5a55[105]])[_0x6f59xd4(0x1fb)](_0x5a55[107])[_0x6f59xd4(0x121)](_0x6f59xd4(0x124));_0x6f59xd6[_0x5a55[104]](_0x6f59xd4(0x124))&& _0x6f59xd6[0x0][_0x6f59xd5?_0x6f59xd4(0x206):_0x6f59xd4(0x128)]()}),$(document)[_0x77be7d(0x2d3)](function(){var _0x6f59xd7=_0x77be7d,_0x6f59xd8=$(_0x5a55[110])[_0x6f59xd7(0x146)]()[_0x6f59xd7(0x209)];$(window)[_0x5a55[6]](_0x6f59xd7(0x157),function(){var _0x6f59xd9=_0x6f59xd7;$(window)[_0x6f59xd9(0x139)]()>= _0x6f59xd8?$(_0x6f59xd9(0x166))[_0x6f59xd9(0x1af)](_0x6f59xd9(0x103)):$(_0x5a55[110])[_0x5a55[99]](_0x6f59xd9(0x103))})}),$(_0x77be7d(0x196))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59xda=_0x77be7d;$(_0x5a55[111])[_0x5a55[101]](_0x6f59xda(0x1fd))});var wer=document[_0x77be7d(0x112)](_0x77be7d(0xfa))[_0x5a55[82]];function sdf(){var _0x6f59xdd=_0x77be7d;(wer= _0x5a55[22])&& $(_0x5a55[112])[_0x6f59xdd(0x1af)](_0x6f59xdd(0x16e))}$(_0x77be7d(0x114))[_0x5a55[6]](_0x5a55[19],function(){var _0x6f59xde=_0x77be7d;$(_0x6f59xde(0x2c7))[_0x6f59xde(0x1af)](_0x6f59xde(0x2df)),$(_0x6f59xde(0x114))[_0x6f59xde(0x1af)](_0x6f59xde(0x25e))}),$(_0x77be7d(0x276))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59xdf=_0x77be7d;$(_0x5a55[113])[_0x5a55[99]](_0x6f59xdf(0x2df)),$(_0x6f59xdf(0x23b))[_0x5a55[101]](_0x5a55[114])}),$(_0x5a55[116])[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59xe0=_0x77be7d;$(_0x5a55[113])[_0x6f59xe0(0x15d)](_0x6f59xe0(0x2df)),$(_0x5a55[111])[_0x5a55[99]](_0x6f59xe0(0x1fd)),$(_0x6f59xe0(0x114))[_0x6f59xe0(0x15d)](_0x6f59xe0(0x25e)),$(_0x5a55[115])[_0x6f59xe0(0x1af)](_0x6f59xe0(0x110))});const images=document[_0x77be7d(0x20c)](_0x77be7d(0x15a)),titles=document[_0x5a55[117]](_0x77be7d(0xef)),price=document[_0x77be7d(0x20c)](_0x77be7d(0x18b)),cantidad=document[_0x77be7d(0x20c)](_0x77be7d(0x1a3)),containerimage=document[_0x5a55[9]](_0x5a55[118]),imageContainer=document[_0x5a55[9]](_0x5a55[119]),copy=document[_0x77be7d(0x112)](_0x77be7d(0x10a)),closeModal=document[_0x77be7d(0x112)](_0x5a55[120]);images[_0x77be7d(0x1eb)]((_0x6f59xe9)=>{var _0x6f59xea=_0x77be7d;_0x6f59xe9[_0x6f59xea(0x270)](_0x6f59xea(0x20b),()=>{var _0x6f59xeb=_0x6f59xea;addImage(_0x6f59xe9[_0x6f59xeb(0x182)](_0x5a55[121]),_0x6f59xe9[_0x6f59xeb(0x182)](_0x6f59xeb(0x1a1)))})}),titles[_0x5a55[36]]((_0x6f59xec)=>{var _0x6f59xed=_0x77be7d;_0x6f59xec[_0x6f59xed(0x270)](_0x6f59xed(0x20b),()=>{})});const addImage=(_0x6f59xef,_0x6f59xf0)=>{var _0x6f59xf1=_0x77be7d;containerimage[_0x6f59xf1(0x1cb)][_0x6f59xf1(0x174)](_0x6f59xf1(0xd1)),imageContainer[_0x6f59xf1(0x1cb)][_0x6f59xf1(0x174)](_0x6f59xf1(0x2aa)),imageContainer[_0x5a55[121]]= _0x6f59xef,copy[_0x5a55[59]]= _0x6f59xf0};closeModal[_0x77be7d(0x270)](_0x77be7d(0x20b),()=>{var _0x6f59xf2=_0x77be7d;containerimage[_0x6f59xf2(0x1cb)][_0x6f59xf2(0x174)](_0x6f59xf2(0xd1)),imageContainer[_0x5a55[122]][_0x6f59xf2(0x174)](_0x6f59xf2(0x2aa))});function limpiarformas(){var _0x6f59xf4=_0x77be7d;document[_0x5a55[30]](_0x5a55[86])[_0x6f59xf4(0x1a0)]=  ![],document[_0x6f59xf4(0x2cc)](_0x6f59xf4(0x1fa))[_0x6f59xf4(0x1a0)]=  ![],document[_0x5a55[30]](_0x5a55[123])[_0x6f59xf4(0x1a0)]=  ![];var _0x6f59xf5=document[_0x6f59xf4(0x2cc)](_0x5a55[124])[_0x6f59xf4(0x263)]= _0x5a55[22];document[_0x6f59xf4(0x2cc)](_0x6f59xf4(0x208))[_0x6f59xf4(0x2f4)]= _0x5a55[22],document[_0x5a55[30]](_0x5a55[125])[_0x6f59xf4(0x2f4)]= _0x5a55[22];var _0x6f59xf6=document[_0x5a55[30]](_0x5a55[125])[_0x6f59xf4(0x2f4)]= _0x5a55[22]}function limpiarformase(){var _0x6f59xf8=_0x77be7d;document[_0x6f59xf8(0x2cc)](_0x5a55[126])[_0x6f59xf8(0x1a0)]=  ![],document[_0x6f59xf8(0x2cc)](_0x6f59xf8(0x1fa))[_0x6f59xf8(0x1a0)]=  ![],document[_0x6f59xf8(0x2cc)](_0x6f59xf8(0x156))[_0x6f59xf8(0x1a0)]=  ![]}function limpiarformaspl(){var _0x6f59xfa=_0x77be7d;document[_0x6f59xfa(0x2cc)](_0x6f59xfa(0x1c9))[_0x5a55[85]]=  ![],document[_0x6f59xfa(0x2cc)](_0x6f59xfa(0x2f1))[_0x6f59xfa(0x1a0)]=  ![],document[_0x6f59xfa(0x2cc)](_0x6f59xfa(0x156))[_0x6f59xfa(0x1a0)]=  ![];var _0x6f59xfb=document[_0x6f59xfa(0x2cc)](_0x6f59xfa(0x264))[_0x6f59xfa(0x263)]= _0x5a55[22];document[_0x5a55[30]](_0x5a55[67])[_0x6f59xfa(0x2f4)]= _0x5a55[22],document[_0x5a55[30]](_0x6f59xfa(0xc7))[_0x6f59xfa(0x2f4)]= _0x5a55[22]}function limpiarformaspy(){var _0x6f59xfd=_0x77be7d;document[_0x6f59xfd(0x2cc)](_0x6f59xfd(0x1c9))[_0x5a55[85]]=  ![],document[_0x6f59xfd(0x2cc)](_0x6f59xfd(0x1fa))[_0x5a55[85]]=  ![],document[_0x6f59xfd(0x2cc)](_0x6f59xfd(0x2f1))[_0x6f59xfd(0x1a0)]=  ![];var _0x6f59xfe=document[_0x6f59xfd(0x2cc)](_0x6f59xfd(0x264))[_0x6f59xfd(0x263)]= _0x5a55[22];document[_0x6f59xfd(0x2cc)](_0x6f59xfd(0x208))[_0x6f59xfd(0x2f4)]= _0x5a55[22]}function limpiarfac(){var _0x6f59x100=_0x77be7d;document[_0x5a55[30]](_0x6f59x100(0x19c))[_0x5a55[85]]=  ![],document[_0x6f59x100(0x2cc)](_0x6f59x100(0x2d4))[_0x6f59x100(0x1a0)]=  ![]}function limpiarfac(){var _0x6f59x101=_0x77be7d;document[_0x5a55[30]](_0x6f59x101(0x19c))[_0x5a55[85]]=  ![],document[_0x6f59x101(0x2cc)](_0x6f59x101(0x2d4))[_0x6f59x101(0x1a0)]=  ![]}function limpiarconsu(){var _0x6f59x103=_0x77be7d;document[_0x6f59x103(0x2cc)](_0x6f59x103(0x200))[_0x6f59x103(0x263)]= _0x5a55[22],document[_0x5a55[30]](_0x6f59x103(0x19d))[_0x6f59x103(0x1a0)]=  ![],document[_0x6f59x103(0x2cc)](_0x5a55[127])[_0x6f59x103(0x1a0)]=  ![]}function limpiarcliente(){var _0x6f59x105=_0x77be7d;document[_0x5a55[30]](_0x6f59x105(0x200))[_0x6f59x105(0x263)]= _0x5a55[22],document[_0x5a55[30]](_0x5a55[89])[_0x6f59x105(0x1a0)]=  ![],document[_0x6f59x105(0x2cc)](_0x6f59x105(0x19c))[_0x5a55[85]]=  ![],$(_0x6f59x105(0x187))[_0x5a55[101]](_0x6f59x105(0x1d4))}function linpiarreserdomi(){var _0x6f59x107=_0x77be7d;document[_0x6f59x107(0x2cc)](_0x6f59x107(0x28d))[_0x6f59x107(0x2f4)]= _0x5a55[22],document[_0x6f59x107(0x2cc)](_0x6f59x107(0x291))[_0x6f59x107(0x1a0)]=  ![],document[_0x5a55[30]](_0x5a55[128])[_0x5a55[28]]= _0x5a55[129],document[_0x5a55[30]](_0x6f59x107(0x21b))[_0x6f59x107(0x263)]= _0x5a55[22],document[_0x6f59x107(0x2cc)](_0x6f59x107(0x218))[_0x5a55[85]]=  ![],document[_0x6f59x107(0x2cc)](_0x5a55[130])[_0x6f59x107(0x263)]= _0x5a55[129],document[_0x6f59x107(0x2cc)](_0x5a55[131])[_0x6f59x107(0x263)]= _0x5a55[22],limpiaringd(),limpiaringdmap(),document[_0x6f59x107(0x2cc)](_0x6f59x107(0x192))[_0x6f59x107(0x2f4)]= _0x5a55[22]}function linpiarreservar(){var _0x6f59x109=_0x77be7d;document[_0x6f59x109(0x2cc)](_0x6f59x109(0x218))[_0x6f59x109(0x1a0)]=  ![],document[_0x6f59x109(0x2cc)](_0x6f59x109(0x144))[_0x6f59x109(0x1a0)]=  ![],document[_0x6f59x109(0x2cc)](_0x6f59x109(0x111))[_0x5a55[28]]= _0x5a55[129],document[_0x6f59x109(0x2cc)](_0x5a55[131])[_0x6f59x109(0x263)]= _0x5a55[22]}function linpiardelivery(){var _0x6f59x10b=_0x77be7d;document[_0x6f59x10b(0x2cc)](_0x6f59x10b(0x2f1))[_0x6f59x10b(0x1a0)]=  ![],document[_0x6f59x10b(0x2cc)](_0x6f59x10b(0x1c9))[_0x5a55[85]]=  ![],document[_0x6f59x10b(0x2cc)](_0x5a55[132])[_0x6f59x10b(0x1a0)]=  ![],document[_0x6f59x10b(0x2cc)](_0x5a55[123])[_0x5a55[85]]=  ![],limpiaringd(),limpiaringdmap(),document[_0x6f59x10b(0x2cc)](_0x6f59x10b(0x291))[_0x5a55[85]]=  ![],document[_0x5a55[30]](_0x6f59x10b(0x144))[_0x6f59x10b(0x1a0)]=  ![],document[_0x6f59x10b(0x2cc)](_0x5a55[128])[_0x6f59x10b(0x263)]= _0x5a55[129],document[_0x6f59x10b(0x2cc)](_0x6f59x10b(0x21b))[_0x6f59x10b(0x263)]= _0x5a55[22],document[_0x6f59x10b(0x2cc)](_0x6f59x10b(0x28d))[_0x6f59x10b(0x2f4)]= _0x5a55[22],document[_0x6f59x10b(0x2cc)](_0x6f59x10b(0x192))[_0x6f59x10b(0x2f4)]= _0x5a55[22],document[_0x6f59x10b(0x2cc)](_0x6f59x10b(0x28d))[_0x6f59x10b(0x2f4)]= _0x5a55[22],document[_0x6f59x10b(0x2cc)](_0x5a55[124])[_0x5a55[28]]= _0x5a55[22],document[_0x6f59x10b(0x2cc)](_0x6f59x10b(0x208))[_0x6f59x10b(0x2f4)]= _0x5a55[22]}function limpiaringd(){var _0x6f59x10d=_0x77be7d;document[_0x6f59x10d(0x2cc)](_0x5a55[133])[_0x6f59x10d(0x1a0)]=  ![]}function limpiaringdmap(){var _0x6f59x10f=_0x77be7d;document[_0x6f59x10f(0x2cc)](_0x6f59x10f(0x251))[_0x6f59x10f(0x1a0)]=  ![]}$(_0x77be7d(0x1c7))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59x110=_0x77be7d;$(_0x6f59x110(0x1ca))[_0x6f59x110(0x15d)](_0x6f59x110(0x279)),$(_0x6f59x110(0x187))[_0x6f59x110(0x15d)](_0x6f59x110(0x1d4)),$(_0x6f59x110(0x285))(_0x5a55[134])}),$(_0x77be7d(0x249))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59x111=_0x77be7d;$(_0x5a55[135])[_0x6f59x111(0x1af)](_0x6f59x111(0x279)),$(_0x6f59x111(0x187))[_0x6f59x111(0x15d)](_0x6f59x111(0x1d4))}),$(_0x77be7d(0x252))[_0x5a55[6]](_0x5a55[19],function(){var _0x6f59x112=_0x77be7d;$(_0x6f59x112(0x1ca))[_0x6f59x112(0x15d)](_0x6f59x112(0x279)),$(_0x5a55[136])[_0x5a55[101]](_0x6f59x112(0x1d4))}),$(_0x77be7d(0x14a))[_0x5a55[6]](_0x5a55[19],function(){var _0x6f59x113=_0x77be7d;$(_0x6f59x113(0x247))[_0x6f59x113(0x1af)](_0x6f59x113(0x11f)),$(_0x5a55[137])[_0x6f59x113(0x15d)](_0x6f59x113(0x21c)),$(_0x5a55[138])[_0x6f59x113(0x15d)](_0x6f59x113(0x28f))}),$(_0x77be7d(0x154))[_0x5a55[6]](_0x5a55[19],function(){var _0x6f59x114=_0x77be7d;$(_0x6f59x114(0x15c))[_0x6f59x114(0x1af)](_0x6f59x114(0x21c)),$(_0x5a55[137])[_0x6f59x114(0x1af)](_0x6f59x114(0x21c)),$(_0x5a55[138])[_0x5a55[101]](_0x5a55[139])}),$(_0x77be7d(0x12c))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59x115=_0x77be7d;$(_0x6f59x115(0x247))[_0x6f59x115(0x15d)](_0x6f59x115(0x11f))}),$(_0x77be7d(0x2da))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59x116=_0x77be7d;$(_0x6f59x116(0x15c))[_0x6f59x116(0x15d)](_0x6f59x116(0x21c)),$(_0x6f59x116(0x280))[_0x6f59x116(0x15d)](_0x6f59x116(0x28f))}),$(_0x77be7d(0x227))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59x117=_0x77be7d;$(_0x6f59x117(0xed))[_0x5a55[101]](_0x5a55[140]),$(_0x6f59x117(0xf7))[_0x6f59x117(0x15d)](_0x6f59x117(0x19b)),$(_0x6f59x117(0xdc))[_0x5a55[99]](_0x6f59x117(0x272))}),$(_0x77be7d(0xc9))[_0x5a55[6]](_0x5a55[19],function(){var _0x6f59x118=_0x77be7d;$(_0x6f59x118(0xed))[_0x6f59x118(0x15d)](_0x5a55[140]),$(_0x6f59x118(0xf7))[_0x5a55[101]](_0x6f59x118(0x19b)),$(_0x6f59x118(0xdc))[_0x5a55[101]](_0x6f59x118(0x272))});function _0x2aab(_0x6f59x11a,_0x6f59x11b){var _0x6f59x11c=_0xb4f0();return _0x2aab= function(_0x6f59x11d,_0x6f59x11e){_0x6f59x11d= _0x6f59x11d- 0xc3;var _0x6f59x11f=_0x6f59x11c[_0x6f59x11d];return _0x6f59x11f},_0x2aab(_0x6f59x11a,_0x6f59x11b)}var map;function initialize(){var _0x6f59x122=_0x77be7d,_0x6f59x123={'\x63\x65\x6E\x74\x65\x72': new google[(_0x6f59x122(0x2c9))][(_0x6f59x122(0x1a7))](-0.1769941,-78.478394,0x11),'\x7A\x6F\x6F\x6D':0x11};map=  new google[_0x5a55[142]][(_0x6f59x122(0x197))](document[_0x6f59x122(0x2cc)](_0x5a55[141]),_0x6f59x123);var _0x6f59x124=document[_0x5a55[143]](_0x6f59x122(0x207)),_0x6f59x125= new GeolocationControl(_0x6f59x124,map);map[_0x6f59x122(0x100)][google[_0x6f59x122(0x2c9)][_0x6f59x122(0x19f)][_0x6f59x122(0x2f3)]][_0x5a55[1]](_0x6f59x124)}function GeolocationControl(_0x6f59x127,_0x6f59x128){var _0x6f59x129=_0x77be7d,_0x6f59x12a=document[_0x6f59x129(0x15f)](_0x6f59x129(0x207));_0x6f59x12a[_0x6f59x129(0x2ea)][_0x6f59x129(0x2d9)]= _0x6f59x129(0x220),_0x6f59x12a[_0x6f59x129(0x2ea)][_0x6f59x129(0x255)]= _0x5a55[144],_0x6f59x12a[_0x6f59x129(0x2ea)][_0x5a55[145]]= _0x6f59x129(0x277),_0x6f59x12a[_0x6f59x129(0x2ea)][_0x5a55[146]]= _0x6f59x129(0x296),_0x6f59x12a[_0x6f59x129(0x2ea)][_0x6f59x129(0x19a)]= _0x6f59x129(0x241),_0x6f59x12a[_0x6f59x129(0x2ea)][_0x6f59x129(0x2fc)]= _0x6f59x129(0x10b),_0x6f59x12a[_0x5a55[147]][_0x6f59x129(0x142)]= _0x6f59x129(0x2af),_0x6f59x12a[_0x6f59x129(0x2ea)][_0x6f59x129(0x1bf)]= _0x6f59x129(0x17b),_0x6f59x12a[_0x6f59x129(0x2ea)][_0x6f59x129(0xd8)]= _0x6f59x129(0x1ac),_0x6f59x12a[_0x6f59x129(0x2ea)][_0x6f59x129(0x21d)]= _0x6f59x129(0x2db),_0x6f59x12a[_0x6f59x129(0x2ea)][_0x6f59x129(0x21f)]= _0x6f59x129(0x1d7),_0x6f59x12a[_0x5a55[148]]= _0x6f59x129(0xf4),_0x6f59x127[_0x6f59x129(0xe7)](_0x6f59x12a);var _0x6f59x12b=document[_0x6f59x129(0x15f)](_0x6f59x129(0x207));_0x6f59x12b[_0x6f59x129(0x2ea)][_0x6f59x129(0x298)]= _0x6f59x129(0xe4),_0x6f59x12b[_0x5a55[147]][_0x5a55[149]]= _0x6f59x129(0xec),_0x6f59x12b[_0x6f59x129(0x2ea)][_0x6f59x129(0x2bf)]= _0x6f59x129(0x296),_0x6f59x12b[_0x6f59x129(0x2ea)][_0x5a55[150]]= _0x6f59x129(0x17e),_0x6f59x12b[_0x5a55[147]][_0x6f59x129(0x1d1)]= _0x6f59x129(0x17e),_0x6f59x12b[_0x5a55[147]][_0x5a55[151]]= _0x6f59x129(0x281),_0x6f59x12a[_0x6f59x129(0x2ea)][_0x5a55[152]]= _0x6f59x129(0x2af),_0x6f59x12b[_0x6f59x129(0x235)]= _0x6f59x129(0x289),_0x6f59x12a[_0x5a55[153]](_0x6f59x12b),google[_0x5a55[142]][_0x6f59x129(0x20d)][_0x5a55[154]](_0x6f59x12a,_0x6f59x129(0x20b),geolocate)}function geolocate(){var _0x6f59x12d=_0x77be7d;navigator[_0x6f59x12d(0x126)]&& navigator[_0x6f59x12d(0x126)][_0x6f59x12d(0x2ca)](function(_0x6f59x12e){var _0x6f59x12f=_0x6f59x12d,_0x6f59x130= new google[_0x5a55[142]][(_0x6f59x12f(0x1a7))](_0x6f59x12e[_0x6f59x12f(0x178)][_0x5a55[155]],_0x6f59x12e[_0x6f59x12f(0x178)][_0x5a55[156]]);let _0x6f59x131=_0x5a55[22];var _0x6f59x132=document[_0x6f59x12f(0x112)](_0x6f59x12f(0x1b1))[_0x6f59x12f(0x235)]= _0x6f59x130,_0x6f59x133=document[_0x5a55[30]](_0x5a55[155])[_0x5a55[82]],_0x6f59x134=_0x6f59x133[_0x6f59x12f(0x284)](_0x5a55[157],_0x5a55[22]),_0x6f59x135=_0x6f59x134[_0x6f59x12f(0x284)](_0x5a55[158],_0x5a55[22]),_0x6f59x136=_0x6f59x135[_0x5a55[78]](_0x5a55[56],_0x5a55[22]),_0x6f59x137=document[_0x6f59x12f(0x2cc)](_0x6f59x12f(0x28d))[_0x5a55[59]]= _0x6f59x12f(0x1cd)+ _0x6f59x136,_0x6f59x138=document[_0x6f59x12f(0x112)](_0x5a55[159]),_0x6f59x139= new google[_0x5a55[142]][(_0x6f59x12f(0x119))]();_0x6f59x139[_0x6f59x12f(0x162)]({'\x6C\x6F\x63\x61\x74\x69\x6F\x6E':_0x6f59x130},function(_0x6f59x13a,_0x6f59x13b){var _0x6f59x13c=_0x6f59x12f;_0x6f59x13b=== _0x5a55[160]?_0x6f59x13a[0x0]?_0x6f59x138[_0x6f59x13c(0x235)]= _0x6f59x13c(0x167)+ _0x6f59x13a[0x0][_0x6f59x13c(0xdb)]:_0x6f59x138[_0x5a55[59]]= _0x5a55[161]:_0x6f59x138[_0x5a55[59]]= _0x6f59x13c(0x27e)+ _0x6f59x13b}),marker=  new google[_0x5a55[142]][_0x5a55[162]]({'\x70\x6F\x73\x69\x74\x69\x6F\x6E':_0x6f59x130,'\x64\x72\x61\x67\x67\x61\x62\x6C\x65':!![],'\x61\x6E\x69\x6D\x61\x74\x69\x6F\x6E':google[_0x5a55[142]][_0x6f59x12f(0x2ee)][_0x6f59x12f(0x190)],'\x6D\x61\x70':map}),map[_0x6f59x12f(0x203)](_0x6f59x130)})}initialize();var ws=document[_0x77be7d(0x2cc)](_0x77be7d(0x25a))[_0x77be7d(0x2f4)];document[_0x5a55[30]](_0x5a55[163])[_0x77be7d(0x235)]= ws,$(_0x77be7d(0x286))[_0x77be7d(0x2b4)]({'\x6C\x6F\x6F\x70':![],'\x6D\x61\x72\x67\x69\x6E':0xa,'\x6E\x61\x76':!![],'\x72\x65\x73\x70\x6F\x6E\x73\x69\x76\x65':{0x0:{'\x69\x74\x65\x6D\x73':0x1},0x258:{'\x69\x74\x65\x6D\x73':0x2},0x3e8:{'\x69\x74\x65\x6D\x73':0x3}}}),$(_0x77be7d(0x1db))[_0x5a55[6]](_0x77be7d(0x20b),function(){$(_0x5a55[165])[_0x5a55[101]](_0x5a55[164])});var recaptcha_response1=_0x5a55[22];function submitUserForm1(){var _0x6f59x140=_0x77be7d;if(recaptcha_response1[_0x5a55[79]]== 0x0){return document[_0x5a55[30]](_0x6f59x140(0x22b))[_0x6f59x140(0x235)]= _0x6f59x140(0xc5),![]};$(_0x6f59x140(0x242))[_0x6f59x140(0x186)](0x7d0),$(_0x6f59x140(0x2c3))[_0x5a55[166]](_0x6f59x140(0x1c5)),$(_0x6f59x140(0x165))[_0x6f59x140(0x20b)](function(){var _0x6f59x141=_0x6f59x140;location[_0x6f59x141(0x2f9)]()}),goToPagep()}function verifyCaptcha1(_0x6f59x143){var _0x6f59x144=_0x77be7d;recaptcha_response1= _0x6f59x143,document[_0x6f59x144(0x2cc)](_0x5a55[167])[_0x5a55[59]]= _0x5a55[22]}$(_0x77be7d(0xc4))[_0x77be7d(0x20b)](function(){var _0x6f59x145=_0x77be7d;$(_0x6f59x145(0x1d6))[_0x6f59x145(0x10d)](_0x6f59x145(0x155),_0x5a55[129])}),$(_0x77be7d(0xc4))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59x146=_0x77be7d;$(_0x6f59x146(0x1d6))[_0x6f59x146(0x1af)](_0x6f59x146(0xe8))}),$(_0x77be7d(0x118))[_0x5a55[6]](_0x77be7d(0x20b),function(){var _0x6f59x147=_0x77be7d;$(_0x6f59x147(0x1d6))[_0x5a55[17]](_0x5a55[168]),document[_0x6f59x147(0x2cc)](_0x6f59x147(0x122))[_0x6f59x147(0x263)]= _0x5a55[22],$(_0x5a55[169])[_0x6f59x147(0x10d)](_0x6f59x147(0x155),_0x6f59x147(0x1b6))}),setTimeout(function(){var _0x6f59x148=_0x77be7d;$(_0x6f59x148(0x1c4))[_0x6f59x148(0x169)](0x3e8)},0x2134);function obtenerdatos2(){var _0x6f59x14a=_0x77be7d,_0x6f59x14b=document[_0x5a55[30]](_0x5a55[170])[_0x5a55[28]];if(_0x6f59x14b== null|| _0x6f59x14b[_0x6f59x14a(0x180)]== 0x0|| /^\s+$/[_0x5a55[91]](_0x6f59x14b)){return document[_0x6f59x14a(0x2cc)](_0x6f59x14a(0x143))[_0x6f59x14a(0x235)]= _0x6f59x14a(0xee),document[_0x6f59x14a(0x2cc)](_0x6f59x14a(0x143))[_0x6f59x14a(0x2ea)]= _0x6f59x14a(0x2c8)};document[_0x6f59x14a(0x2cc)](_0x6f59x14a(0x122))[_0x5a55[28]]= _0x5a55[22],document[_0x6f59x14a(0x2cc)](_0x6f59x14a(0x122))[_0x6f59x14a(0x2ea)]= _0x6f59x14a(0x297);var _0x6f59x14c=_0x5a55[171]+ _0x6f59x14b,_0x6f59x14d= new MobileDetect(window[_0x6f59x14a(0x1f5)][_0x6f59x14a(0x226)]);_0x6f59x14d[_0x6f59x14a(0x2bb)]()?window[_0x6f59x14a(0x2e3)](document[_0x6f59x14a(0x2cc)](_0x6f59x14a(0x10f))[_0x6f59x14a(0x283)]= _0x5a55[172]+ _0x6f59x14c):window[_0x6f59x14a(0x2e3)](document[_0x6f59x14a(0x2cc)](_0x6f59x14a(0x10f))[_0x6f59x14a(0x283)]= _0x6f59x14a(0xe1)+ _0x6f59x14c),$(_0x6f59x14a(0x2e9))[_0x6f59x14a(0x10d)](_0x6f59x14a(0x155),_0x6f59x14a(0x1b6))}function goToPageayuda(){var _0x6f59x14f=_0x77be7d,_0x6f59x150=document[_0x5a55[30]](_0x5a55[173])[_0x5a55[28]],_0x6f59x151=document[_0x6f59x14f(0x2cc)](_0x6f59x14f(0x2f8))[_0x6f59x14f(0x263)],_0x6f59x152=document[_0x6f59x14f(0x2cc)](_0x6f59x14f(0x188))[_0x6f59x14f(0x263)],_0x6f59x153=document[_0x5a55[30]](_0x6f59x14f(0x259))[_0x6f59x14f(0x263)];$(_0x6f59x14f(0x1f2))[_0x5a55[174]](function(){var _0x6f59x154=_0x6f59x14f;return document[_0x6f59x154(0x2cc)](_0x6f59x154(0x25a))[_0x6f59x154(0x235)]= Math[_0x6f59x154(0x268)](Math[_0x6f59x154(0x1a6)]()* 0x3e7)+ 0x3e8});var _0x6f59x155=document[_0x6f59x14f(0x112)](_0x6f59x14f(0x1f2))[_0x5a55[28]],_0x6f59x156=_0x5a55[175]+ _0x6f59x14f(0x26e)+ _0x6f59x14f(0x24f)+ _0x6f59x14f(0x2dd)+ _0x6f59x155+ _0x6f59x14f(0x26e)+ _0x6f59x14f(0x1c8)+ _0x6f59x14f(0x26e)+ _0x6f59x14f(0x26e)+ _0x5a55[176]+ _0x6f59x14f(0x26e)+ _0x6f59x150+ _0x6f59x14f(0x2dd)+ _0x6f59x14f(0x26e)+ _0x6f59x14f(0x26e)+ _0x6f59x14f(0x1f7)+ _0x6f59x14f(0x26e)+ _0x6f59x151+ _0x5a55[52]+ _0x5a55[81]+ _0x6f59x14f(0x26e)+ _0x5a55[177]+ _0x5a55[81]+ _0x6f59x152+ _0x6f59x14f(0x2dd)+ _0x6f59x14f(0x26e)+ _0x6f59x14f(0x1c8)+ _0x6f59x14f(0x26e)+ _0x6f59x14f(0x26e)+ _0x6f59x14f(0x2ba)+ _0x6f59x14f(0x2dd)+ _0x5a55[178]+ _0x6f59x150+ _0x5a55[178]+ _0x6f59x14f(0x2dd)+ _0x6f59x14f(0x2c6)+ _0x6f59x14f(0x26e)+ _0x6f59x14f(0x26e)+ _0x5a55[179]+ _0x6f59x14f(0x2dd)+ _0x6f59x14f(0x2b6),_0x6f59x157= new MobileDetect(window[_0x6f59x14f(0x1f5)][_0x5a55[180]]);_0x6f59x157[_0x6f59x14f(0x2bb)]()?window[_0x6f59x14f(0x2e3)](document[_0x6f59x14f(0x2cc)](_0x6f59x14f(0x2d6))[_0x6f59x14f(0x283)]= _0x6f59x14f(0x2eb)+ _0x6f59x156):window[_0x6f59x14f(0x2e3)](document[_0x6f59x14f(0x2cc)](_0x6f59x14f(0x24e))[_0x6f59x14f(0x283)]= _0x5a55[181]+ _0x6f59x156)}var recaptcha_response2=_0x5a55[22];function submitUserForm2(){var _0x6f59x15a=_0x77be7d;if(recaptcha_response2[_0x6f59x15a(0x180)]== 0x0){return document[_0x6f59x15a(0x2cc)](_0x5a55[182])[_0x6f59x15a(0x235)]= _0x5a55[183],![]};$(_0x6f59x15a(0x1e6))[_0x6f59x15a(0x186)](0x7d0),$(_0x6f59x15a(0x1ad))[_0x6f59x15a(0x2f2)](_0x6f59x15a(0x1cf)),goToPageayuda()}function verifyCaptcha2(_0x6f59x15c){var _0x6f59x15d=_0x77be7d;recaptcha_response2= _0x6f59x15c,document[_0x6f59x15d(0x2cc)](_0x6f59x15d(0x159))[_0x6f59x15d(0x235)]= _0x5a55[22]}var paises=[{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1dd),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[184]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1df),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[185]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[186],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[187]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x20a),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[188]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x170),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[189]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x15e),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[190]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x287),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[191]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1f4),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[192]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x216),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[193]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x22f),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[194]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1da),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[195]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[196],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[197]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x113),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[198]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1cc),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[199]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[200],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[201]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2e4),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[202]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[203],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[204]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xfd),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[205]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2c4),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[206]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1e2),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[207]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x175),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[208]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[209],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[210]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x140),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[211]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x25b),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[212]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x278),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[213]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[214],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[215]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2ec),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[216]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x26d),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[217]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x131),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[218]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x13f),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[219]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1f6),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[220]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2d5),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[221]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x195),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[222]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[223],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[224]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1a4),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[225]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x18c),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[226]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x250),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[227]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2a5),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[228]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x273),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[229]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x107),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[230]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1a8),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[231]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2d7),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[232]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xd2),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[233]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x22e),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[234]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xe3),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[235]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x101),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[236]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x293),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[237]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1e3),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[238]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x219),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[239]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[240],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[241]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xcc),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[242]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[243],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[244]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1e0),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[245]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x11b),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[246]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[247],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[248]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1d9),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[249]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1bc),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[250]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x299),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[251]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x243),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[252]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x177),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[253]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x16c),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[254]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1f0),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[255]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x230),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[256]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1ba),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[257]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2b9),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[258]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[259],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[260]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xdf),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[261]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2cd),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[262]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xd6),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[263]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[264],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[265]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[266],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[267]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x18e),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[268]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x295),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[269]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x102),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[270]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2f0),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[271]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x262),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[272]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[273],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[274]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2a2),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[275]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1d3),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[276]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x256),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[277]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2e5),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[278]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x24b),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[279]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[280],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[281]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[282],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[283]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[284],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[285]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[286],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[287]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x16a),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[288]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[289],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[290]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x11e),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[291]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x105),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[292]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2d8),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[293]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1f1),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[294]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2c0),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[295]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[296],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[297]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2a4),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[298]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[299],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[300]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x274),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[301]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xf9),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[302]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2ad),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[303]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x17f),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[304]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x26f),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[305]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1aa),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[306]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x234),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[307]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[308],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[309]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2e2),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[310]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x210),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[311]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x176),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[312]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x141),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[313]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[314],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[315]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2b8),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[316]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[317],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[318]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2e6),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[319]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x245),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[320]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x202),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[321]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x24d),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[322]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1e1),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[323]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[324],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[325]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1ab),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[326]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xff),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[327]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2f6),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[328]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1ff),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[329]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[330],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[331]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2a9),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[332]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x23a),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[333]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x231),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[334]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1b2),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[335]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x223),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[336]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x29b),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[337]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x13a),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[338]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x19e),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[339]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2de),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[340]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[341],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[342]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[343],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[344]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1b3),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[345]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x211),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[346]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x217),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[347]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[348],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[349]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x21a),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[350]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x28e),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[351]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[352],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[353]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xd0),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[354]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2c2),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[355]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xcb),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[356]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x12d),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[357]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x25c),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[358]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x261),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[359]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[360],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[361]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[362],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[363]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x199),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[364]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1ce),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[365]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x172),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[366]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x13d),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[367]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[368],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[369]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1e4),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[370]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x222),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[371]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x253),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[372]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x153),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[373]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x257),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[374]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x183),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[375]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2f5),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[376]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x130),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[377]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x150),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[378]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x14c),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[379]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2e7),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[380]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[381],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[382]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[383],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[384]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x17a),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[385]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2c1),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[386]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[387],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[388]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x22d),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[389]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x292),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[390]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x288),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[391]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2b2),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[392]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2b1),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[393]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[394],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[395]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2c5),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[396]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x179),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[397]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x282),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[398]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x23e),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[399]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x11c),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[400]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2b0),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[401]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[402],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[403]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x204),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[404]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[405],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[406]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x27f),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[407]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xf0),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[408]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x13c),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[409]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x173),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[410]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x18a),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[411]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x147),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[412]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x14b),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[413]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1f3),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[414]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x158),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[415]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[416],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[417]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x23c),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[418]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x27d),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[419]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x181),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[420]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[421],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[422]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xfe),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[423]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2ce),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[424]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[425],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[426]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x260),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[427]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x133),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[428]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[429],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[430]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1fc),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[431]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x127),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[432]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xcf),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[433]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1e9),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[434]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x104),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[435]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x271),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[436]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xe5),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[437]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1c1),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[438]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x26c),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[439]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x28b),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[440]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1bb),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[441]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2d1),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[442]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2be),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[443]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[444],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[445]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[446],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[447]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[448],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[449]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1b0),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[450]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x233),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[451]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xf8),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[452]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[453],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[454]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[455],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[456]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x163),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[457]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[458],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[459]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1ae),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[460]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xd9),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[461]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2bd),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[462]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x240),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[463]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2e0),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[464]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2a0),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[465]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[466],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[467]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x27a),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[468]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x1ea),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[469]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2a8),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[470]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x29a),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[471]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x238),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[472]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x12e),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[473]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x25d),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[474]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x275),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[475]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x11d),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[476]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xca),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[477]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x5a55[478],'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[479]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0xfc),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[480]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x2fa),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[481]},{'\x6E\x6F\x6D\x62\x72\x65\x50\x61\x69\x73':_0x77be7d(0x237),'\x63\x6F\x64\x50\x61\x69\x73':_0x5a55[482]}],ofertaBarraTop=document[_0x77be7d(0x112)](_0x5a55[483]);function getRandomArbitrary(_0x6f59x161,_0x6f59x162){var _0x6f59x163=_0x77be7d;return Math[_0x6f59x163(0xdd)](Math[_0x6f59x163(0x1a6)]()* (_0x6f59x162- _0x6f59x161)+ _0x6f59x161)}function getOfertaTop(_0x6f59x165){var _0x6f59x166=_0x77be7d,_0x6f59x167=_0x5a55[22],_0x6f59x168=getRandomArbitrary(0x2f,0x61);for(i= 0x0;i< paises[_0x5a55[79]];i++){paises[i][_0x6f59x166(0x201)]=== _0x6f59x165&& (_0x6f59x167= _0x5a55[22]+ _0x5a55[22]+ paises[i][_0x5a55[484]]|| _0x5a55[22])};return _0x6f59x168+ _0x5a55[56]+ _0x6f59x166(0xd3)+ _0x5a55[56]+ _0x5a55[485]+ _0x5a55[56]+ _0x6f59x167+ _0x5a55[22]}fetch(_0x77be7d(0x152))[_0x77be7d(0x149)]((_0x6f59x16a)=>{return _0x6f59x16a[_0x77be7d(0x18f)]()})[_0x77be7d(0x149)]((_0x6f59x169)=>{return ofertaBarraTop[_0x77be7d(0x235)]= getOfertaTop(_0x6f59x169[_0x77be7d(0x1ef)])});var ofertaBarraTop2=document[_0x77be7d(0x112)](_0x77be7d(0x1e8));function getRandomArbitrary(_0x6f59x16c,_0x6f59x16d){var _0x6f59x16e=_0x77be7d;return Math[_0x6f59x16e(0xdd)](Math[_0x5a55[486]]()* (_0x6f59x16d- _0x6f59x16c)+ _0x6f59x16c)}function getOfertaTop2(_0x6f59x170){var _0x6f59x171=_0x77be7d,_0x6f59x172=_0x5a55[22],_0x6f59x173=getRandomArbitrary(0x2f,0x61);for(i= 0x0;i< paises[_0x5a55[79]];i++){paises[i][_0x6f59x171(0x201)]=== _0x6f59x170&& (_0x6f59x172= _0x5a55[22]+ _0x5a55[22]+ paises[i][_0x6f59x171(0x18d)]|| _0x5a55[22])};return _0x6f59x173+ _0x5a55[56]+ _0x5a55[487]+ _0x5a55[56]+ _0x5a55[485]+ _0x5a55[56]+ _0x6f59x172+ _0x5a55[22]}fetch(_0x77be7d(0x152))[_0x77be7d(0x149)]((_0x6f59x175)=>{return _0x6f59x175[_0x77be7d(0x18f)]()})[_0x77be7d(0x149)]((_0x6f59x174)=>{return ofertaBarraTop2[_0x77be7d(0x235)]= getOfertaTop2(_0x6f59x174[_0x77be7d(0x1ef)])});var ofertaBarraTop3=document[_0x77be7d(0x112)](_0x77be7d(0x106));function _0xb4f0(){var _0x6f59x178=[_0x5a55[488],_0x5a55[489],_0x5a55[490],_0x5a55[36],_0x5a55[54],_0x5a55[46],_0x5a55[491],_0x5a55[492],_0x5a55[493],_0x5a55[494],_0x5a55[495],_0x5a55[496],_0x5a55[497],_0x5a55[498],_0x5a55[499],_0x5a55[500],_0x5a55[501],_0x5a55[502],_0x5a55[132],_0x5a55[108],_0x5a55[503],_0x5a55[114],_0x5a55[109],_0x5a55[504],_0x5a55[90],_0x5a55[505],_0x5a55[506],_0x5a55[507],_0x5a55[508],_0x5a55[509],_0x5a55[510],_0x5a55[511],_0x5a55[67],_0x5a55[4],_0x5a55[512],_0x5a55[19],_0x5a55[117],_0x5a55[513],_0x5a55[514],_0x5a55[159],_0x5a55[515],_0x5a55[516],_0x5a55[517],_0x5a55[518],_0x5a55[519],_0x5a55[520],_0x5a55[521],_0x5a55[522],_0x5a55[83],_0x5a55[523],_0x5a55[524],_0x5a55[80],_0x5a55[525],_0x5a55[526],_0x5a55[527],_0x5a55[528],_0x5a55[529],_0x5a55[530],_0x5a55[531],_0x5a55[532],_0x5a55[18],_0x5a55[533],_0x5a55[180],_0x5a55[534],_0x5a55[535],_0x5a55[536],_0x5a55[537],_0x5a55[167],_0x5a55[538],_0x5a55[539],_0x5a55[540],_0x5a55[541],_0x5a55[542],_0x5a55[543],_0x5a55[97],_0x5a55[544],_0x5a55[545],_0x5a55[59],_0x5a55[546],_0x5a55[547],_0x5a55[548],_0x5a55[549],_0x5a55[550],_0x5a55[111],_0x5a55[551],_0x5a55[552],_0x5a55[553],_0x5a55[554],_0x5a55[555],_0x5a55[556],_0x5a55[557],_0x5a55[558],_0x5a55[559],_0x5a55[560],_0x5a55[561],_0x5a55[562],_0x5a55[65],_0x5a55[563],_0x5a55[564],_0x5a55[565],_0x5a55[566],_0x5a55[567],_0x5a55[568],_0x5a55[569],_0x5a55[570],_0x5a55[571],_0x5a55[572],_0x5a55[573],_0x5a55[84],_0x5a55[574],_0x5a55[575],_0x5a55[576],_0x5a55[5],_0x5a55[577],_0x5a55[578],_0x5a55[579],_0x5a55[580],_0x5a55[581],_0x5a55[582],_0x5a55[583],_0x5a55[584],_0x5a55[585],_0x5a55[586],_0x5a55[28],_0x5a55[124],_0x5a55[100],_0x5a55[587],_0x5a55[487],_0x5a55[72],_0x5a55[588],_0x5a55[10],_0x5a55[31],_0x5a55[589],_0x5a55[590],_0x5a55[81],_0x5a55[591],_0x5a55[14],_0x5a55[592],_0x5a55[593],_0x5a55[594],_0x5a55[595],_0x5a55[596],_0x5a55[597],_0x5a55[598],_0x5a55[599],_0x5a55[134],_0x5a55[600],_0x5a55[601],_0x5a55[602],_0x5a55[603],_0x5a55[604],_0x5a55[605],_0x5a55[138],_0x5a55[606],_0x5a55[607],_0x5a55[608],_0x5a55[78],_0x5a55[609],_0x5a55[610],_0x5a55[611],_0x5a55[612],_0x5a55[613],_0x5a55[614],_0x5a55[615],_0x5a55[616],_0x5a55[617],_0x5a55[618],_0x5a55[139],_0x5a55[619],_0x5a55[620],_0x5a55[621],_0x5a55[622],_0x5a55[623],_0x5a55[624],_0x5a55[625],_0x5a55[626],_0x5a55[627],_0x5a55[628],_0x5a55[629],_0x5a55[630],_0x5a55[17],_0x5a55[631],_0x5a55[632],_0x5a55[633],_0x5a55[634],_0x5a55[635],_0x5a55[636],_0x5a55[637],_0x5a55[638],_0x5a55[639],_0x5a55[640],_0x5a55[641],_0x5a55[642],_0x5a55[643],_0x5a55[644],_0x5a55[645],_0x5a55[131],_0x5a55[646],_0x5a55[88],_0x5a55[647],_0x5a55[648],_0x5a55[649],_0x5a55[650],_0x5a55[651],_0x5a55[652],_0x5a55[653],_0x5a55[654],_0x5a55[655],_0x5a55[656],_0x5a55[657],_0x5a55[658],_0x5a55[659],_0x5a55[42],_0x5a55[660],_0x5a55[661],_0x5a55[662],_0x5a55[663],_0x5a55[664],_0x5a55[665],_0x5a55[666],_0x5a55[667],_0x5a55[668],_0x5a55[669],_0x5a55[113],_0x5a55[670],_0x5a55[142],_0x5a55[671],_0x5a55[672],_0x5a55[30],_0x5a55[673],_0x5a55[674],_0x5a55[675],_0x5a55[676],_0x5a55[677],_0x5a55[678],_0x5a55[7],_0x5a55[127],_0x5a55[679],_0x5a55[680],_0x5a55[681],_0x5a55[682],_0x5a55[683],_0x5a55[684],_0x5a55[685],_0x5a55[686],_0x5a55[52],_0x5a55[687],_0x5a55[688],_0x5a55[689],_0x5a55[690],_0x5a55[691],_0x5a55[692],_0x5a55[693],_0x5a55[694],_0x5a55[695],_0x5a55[696],_0x5a55[697],_0x5a55[169],_0x5a55[147],_0x5a55[172],_0x5a55[698],_0x5a55[699],_0x5a55[700],_0x5a55[35],_0x5a55[701],_0x5a55[126],_0x5a55[166],_0x5a55[702],_0x5a55[82],_0x5a55[703],_0x5a55[704],_0x5a55[98],_0x5a55[705],_0x5a55[706],_0x5a55[707],_0x5a55[128],_0x5a55[708],_0x5a55[709],_0x5a55[710],_0x5a55[183],_0x5a55[711],_0x5a55[125],_0x5a55[712],_0x5a55[713],_0x5a55[714],_0x5a55[715],_0x5a55[716],_0x5a55[717],_0x5a55[718],_0x5a55[719],_0x5a55[720],_0x5a55[721],_0x5a55[722],_0x5a55[723],_0x5a55[724],_0x5a55[725],_0x5a55[726],_0x5a55[727],_0x5a55[151],_0x5a55[728],_0x5a55[729],_0x5a55[730],_0x5a55[731],_0x5a55[732],_0x5a55[733],_0x5a55[734],_0x5a55[12],_0x5a55[181],_0x5a55[735],_0x5a55[736],_0x5a55[737],_0x5a55[738],_0x5a55[25],_0x5a55[153],_0x5a55[168],_0x5a55[739],_0x5a55[740],_0x5a55[741],_0x5a55[742],_0x5a55[743],_0x5a55[744],_0x5a55[745],_0x5a55[746],_0x5a55[747],_0x5a55[748],_0x5a55[749],_0x5a55[750],_0x5a55[751],_0x5a55[752],_0x5a55[753],_0x5a55[754],_0x5a55[755],_0x5a55[756],_0x5a55[757],_0x5a55[758],_0x5a55[759],_0x5a55[760],_0x5a55[761],_0x5a55[762],_0x5a55[763],_0x5a55[764],_0x5a55[765],_0x5a55[766],_0x5a55[767],_0x5a55[768],_0x5a55[769],_0x5a55[770],_0x5a55[771],_0x5a55[772],_0x5a55[773],_0x5a55[76],_0x5a55[774],_0x5a55[775],_0x5a55[776],_0x5a55[777],_0x5a55[130],_0x5a55[9],_0x5a55[778],_0x5a55[115],_0x5a55[779],_0x5a55[174],_0x5a55[27],_0x5a55[780],_0x5a55[781],_0x5a55[782],_0x5a55[783],_0x5a55[784],_0x5a55[785],_0x5a55[786],_0x5a55[140],_0x5a55[70],_0x5a55[106],_0x5a55[170],_0x5a55[787],_0x5a55[788],_0x5a55[789],_0x5a55[790],_0x5a55[791],_0x5a55[792],_0x5a55[793],_0x5a55[794],_0x5a55[795],_0x5a55[796],_0x5a55[797],_0x5a55[798],_0x5a55[799],_0x5a55[800],_0x5a55[801],_0x5a55[802],_0x5a55[803],_0x5a55[804],_0x5a55[805],_0x5a55[806],_0x5a55[807],_0x5a55[105],_0x5a55[808],_0x5a55[809],_0x5a55[71],_0x5a55[810],_0x5a55[811],_0x5a55[16],_0x5a55[812],_0x5a55[813],_0x5a55[814],_0x5a55[152],_0x5a55[815],_0x5a55[816],_0x5a55[817],_0x5a55[818],_0x5a55[819],_0x5a55[820],_0x5a55[821],_0x5a55[822],_0x5a55[823],_0x5a55[824],_0x5a55[825],_0x5a55[826],_0x5a55[827],_0x5a55[828],_0x5a55[829],_0x5a55[830],_0x5a55[831],_0x5a55[69],_0x5a55[832],_0x5a55[123],_0x5a55[833],_0x5a55[834],_0x5a55[182],_0x5a55[835],_0x5a55[836],_0x5a55[137],_0x5a55[99],_0x5a55[837],_0x5a55[143],_0x5a55[838],_0x5a55[839],_0x5a55[840],_0x5a55[841],_0x5a55[842],_0x5a55[843],_0x5a55[110],_0x5a55[844],_0x5a55[103],_0x5a55[845],_0x5a55[846],_0x5a55[847],_0x5a55[848],_0x5a55[849],_0x5a55[850],_0x5a55[851],_0x5a55[852],_0x5a55[853],_0x5a55[854],_0x5a55[855],_0x5a55[856],_0x5a55[857],_0x5a55[858],_0x5a55[859],_0x5a55[860],_0x5a55[861],_0x5a55[862],_0x5a55[863],_0x5a55[864],_0x5a55[865],_0x5a55[866],_0x5a55[867],_0x5a55[79],_0x5a55[868],_0x5a55[869],_0x5a55[870],_0x5a55[871],_0x5a55[872],_0x5a55[873],_0x5a55[136],_0x5a55[874],_0x5a55[8],_0x5a55[875],_0x5a55[876],_0x5a55[877],_0x5a55[484],_0x5a55[878],_0x5a55[879],_0x5a55[880],_0x5a55[881],_0x5a55[133],_0x5a55[26],_0x5a55[882],_0x5a55[883],_0x5a55[884],_0x5a55[885],_0x5a55[886],_0x5a55[887],_0x5a55[888],_0x5a55[889],_0x5a55[890],_0x5a55[89],_0x5a55[891],_0x5a55[892],_0x5a55[85],_0x5a55[893],_0x5a55[894],_0x5a55[895],_0x5a55[896],_0x5a55[897],_0x5a55[486],_0x5a55[898],_0x5a55[899],_0x5a55[900],_0x5a55[901],_0x5a55[902],_0x5a55[903],_0x5a55[904],_0x5a55[905],_0x5a55[101],_0x5a55[906],_0x5a55[907],_0x5a55[908],_0x5a55[909],_0x5a55[910],_0x5a55[911],_0x5a55[912],_0x5a55[913],_0x5a55[914],_0x5a55[915],_0x5a55[916],_0x5a55[917],_0x5a55[918],_0x5a55[51],_0x5a55[919],_0x5a55[920],_0x5a55[921],_0x5a55[922],_0x5a55[923],_0x5a55[924],_0x5a55[925],_0x5a55[926],_0x5a55[927],_0x5a55[928],_0x5a55[929],_0x5a55[86],_0x5a55[135],_0x5a55[122],_0x5a55[930],_0x5a55[931],_0x5a55[932],_0x5a55[933],_0x5a55[934],_0x5a55[935],_0x5a55[936],_0x5a55[937],_0x5a55[938],_0x5a55[939],_0x5a55[940],_0x5a55[941],_0x5a55[91],_0x5a55[942],_0x5a55[943],_0x5a55[165],_0x5a55[944],_0x5a55[945],_0x5a55[946],_0x5a55[947],_0x5a55[948],_0x5a55[949],_0x5a55[950],_0x5a55[951],_0x5a55[952],_0x5a55[953],_0x5a55[954],_0x5a55[955]];_0xb4f0= function(){return _0x6f59x178};return _0xb4f0()}function getRandomArbitrary(_0x6f59x179,_0x6f59x17a){var _0x6f59x17b=_0x77be7d;return Math[_0x6f59x17b(0xdd)](Math[_0x6f59x17b(0x1a6)]()* (_0x6f59x17a- _0x6f59x179)+ _0x6f59x179)}function getOfertaTop3(_0x6f59x17d){var _0x6f59x17e=_0x77be7d,_0x6f59x17f=_0x5a55[22],_0x6f59x180=getRandomArbitrary(0x2f,0x61);for(i= 0x0;i< paises[_0x6f59x17e(0x180)];i++){paises[i][_0x6f59x17e(0x201)]=== _0x6f59x17d&& (_0x6f59x17f= _0x5a55[22]+ _0x5a55[22]+ paises[i][_0x6f59x17e(0x18d)]|| _0x5a55[22])};return _0x6f59x180+ _0x5a55[56]+ _0x6f59x17e(0xd3)+ _0x5a55[56]+ _0x5a55[485]+ _0x5a55[56]+ _0x6f59x17f+ _0x5a55[22]}fetch(_0x77be7d(0x152))[_0x77be7d(0x149)]((_0x6f59x182)=>{return _0x6f59x182[_0x77be7d(0x18f)]()})[_0x77be7d(0x149)]((_0x6f59x181)=>{return ofertaBarraTop3[_0x77be7d(0x235)]= getOfertaTop3(_0x6f59x181[_0x77be7d(0x1ef)])});var ofertaBarraTop4=document[_0x77be7d(0x112)](_0x77be7d(0x1e7));function getRandomArbitrary(_0x6f59x184,_0x6f59x185){var _0x6f59x186=_0x77be7d;return Math[_0x5a55[732]](Math[_0x6f59x186(0x1a6)]()* (_0x6f59x185- _0x6f59x184)+ _0x6f59x184)}function getOfertaTop4(_0x6f59x188){var _0x6f59x189=_0x77be7d,_0x6f59x18a=_0x5a55[22],_0x6f59x18b=getRandomArbitrary(0x2f,0x61);for(i= 0x0;i< paises[_0x6f59x189(0x180)];i++){paises[i][_0x6f59x189(0x201)]=== _0x6f59x188&& (_0x6f59x18a= _0x5a55[22]+ _0x5a55[22]+ paises[i][_0x5a55[484]]|| _0x5a55[22])};return _0x6f59x18b+ _0x5a55[56]+ _0x6f59x189(0x267)+ _0x5a55[56]+ _0x5a55[485]+ _0x5a55[56]+ _0x6f59x18a+ _0x5a55[22]}fetch(_0x77be7d(0x152))[_0x77be7d(0x149)]((_0x6f59x18d)=>{return _0x6f59x18d[_0x5a55[879]]()})[_0x77be7d(0x149)]((_0x6f59x18c)=>{return ofertaBarraTop4[_0x77be7d(0x235)]= getOfertaTop4(_0x6f59x18c[_0x77be7d(0x1ef)])}),$(_0x77be7d(0x1b9))[_0x5a55[623]](_0x77be7d(0x236)),$(_0x77be7d(0x1a9))[_0x77be7d(0x294)](_0x77be7d(0x236)),$(_0x77be7d(0x1a5))[_0x77be7d(0x294)](_0x5a55[956]),$(_0x77be7d(0x239))[_0x5a55[623]](_0x5a55[956]),$(_0x5a55[957])[_0x77be7d(0x294)](_0x77be7d(0x16d)),$(_0x5a55[939])[_0x77be7d(0x294)](_0x77be7d(0x16d)),$(_0x77be7d(0x205))[_0x77be7d(0x294)](_0x77be7d(0x2b5)),$(_0x77be7d(0x28a))[_0x5a55[623]](_0x77be7d(0x2b5)),$(_0x77be7d(0x12b))[_0x77be7d(0x2b4)]({'\x6E\x61\x76\x69\x67\x61\x74\x69\x6F\x6E':!![],'\x73\x6C\x69\x64\x65\x53\x70\x65\x65\x64':0x12c,'\x70\x61\x67\x69\x6E\x61\x74\x69\x6F\x6E\x53\x70\x65\x65\x64':0x190,'\x73\x69\x6E\x67\x6C\x65\x49\x74\x65\x6D':!![],'\x6E\x61\x76\x69\x67\x61\x74\x69\x6F\x6E\x54\x65\x78\x74':[_0x5a55[958],_0x5a55[40]],'\x72\x65\x77\x69\x6E\x64\x4E\x61\x76':!![],'\x73\x63\x72\x6F\x6C\x6C\x50\x65\x72\x50\x61\x67\x65':!![],'\x70\x61\x67\x69\x6E\x61\x74\x69\x6F\x6E':!![],'\x70\x61\x67\x69\x6E\x61\x74\x69\x6F\x6E\x4E\x75\x6D\x62\x65\x72\x73':![],'\x72\x65\x73\x70\x6F\x6E\x73\x69\x76\x65':{0x0:{'\x69\x74\x65\x6D\x73':0x1},0x258:{'\x69\x74\x65\x6D\x73':0x2}}});const getRemainingTime=(_0x6f59x190)=>{var _0x6f59x191=_0x77be7d;let _0x6f59x192= new Date(),_0x6f59x193=( new Date(_0x6f59x190)- _0x6f59x192+ 0x3e8)/ 0x3e8,_0x6f59x194=(_0x5a55[129]+ Math[_0x6f59x191(0x268)](_0x6f59x193% 0x3c))[_0x5a55[914]](-0x2),_0x6f59x195=(_0x5a55[129]+ Math[_0x6f59x191(0x268)](_0x6f59x193/ 0x3c% 0x3c))[_0x6f59x191(0x1b8)](-0x2),_0x6f59x196=(_0x5a55[129]+ Math[_0x6f59x191(0x268)](_0x6f59x193/ 0xe10% 0x18))[_0x6f59x191(0x1b8)](-0x2),_0x6f59x197=Math[_0x5a55[72]](_0x6f59x193/ (0xe10* 0x18));return {'\x72\x65\x6D\x61\x69\x6E\x53\x65\x63\x6F\x6E\x64\x73':_0x6f59x194,'\x72\x65\x6D\x61\x69\x6E\x4D\x69\x6E\x75\x74\x65\x73':_0x6f59x195,'\x72\x65\x6D\x61\x69\x6E\x48\x6F\x75\x72\x73':_0x6f59x196,'\x72\x65\x6D\x61\x69\x6E\x44\x61\x79\x73':_0x6f59x197,'\x72\x65\x6D\x61\x69\x6E\x54\x69\x6D\x65':_0x6f59x193}},countdown=(_0x6f59x198,_0x6f59x199,_0x6f59x19a)=>{const _0x6f59x19b=document[_0x5a55[30]](_0x6f59x199),_0x6f59x19c=setInterval(()=>{var _0x6f59x19d=_0x2aab;let _0x6f59x19e=getRemainingTime(_0x6f59x198);_0x6f59x19b[_0x6f59x19d(0x235)]= _0x6f59x19d(0x1be)+ _0x6f59x19e[_0x6f59x19d(0x1c6)]+ _0x6f59x19d(0x14d)+ _0x6f59x19e[_0x6f59x19d(0x1d0)]+ _0x6f59x19d(0x1c0)+ _0x6f59x19e[_0x6f59x19d(0x2a1)]+ _0x6f59x19d(0xf3)+ _0x6f59x19e[_0x5a55[959]]+ _0x5a55[960],_0x6f59x19e[_0x6f59x19d(0x27c)]<= 0x1&& (clearInterval(_0x6f59x19c),_0x6f59x19b[_0x6f59x19d(0x235)]= _0x6f59x19a)},0x3e8)}
+// codigo para bloquear click erecho
+document.oncontextmenu = function(){return false}
+
+// codigo para mostrar elpopup cada minuto
+const myTimeout = setTimeout(myGreeting, 300000);
+// setIntervales "repetir esta función cada N milisegundos". setTimeoutes "ejecutar esta función una vez después de N milisegundos"
+function myGreeting() {
+  $('#exit').addClass('visible');
+}
+
+
+// codigo para mostrar al pie de pagina el counter
+
+       $(document).ready(function(){
+        var altura =$('.row-centeredw').offset().top;
+        $(window).on('scroll', function(){
+          if ($(window).scrollTop()>= altura){
+            $('.row-centeredw').addClass('row-centered2w');
+            // $('.count').addClass('row-centered2count');
+
+          } else{
+            $('.row-centeredw').removeClass('row-centered2w');
+            // $('.count').removeClass('row-centered2count');
+          }
+        })
+      });
+
+
+
+  
+  
+let movuevete= document.getElementById('rowf');
+
+ function moverseA(){
+
+  location = ('#masvendidos1');
+}
+      
+ // código para mostrar el modal cuando quieres salir de la pagina
+
+const mouseEvent = e => {
+  const shouldShowExitIntent = 
+      !e.toElement && 
+      !e.relatedTarget &&
+      e.clientY < 2;
+
+  if (shouldShowExitIntent) {
+      document.removeEventListener('mouseout', mouseEvent);
+      
+      document.querySelector('.exit-intent-popup').classList.add('visible');
+  }
+};
+
+const exit = e => {
+  if (e.target.className === 'close') {
+      document.querySelector('.exit-intent-popup').classList.remove('visible');
+  }
+
+  if (e.target.className === 'masv') {
+    document.querySelector('.exit-intent-popup').classList.remove('visible');
+}
+};
+
+document.querySelector('.exit-intent-popup').addEventListener('click', exit);
+ 
+setTimeout(() => {
+  document.addEventListener('mouseout', mouseEvent);
+  document.addEventListener('keydown', exit);
+}, 2_000);
+
+// codigo para mostrar el modaldemo
+
+let p = document.getElementById("btn25"); // Encuentra el elemento "p" en el sitio
+  p.onclick = muestraDemo;
+
+
+  function muestraDemo() {
+    $('#exit2').addClass('visible');
+  
+
+  if(  $('#close2').bind('click')){
+
+    $('.exit-intent-popup2').toggleClass('active2');
     
-var _0xb645=["\x73\x68\x69\x66\x74","\x70\x75\x73\x68","\x36\x38\x38\x33\x31\x72\x49\x57\x41\x67\x59","\x44\x65\x63\x20\x32\x39\x20\x32\x30\x32\x32\x20\x32\x33\x3A\x35\x39\x3A\x35\x39\x20\x47\x4D\x54\x2D\x30\x35\x30\x30","\x63\x6C\x6F\x63\x6B","\x31\x30\x35\x42\x49\x6A\x58\x4D\x58","\x32\x34\x31\x31\x38\x38\x70\x56\x64\x4D\x70\x69","\x33\x30\x33\x4A\x74\x56\x72\x69\x74","\x38\x76\x67\x4F\x4C\x4F\x52","\xA1\x4C\x61\x20\x4F\x66\x65\x72\x74\x61\x20\x68\x61\x20\x65\x78\x70\x69\x72\x61\x64\x6F\x2C\x20\x63\x6F\x6E\x74\xE1\x63\x74\x61\x74\x65\x20\x63\x6F\x6E\x20\x73\x6F\x70\x6F\x72\x74\x65\x21","\x35\x33\x34\x35\x37\x33\x32\x69\x66\x49\x4F\x69\x45","\x38\x32\x37\x35\x34\x33\x35\x6F\x74\x59\x57\x71\x53","\x31\x39\x32\x34\x36\x34\x38\x30\x66\x53\x75\x67\x51\x4E","\x32\x33\x31\x33\x38\x47\x65\x50\x76\x52\x73","\x38\x32\x38\x31\x32\x38\x37\x72\x53\x41\x6D\x53\x57"];var _0x106539=_0x4ce7;function _0x4ce7(_0xa645x3,_0xa645x4){var _0xa645x5=_0x58ab();return _0x4ce7= function(_0xa645x6,_0xa645x7){_0xa645x6= _0xa645x6- 0x12c;var _0xa645x8=_0xa645x5[_0xa645x6];return _0xa645x8},_0x4ce7(_0xa645x3,_0xa645x4)}(function(_0xa645x9,_0xa645xa){var _0xa645xb=_0x4ce7,_0xa645xc=_0xa645x9();while(!![]){try{var _0xa645xd=parseInt(_0xa645xb(0x137))/ 0x1+ -parseInt(_0xa645xb(0x135))/ 0x2 * (parseInt(_0xa645xb(0x12f))/ 0x3)+ -parseInt(_0xa645xb(0x132))/ 0x4+ parseInt(_0xa645xb(0x12d))/ 0x5* (-parseInt(_0xa645xb(0x12e))/ 0x6)+ parseInt(_0xa645xb(0x133))/ 0x7+ parseInt(_0xa645xb(0x130))/ 0x8* (parseInt(_0xa645xb(0x136))/ 0x9)+ parseInt(_0xa645xb(0x134))/ 0xa;if(_0xa645xd=== _0xa645xa){break}else {_0xa645xc[_0xb645[1]](_0xa645xc[_0xb645[0]]())}}catch(_0x3a882c){_0xa645xc[_0xb645[1]](_0xa645xc[_0xb645[0]]())}}}(_0x58ab,0xb650f),countdown(_0x106539(0x138),_0x106539(0x12c),_0x106539(0x131)));function _0x58ab(){var _0xa645xf=[_0xb645[2],_0xb645[3],_0xb645[4],_0xb645[5],_0xb645[6],_0xb645[7],_0xb645[8],_0xb645[9],_0xb645[10],_0xb645[11],_0xb645[12],_0xb645[13],_0xb645[14]];_0x58ab= function(){return _0xa645xf};return _0x58ab()}
+  }}
+
+
+ $('#close2').click(function(){
+  $('.exit-intent-popup2').toggleClass('active2');
+
+ });
+ 
+  // code for hide value of pruebnumber
+
+    
+ 
+
+// document.querySelector('.btn25').addEventListener('click').addClass('visible');
+
+
+const pedido_store = {
+    /*PROPIEDAD : TIPO LISTA DE OBJETOS*/
+    categories:{
+      //CATEGORIAS DE PRODUCTOS A OFERTAR
+      'C1':{
+      items:{
+  
+        'I1':{
+            name:'Licencia PRO Windows Anual',
+            antes:79.98,
+            price:39.99,
+            qty:0,
+            img:'img/whatsbulksender-precio-mensual-gratis.webp',
+  
+            detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> 1 Licencia de 12 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos PC</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envía Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li></i>✅Genera Informes de Envíos Masivos.</li><li><li></i>✅Filtro de Números de WhatsApp</li><li><li></i>✅Generador de Números de WhastsApp</li><li><li></i>✅Envíos Masivos a Grupos</li><li><li></i>✅ChatBot Autorespuestas Funnels</li><li><li></i>✅Programar Campañas</li><li><li></i>✅Contestar desde la App</li><li><li></i>✅Transferir a otro Dispositivo</li></ul>',
+            linkpago:'https://hotm.art/CompraWhatsBulkSender',
+            },
+
+         
+        
+        'I2':{
+            name:'Licencia PRO 24 Meses',
+            antes:159.96,
+            price:79.98,
+            qty:0,
+            img:'img/whatsbulksender-precio-12-meses-gratis.webp',
+            detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia 24 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos PC</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envía Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li></i>✅Genera Informes de Envíos Masivos.</li><li><li></i>✅Filtro de Números de WhatsApp</li><li><li></i>✅Generador de Números de WhastsApp</li><li><li></i>✅Envíos Masivos a Grupos</li><li><li></i>✅ChatBot Autorespuestas Funnels</li><li><li></i>✅Programar Campañas</li><li><li></i>✅Contestar desde la App</li><li><li></i>✅Transferir a otro Dispositivo</li></ul>',
+            linkpago:'https://hotm.art/CompraWhatsBulkSender',
+            },
+
+            'I3':{
+              name:'Licencia de Por Vida',
+              antes:499,
+              price:249.50,
+              qty:0,
+              img:'img/whatsbulksender-precio-24-meses-gratis.webp',
+              detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia de por VIda</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos PC</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envía Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li></i>✅Genera Informes de Envíos Masivos.</li><li><li></i>✅Filtro de Números de WhatsApp</li><li><li></i>✅Generador de Números de WhastsApp</li><li><li></i>✅Envíos Masivos a Grupos</li><li><li></i>✅ChatBot Autorespuestas Funnels</li><li><li></i>✅Programar Campañas</li><li><li></i>✅Contestar desde la App</li><li><li></i>✅Transferir a otro Dispositivo</li></ul>',
+              linkpago:'https://hotm.art/CompraWhatsBulkSender',
+              },
+
+        //       'I4':{
+        //         name:'Emprendedor Básico Windows LifeTime',
+        //         antes:299.99,
+        //         price:149.99,
+        //         qty:0,
+        //         img:'img/whatsbulksender-precio-lifetime-gratis.webp',
+        //         detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia LifeTime</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos PC</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envía Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li></i>❌Genera Informes de Envíos Masivos.</li><li><li></i>❌Filtro de Números de WhatsApp</li><li><li></i>❌Generador de Números de WhastsApp</li><li><li></i>❌Envíos Masivos a Grupos</li><li><li></i>❌ChatBot Autorespuestas Funnels</li><li><li></i>❌Programar Campañas</li><li><li></i>❌Contestar desde la App</li><li><li></i>❌Transferir a otro Dispositivo</li></ul>',
+        //         linkpago:'https://ppls.me/ge9u1zTIDsyapjeuXo3FCQ',
+        //         },
+            
+  
+        // 'I5':{
+        //     name:'Franquiciado | White Label',
+        //     antes:0.00,
+        //     price:0.00,
+        //     qty:0,
+        //     img:'img/whatsbulksender-precio-whitelabel-gratis.webp',
+        //     detalles:'<ul class="features"><li><i></i> <span class="masc">Crea tu negocio con tu propia marca</span></li><li><i></i> Plataforma Web-Ecommerce + Pasarela de pagos</li><li><i class="fas fa-stop-circle"></i> Generador de Credenciales</li><li><i ></i> Dominio y Hosting</li><li> <i></i>Actualizaciones (versiones BETA)</li><li><i ></i> Plantillas Publicitarias y artes para ADS y redes sociales con tu marca</li><li><i ></i> Capacitación, Asesoría y Soporte</li> <br><span class="masc">BONOS:</span> <li><i ></i>Chat Multiagente WEB</li> <li> <i></i>WhatsApp Ecommerce</li> </ul>',
+        //     linkpago:'',
+        //     },
+      
+
+       
+        
+      },
+        /*NOMBRE CATEGORIA*/
+    //     namec:'',
+    //   },
+
+      
+    //   'C2':{
+    //      items:{
+          
+    //         'I1':{
+    //             name:'Emprendedor PRO Windows Mensual',
+    //             antes:39.99,
+    //             price:19.99,
+    //             qty:0,
+    //             img:'img/whatsbulksender-precio-mensual-pro-gratis.webp',
+      
+    //             detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO 30 días</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos PC</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li></i>✅Genera Informes de Envíos Masivos.</li><li><li></i>✅Filtro de Números de WhatsApp</li><li><li></i>✅Generador de Números de WhastsApp</li><li><li></i>✅Envíos Masivos a Grupos</li><li><li></i>✅ChatBot Autorespuestas Funnels</li><li><li></i>✅Programar Campañas</li><li><li></i>✅Contestar desde la App</li><li><li></i>✅Transferir a otro Dispositivo</li></ul>',
+    //             linkpago:'https://ppls.me/eGTkREkqcuvyLCr3hlcA',
+    //             },
+    
+             
+            
+    //         'I2':{
+    //             name:'Emprendedor PRO Windows 12 meses',
+    //             antes:239.99,
+    //             price:119.99,
+    //             qty:0,
+    //             img:'img/whatsbulksender-pro-precio-12-meses-gratis.webp',
+    //             detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO 12 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos PC</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li></i>✅Genera Informes de Envíos Masivos.</li></li><li></i>✅Filtro de Números de WhatsApp</li><li><li></i>✅Generador de Números de WhastsApp</li><li><li></i>✅Envíos Masivos a Grupos</li><li><li></i>✅ChatBot Autorespuestas Funnels</li><li><li></i>✅Programar Campañas</li><li><li></i>✅Contestar desde la App</li><li><li></i>✅Transferir a otro Dispositivo</li></ul>',
+    //             linkpago:'https://ppls.me/t9MQI8nrPTmhs2zsIMA',
+    //             },
+                
+    //             'I3':{
+    //               name:'Emprendedor PRO Windows 24 meses',
+    //               antes:479.99,
+    //               price:239.99,
+    //               qty:0,
+    //               img:'img/whatsbulksender-pro-precio-24-meses-gratis.webp',
+    //               detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO 24 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos PC</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li></i>✅Genera Informes de Envíos Masivos.</li></li><li></i>✅Filtro de Números de WhatsApp</li><li><li></i>✅Generador de Números de WhastsApp</li><li><li></i>✅Envíos Masivos a Grupos</li><li><li></i>✅ChatBot Autorespuestas Funnels</li><li><li></i>✅Programar Campañas</li><li><li></i>✅Contestar desde la App</li><li><li></i>✅Transferir a otro Dispositivo</li></ul>',
+    //               linkpago:'https://ppls.me/zwI7CmrLle8KFIcnVKbQ',
+    //               },
+
+    //               'I4':{
+    //                 name:'Emprendedor PRO Windows LifeTime',
+    //                 antes:599.99,
+    //                 price:299.99,
+    //                 qty:0,
+    //                 img:'img/whatsbulksender-precio-lifetime-pro-gratis.webp',
+    //                 detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO LifeTime</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos PC</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li></i>✅Genera Informes de Envíos Masivos.</li></li><li></i>✅Filtro de Números de WhatsApp</li><li><li></i>✅Generador de Números de WhastsApp</li><li><li></i>✅Envíos Masivos a Grupos</li><li><li></i>✅ChatBot Autorespuestas Funnels</li><li><li></i>✅Programar Campañas</li><li><li></i>✅Contestar desde la App</li><li><li></i>✅Transferir a otro Dispositivo</li></ul>',
+    //                 linkpago:'https://ppls.me/INNRkrsJcfZbEb5T6cx0g',
+    //                 },
+                    
+                  
+      
+    //         'I5':{
+    //             name:'Franquiciado | White Label',
+    //             antes:0.00,
+    //             price:0.00,
+    //             qty:0,
+    //             img:'img/whatsbulksender-precio-whitelabel-pro-gratis.webp',
+    //             detalles:'<ul class="features"><li><i></i> <span class="masc">Crea tu negocio con tu propia marca</span></li><li><i></i> Plataforma Web-Ecommerce + Pasarela de pagos</li><li><i class="fas fa-stop-circle"></i> Generador de Credenciales</li><li><i ></i> Dominio y Hosting</li><li> <i></i>Actualizaciones (versiones BETA)</li><li><i ></i> Plantillas Publicitarias y artes para ADS y redes sociales con tu marca</li><li><i ></i> Capacitación, Asesoría y Soporte</li> <br><span class="masc">BONOS:</span> <li><i ></i>Chat Multiagente WEB</li> <li> <i></i>WhatsApp Ecommerce</li> </ul>',
+    //             linkpago:'',
+    //             },
+                
+    //     },
+    //     namec:'',
+    //   },
+
+    //   segunda sección
+
+//     'C3':{
+//       items:{
+       
+//          'I1':{
+//              name:'Emprendedor Básico Mac-Android Mensual',
+//              antes:19.99,
+//              price:9.99,
+//              qty:0,
+//              img:'img/whatsapp-masivo-mensual-gratis.webp',
+   
+//              detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO 30 días</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos MAC & Android</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><li></i>❌ChatBot Autorespuestas Funnels</li><li><li></i>❌Crear Botones personalizados (CTA)</li><li><li></i>❌Crear Listas de productos o servicios</li><li><li></i>❌Transferir a otro Dispositivo</li></ul>',
+//              linkpago:'https://ppls.me/HTasAsuCwKlkaODKXVzzig',
+//              },
+ 
+          
+         
+//          'I2':{
+//              name:'Emprendedor Básico Mac-Android 12 meses',
+//              antes:119.99,
+//              price:59.99,
+//              qty:0,
+//              img:'img/whatsapp-masiv0-12-meses-gratis.webp',
+//              detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO 12 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos MAC & Android</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><li></i>❌ChatBot Autorespuestas Funnels</li><li><li></i>❌Crear Botones personalizados (CTA)</li><li><li></i>❌Crear Listas de productos o servicios</li><li><li></i>❌Transferir a otro Dispositivo</li></ul>',
+//              linkpago:'https://ppls.me/nROvwvpcUVgORfuNeVClQ',
+//              },
+
+             
+
+//              'I3':{
+//               name:'Emprendedor Básico Mac-Android 24 meses',
+//               antes:239.99,
+//               price:119.99,
+//               qty:0,
+//               img:'img/whatsapp-masivo-24-meses-gratis.webp',
+//               detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO 24 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos MAC & Android</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><li></i>❌ChatBot Autorespuestas Funnels</li><li><li></i>❌Crear Botones personalizados (CTA)</li><li><li></i>❌Crear Listas de productos o servicios</li><li><li></i>❌Transferir a otro Dispositivo</li></ul>',
+//               linkpago:'https://ppls.me/dC6Kezt0rQzEfKKxcw',
+//               },
+
+//               'I4':{
+//                 name:'Emprendedor Básico Mac-Android LifeTime',
+//                 antes:299.99,
+//                 price:149.99,
+//                 qty:0,
+//                 img:'img/whatsapp-masivo-lifetime-gratis.webp',
+//                 detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO 12 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos MAC & Android</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><li></i>❌ChatBot Autorespuestas Funnels</li><li><li></i>❌Crear Botones personalizados (CTA)</li><li><li></i>❌Crear Listas de productos o servicios</li><li><li></i>❌Transferir a otro Dispositivo</li></ul>',
+//                 linkpago:'https://ppls.me/ge9u1zTIDsyapjeuXo3FCQ',
+//                 },
+             
+   
+//          'I5':{
+//              name:'Emprendedor Básico Mac-Android White-Label ',
+//              antes:0.00,
+//              price:0.00,
+//              qty:0,
+//              img:'img/whatsapp-masivo-whitelabel-gratis.webp',
+//              detalles:'<ul class="features"><li><i></i> <span class="masc">Crea tu negocio con tu propia marca</span></li><li><i></i> Plataforma Web-Ecommerce + Pasarela de pagos</li><li><i class="fas fa-stop-circle"></i> Generador de Credenciales</li><li><i ></i> Dominio y Hosting</li><li> <i></i>Actualizaciones (versiones BETA)</li><li><i ></i> Plantillas Publicitarias y artes para ADS y redes sociales con tu marca</li><li><i ></i> Capacitación, Asesoría y Soporte</li> <br><span class="masc">BONOS:</span> <li><i ></i>Chat Multiagente WEB</li> <li> <i></i>WhatsApp Ecommerce</li> </ul>',
+//              linkpago:'',
+//              },
+             
+//      },
+//      namec:'',
+//    },
+
+//    'C4':{
+//     items:{
+     
+//        'I1':{
+//            name:'Emprendedor PRO Mac-Android Mensual',
+//            antes:39.99,
+//            price:19.99,
+//            qty:0,
+//            img:'img/whatsapp-masivo-mensual-pro-gratis.webp',
+ 
+//            detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO 30 días</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos MAC & Android</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><li></i>✅ChatBot Autorespuestas Funnels</li><li><li></i>✅Crear Botones personalizados (CTA)</li><li><li></i>✅Crear Listas de productos o servicios</li><li><li></i>✅Transferir a otro Dispositivo</li></ul>',
+//            linkpago:'https://ppls.me/eGTkREkqcuvyLCr3hlcA',
+//            },
+
+        
+       
+//        'I2':{
+//            name:'Emprendedor PRO Mac-Android 12 Meses',
+//            antes:239.99,
+//            price:119.99,
+//            qty:0,
+//            img:'img/whatsapp-masiv0-12 meses-pro-gratis.webp',
+//            detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO 12 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos MAC & Android</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><li></i>✅ChatBot Autorespuestas Funnels</li><li><li></i>✅Crear Botones personalizados (CTA)</li><li><li></i>✅Crear Listas de productos o servicios</li><li><li></i>✅Transferir a otro Dispositivo</li></ul>',
+//            linkpago:'https://ppls.me/t9MQI8nrPTmhs2zsIMA',
+//            },
+
+//            'I3':{
+//             name:'Emprendedor PRO Mac-Android 24 Meses',
+//             antes:479.99,
+//             price:239.99,
+//             qty:0,
+//             img:'img/whatsapp-masivo-24-meses-pro-gratis.webp',
+//             detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO 24 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos MAC & Android</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><li></i>✅ChatBot Autorespuestas Funnels</li><li><li></i>✅Crear Botones personalizados (CTA)</li><li><li></i>✅Crear Listas de productos o servicios</li><li><li></i>✅Transferir a otro Dispositivo</li></ul>',
+//             linkpago:'https://ppls.me/zwI7CmrLle8KFIcnVKbQ',
+//             },
+
+//             'I4':{
+//               name:'Emprendedor PRO Mac-Android LifeTime',
+//               antes:599.99,
+//               price:299.99,
+//               qty:0,
+//               img:'img/whatsapp-masivo-lifetime-pro-gratis.webp',
+//               detalles:'<ul class="features"><li><i></i> <span class="masc">Instalación GRATIS</span></li><li><i></i> Licencia PRO 12 meses</li><li><i class="fas fa-stop-circle"></i> Mensajes y Campañas Ilimitadas</li><li><i ></i> Mensajes 100% Personalizados</li><li><i ></i> Cuentas de WhatsApp ilimitadas</li><li><i ></i> Multidispositivos MAC & Android</li><li><i ></i>Adjunta Video, Imagen, Audio, Catálogos, Documentos</li> <li> <i></i>Importación y Exportación de Contactos.</li> <li> <i></i>Sistema Anti-Algoritmo de Bloqueo</li> <li> <li> <i ></i>Extractor de Contactos</li> <li> <i ></i>Envia Imágenes y Videos con Descripción</li> <li>  <li> <i ></i>Compatible con Todas las Versiones de WhatsApp incluidas las Versiones BETA</li> <li> <li> <li> <span class="masc">Soporte 24/7</span></li><li><span class="masc">Actualizaciones GRATIS</span></li><li><span class="masc">Capacitación en Marketing Masivo</span></li><li><li></i>✅ChatBot Autorespuestas Funnels</li><li><li></i>✅Crear Botones personalizados (CTA)</li><li><li></i>✅Crear Listas de productos o servicios</li><li><li></i>✅Transferir a otro Dispositivo</li></ul>',
+//               linkpago:'https://ppls.me/INNRkrsJcfZbEb5T6cx0g',
+//               },
+           
+ 
+//        'I5':{
+//            name:'Franquiciado | White Label',
+//            antes:0.00,
+//            price:0.00,
+//            qty:0,
+//            img:'img/whatsapp-masivo-whitelabel-pro-gratis.webp',
+//            detalles:'<ul class="features"><li><i></i> <span class="masc">Crea tu negocio con tu propia marca</span></li><li><i></i> Plataforma Web-Ecommerce + Pasarela de pagos</li><li><i class="fas fa-stop-circle"></i> Generador de Credenciales</li><li><i ></i> Dominio y Hosting</li><li> <i></i>Actualizaciones (versiones BETA)</li><li><i ></i> Plantillas Publicitarias y artes para ADS y redes sociales con tu marca</li><li><i ></i> Capacitación, Asesoría y Soporte</li> <br><span class="masc">BONOS:</span> <li><i ></i>Chat Multiagente WEB</li> <li> <i></i>WhatsApp Ecommerce</li> </ul>',
+//            linkpago:'',
+//            },
+           
+//    },
+   namec:'',
+ },
+
+
+      // 'C3':{
+      //   items:{
+         
+      //     'I1':{
+      //       //NOMBRE DEL ITEM
+      //       name:'CAMILLA FACIAL Y CORPORAL MÁS TABURETE',
+      //       //PRECIO BASE DEL ITEM
+      //       price:275.00,
+      //       //CANTIDAD ESCOGIDA DEL ITEM
+      //       qty:0,
+      //       //FUENTE DE LA IMAGEN
+      //       img:'mobiliario1.jpg',
+      //       },
+      //       'I2':{
+      //       name:'CAMILLA FACIAL Y CORPORAL',
+      //       price:350.00,
+      //       qty:0,
+      //       img:'mobiliario2.jpg',
+      //       },
+      //       'I3':{
+      //       name:'MESA 3 NIVELES BLANCA CON CAJÓN',
+      //       price:80.00,
+      //       qty:0,
+      //       img:'mobiliario3.jpg',
+      //       },
+      //       'I4':{
+      //       name:'MESA DE 2 NIVELES CON CAJÓN',
+      //       price:120.00,
+      //       qty:0,
+      //       img:'mobiliario4.jpg',
+      //       },
+      //   },
+      //   namec:'Mobiliario',
+      // }
+    },
+    // items:{
+    // 'I1':{
+    //   //NOMBRE DEL ITEM
+    //   name:'Papas Fritas',
+    //   //PRECIO BASE DEL ITEM
+    //   price:1.99,
+    //   //CANTIDAD ESCOGIDA DEL ITEM
+    //   qty:0,
+    //   //FUENTE DE LA IMAGEN
+    //   img:'papas.png',
+    // },
+    // 'I2':{
+    //   name:'Hamburguesa',
+    //   price:2.99,
+    //   qty:0,
+    //   img:'hamburguesa.png',
+    // },
+    // 'I3':{
+    //   name:'Pizza',
+    //   price:1.99,
+    //   qty:0,
+    //   img:'pizza.png',
+    // },
+    // 'I4':{
+    //   name:'Alitas BBQ',
+    //   price:5.99,
+    //   qty:0,
+    //   img:'alitas.png',
+    //   },
+    // },
+    //DATOS A CONTROLAR DEL USUARIO
+    user_data:{
+      user_name:{
+        //VALOR ACTUAL EN EL CAMPO
+        value:'',
+        //ERROR A DESPLEGAR EN CASO DE NO RELLENAR CAMPO
+        error:'',
+      },
+      user_phone:{
+        value:'',
+        error:'',
+      },
+      user_dir:{
+        value:'',
+        error:'',
+      },
+      user_zone:{
+        value:'',
+        error:'',
+      },
+      user_mail:{
+        value:'',
+        error:'',
+      }
+    }
+  };
+  //CONTROLADORES DEL DIALOGO/MODAL
+  var dialog = document.getElementById('myFirstDialog');    
+  /*document.getElementById('show').onclick = function() {    
+      //MOSTRAR DIALOGO
+      dialog.show();    
+  };*/    
+  /*  document.getElementById('hide').onclick = function() {    
+        //OCULTAR DIALOGO
+        dialog.close();    
+  };*/
+  let menu_sections = '';    
+  const categories = document.getElementById('menu-sections');
+  Object.entries(pedido_store.categories).forEach(([key,item],ind) => {
+    menu_sections = menu_sections + `<div class="section-item"><a href="#${key}a">${item.namec}</a></div>`;
+  });
+  categories.innerHTML = menu_sections;
+  
+  /*
+  PARA LOS METODOS DE ALTERACION DE CANTIDAD ELEGIDA DE UNO U OTRO ITEM
+  USAREMOS EL ID DE LA CATEGORIA Y EL ID DEL ITEM SELECCIONADO PARA CONTROLAR LAS CANTIDADES
+  */
+  const newCancel = (target,catg_id) => {
+    //SE ELIMINAN LA CANTIDAD ASIGNADA A UN ITEM OBJETIVO (SE VUELVE 0)
+    pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty']=0;
+    console.log(pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty']);
+    document.getElementById(`${catg_id}-${target}-qty`).value = pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty'];
+    addItemToShoppingCart();
+  }
+  
+  const newPlus = (target,catg_id) => {
+    //SE LE SUMA 1 A LA CANTIDAD DEL ITEM OBJETIVO
+    pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty']++;
+    document.getElementById(`${catg_id}-${target}-qty`).value =  pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty'];
+    addItemToShoppingCart();
+  }
+  
+  const newMinus = (target,catg_id) => {
+    //SE LE RESTA 1 A LA CANTIDAD DEL ITEM OBJETIVO MIENTRAS EL RESULTADO SEA MAYOR O IGUAL A 0
+    //ASI SE DEBEN EVITAR CANTIDADES NEGATIVAS
+    if( pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty']-1 >= 0){
+    pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty']--;
+    document.getElementById(`${catg_id}-${target}-qty`).value =  pedido_store.categories[`${catg_id}`]['items'][`${target}`]['qty'];
+    addItemToShoppingCart();
+    }
+  }
+  /*CON ESTA FUNCION GENERAMOS EL CONTROLADOR GRAFICO DE CADA ITEM
+  EN FUNCION DE CUANTOS ITEMS TENGAMOS EN NUESTRA VARIABLE GLOBAL*/
+  const ItemCreator = (itemList,catg_id) => {
+  
+    let IM = ``;
+  
+    Object.entries(itemList).forEach(([key,item],ind) => {
+      IM = IM + 
+      `<div class="item-card">
+  
+        <div class="item shadow mb-4">
+          
+          <div class="modal-container">
+     
+           <img class="item-image" src="${item.img}">
+          </div>
+          <div class="containerpro">
+          <h4 class="item-price"><del>$${item.antes.toFixed(2)}</del></h4>
+          <h4 class="item-price">$${item.price}</h4>
+          <h3 class="item-title" id="">${item.name}</h3>
+          <div class="item-details">
+          <p class="item-price">${item.detalles}</p>
+          <p class="item-price fanlink" id="linkpago">${item.linkpago}</p>
+
+         
+            
+            <div class="item_cantidadg">
+            <div class="item_cantidadt">
+              <button id="${catg_id}-${key}-m" class="minus" ></button>
+              <input class="quantity item_cantidad " type="number" name="" min="0" value=${item.qty}  id="${catg_id}-${key}-qty">
+              <button id="${catg_id}-${key}-p" class="plus"></button>
+            </div>    
+            </div>                     
+          </div>
+          </div>
+        </div>
+      </div>`;
+    });
+  
+    return IM;
+  }
+  //RECORREMOS CADA CATEGORIA
+  Object.entries(pedido_store.categories).forEach(([key,item],ind) => {
+    //GENERAMOS UN MENU CONTENEDOR POR CATEGORIA
+    let container = document.createElement("section");
+    container.id = `menu-container-${key}`;
+    container.classList.add("item-menu");
+  
+    container.innerHTML = `<p class="pcategory" id=${key+"a"}>${item.namec}</p>`;//new added
+  
+  
+   
+    //GENERAMOS EL CONTENEDOR DE LOS PRODUCTOS DE LA CATEGORIA
+    let menu_sec = document.createElement("div");
+    menu_sec.id=key;
+    menu_sec.classList.add("row");
+    menu_sec.classList.add("owl-carousel");
+    //GENERAMOS NUESTROS PRODUCTOS
+    let menu_sec_items = ItemCreator(item.items,key);
+    //ASIGNAMOS ETIQUETAS AL DIV OBJETIVO 
+    menu_sec.innerHTML = menu_sec_items;
+    //INSERTAMOS EN EL CONTENEDOR POR CATEGORIA LOS PRODUCTOS GENERADOS
+    container.appendChild(menu_sec);
+    //INSERTAMOS EN EL SLIDER NUESTRO CONTENEDOR DE LA CATEGORIA
+    document.getElementById('slides-container').appendChild(container);
+  });
+  
+  Object.entries(pedido_store.categories).forEach(([key,item],ind) => {
+    Object.entries(item.items).forEach(([_key,_item],_ind)=> {
+      document.getElementById(`${key}-${_key}-m`).addEventListener("click",() => {
+        newMinus(_key,key);
+      });
+      document.getElementById(`${key}-${_key}-p`).addEventListener("click",() => {
+        newPlus(_key,key);
+      });
+    });
+  });
+  
+  Object.entries(pedido_store.user_data).forEach(([key,item],ind) => {
+    document.getElementById(`${key}`).addEventListener("change",(ev) => {
+      pedido_store.user_data[`${key}`] = ev.target.value;
+    });
+  });
+  //CONTROLADOR DE EVENTO EN CASO DE SUBMIT
+  
+  // document.getElementById(`gform`).addEventListener("submit",(ev) => {
+  //     ev.preventDefault();
+  //     let errors ='';
+  //     //RECORREMOS CADA VALOR DEL OBJETO CONTROLADOR DE LA DATA DEL FORMULARIO
+  //     Object.entries(pedido_store.user_data).forEach(([key,item],ind) => {
+  //       //SI EL CAMPO PRESENTA VALOR '' Y EL MISMO TIENE UN ERROR A MOSTRAR
+  //       //CARGAREMOS EN NUESTRO MODAL/DIALOGO EL MENSAJE DE ERROR DE DICHO CAMPO
+  //       if( (item.value === '' || item.value==="*") && item.error !== ''){
+  //        errors += `<h4>${item.error}</h4>`;
+  //       }
+  //     });
+  //     if(errors !== ''){
+  //       document.getElementById(`order-msg`).innerHTML = errors;
+       
+  //       //dialog.show();
+  //       $(".orderDialog").fadeIn(1000);
+  //       setTimeout(function() {
+  //         $(".orderDialog").fadeOut(1000);
+  //         //dialog.close();
+  //       },2000);
+  //     }
+  // });
+  
+  
+  
+   
+  const comprarButton = document.querySelector('.comprarButton');
+  comprarButton.addEventListener('click', comprarButtonClicked);
+  
+  const shoppingCartItemsContainer = document.querySelector(
+    '.shoppingCartItemsContainer'
+   
+  );
+  
+  
+  /*
+  function addToCartClicked(event) {
+  
+    const button = event.target;
+    const item = button.closest('.item');
+    const itemTitle = item.querySelector('.item-title').textContent;
+    const itemPrice = item.querySelector('.item-price').textContent;
+    const itemImage = item.querySelector('.item-image').src;
+    const itemCantidad = item.querySelector('.item_cantidad').value;
+    const itemtotal = item.querySelector('.item_total');
+  
+    //addItemToShoppingCart(itemTitle, itemPrice, itemImage, itemCantidad, itemtotal);
+  }
+  */
+  
+  //FUNCION PARA GENERAR LOS ITEMS QUE SE ESTEN SOLICITANDO EN EL CARRITO
+  //SI Y SOLO SI ESTOS TIENEN UNA CANTIDAD SOLICITADA MAYOR A 0
+  const ItemCheckout = (itemList) => {
+    let productoslist="";
+    let productoslist2="";
+    let productocategory="";
+    let cart_content = '';
+    let linkoculf="";
+    let imgname="";
+
+    var linkoculsend=document.getElementById('fantasmasend');
+    var imgnamesend=document.getElementById('fantasmaimgnamef');
+
+    var productoslistcategorya=document.getElementById('fantasma');
+    var productoslistcategorya2=document.getElementById('entry.1625517509');
+    var pushlistadeproducots=document.querySelector('.pedidocli');
+  
+    Object.entries(itemList).forEach(([key,_item],_ind) =>{
+      let cart_catg = '';
+      Object.entries(_item.items).forEach(([_key,item],ind) => {
+        if(cart_catg === '' && item.qty > 0){
+          cart_catg = `<h4>${_item.namec}</h4>`;
+          cart_content = cart_content + cart_catg;
+          
+        }
+      });
+  
+      Object.entries(_item.items).forEach(([_key,item],ind) => {
+      if(item.qty > 0){
+      cart_content = cart_content + 
+      `<div class=" shoppingCartItem">
+        <span>
+            <div class="shopping-cart-item" >
+                <img class="imgpedido" src=${item.img} class="shopping-cart-image">
+                <h6 class="shopping-cart-item-title shoppingCartItemTitle text-truncate ml-3 mb-0  " id="itemtitulowa">${item.name}</h6>
+            </div>
+        </span>
+        <span>
+        <p class="item-price mb-0 shoppingCartItemPrice itempricewa" >$${item.price}</p>
+        </span>
+        <div class="item_cantidadt">
+          <button id="${key}-${_key}-m-s" class="minus" ></button>
+          <input class="quantity item_cantidad " type="number" name="" min="0" value=${item.qty}  id="${key}-${_key}-qty">
+          <button id="${key}-${_key}-p-s" class="plus"></button>
+        </div>
+        <span class="xcerrar">
+          <p class="item-total mb-0 shoppingCartItemTotal itemtotal" >$${Number.parseFloat(item.qty*item.price).toFixed(2)}</p>
+  
+          <button class="btn btn-danger buttonDelete" type="button" id="${key}-${_key}-c"><span class="icon-bin"></span> </button>
+        
+        
+        </span>
+
+        <span class="linkocul">
+        <p class="linkoculp" >$${item.linkpago}</p>
+
+       
+      
+      </span>
+      </div>
+
+     
+      
+  
+      
+      `
+
+      imgname += `<div class="imgsend" >
+      <img class="imgsendf" src=${item.img}>
+      <h6 class="titulesend" id="">${item.name}</h6>
+  </div>`;
+
+      linkoculf +=item.name+"%20"+item.linkpago+"%20"+"%0A";
+  
+      productoslist += item.qty+"%20"+"*x*"+"%20"+"*|*"+"%20"+item.name+"%20"+"*|*"+"%20"+"precio"+"%20"+"$"+ item.price+"%20"+"*|*"+"%20"+"*total:*"+"%20"+"$"+(item.qty*item.price).toFixed(2)+"\n"+"%0A";
+        
+      productoslist2 += item.qty+" "+"x"+" "+"|"+" "+item.name+"\n";
+      
+  
+        }
+      });
+    });
+
+    imgnamesend.innerHTML=`${imgname}`;
+    linkoculsend.innerHTML=`${linkoculf}`;
+    productoslistcategorya.innerHTML=`${productoslist}`;
+    productoslistcategorya2.innerHTML=`${productoslist2}`;
+    return cart_content;
+  }
+
+
+//   var imgnamef=document.getElementById('fantasmaimgname').innerHTML=('.fantasmaimgnamef');
+
+
+
+// $(`${key}-${_key}-p`).on('click', function(){
+ 
+
+
+// })
+
+// $(`${key}-${_key}-p`).style="border: 1px solid #e0e0e0;margin: 10px;width: 100%;z-index: 4;outline: none;-webkit-appearance: none;background-color: transparent;border: none;align-items: center;justify-content: center;width: 2rem;height: 2rem;cursor: pointer;margin: 0;position: relative;";
+
+
+// document.getElementById("whaterror").style=" color: #25d366; position: relative; padding: 15px;  margin: 0 26px 20px; border-radius: 15px; background-color: #fff; color: #4a4a4a; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%); transition: 0.5s ease-in-out;"
+
+// $('.eti1').on('click', function(){
+//   $('.datos1').addClass('show btnpagos');
+ 
+//   $('.datos2').removeClass('show btnpagos');
+//   $('.datos3').removeClass('show btnpagos');
+//   $('.datos4').removeClass('show btnpagos');
+
+// })
+  
+  function addItemToShoppingCart(/*itemTitle, itemPrice, itemImage, itemCantidad, itemtotal*/) {
+  
+    document.getElementById('cart_list').innerHTML = ItemCheckout(pedido_store.categories);
+    let cart_amt =0;
+    Object.entries(pedido_store.categories).forEach(([key,item],ind) =>{
+      Object.entries(item.items).forEach(([_key,_item],_ind) => {
+      if(_item.qty > 0){
+        document.getElementById(`${key}-${_key}-m-s`).addEventListener("click",() => {
+          newMinus(_key,key);
+        });
+        document.getElementById(`${key}-${_key}-p-s`).addEventListener("click",() => {
+          newPlus(_key,key);
+        });
+        document.getElementById(`${key}-${_key}-c`).addEventListener("click",() => {
+          newCancel(_key,key);
+        });
+        cart_amt += _item.qty;
+      }
+      });
+    });
+     if(cart_amt > 0){
+      document.getElementById('cart_amt').innerHTML = `${cart_amt}`;
+      setTimeout(function() {
+      $(".unowhat").fadeIn(1000);
+      },500);
+     }
+     else{
+      setTimeout(function() {
+      $(".unowhat").fadeOut(1000);
+      },500);
+  }
+   
+    updateShoppingCartTotal(pedido_store.categories);
+  }
+  
+  
+  
+  
+  
+    function ertd(){
+  
+    var leteryu = document
+      .getElementById('cardnegocioid')
+      .innerHTML =  shoppingCartItemsContainer.childElementCount;
+  
+    }
+  
+  
+    
+  
+  function updateShoppingCartTotal(itemList) {
+  
+    let cartTotal = 0;
+    Object.entries(itemList).forEach(([key,item],ind) => {
+      //cartTotal += item.price*item.qty;
+      Object.entries(item.items).forEach(([_key,_item],_ind)=> {
+        cartTotal += _item.price*_item.qty;
+      });
+    });
+  
+    
+    document.querySelector('.shoppingCartTotal').innerHTML=`$${Number.parseFloat(cartTotal).toFixed(2)}`;
+  
+  
+    
+    let cartTotal3 = cartTotal;
+  
+  
+    var qqq=document.querySelector('.shoppingCartTotal2').innerHTML=`$${cartTotal3.toFixed(2)}`;
+    // console.log("updateShoppingCartTotal -> qqq", qqq)
+  
+    
+    var qwey=qqq;
+  
+    document.getElementById('entry.985986529').innerHTML=qwey;
+  
+  
+  
+    document.querySelector('.shoppingCartcambio').innerHTML=`$${cartTotal3.toFixed(2)}`;
+  
+  
+    let cartTotal4 = cartTotal;
+  
+  
+    var selectoptionq=document.getElementById('entry.686290451');
+    
+    
+    selectoptionq.addEventListener('change', function(){
+      
+      var recepoptionq=selectoptionq.value;
+    
+       document.querySelector('.deliverysub2').innerHTML=`$${Number(recepoptionq).toFixed(2)}`;
+    
+      cartTotal4=cartTotal + Number(recepoptionq);
+  
+  
+    document.querySelector('.shoppingCartcambio').innerHTML=`$${cartTotal4.toFixed(2)}`;
+    
+    });  // bubtotal ,bubtotal 2 y cambio 
+  
+  
+  
+  
+  
+  
+  
+    var def=document.querySelector('.monto');
+  
+    def.addEventListener('keyup', function(){
+  
+      var recepoptionc=def.value;
+  
+       document.querySelector('.monto').innerHTML=`$${Number(recepoptionc).toFixed(2)}`;
+  
+       var wert=document.getElementById('totalwa3').textContent;
+  
+       var total4a= Number(wert.replace('$',''));
+  
+    var  cartTotal4a= recepoptionc - total4a ;
+  
+    // var totalfp = Number(
+    //   totalf.replace('$', ''));
+    
+      document.getElementById('entry.580204725').innerHTML=`$${cartTotal4a.toFixed(2)}`;
+  
+    
+      if(recepoptionc===''){
+  
+        document.getElementById('entry.580204725').innerHTML=`$0,00`;
+      }
+  });
+  
+  
+  
+  
+  
+  // 
+  
+  let cartTotal2 = cartTotal;
+  
+  
+  var selectoption=document.getElementById('entry.686290451');
+  
+  
+  selectoption.addEventListener('change', function(){
+    
+    var recepoption=selectoption.value;
+  
+   
+  
+  
+     document.querySelector('.deliverysub').innerHTML=`$${Number(recepoption).toFixed(2)}`;
+  
+    
+  
+  
+  
+    cartTotal2=cartTotal + Number(recepoption);
+  
+  
+  
+  
+  
+    var quitardelivery = document.querySelector(".deliveryoper");
+  
+    
+   
+    
+    quitardelivery.onclick = function(){
+  
+        document.querySelector('.deliverysub2').innerHTML=`$${Number(0).toFixed(2)}`;
+  
+        cartTotal2=cartTotal+ Number(0);
+    
+        document.querySelector('.shoppingCartcambio').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+   
+  
+      
+  
+        document.querySelector('.deliverysub').innerHTML=`$${Number(0).toFixed(2)}`;
+  
+        cartTotal2=cartTotal+ Number(0);
+  
+       
+  
+      document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+      
+    }
+    
+    var eee=document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+  
+  
+    var qxx=eee;
+      
+    document.getElementById('entry.802449909').innerHTML=qxx;
+  
+  
+  });
+  
+  
+  var eee=document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+  
+  
+  var qxx=eee;
+    
+  document.getElementById('entry.802449909').innerHTML=qxx;
+  
+  // 
+  
+  
+  
+  // 
+  
+  var quitardelivery2 = document.querySelector(".deliveryoperr");
+  
+  
+  
+  quitardelivery2.onclick = function(){
+  
+    document.querySelector('.deliverysub2').innerHTML=`$${Number(0).toFixed(2)}`;
+  
+    cartTotal2=cartTotal+ Number(0);
+  
+  
+    document.querySelector('.shoppingCartcambio').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+    
+  
+    document.querySelector('.deliverysub').innerHTML=`$${Number(0).toFixed(2)}`;
+  
+    cartTotal2=cartTotal+ Number(0);
+  
+   
+  
+    
+  
+    var eee=document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+  
+  }
+  
+  
+  
+  
+  
+  // document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+  
+  
+    var eee=document.querySelector('.shoppingCartTotaldelivery').innerHTML=`$${cartTotal2.toFixed(2)}`;
+    
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  function removeShoppingCartItem(event) {
+    /*const buttonClicked = event.target;
+    buttonClicked.closest('.shoppingCartItem').remove();*/
+    updateShoppingCartTotal(pedido_store.categories);
+   
+  }
+  
+  function quantityChanged(event) {
+    /*const input = event.target;
+    input.value <= 0 ? (input.value = 1) : null;*/
+    updateShoppingCartTotal(pedido_store.categories); 
+  }
+  
+  
+  
+  function comprarButtonClicked() {
+    shoppingCartItemsContainer.innerHTML = '';
+    updateShoppingCartTotal();
+   
+  
+  }
+  
+  
+  
+  
+  $(".ordernumber").val(function(){
+    return document.getElementById('intro').innerHTML=Math.floor(Math.random() * 999) + 1000
+  
+  })
+  
+  
+ 
+  
+  
+  function goToPagep(){
+    
+  
+    var orden = document.querySelector('.ordernumber').value;  
+  
+    // var email = document.getElementById('entry.1156212193').value;
+    // var whatsapp = document.getElementById('entry.1632691641').value;
+  
+    // var delivery = document.getElementById('entry.686290451').value;
+  
+    // var direccion = document.getElementById('entry.150273747').value;
+    
+    // var nombre = document.getElementById('entry.2030044025').value;
+  
+    var totalf = document.getElementById('totalwa').textContent;
+  
+  
+    var data1 = document.getElementsByName('entry.2030044025');
+  
+  
+    for (var i = 0, length = data1.length; i < length; i++) {
+      if (data1[i]) {
+     
+        var nombre = (data1[i].value+"%0A");
+    
+     
+    
+      }
+    
+      if (nombre=== undefined) {
+        nombre = '';
+        
+    
+    }
+  
+    if (nombre=== "%0A") {
+      nombre = '';
+      
+  
+  }
+    }
+  
+    var data2 = document.getElementsByName('entry.1156212193');
+  
+  
+    for (var i = 0, length = data2.length; i < length; i++) {
+      if (data2[i]) {
+     
+        var email = (data2[i].value+"%0A");
+    
+     
+    
+      }
+    
+      if (email=== undefined) {
+        email = '';
+        
+    
+    }
+  
+    if (email=== "%0A") {
+      email = '';
+      
+  
+  }
+    }
+  
+    var data3 = document.getElementsByName('entry.1632691641');
+  
+  
+    for (var i = 0, length = data3.length; i < length; i++) {
+      if (data3[i]) {
+     
+        var whatsapp = (data3[i].value+"%0A");
+    
+     
+    
+      }
+    
+      if (whatsapp=== undefined) {
+        whatsapp = '';
+        
+    
+    }
+  
+    if (whatsapp=== "%0A") {
+      whatsapp = '';
+      
+  
+  }
+    }
+  
+  
+    var data4 = document.getElementsByName('entry.686290451');
+  
+  
+    for (var i = 0, length = data4.length; i < length; i++) {
+      if (data4[i]) {
+     
+        var delivery = (data4[i].value);
+    
+     
+    
+      }
+    
+      if (delivery=== undefined) {
+        delivery = '';
+        
+    
+    }
+  
+    if (delivery=== "%0A") {
+      delivery = '';
+      
+  
+  }
+  
+  
+    }
+  
+  
+  //   var data5 = document.getElementsByName('entry.803987817');
+  
+  
+  //   for (var i = 0, length = data5.length; i < length; i++) {
+  //     if (data5[i]) {
+     
+  //       var direccion = ("*Dirección:*"+"%20"+data5[i].value+"%0A");
+    
+     
+    
+  //     }
+    
+  //     if (direccion=== undefined) {
+  //       direccion = '';
+        
+    
+  //   }
+  
+  //   if (direccion=== "%0A") {
+  //     direccion = '';
+      
+  
+  // }
+  
+  
+  //   }
+  
+  
+  
+    var totalfp = Number(
+      totalf.replace('$', '')
+    );
+    
+    // if(  totalfp <= 10|| /^\s+$/.test(totalfp) )  {
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Tu pedido mínimo debe ser de $10.00")
+  
+    
+  //     document.getElementById("demo").innerHTML =
+  //      "Aún no haz selecionado prodcutos"
+  
+  //         $('.demo').addClass('showmsg');
+  
+  
+  //         setTimeout(function() {
+  //           $(".showmsg").fadeOut(1500);
+  //           },500);
+          
+    
+  // }
+  
+  
+  var dia = document.getElementById('entry.1164560529').value;
+    
+  var hora = document.getElementById('entry.404593967').value;
+  
+  
+  
+    
+  var reservad = document.getElementsByName('entry.1067299390');
+      
+      
+  for (var i = 0, length = reservad.length; i < length; i++) {
+    if (reservad[i].checked===true) {
+  
+  
+  
+        var geolocal="%0A"+document.getElementById('entry.1441018699').textContent;
+  
+  
+      var direccion = document.getElementById('entry.803987817').value;
+      //docs.google.com/forms/d/e/1FAIpQLSclWHdimbOn2b18CPRaSz5RVoeLA-pxJudums5VtjnYhuVSRg/viewform?usp=pp_url&entry.1441018699=geolocalizacion&entry.2092178738=direccionmaps
+     
+  
+      var dmap="%0A"+document.querySelector(".address").textContent;
+  
+      var opcionlocal = ("Opción de entrega"+"%0A"+reservad[i].value+"%20"+direccion+dmap+geolocal);
+      // return  (document.getElementById("").innerHTML =
+      //   "Ingresa tu número de cédula");
+  
+      // if(geolocal==="%0A                            "){
+      //   geolocal = '';
+  
+      // }
+      // if(dmap="%0A                            "){
+      //   dmap = '';
+  
+      // }
+  
+      // if(direccion="%0A                            "){
+      //   direccion = '';
+  
+      // }
+    
+    }
+  
+    if ( opcionlocal=== undefined) {
+      opcionlocal = '';
+    
+  }
+  
+  if (opcionlocal=== "%0A") {
+    opcionlocal = '';
+    
+  }
+  
+  }
+  
+  
+  var reservad = document.getElementsByName('entry.398428276');
+      
+      
+  for (var i = 0, length = reservad.length; i < length; i++) {
+    if (reservad[i].checked===true) {
+  
+      var dia = document.getElementById('entry.1164560529').value;
+    
+  var hora = document.getElementById('entry.404593967').value;
+  
+  
+      var opcionlocal = ("Opción de entrega"+"%0A"+reservad[i].value+"%0A" +dia+"%20"+hora);
+      // return  (document.getElementById("").innerHTML =
+      //   "Ingresa tu número de cédula");
+    
+    }
+  
+    if ( opcionlocal=== undefined) {
+      opcionlocal = '';
+    
+  }
+  
+  if (opcionlocal==="%0A") {
+    opcionlocal = '';
+    
+  }
+  
+  }
+  
+  
+  var reservad = document.getElementsByName('entry.1612018657');
+      
+      
+  for (var i = 0, length = reservad.length; i < length; i++) {
+    if (reservad[i].checked===true) {
+  
+      
+  
+  
+      var opcionlocal = ("Opción de entrega"+"%0A"+reservad[i].value);
+      // return  (document.getElementById("").innerHTML =
+      //   "Ingresa tu número de cédula");
+    
+    }
+  
+    if ( opcionlocal=== undefined) {
+      opcionlocal = '';
+    
+  }
+  
+  if (opcionlocal==="%0A") {
+    opcionlocal = '';
+    
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  var radios = document.getElementsByName('entry.696366128');
+  
+  
+  for (var i = 0, length = radios.length; i < length; i++) {
+    if (radios[i].checked) {
+   
+      var retornapagos ="💳*Forma de pago:* %20"+ (radios[i].value);
+  
+   
+  
+    }
+  
+    if (retornapagos=== undefined) {
+      retornapagos = '';
+      
+  
+  }
+  
+  
+  if (retornapagos=== "%0A") {
+    retornapagos = '';
+    
+  
+  }
+  }
+  
+  var radios = document.getElementsByName('entry.1405646315');
+  
+  
+  for (var i = 0, length = radios.length; i < length; i++) {
+    if (radios[i].checked) {
+   
+      var retornapagos ="*💳Forma de pago:* %20"+ (radios[i].value);
+  
+      var cambio="%0ACambio:%20"+ document.getElementById('entry.580204725').textContent;
+  
+    }
+  
+    if (retornapagos=== undefined) {
+      retornapagos = '';
+      
+  
+  }
+  
+  if (cambio=== undefined) {
+    cambio = '';
+    
+  
+  }
+  
+  
+  if (cambio=== "%0A") {
+    cambio = '';
+    
+  
+  }
+  
+  
+  
+  
+  
+  if (retornapagos=== "%0A") {
+    retornapagos = '';
+    
+  
+  }
+  }
+  
+  var radios = document.getElementsByName('entry.1179942020');
+  
+  
+  for (var i = 0, length = radios.length; i < length; i++) {
+    if (radios[i].checked) {
+   
+      var retornapagos ="*💳Forma de pago:* %20"+ (radios[i].value)+"%0A"+"*Haz una captura y envíanos por aquí* 👇";
+   
+  
+    }
+  
+    if (retornapagos=== undefined) {
+      retornapagos = '';
+      
+  
+  }
+  
+  if (retornapagos=== "%0A") {
+    retornapagos = '';
+    
+  
+  }
+  }
+  
+  var radios = document.getElementsByName('entry.2095367105');
+  
+  
+  for (var i = 0, length = radios.length; i < length; i++) {
+    if (radios[i].checked) {
+   
+      var retornapagos ="*💳Forma de pago:* %20"+ (radios[i].value)+"%0A"+"*Haz una captura del pago y envíanos por aquí* 👇";
+  
+   
+  
+    }
+  
+    if (retornapagos=== undefined) {
+      retornapagos = '';
+      
+  
+  }
+  
+  if (retornapagos=== "%0A") {
+    retornapagos = '';
+    
+  
+  }
+  }
+  
+  
+  // cedula para facturar
+  // var facturafc = document.getElementsByClassName('facf');
+  
+  
+  // $('div.myClass');
+  
+  // $('.eti4').on('click', function(){
+  //   $('.datos4').addClass('show btnpagos');
+  //   $('.datos1').removeClass('show btnpagos');
+  //   $('.datos2').removeClass('show btnpagos');
+  //   $('.datos3').removeClass('show btnpagos');
+  // })
+  
+  // var wert="";
+  
+  // var wsd=document.getElementById('entry.709227128');
+  
+  
+   
+  //     if (document.getElementById("entry.709227128").checked = true) {
+     
+  //       var retornafc = wsd.value;
+    
+    
+  //     }
+    
+  //     if (retornafc=== undefined) {
+  //       retornafc = '';
+        
+  //     }
+  
+      var fact = document.getElementsByName('entry.709227128');
+  
+  
+      for (var i = 0, length = fact.length; i < length; i++) {
+        if (fact[i].checked) {
+       
+          var mostrarfac = (fact[i].value+"%0A");
+      
+       
+      
+        }
+      
+        if (mostrarfac=== undefined) {
+          mostrarfac = '';
+          
+      
+      }
+  
+      if (retornapagos=== "%0A") {
+        retornapagos = '';
+        
+      
+      }
+  
+      }
+  
+      var fact = document.getElementsByName('entry.2016983664');
+  
+  
+      for (var i = 0, length = fact.length; i < length; i++) {
+        if (fact[i].checked) {
+       
+          var mostrarfac = (fact[i].value+"%0A");
+      
+       
+      
+        }
+      
+        if (mostrarfac=== undefined) {
+          mostrarfac = '';
+          
+      
+      }
+  
+  
+  
+      if (retornapagos=== "%0A") {
+        retornapagos = '';
+        
+      
+      }
+      }
+  
+      var fact = document.getElementsByName('entry.1758756268');
+  
+  
+      for (var i = 0, length = fact.length; i < length; i++) {
+        if (fact[i].checked) {
+       
+          var mostrarfac = (fact[i].value+"%0A");
+      
+       
+      
+        }
+      
+        if (mostrarfac=== undefined) {
+          mostrarfac = '';
+          
+      
+      }
+  
+  
+      if (retornapagos=== "%0A") {
+        retornapagos = '';
+        
+      
+      }
+      }
+  
+  
+  
+  
+  
+      
+  var mostrarcedula=document.getElementById('entry.2420597').value+"%0A";
+  
+  
+  
+  // var fanlink=document.getElementById('fantasmasend').textContent+"%0A"+"Realiza el pago y envíanos una captura del pago para activar tu licencia* 👇"+"%0A";
+
+  var fanlink=document.getElementById('fantasmasend').textContent+ "%20";
+  
+  
+ 
+  
+  
+  var factm= document.getElementsByName('entry.2420597');
+  
+  
+  for (var i = 0, length = factm.length; i < length; i++) {
+    if (factm[i].checked) {
+   
+      var mostrarcedula = (factm[i].value+"%0A");
+  
+   
+  
+    }
+  
+    if (mostrarcedula=== undefined) {
+      mostrarcedula = '';
+      
+  
+  }
+  if (retornapagos=== "%0A") {
+    retornapagos = '';
+    
+  
+  }
+  }
+  
+    
+  
+  var mostrarpedidof=document.querySelector('.fantasma').textContent;
+  
+  // if( mostrarpedidof === ''|| /^\s+$/.test(totalfp) )  {
+  //   document.getElementById("demo").innerHTML =
+  //   "Aún no haz selecionado productos "
+  
+  // }
+    
+  // var mostrarpedidof2=document.querySelector('.ter').textContent;
+  // if(mostrarpedidof2 == null || mostrarpedidof2 .length == 0 || /^\s+$/.test(mostrarpedidof2 )) {
+  //   alert("Aún no seleccionas productos 😅");
+  
+  // }
+  
+  if(mostrarpedidof == null || mostrarpedidof .length == 0 || /^\s+$/.test(mostrarpedidof )) {
+    alert("Aún no seleccionas productos 😅");
+    return false;
+  }
+  
+  if(nombre == null || nombre .length == 0 || /^\s+$/.test(nombre )) {
+    alert("Llena el campo con tus nombres completos 😅");
+    return false;
+  }
+    
+  if(email == null || email .length == 0 || /^\s+$/.test(email )) {
+    alert("Ingresa tu mejor correo electrónico 😅");
+    return false;
+  }
+    
+  if(whatsapp == null || whatsapp .length == 0 || /^\s+$/.test(whatsapp )) {
+    alert("Ingresa tu número de WhatsApp 😅");
+    return false;
+  }
+    
+  
+  // if(totalfp<= 10 || /^\s+$/.test(totalfp)) {
+  //   alert("tu pedido minimó debe ser de $100");
+  //   return false;
+  // }
+  
+    // if(  totalfp <= 10|| /^\s+$/.test(totalfp) )  {
+      // return (document.getElementById("demo").innerHTML =
+      // "Tu pedido mínimo debe ser de $10.00")
+    
+  // var qw= document.getElementById('latitude').textContent;
+  
+  
+  // var qa=qw.replace('(','');
+  // var az=qa.replace(')','');
+  // var zx=az.replace(' ','');
+  //   var  mapi = 'https://maps.google.com/?q='+zx;
+  
+  //   // mapi.innerHTML=`${mapi}`;
+  
+  //   document.getElementById('entry.1441018699').innerHTML=mapi;
+  
+  // $("#latitude").change(function() {
+  //   //Si el checkbox está seleccionado
+  //   if($(this).is(":change")) {
+      
+  //     document.getElementById('entry.1441018699').innerHTML=mapi;
+  
+  //   }
+  //   else {
+  //     alert("El checkbox no está seleccionado");
+  //   }
+  
+   
+  
+    
+  //   });
+    
+    
+  
+  
+  
+  
+  
+  // var mapi="";
+  
+  // var insertmapgs=document.getElementById("entry.1441018699");
+  
+  
+  // var qw= document.getElementById('latitude').textContent;
+  
+  
+  // var qa=qw.replace('(','');
+  // var az=qa.replace(')','');
+  // var zx=az.replace(' ',''); 
+  // // "-0.0897748,-78.4149483"
+  
+  
+  // mapi = 'https://maps.google.com/?q='+zx;
+  
+  
+  //     insertmapgs.innerHTML=`${mapi}`;
+    
+  
+  
+  
+  
+  
+  // var billete= document.getElementById('entry.580204725').textContent;
+  
+  
+  // for (var i = 0, length = billete.length; i < length; i++) {
+  //   if (billete[i].checked) {
+   
+  //     var cambio = (billete[i].value+"%0A");
+  
+   
+  
+  //   }
+  
+  //   if (cambio=== undefined) {
+  //     cambio = '';
+      
+  
+  // }
+  // if (cambio=== "%0A") {
+  //   cambio = '';
+    
+  
+  // }
+  // }
+  
+  // var myWindow = window.open ("https://midominio.com/"+"Demo Ecommerce BurgerKings" + "%20" + "%0A"+"✅  _Pedido confirmado_" + "Orden N°"+orden + "%0A"+"_________________________" + "%0A"+"%0A"+
+  //  "*Nombre*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*Email*" +"%0A" + email +  "%20" + "%0A"+"%0A"+"*Costo Delivery*"+"%0A" + delivery + "%20" +"%0A"+ "%0A"+"*Dirección con referencia*"+"%0A" +direccion+"%0A"+totalf+ pedidof+ "%0A"+"%0A"+
+  //   "%0A"+"%0A"+ "%0A" +"_________________________" + "%0A" + "%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como  para recibir 15 minutos antes el link de Zoom. Empezamos puntual 😉👍");
+  
+  
+  
+  // var myWindow = window.open("https://midominio.com/"+"*Demo Ecommerce FastFood*" + "%20" + "%0A"+"✅ *Pedido confirmado*"+"%0A"+"_Orden N°_"+ "%20"+"---"+"%20"+orden+"%20"+"---"+ "%0A"+"_________________________" + "%0A"+"%0A"+"*Tu pedido es:*"+ "%0A"+ "%0A"+mostrarpedidof+ "%0A"+ "%0A"+"*Total:*"+ "%20"+totalfp+ "%0A"+"_________________________"+ "%0A"+"%0A"+
+  //  "*Nombre:*" +"%20"+ nombre+"%0A"+"*Email:*" +"%20" + email+"%0A"+"*Costo Delivery:*"+"%20" + delivery+"%0A"+"*Dirección con referencia:*"+"%20" +direccion+"%0A" +"_________________________"  + "%0A"+"%0A"+"*Forma de pago:*"+"%0A"+ retornapagos+"%0A"+"%0A"+"*Total:*"+ "%20"+totalfp+"%0A"+"%0A"+ "_Para ver más demos ingresa al siguiente link:_"+"%0A");
+  
+  
+  
+  // }
+  
+  
+  
+  
+  // var whatsapp_number ="&text=*Demo WhatsApp Ecommerce*" + "%0A"+"*WhatBulkSender - WhatsEcom - 2020*"+ "%0A"+"✅ *Pedido confirmado*"+"%0A"+"_Orden N°_"+"%20"+ "%20"+"---"+"%20"+orden+"%20"+"---"+ "%0A"+"_________________________" + "%0A"+"*Tu pedido es:*"+ "%0A"+mostrarpedidof+ "%0A"+"Subotal:"+"%20"+ `$${totalfp.toFixed(2)}`+ "%0A"+"Delivery:"+"%20"+"$"+(Number(delivery)).toFixed(2)+ "%0A" +"*Total:*"+ "%20"+ "$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+ "%0A"+"_________________________"+ "%0A"+'*🙂Datos del Cliente:*'+ "%0A"+mostrarfac+"%20"+mostrarcedula+nombre+email+whatsapp+"%20"+"_________________________" +"%0A"+"*📍Datos de entrega:*"+"%0A"+opcionlocal+"%0A" +"_________________________"  + "%0A"+ retornapagos+ "%0A"  +"*Subtotal:*"+ "%20"+"$"+ totalfp.toFixed(2)+"%0A"+"*Delivery:*"+"%20"+"$"+`${(Number(delivery)).toFixed(2) }`+"%0A"+"*Total:*"+ "%20"+"$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+"%0A"+"*Orden N°:*"+ "%20"+orden;
+    
+  
+  
+  var whatsapp_number ="&text=*Orden exitosa*" + "%0A"+"*WhatsBulkSender-2022*"+ "%0A"+"✅ *Detalle de la orden:*"+"%0A"+"_Orden N°_"+"%20"+ "%20"+"---"+"%20"+orden+"%20"+"---"+ "%0A"+"_________________________" + "%0A"+mostrarpedidof+ "%0A"+"*Total:*"+ "%20"+ "$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+ "%0A"+"_________________________"+ "%0A"+'*🙂Datos del Cliente:*'+ "%0A"+mostrarfac+"%20"+mostrarcedula+nombre+email+whatsapp+"%20"+"_________________________" +"%0A"+ retornapagos+cambio+"%0A"+fanlink+"%20"+"%0A"+"*Total:*"+ "%20"+"$"+`${(Number(delivery) + Number(totalfp.toFixed(2))).toFixed(2)}`+"%0A"+"%0A"+"*Orden N°:*"+ "%20"+orden;
+    
+    
+    
+    
+     var md = new MobileDetect(window.navigator.userAgent);
+     if (md.mobile()) {
+     
+  
+    //   if (mostrarpedidof===''){
+  
+     
+     
+    //     document.getElementById("demo").innerHTML =
+    //        "Aún no haz selecionado prodcutos"
+  
+    //       $('.demo').addClass('showmsg');
+  
+  
+    //       setTimeout(function() {
+    //         $(".showmsg").fadeOut(1500);
+    //         },500);
+          
+        
+        
+  
+  
+    //     // return (document.getElementById("demo").innerHTML =
+    //     //   "Aún no haz selecionado prodcutos")
+    //   }
+    //  else{
+      window.open(document.getElementById("enviarwa").href = "https://api.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+    //  }
+        
+      
+    // window.open(fanlink)
+    
+       
+  
+      
+     
+  
+     } else {
+     
+       window.open(document.getElementById("enviarwa").href = "https://web.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+  
+    //   window.open(fanlink)
+  
+  
+  
+     }
+  
+  
+   
+  
+     
+  }
+
+
+//   insertar img y el nombre del producto en el cariito de comparas
+
+
+
+  
+  // $("#boton").on("click",function(event){
+  //   event.preventDefault();
+  // });
+  
+  
+  
+  // animacion formas de pago 
+  
+  $('.eti1').on('click', function(){
+    $('.datos1').addClass('show btnpagos');
+   
+    $('.datos2').removeClass('show btnpagos');
+    $('.datos3').removeClass('show btnpagos');
+    $('.datos4').removeClass('show btnpagos');
+  
+  })
+  
+  
+  $('.eti2').on('click', function(){
+    $('.datos2').addClass('show btnpagos');
+    $('.datos1').removeClass('show btnpagos');
+    $('.datos3').removeClass('show btnpagos');
+    $('.datos4').removeClass('show btnpagos');
+  })
+  
+  $('.eti3').on('click', function(){
+    $('.datos3').addClass('show btnpagos');
+    $('.datos1').removeClass('show btnpagos');
+    $('.datos2').removeClass('show btnpagos');
+    $('.datos4').removeClass('show btnpagos');
+  })
+  
+  $('.eti4').on('click', function(){
+    $('.datos4').addClass('show btnpagos');
+    $('.datos1').removeClass('show btnpagos');
+    $('.datos2').removeClass('show btnpagos');
+    $('.datos3').removeClass('show btnpagos');
+  })
+  
+  // stylos input
+  
+  $('.btn-plus, .btn-minus').on('click', function(e) {
+    const isNegative = $(e.target).closest('.btn-minus').is('.btn-minus');
+    const input = $(e.target).closest('.input-group').find('input');
+    if (input.is('input')) {
+      input[0][isNegative ? 'stepDown' : 'stepUp']()
+    }
+  })
+  
+  
+  // stylos input
+  
+  $('.btn-plus, .btn-minus').on('click', function(e) {
+    const isNegative = $(e.target).closest('.btn-minus').is('.btn-minus');
+    const input = $(e.target).closest('.input-group').find('input');
+    if (input.is('input')) {
+      input[0][isNegative ? 'stepDown' : 'stepUp']()
+    }
+  })
+  
+  $(document).ready(function(){
+    var altura =$('.row-centered').offset().top;
+    $(window).on('scroll', function(){
+      if ($(window).scrollTop()>= altura){
+        $('.row-centered').addClass('row-centered2');
+      } else{
+        $('.row-centered').removeClass('row-centered2');
+      }
+    })
+  });
+  
+  $('.plus').on('click', function(){
+    // $('#cardnegocioid').addClass('mostrarcart');
+    $('.hul2').addClass('mostrarmenu3');
+  
+  })
+  
+  var wer=document.querySelector('.separatescrol').textContent;
+  
+  function sdf(){
+  
+  
+  if(wer=""){
+  
+    $('.psinproductos').addClass('msinproductos');
+  }
+  
+  
+  }
+  
+  // $('#cardnegocioid').on('click', function(){
+  //   $('#nav').addClass('mostrarmenu2');
+  //   $('#cardnegocioid').addClass('chaoboton');
+  // })
+  
+  
+  
+  
+  
+  $('#cardnegocioid').on('click', function(){
+    $('#nav').addClass('mostrarmenu2');
+   
+    $('#cardnegocioid').addClass('chaoboton');
+  })
+  
+  
+  $('.continuar,.but34').on('click', function(){
+    $('#nav').removeClass('mostrarmenu2');
+    $('.hul2').addClass('mostrarmenu3');
+    
+  })
+  
+  
+   $('.seguirc,.cerrardata').on('click', function(){
+    $('#nav').removeClass('mostrarmenu2');
+    $('.hul2').removeClass('mostrarmenu3');
+    $('#cardnegocioid').removeClass('chaoboton');
+    $('#cardnegocioid').addClass('mostrarcart');
+    
+  
+    
+  })
+
+
+  
+  
+  
+  
+  
+  
+  const images = document.querySelectorAll('.item-image'); 
+  
+  const titles = document.querySelectorAll('.item-title'); 
+  const price = document.querySelectorAll('.item-price');
+  
+  const cantidad = document.querySelectorAll('.item_cantidadg');
+  
+  const containerimage = document.querySelector('.container-img');
+  
+  
+  const imageContainer =document.querySelector('.img-show');
+  
+  const copy = document.querySelector('.copy');
+  
+  const closeModal = document.querySelector('.bx.bx-x');
+  
+  images.forEach(image =>{
+    image.addEventListener('click',()=>{
+  addImage(image.getAttribute('src'),image.getAttribute('alt'));
+  
+  
+   
+    })
+  
+  })
+  
+  titles.forEach(titlesf =>{
+  titlesf.addEventListener('click',()=>{
+  
+  
+  })
+  })
+  
+  
+  const addImage = (srcImage, altImage)=>{
+  containerimage.classList.toggle('move');
+  imageContainer.classList.toggle('show');
+  imageContainer.src = srcImage;
+  copy.innerHTML = altImage;
+  
+  
+  
+  }
+  
+  // const addTitle = (titlef)=>{
+  //   containerimage.classList.toggle('move');
+  //   imageContainer.classList.toggle('show');
+  
+  //   titles.innerHTML = ;
+  
+  
+  
+  // }
+  
+  
+  closeModal.addEventListener('click', ()=>{
+  
+  containerimage.classList.toggle('move');
+  imageContainer.classList.toggle('show');
+  })
+  
+  
+  // $('.seguirc').on('click', function(){$('.derechafinal').addClass('mostrarmenu2');$('#cardnegocioid').addClass('chaoboton');})
+  
+  // $('.continuar').on('click', function(){
+    
+  //   $('#cardnegocioid').removeClass('mostrarcart');
+  // })
+  
+  // $('#cardnegocioid', function(){
+  //   $('#nav').addClass('mostrarmenu2');
+  // se auto ejecuta })
+  
+  // $('.seguirc ,.continuar').on('click', function(){
+  //   $('#nav').removeClass('mostrarmenu2');
+  //   $('#cardnegocioid').removeClass('chaoboton');
+  // })
+  
+  
+  // $('.mostrarmenu2').on('click', function(){
+  //   $('#nav').removeClass('mostrarmenu2');
+  //   // $('#nav').removeClass('mostrarmenu2');
+  //   $('#cardnegocioid').removeClass('chaoboton');
+  
+  // })
+
+//   $('#cerrardata2').on('click', function(){
+
+//     location.reload();
+    
+//   })
+  
+  function limpiarformas(){
+  
+    document.getElementById("entry.1405646315").checked = false;
+  
+   
+  
+    document.getElementById("entry.1179942020").checked = false;
+    document.getElementById("entry.2095367105").checked = false;
+    var fdg=document.getElementById('entry.1280846489').value='';
+    
+    document.getElementById('entry.580204725').textContent='';
+    document.getElementById('fantasmasend').textContent='';
+   var fantasmalink=document.getElementById('fantasmasend').textContent='';
+   
+  }
+  
+  function limpiarformase(){
+  
+    document.getElementById("entry.696366128").checked = false;
+    document.getElementById("entry.1179942020").checked = false;
+    document.getElementById("entry.2095367105").checked = false;
+   
+  }
+  
+  function limpiarformaspl(){
+  
+    document.getElementById("entry.1405646315").checked = false;
+    document.getElementById("entry.696366128").checked = false;
+    document.getElementById("entry.2095367105").checked = false;
+  
+    var fdg=document.getElementById('entry.1280846489').value='';
+    
+    document.getElementById('entry.580204725').textContent='';
+
+    document.getElementById('fantasmasend').textContent='';
+    
+   
+  }
+  
+  function limpiarformaspy(){
+  
+    document.getElementById("entry.1405646315").checked = false;
+    document.getElementById("entry.1179942020").checked = false;
+    document.getElementById("entry.696366128").checked = false;
+    var fdg=document.getElementById('entry.1280846489').value='';
+    
+    document.getElementById('entry.580204725').textContent='';
+   
+  }
+  
+  
+  // limpiar factura
+  
+  
+  function limpiarfac(){
+  
+    document.getElementById("entry.2016983664").checked = false;
+    document.getElementById("entry.1758756268").checked = false;
+   
+   
+  }
+  function limpiarfac(){
+  
+    document.getElementById("entry.2016983664").checked = false;
+    document.getElementById("entry.1758756268").checked = false;
+   
+   
+  }
+  
+  
+  function limpiarconsu(){
+    
+  
+    document.getElementById('entry.2420597').value = '';
+    document.getElementById("entry.709227128").checked = false;
+    document.getElementById("entry.1758756268").checked = false;
+  
+  }
+  
+  
+  
+  function limpiarcliente(){
+  
+    document.getElementById('entry.2420597').value = '';
+    document.getElementById("entry.709227128").checked = false;
+  
+    document.getElementById("entry.2016983664").checked = false;
+  
+    $('.datosfacturacion').addClass('datoschao');
+  }
+  
+  
+  
+  
+  function linpiarreserdomi(){
+   
+    document.getElementById('entry.1441018699').textContent='';
+    
+  
+    document.getElementById("entry.1067299390").checked = false;
+    document.getElementById('entry.686290451').value = '0';
+    document.getElementById('entry.803987817').value = '';
+  
+    document.getElementById("entry.398428276").checked = false;
+    document.getElementById('entry.1164560529').value = '0';
+    document.getElementById('entry.404593967').value = '';
+  
+   
+  
+   limpiaringd();
+   limpiaringdmap();
+   
+   document.getElementById("entry.2092178738").textContent='';
+    // linpiarreservar();
+    // linpiardelivery();
+  //  document.querySelector('#totalwa p').textContent='0.00';
+  
+  }
+  
+  
+  function linpiarreservar(){
+  
+    document.getElementById("entry.398428276").checked = false;
+    document.getElementById("entry.1612018657").checked = false;
+  
+    document.getElementById('entry.1164560529').value = '0';
+    document.getElementById('entry.404593967').value = '';
+  
+  
+  }
+  
+  function linpiardelivery(){
+  
+  
+  
+    document.getElementById("entry.696366128").checked = false;
+  
+    document.getElementById("entry.1405646315").checked = false;
+    
+    document.getElementById("entry.1179942020").checked = false;
+    
+    document.getElementById("entry.2095367105").checked = false;
+  
+  
+    limpiaringd();
+  
+    limpiaringdmap();
+    document.getElementById("entry.1067299390").checked = false;
+    
+  document.getElementById("entry.1612018657").checked = false;
+  
+    document.getElementById('entry.686290451').value = '0';
+    document.getElementById('entry.803987817').value = '';
+    // document.querySelector('#latitude').textContent='';
+    // document.querySelector('#address').textContent='';
+    document.getElementById('entry.1441018699').textContent='';
+    document.getElementById('entry.2092178738').textContent='';
+    document.getElementById("entry.1441018699").textContent = '';
+  
+    document.getElementById('entry.1280846489').value='';
+  
+  document.getElementById('entry.580204725').textContent='';
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+  function limpiaringd(){
+  
+  
+    document.getElementById("entry.2092178738").checked = false;
+  
+  
+  }
+  
+  function limpiaringdmap(){
+  
+  
+    document.getElementById("entry.150273747").checked = false;
+  
+  
+  }
+  
+  
+  
+  
+  $('.consumidorsinfac').on('click', function(){
+    
+  
+    $('.datafac').removeClass('showinputcedula');
+  
+  
+    $('.datosfacturacion').removeClass('datoschao');
+    $('#cedulafac')('showinputcedula');
+    
+  
+  
+  })
+  
+  $('.faccedula').on('click', function(){
+    
+    $('.datafac').addClass('showinputcedula');
+    $('.datosfacturacion').removeClass('datoschao');
+  
+  })
+  
+  
+  $('.clientefac').on('click', function(){
+  
+    
+    $('.datafac').removeClass('showinputcedula');
+  
+    $('.datosfacturacion').addClass('datoschao');
+  
+  })
+  
+  
+  
+  
+  $('.deliveryope').on('click', function(){
+      
+    $('.opedetalle').addClass('showpocion');
+    $('.diahora').removeClass('verdiahora');
+  
+    $('.formasdepagos').removeClass('quitarformasdepago');
+  
+  })
+  
+  $('.deliveryoper').on('click', function(){
+      
+    $('.diahora').addClass('verdiahora');
+  
+  
+    $('.diahora').addClass('verdiahora');
+  
+    $('.formasdepagos').addClass('quitarformasdepago');
+  
+    // $('.formasdepagos').remove('.formasdepagos');
+   
+  
+    
+  
+  })
+  
+  
+  
+  
+  
+  
+  
+  $('.deliveryoper , .deliveryoperr').on('click', function(){
+    
+  
+    $('.opedetalle').removeClass('showpocion');
+  
+  
+  
+    // $('#cedulafac')('showinputcedula');
+  
+  
+  })
+  
+  $('.deliveryoperr').on('click', function(){
+    
+  
+    $('.diahora').removeClass('verdiahora');
+  
+    $('.formasdepagos').removeClass('quitarformasdepago');
+  
+    // $('#cedulafac')('showinputcedula');
+  
+  
+  })
+  
+  $('.mapalocor').on('click', function(){
+    
+  
+    $('.direcreg').addClass('showpocion');
+  
+    $('.mapcanvas').removeClass('showcanvas');
+    $('.googlemaps').removeClass('googledisplay');
+  
+  })
+  
+  
+  
+  $('.mapalocor2').on('click', function(){
+    
+  
+    $('.direcreg').removeClass('showpocion');
+  
+    $('.mapcanvas').addClass('showcanvas');
+  
+    $('.googlemaps').addClass('googledisplay');
+  
+  
+  })
+  
+  
+  
+  var map;
+  
+  function initialize() {
+  
+    var mapOptions = {
+        center: new google.maps.LatLng(-0.1769941, -78.478394,17),
+        zoom: 17
+    };
+  
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  
+    // Create the DIV to hold the control and call the constructor passing in this DIV
+    var geolocationDiv = document.createElement('div');
+    var geolocationControl = new GeolocationControl(geolocationDiv, map);
+  
+    map.controls[google.maps.ControlPosition.TOP_CENTER].push(geolocationDiv);
+  
+    // map.addListener("click", (event) => {
+    //   addMarker(event.latLng);
+    // });
+  
+    // addMarker(mapOptions);
+  
+  
+  }
+  
+  function GeolocationControl(controlDiv, map) {
+  
+    // Set CSS for the control button
+    var controlUI = document.createElement('div');
+    controlUI.style.backgroundColor = '#25d366';
+    controlUI.style.borderStyle = 'solid';
+    controlUI.style.borderWidth = '1px';
+    controlUI.style.borderColor = 'white';
+    controlUI.style.height = '40px';
+    controlUI.style.borderRadius = '5px';
+    controlUI.style.zIndex = '1000';
+    controlUI.style.width= '200px';
+    controlUI.style.marginTop = '50px';
+    controlUI.style.cursor = 'pointer';
+    controlUI.style.textAlign = 'center';
+    controlUI.title = 'Click to center map on your location';
+    controlDiv.appendChild(controlUI);
+  
+    // Set CSS for the control text
+    var controlText = document.createElement('div');
+    controlText.style.fontFamily = 'Arial,sans-serif';
+    controlText.style.fontSize = '13px';
+    controlText.style.color = 'white';
+    controlText.style.paddingLeft = '10px';
+    controlText.style.paddingRight = '10px';
+    controlText.style.marginTop = '8px';
+    controlUI.style.zIndex = '1000';
+    controlText.innerHTML = 'Pulsa aquí para seleccionar tu ubicación';
+    controlUI.appendChild(controlText);
+  
+    // Setup the click event listeners to geolocate user
+    google.maps.event.addDomListener(controlUI, 'click', geolocate);
+  }
+  
+  
+  
+  
+  // var qw= document.getElementById('latitude').textContent;
+  
+  
+  // var qa=qw.replace('(','');
+  // var az=qa.replace(')','');
+  // var zx=az.replace(' ','');
+  //   var  mapi = 'https://maps.google.com/?q='+zx;
+  
+  //   // mapi.innerHTML=`${mapi}`;
+  
+  //   document.getElementById('entry.1441018699').innerHTML=mapi;
+  
+  // $("#latitude").change(function() {
+  //   //Si el checkbox está seleccionado
+  //   if($(this).is(":change")) {
+      
+  //     document.getElementById('entry.1441018699').innerHTML=mapi;
+  
+  //   }
+  //   else {
+  //     alert("El checkbox no está seleccionado");
+  //   }
+  
+    
+  //   });
+  
+  
+  function geolocate() {
+    
+  
+    if (navigator.geolocation) {
+  
+        navigator.geolocation.getCurrentPosition(function (position) {
+  
+            var pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+  
+            let post='';
+  
+  
+  
+  
+      var latDiv =document.querySelector('#latitude').innerHTML=pos;
+  
+    
+  var sw=document.getElementById('latitude').textContent;
+   
+  var qa=sw.replace('(','');
+  var qw=qa.replace(')','');
+  var qz=qw.replace(' ','');
+  
+  var latDiv2 =document.getElementById('entry.1441018699').innerHTML='https://maps.google.com/?q='+qz;
+    
+     
+   
+  
+      var addrDiv =document.querySelector('.address');
+  
+  
+  
+      var geocoder=new google.maps.Geocoder;
+  
+  
+  
+          geocoder.geocode({'location': pos}, function(results, status){
+                if (status === 'OK'){
+                    if (results[0]){
+                        addrDiv.innerHTML ='Tu dirección de entrega es: '+ results[0].formatted_address;
+  
+                        
+  
+                    } else {
+                        addrDiv.innerHTML = 'No address could be retrieved.'
+                    }
+                } else {
+                    addrDiv.innerHTML = "Geocoder failed due to " + status;
+                }
+  
+              
+                    
+            });
+  
+          
+  
+  
+            // Create a marker and center map on user location
+            marker = new google.maps.Marker({
+                position: pos,
+                draggable: true,
+                animation: google.maps.Animation.DROP,
+                map: map
+            });
+  
+            map.setCenter(pos);
+  
+            // function setMapOnAll(maker) {
+            //   for (let i = 0; i < marker.length; i++) {
+            //     marker[i].setMap();
+            //   }
+            // }
+            
+            // function clearMarkers() {
+            
+            //   $(".delyveryoper").click(function() {
+            //       //Si el checkbox está seleccionado
+            //       if($(this).is("clicked")) {
+            //         setMapOnAll(null);
+            //       }
+            //       else {
+            //         alert("El checkbox no está seleccionado");
+            //       }
+                
+            //     });
+  
+               
+             
+            // }
+  
+            // clearMarkers();
+  
+  
+  
+  
+        
+        });
+  
+  
+  
+        
+    }
+  
+   
+  }
+  
+  initialize();
+  
+  
+  var ws=document.getElementById('intro').textContent;
+  
+  
+  document.getElementById('entry.1450118414').innerHTML=ws;
+  
+  
+  $('.owl-carousel').owlCarousel({
+    // stagePadding: 10,
+  
+    loop:false,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+  })
+
+  
+  
+  
+  
+  $('.modalv').on('click', function(){$('.modalv').addClass('nosvemos2')})
+  
+  
+  //   $('#C1-I1-p,#C1-I2-p,#C1-I3-p,#C1-I4-p,#C1-I5-p').addClass('energon');
+  
+  //   $('#C1-I1-p,#C1-I2-p,#C1-I3-p,#C1-I4-p,#C1-I5-p').on('click', function(){
+    
+  
+  //     $('.plust').addClass('energont');
+  //     $('.minus').addClass('displaymq');
+  //     $('.quantity').addClass('displaymq');
+  
+  
+  //   })
+  
+  
+  
+  
+  // let pbtn = document.querySelector('.plus');
+  
+  
+  //  let ptbtn = document.querySelector('.plust');
+  //  let mbtn = document.querySelector('.minus');
+  //  let qbtn = document.querySelector('.quantity');
+  
+  //   $('.plust').on('click', function(){
+  
+  
+  //     ptbtn.innerText='';
+  
+  //     mbtn.style.display='inline-block'; 
+  //     qbtn.style.display='inline-block';
+  
+  //     $('#C1-I1-p,#C1-I2-p,#C1-I3-p,#C1-I4-p,#C1-I5-p').removeClass('energon');
+  //     // $('#C2-I1-p,').removeClass('energon');
+  //    $('.plust').removeClass('energont');
+     
+  //    $('.minus').removeClass('displaymq');
+  //    $('.quantity').removeClass('displaymq');
+   
+     
+  //      })
+  
+  
+  
+  
+  var recaptcha_response1 = '';
+  function submitUserForm1() {
+      if(recaptcha_response1.length == 0) {
+          document.getElementById('g-recaptcha-error1').innerHTML = '<span style="color:red;">This field is required.</span>';
+          return false;
+  
+  
+          
+      }
+          $('#gform2 *').fadeOut(2000);
+      $('#gform2').prepend('<div class="cerrardata2"> <div><span class="icon-flecha-izq"></span></div></div> <br><p class="pgracias">¡Gracias! Tu pedido ha sido enviado con éxito, <strong>espera unos segundos,</strong> enseguida recibirás un WhatsApp con las instruciones para realizar el pago. 🙂</p>');
+    
+      $('.cerrardata2').click(function() {
+        location.reload();
+      
+      });
+
+      goToPagep();
+    //   location.reload(); no permite enviar a google forms
+   
+  }
+  
+  
+  
+  
+          
+  function verifyCaptcha1(token) {
+      recaptcha_response1 = token;
+      document.getElementById('g-recaptcha-error1').innerHTML = '';
+  }
+  
+  
+     
+          
+  
+  // date = new Date();
+  // year = date.getFullYear();
+  // month = date.getMonth() +2;
+  // day = date.getDate()+ 2;
+  // document.getElementById("current_date").innerHTML =  day  + "/" + month + "/" + year;
+  
+  // document.getElementById("current_date2").innerHTML =  day  + "/" + month + "/" + year;
+  // // chat
+  
+  // $('#cerrarchat2').on('click', function(){
+  
+  //   $('.cardmenu').css('left', '-100%');
+  //   document.getElementById("whaterror").style="display: none";
+  // })
+  
+  
+    
+  
+  $('.cardnegocio2').click(function() {
+    $('#cardmenu').css('left', '0');
+    
+    });
+  
+  
+  $('.cardnegocio2').on('click', function(){
+    $('#cardmenu').addClass('mostrarcardmenu');
+  })
+  
+  $('#cerrarchat2').on('click', function(){
+    $('#cardmenu').toggleClass('mostrarcardmenu');
+    document.getElementById('edad').value = '';
+    $('.cardmenu').css('left', '-100%');
+  })
+  
+  
+  
+  
+  setTimeout(function() {
+    $(".unowhat2").fadeIn(1000);
+  },8500);
+  
+  
+   
+  function obtenerdatos2(){
+    var nombre = document.getElementById('edad').value;
+  
+  
+  
+    if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+       
+        return (document.getElementById("whaterror").innerHTML =
+        "¿Como podemos ayudarte? 😽👇",document.getElementById("whaterror").style=" color: #25d366; position: relative; padding: 15px;  margin: 0 26px 20px; border-radius: 15px; background-color: #fff; color: #4a4a4a; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%); transition: 0.5s ease-in-out;")
+      }
+  
+   
+  
+  
+      
+  
+  
+      document.getElementById('edad').value = '';
+      document.getElementById('edad').style ="height 0";
+  
+    var myWindow = "&text="+nombre;
+  
+    var md = new MobileDetect(window.navigator.userAgent);
+       if (md.mobile()) {
+  
+        window.open(document.getElementById("enviarwa2").href = "https://api.whatsapp.com/send?phone=593996517199" + myWindow);
+        
+       
+          } else {
+       
+        window.open(document.getElementById("enviarwa2").href = "https://web.whatsapp.com/send?phone=593996517199" + myWindow);
+   
+       
+       
+      }
+  
+  
+     
+      $('.cardmenu').css('left', '-100%');
+  }
+  
+  
+  
+  
+  
+  
+  function goToPageayuda(){
+    var nombre = document.getElementById('entry.865577691').value;
+    var mail = document.getElementById('entry.116133504').value;    
+    var tipodenegocio = document.getElementById('entry.516082604').value;
+    var whatsapp = document.getElementById('entry.751884520').value;
+    // var diaprueba = document.getElementById('entry.1087253973').value;
+    // var horaprueba = document.getElementById('entry.1527657423').value;
+  
+    // if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Ingresa tu nombre completo")
+    // }
+    // if( nombrenegocio == null || nombrenegocio.length == 0 || /^\s+$/.test(nombrenegocio) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Ingresa el nombre de tu negocio")
+    // }
+    // if( tipodenegocio == null || tipodenegocio.length == 0 || /^\s+$/.test(tipodenegocio) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Selecciona el tipo de negocio")
+    // }
+    // if( whatsapp == null || whatsapp.length == 0 || /^\s+$/.test(whatsapp) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Ingresa un número de WhatsApp")
+    // }
+    // if( diaprueba == null || diaprueba.length == 0 || /^\s+$/.test(diaprueba) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Selecciona el día para la prueba")
+    // }
+    // if( horaprueba == null || horaprueba.length == 0 || /^\s+$/.test(horaprueba) ) {
+       
+    //   return (document.getElementById("demo").innerHTML =
+    //   "Selecciona una hora")
+    // }
+  
+  //   var myWindow = window.open ("https://api.whatsapp.com/send?phone=593996517199&text="+"Capacitación y Prueba de" + "%20" + "*WhatsBulkSender™*" + "%0A"+"✅ _Registro confirmado_" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*Nombre*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*Nombre del Negocio*" +"%0A" + nombrenegocio +  "%20" + "%0A"+"%0A"+"*Tipo de Negocio*"+"%0A" + tipodenegocio + "%20" +"%0A"+ "%0A"+ "_________________________" + "%0A" + "%0A"+"*P.D.*"+ "%20"+ "Guarda nuestro contacto como *WhatsBulkSender* para recibir actualizaciones y soporte 😉👍");
+  
+  
+  //  window.location = "https://api.whatsapp.com/send?phone=593996517199&text="+ "*Hola me llamo:*" + "%0A" + nombre + "%20" +"%0A" + nombrenegocio +  "%20" + "%0A" + tipodenegocio + "%20" + "%0A";
+  
+  
+  $(".ordernumber2").val(function(){
+    return document.getElementById('intro').innerHTML=Math.floor(Math.random() * 999) + 1000
+  
+  })
+
+  var orden = document.querySelector('.ordernumber2').value; 
+  
+  
+  var whatsapp_number ="&text=*WhatsBulkSender™*" + "%0A"+"✅ _Solicitud Aprobada Prueba N°:_"+ "%20"+orden + "%0A"+"_________________________" + "%0A"+"%0A"+ "*😃 Nombre:*" +"%0A" + nombre + "%20" +"%0A"+"%0A" +"*📧E-mail:*" +"%0A" + mail +  "%20" + "%0A"+"%0A"+"*🟢 Versión de Prueba:*"+"%0A" + tipodenegocio + "%20" + "%0A"+"_________________________" + "%0A"+"%0A"+"*Felicitaciones*"+ "%20"+"*"+nombre+"*"+ "%20"+ "*un especialista se contactará de inmediato para realizar la prueba.*"+ "%0A"+ "%0A"+"*P.D.*"+ "%20"+ "Muy importante guarda nuestro contacto como *WhatsBulkSender* para recibir toda la información😉👍";
+  
+  
+  
+  
+  
+  
+   var md = new MobileDetect(window.navigator.userAgent);
+   if (md.mobile()) {
+   
+  
+  //   if (mostrarpedidof===''){
+  
+   
+   
+  //     document.getElementById("demo").innerHTML =
+  //        "Aún no haz selecionado prodcutos"
+  
+  //       $('.demo').addClass('showmsg');
+  
+  
+  //       setTimeout(function() {
+  //         $(".showmsg").fadeOut(1500);
+  //         },500);
+        
+      
+      
+  
+  
+  //     // return (document.getElementById("demo").innerHTML =
+  //     //   "Aún no haz selecionado prodcutos")
+  //   }
+  //  else{
+    window.open(document.getElementById("enviarwat").href = "https://api.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+  //  }
+      
+    
+  
+  
+     
+  
+    
+   
+  
+   } else {
+   
+     window.open(document.getElementById("enviarwa").href = "https://web.whatsapp.com/send?phone=593996517199" + whatsapp_number);
+  
+    
+  
+  
+   }
+  
+  
+  
+  }
+  
+  
+    
+  var recaptcha_response2 = '';
+  function submitUserForm2() {
+      if(recaptcha_response2.length == 0) {
+          document.getElementById('g-recaptcha-error2').innerHTML = '<span style="color:red;">This field is required.</span>';
+          return false;
+          
+      }
+    
+      $('#gform3 *').fadeOut(2000);
+      $('#gform3').prepend('<p class="pgracias">¡Gracias! Tu formulario ha sido enviado con éxito, <strong>espera unos segundos,</strong> enseguida recibirás un WhatsApp con las instruciones🙂</p>');
+      
+    
+  
+      goToPageayuda();
+      
+   
+  }
+  
+  
+  
+      
+  function verifyCaptcha2(token) {
+    recaptcha_response2 = token;
+    document.getElementById('g-recaptcha-error2').innerHTML = '';
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  var paises = [
+  {"nombrePais":"Afganistán","codPais":"AF"},
+  {"nombrePais":"Albania","codPais":"AL"},
+  {"nombrePais":"Alemania","codPais":"DE"},
+  {"nombrePais":"Andorra","codPais":"AD"},
+  {"nombrePais":"Angola","codPais":"AO"},
+  {"nombrePais":"Anguila","codPais":"AI"},
+  {"nombrePais":"Antártida","codPais":"AQ"},
+  {"nombrePais":"Antigua y Barbuda","codPais":"AG"},
+  {"nombrePais":"Arabia Saudita","codPais":"SA"},
+  {"nombrePais":"Argelia","codPais":"DZ"},
+  {"nombrePais":"Argentina","codPais":"AR"},
+  {"nombrePais":"Armenia","codPais":"AM"},
+  {"nombrePais":"Aruba","codPais":"AW"},
+  {"nombrePais":"Australia","codPais":"AU"},
+  {"nombrePais":"Austria","codPais":"AT"},
+  {"nombrePais":"Azerbaiyán","codPais":"AZ"},
+  {"nombrePais":"Bélgica","codPais":"BE"},
+  {"nombrePais":"Bahamas","codPais":"BS"},
+  {"nombrePais":"Bahrein","codPais":"BH"},
+  {"nombrePais":"Bangladesh","codPais":"BD"},
+  {"nombrePais":"Barbados","codPais":"BB"},
+  {"nombrePais":"Belice","codPais":"BZ"},
+  {"nombrePais":"Benín","codPais":"BJ"},
+  {"nombrePais":"Bhután","codPais":"BT"},
+  {"nombrePais":"Bielorrusia","codPais":"BY"},
+  {"nombrePais":"Birmania","codPais":"MM"},
+  {"nombrePais":"Bolivia","codPais":"BO"},
+  {"nombrePais":"Bosnia y Herzegovina","codPais":"BA"},
+  {"nombrePais":"Botsuana","codPais":"BW"},
+  {"nombrePais":"Brasil","codPais":"BR"},
+  {"nombrePais":"Brunéi","codPais":"BN"},
+  {"nombrePais":"Bulgaria","codPais":"BG"},
+  {"nombrePais":"Burkina Faso","codPais":"BF"},
+  {"nombrePais":"Burundi","codPais":"BI"},
+  {"nombrePais":"Cabo Verde","codPais":"CV"},
+  {"nombrePais":"Camboya","codPais":"KH"},
+  {"nombrePais":"Camerún","codPais":"CM"},
+  {"nombrePais":"Canadá","codPais":"CA"},
+  {"nombrePais":"Chad","codPais":"TD"},
+  {"nombrePais":"Chile","codPais":"CL"},
+  {"nombrePais":"China","codPais":"CN"},
+  {"nombrePais":"Chipre","codPais":"CY"},
+  {"nombrePais":"Ciudad del Vaticano","codPais":"VA"},
+  {"nombrePais":"Colombia","codPais":"CO"},
+  {"nombrePais":"Comoras","codPais":"KM"},
+  {"nombrePais":"República del Congo","codPais":"CG"},
+  {"nombrePais":"República Democrática del Congo","codPais":"CD"},
+  {"nombrePais":"Corea del Norte","codPais":"KP"},
+  {"nombrePais":"Corea del Sur","codPais":"KR"},
+  {"nombrePais":"Costa de Marfil","codPais":"CI"},
+  {"nombrePais":"Costa Rica","codPais":"CR"},
+  {"nombrePais":"Croacia","codPais":"HR"},
+  {"nombrePais":"Cuba","codPais":"CU"},
+  {"nombrePais":"Curazao","codPais":"CW"},
+  {"nombrePais":"Dinamarca","codPais":"DK"},
+  {"nombrePais":"Dominica","codPais":"DM"},
+  {"nombrePais":"Ecuador","codPais":"EC"},
+  {"nombrePais":"Egipto","codPais":"EG"},
+  {"nombrePais":"El Salvador","codPais":"SV"},
+  {"nombrePais":"Emiratos Árabes Unidos","codPais":"AE"},
+  {"nombrePais":"Eritrea","codPais":"ER"},
+  {"nombrePais":"Eslovaquia","codPais":"SK"},
+  {"nombrePais":"Eslovenia","codPais":"SI"},
+  {"nombrePais":"España","codPais":"ES"},
+  {"nombrePais":"Estados Unidos","codPais":"US"},
+  {"nombrePais":"Estonia","codPais":"EE"},
+  {"nombrePais":"Etiopía","codPais":"ET"},
+  {"nombrePais":"Filipinas","codPais":"PH"},
+  {"nombrePais":"Finlandia","codPais":"FI"},
+  {"nombrePais":"Fiyi","codPais":"FJ"},
+  {"nombrePais":"Francia","codPais":"FR"},
+  {"nombrePais":"Gabón","codPais":"GA"},
+  {"nombrePais":"Gambia","codPais":"GM"},
+  {"nombrePais":"Georgia","codPais":"GE"},
+  {"nombrePais":"Ghana","codPais":"GH"},
+  {"nombrePais":"Gibraltar","codPais":"GI"},
+  {"nombrePais":"Granada","codPais":"GD"},
+  {"nombrePais":"Grecia","codPais":"GR"},
+  {"nombrePais":"Groenlandia","codPais":"GL"},
+  {"nombrePais":"Guadalupe","codPais":"GP"},
+  {"nombrePais":"Guam","codPais":"GU"},
+  {"nombrePais":"Guatemala","codPais":"GT"},
+  {"nombrePais":"Guayana Francesa","codPais":"GF"},
+  {"nombrePais":"Guernsey","codPais":"GG"},
+  {"nombrePais":"Guinea","codPais":"GN"},
+  {"nombrePais":"Guinea Ecuatorial","codPais":"GQ"},
+  {"nombrePais":"Guinea-Bissau","codPais":"GW"},
+  {"nombrePais":"Guyana","codPais":"GY"},
+  {"nombrePais":"Haití","codPais":"HT"},
+  {"nombrePais":"Honduras","codPais":"HN"},
+  {"nombrePais":"Hong kong","codPais":"HK"},
+  {"nombrePais":"Hungría","codPais":"HU"},
+  {"nombrePais":"India","codPais":"IN"},
+  {"nombrePais":"Indonesia","codPais":"ID"},
+  {"nombrePais":"Irán","codPais":"IR"},
+  {"nombrePais":"Irak","codPais":"IQ"},
+  {"nombrePais":"Irlanda","codPais":"IE"},
+  {"nombrePais":"Isla Bouvet","codPais":"BV"},
+  {"nombrePais":"Isla de Man","codPais":"IM"},
+  {"nombrePais":"Isla de Navidad","codPais":"CX"},
+  {"nombrePais":"Isla Norfolk","codPais":"NF"},
+  {"nombrePais":"Islandia","codPais":"IS"},
+  {"nombrePais":"Islas Bermudas","codPais":"BM"},
+  {"nombrePais":"Islas Caimán","codPais":"KY"},
+  {"nombrePais":"Islas Cocos (Keeling)","codPais":"CC"},
+  {"nombrePais":"Islas Cook","codPais":"CK"},
+  {"nombrePais":"Islas de Åland","codPais":"AX"},
+  {"nombrePais":"Islas Feroe","codPais":"FO"},
+  {"nombrePais":"Islas Georgias del Sur y Sandwich del Sur","codPais":"GS"},
+  {"nombrePais":"Islas Heard y McDonald","codPais":"HM"},
+  {"nombrePais":"Islas Maldivas","codPais":"MV"},
+  {"nombrePais":"Islas Malvinas","codPais":"FK"},
+  {"nombrePais":"Islas Marianas del Norte","codPais":"MP"},
+  {"nombrePais":"Islas Marshall","codPais":"MH"},
+  {"nombrePais":"Islas Pitcairn","codPais":"PN"},
+  {"nombrePais":"Islas Salomón","codPais":"SB"},
+  {"nombrePais":"Islas Turcas y Caicos","codPais":"TC"},
+  {"nombrePais":"Islas Ultramarinas Menores de Estados Unidos","codPais":"UM"},
+  {"nombrePais":"Islas Vírgenes Británicas","codPais":"VG"},
+  {"nombrePais":"Islas Vírgenes de los Estados Unidos","codPais":"VI"},
+  {"nombrePais":"Israel","codPais":"IL"},
+  {"nombrePais":"Italia","codPais":"IT"},
+  {"nombrePais":"Jamaica","codPais":"JM"},
+  {"nombrePais":"Japón","codPais":"JP"},
+  {"nombrePais":"Jersey","codPais":"JE"},
+  {"nombrePais":"Jordania","codPais":"JO"},
+  {"nombrePais":"Kazajistán","codPais":"KZ"},
+  {"nombrePais":"Kenia","codPais":"KE"},
+  {"nombrePais":"Kirguistán","codPais":"KG"},
+  {"nombrePais":"Kiribati","codPais":"KI"},
+  {"nombrePais":"Kuwait","codPais":"KW"},
+  {"nombrePais":"Líbano","codPais":"LB"},
+  {"nombrePais":"Laos","codPais":"LA"},
+  {"nombrePais":"Lesoto","codPais":"LS"},
+  {"nombrePais":"Letonia","codPais":"LV"},
+  {"nombrePais":"Liberia","codPais":"LR"},
+  {"nombrePais":"Libia","codPais":"LY"},
+  {"nombrePais":"Liechtenstein","codPais":"LI"},
+  {"nombrePais":"Lituania","codPais":"LT"},
+  {"nombrePais":"Luxemburgo","codPais":"LU"},
+  {"nombrePais":"México","codPais":"MX"},
+  {"nombrePais":"Mónaco","codPais":"MC"},
+  {"nombrePais":"Macao","codPais":"MO"},
+  {"nombrePais":"Macedônia","codPais":"MK"},
+  {"nombrePais":"Madagascar","codPais":"MG"},
+  {"nombrePais":"Malasia","codPais":"MY"},
+  {"nombrePais":"Malawi","codPais":"MW"},
+  {"nombrePais":"Mali","codPais":"ML"},
+  {"nombrePais":"Malta","codPais":"MT"},
+  {"nombrePais":"Marruecos","codPais":"MA"},
+  {"nombrePais":"Martinica","codPais":"MQ"},
+  {"nombrePais":"Mauricio","codPais":"MU"},
+  {"nombrePais":"Mauritania","codPais":"MR"},
+  {"nombrePais":"Mayotte","codPais":"YT"},
+  {"nombrePais":"Micronesia","codPais":"FM"},
+  {"nombrePais":"Moldavia","codPais":"MD"},
+  {"nombrePais":"Mongolia","codPais":"MN"},
+  {"nombrePais":"Montenegro","codPais":"ME"},
+  {"nombrePais":"Montserrat","codPais":"MS"},
+  {"nombrePais":"Mozambique","codPais":"MZ"},
+  {"nombrePais":"Namibia","codPais":"NA"},
+  {"nombrePais":"Nauru","codPais":"NR"},
+  {"nombrePais":"Nepal","codPais":"NP"},
+  {"nombrePais":"Nicaragua","codPais":"NI"},
+  {"nombrePais":"Niger","codPais":"NE"},
+  {"nombrePais":"Nigeria","codPais":"NG"},
+  {"nombrePais":"Niue","codPais":"NU"},
+  {"nombrePais":"Noruega","codPais":"NO"},
+  {"nombrePais":"Nueva Caledonia","codPais":"NC"},
+  {"nombrePais":"Nueva Zelanda","codPais":"NZ"},
+  {"nombrePais":"Omán","codPais":"OM"},
+  {"nombrePais":"Países Bajos","codPais":"NL"},
+  {"nombrePais":"Pakistán","codPais":"PK"},
+  {"nombrePais":"Palau","codPais":"PW"},
+  {"nombrePais":"Palestina","codPais":"PS"},
+  {"nombrePais":"Panamá","codPais":"PA"},
+  {"nombrePais":"Papúa Nueva Guinea","codPais":"PG"},
+  {"nombrePais":"Paraguay","codPais":"PY"},
+  {"nombrePais":"Perú","codPais":"PE"},
+  {"nombrePais":"Polinesia Francesa","codPais":"PF"},
+  {"nombrePais":"Polonia","codPais":"PL"},
+  {"nombrePais":"Portugal","codPais":"PT"},
+  {"nombrePais":"Puerto Rico","codPais":"PR"},
+  {"nombrePais":"Qatar","codPais":"QA"},
+  {"nombrePais":"Reino Unido","codPais":"GB"},
+  {"nombrePais":"República Centroafricana","codPais":"CF"},
+  {"nombrePais":"República Checa","codPais":"CZ"},
+  {"nombrePais":"República Dominicana","codPais":"DO"},
+  {"nombrePais":"República de Sudán del Sur","codPais":"SS"},
+  {"nombrePais":"Reunión","codPais":"RE"},
+  {"nombrePais":"Ruanda","codPais":"RW"},
+  {"nombrePais":"Rumanía","codPais":"RO"},
+  {"nombrePais":"Rusia","codPais":"RU"},
+  {"nombrePais":"Sahara Occidental","codPais":"EH"},
+  {"nombrePais":"Samoa","codPais":"WS"},
+  {"nombrePais":"Samoa Americana","codPais":"AS"},
+  {"nombrePais":"San Bartolomé","codPais":"BL"},
+  {"nombrePais":"San Cristóbal y Nieves","codPais":"KN"},
+  {"nombrePais":"San Marino","codPais":"SM"},
+  {"nombrePais":"San Martín (Francia)","codPais":"MF"},
+  {"nombrePais":"San Pedro y Miquelón","codPais":"PM"},
+  {"nombrePais":"San Vicente y las Granadinas","codPais":"VC"},
+  {"nombrePais":"Santa Elena","codPais":"SH"},
+  {"nombrePais":"Santa Lucía","codPais":"LC"},
+  {"nombrePais":"Santo Tomé y Príncipe","codPais":"ST"},
+  {"nombrePais":"Senegal","codPais":"SN"},
+  {"nombrePais":"Serbia","codPais":"RS"},
+  {"nombrePais":"Seychelles","codPais":"SC"},
+  {"nombrePais":"Sierra Leona","codPais":"SL"},
+  {"nombrePais":"Singapur","codPais":"SG"},
+  {"nombrePais":"Sint Maarten","codPais":"SX"},
+  {"nombrePais":"Siria","codPais":"SY"},
+  {"nombrePais":"Somalia","codPais":"SO"},
+  {"nombrePais":"Sri lanka","codPais":"LK"},
+  {"nombrePais":"Sudáfrica","codPais":"ZA"},
+  {"nombrePais":"Sudán","codPais":"SD"},
+  {"nombrePais":"Suecia","codPais":"SE"},
+  {"nombrePais":"Suiza","codPais":"CH"},
+  {"nombrePais":"Surinám","codPais":"SR"},
+  {"nombrePais":"Svalbard y Jan Mayen","codPais":"SJ"},
+  {"nombrePais":"Swazilandia","codPais":"SZ"},
+  {"nombrePais":"Tayikistán","codPais":"TJ"},
+  {"nombrePais":"Tailandia","codPais":"TH"},
+  {"nombrePais":"Taiwán","codPais":"TW"},
+  {"nombrePais":"Tanzania","codPais":"TZ"},
+  {"nombrePais":"Territorio Británico del Océano Índico","codPais":"IO"},
+  {"nombrePais":"Territorios Australes y Antárticas Franceses","codPais":"TF"},
+  {"nombrePais":"Timor Oriental","codPais":"TL"},
+  {"nombrePais":"Togo","codPais":"TG"},
+  {"nombrePais":"Tokelau","codPais":"TK"},
+  {"nombrePais":"Tonga","codPais":"TO"},
+  {"nombrePais":"Trinidad y Tobago","codPais":"TT"},
+  {"nombrePais":"Tunez","codPais":"TN"},
+  {"nombrePais":"Turkmenistán","codPais":"TM"},
+  {"nombrePais":"Turquía","codPais":"TR"},
+  {"nombrePais":"Tuvalu","codPais":"TV"},
+  {"nombrePais":"Ucrania","codPais":"UA"},
+  {"nombrePais":"Uganda","codPais":"UG"},
+  {"nombrePais":"Uruguay","codPais":"UY"},
+  {"nombrePais":"Uzbekistán","codPais":"UZ"},
+  {"nombrePais":"Vanuatu","codPais":"VU"},
+  {"nombrePais":"Venezuela","codPais":"VE"},
+  {"nombrePais":"Vietnam","codPais":"VN"},
+  {"nombrePais":"Wallis y Futuna","codPais":"WF"},
+  {"nombrePais":"Yemen","codPais":"YE"},
+  {"nombrePais":"Yibuti","codPais":"DJ"},
+  {"nombrePais":"Zambia","codPais":"ZM"},
+  {"nombrePais":"Zimbabue","codPais":"ZW"}
+  ];
+  
+      var ofertaBarraTop = document.querySelector("#ofertaBarraTop");
+      // ofertaBarraTop.setAttribute('style','color:#ffffff; font-size: 18px; text-align:center; line-height: 100%;');
+    
+      function getRandomArbitrary(min, max) {
+          return Math.trunc(Math.random() * (max - min) + min);
+      }
+      
+      function getOfertaTop(country) {
+          var nomPais=""; 
+          var numero = getRandomArbitrary(47, 97);
+          
+          for (i = 0; i < paises.length; i++) {
+              if (paises[i].codPais === country) {
+                  nomPais =''+ '' + paises[i].nombrePais || '';
+              }
+          }	
+        
+       return numero+" "+"Emprendedores"+" "  + "de" +" "+ nomPais + "";
+      } 
+    
+     fetch("https://ipinfo.io/json")
+      .then((response) => response.json())
+      .then((data) => (ofertaBarraTop.innerHTML =  getOfertaTop(data.country)));  
+      
+
+    
+      
+    //   oferta 2 emprendedor pro
+
+    var ofertaBarraTop2 = document.querySelector("#ofertaBarraTop2");
+    // ofertaBarraTop.setAttribute('style','color:#ffffff; font-size: 18px; text-align:center; line-height: 100%;');
+  
+    function getRandomArbitrary(min, max) {
+        return Math.trunc(Math.random() * (max - min) + min);
+    }
+    
+    function getOfertaTop2(country) {
+        var nomPais=""; 
+        var numero2 = getRandomArbitrary(47, 97);
+        
+        for (i = 0; i < paises.length; i++) {
+            if (paises[i].codPais === country) {
+                nomPais =''+ '' + paises[i].nombrePais || '';
+            }
+        }	
+      
+     return numero2+" "+"Emprendedores PRO y Dueños de Negocio"+" "  + "de" +" "+ nomPais + "";
+    } 
+  
+   fetch("https://ipinfo.io/json")
+    .then((response) => response.json())
+    .then((data) => (ofertaBarraTop2.innerHTML =  getOfertaTop2(data.country)));   
+
+
+    // versiones pro
+
+    var ofertaBarraTop3 = document.querySelector("#ofertaBarraTop3");
+    // ofertaBarraTop.setAttribute('style','color:#ffffff; font-size: 18px; text-align:center; line-height: 100%;');
+  
+    function getRandomArbitrary(min, max) {
+        return Math.trunc(Math.random() * (max - min) + min);
+    }
+    
+    function getOfertaTop3(country) {
+        var nomPais=""; 
+        var numero = getRandomArbitrary(47, 97);
+        
+        for (i = 0; i < paises.length; i++) {
+            if (paises[i].codPais === country) {
+                nomPais =''+ '' + paises[i].nombrePais || '';
+            }
+        }	
+      
+     return numero+" "+"Emprendedores"+" "  + "de" +" "+ nomPais + "";
+    } 
+  
+   fetch("https://ipinfo.io/json")
+    .then((response) => response.json())
+    .then((data) => (ofertaBarraTop3.innerHTML =  getOfertaTop3(data.country)));  
+
+
+    var ofertaBarraTop4 = document.querySelector("#ofertaBarraTop4");
+    // ofertaBarraTop.setAttribute('style','color:#ffffff; font-size: 18px; text-align:center; line-height: 100%;');
+  
+    function getRandomArbitrary(min, max) {
+        return Math.trunc(Math.random() * (max - min) + min);
+    }
+    
+    function getOfertaTop4(country) {
+        var nomPais=""; 
+        var numero2 = getRandomArbitrary(47, 97);
+        
+        for (i = 0; i < paises.length; i++) {
+            if (paises[i].codPais === country) {
+                nomPais =''+ '' + paises[i].nombrePais || '';
+            }
+        }	
+      
+     return numero2+" "+"Emprendedores PRO y Dueños de Negocio"+" "  + "de" +" "+ nomPais + "";
+    } 
+  
+   fetch("https://ipinfo.io/json")
+    .then((response) => response.json())
+    .then((data) => (ofertaBarraTop4.innerHTML =  getOfertaTop4(data.country)));  
+    
+  
+  
+  // codigo para datos dinamicos ejm cupos dinamicos
+  
+  // Éste es el código que debes copiar y pegar
+  // 👇👇👇
+  
+  /* <h2 id="cuposPorDia"></h2> */
+  
+  // function cuposPorDia(size) {
+  // var cupos="";
+  //   switch (new Date().getDay()) {
+  //   case 0:
+  //     cupos = "5";
+  //     break;
+  //   case 1:
+  //     cupos = "17";
+  //     break;
+  //   case 2:
+  //      cupos = "15";
+  //     break;
+  //   case 3:
+  //     cupos = "13";
+  //     break;
+  //   case 4:
+  //     cupos = "11";
+  //     break;
+  //   case 5:
+  //     cupos = "9";
+  //     break;
+  //   case 6:
+  //     cupos = "7";
+  //     break;
+  //   default:
+  //     cupos = "5";
+  // }
+  
+  // 	return "<center><span style='color: #e71d36; font-size: " + size + "px;'><b>" + cupos + "</b></span></center>";
+  // }
+  //   document.getElementById("cuposPorDia").innerHTML = cuposPorDia(68);
+      
+  
+  // frases aleatorias
+  
+  /* <h3 id="frasesPresuasivas"></h3> */
+  
+  
+  // function frasesAleatorias() {
+  // var nro=0;
+  // var frases = new Array();
+  // 	frases[0] = "<h3 style='text-align: center;'><em><strong><span style='color: #084c61;'>¡Aprende a tener hasta 10 ventas diarias paso a paso </span><span style='color: #db3a34;'>en menos de 15 días</span><span style='color: #084c61;'>!</span></strong></em></h3>";
+  // 	frases[1] = "<h3 style='text-align: center;'><em><strong><span style='color: #084c61;'>¡Descubre cómo miles de mujeres están </span><span style='color: #db3a34;'><br>cumpliendo sus sueños </span><span style='color: #084c61;'>con éste fabuloso método!</span></strong></em></h3>";
+  //   	frases[2] = "<h3 style='text-align: center;'><em><strong><span style='color: #084c61;'>¡Inscríbete hoy y recibe hasta </span><span style='color: #db3a34;'>4 ebooks complementarios </span><span style='color: #084c61;'>gratis!</span></strong></em></h3>";
+  
+  //     nro = Math.floor(Math.random() * (frases.length - 0) + 0);//obtienes el valor aleatorio siempre acorde al tamaño de tu array
+  
+  // 	return frases[nro].toUpperCase();
+  // }
+  //      document.getElementById("frasesPresuasivas").innerHTML = frasesAleatorias();
+   
+  // precios aleatorios
+  
+  
+  // <h2 id="precioImg"></h2>
+  
+  
+  //   var ofertaImg = document.querySelector("#precioImg");
+  //   precioImg.setAttribute('style','text-align:center;');
+    
+  //   function getCountry(country) {
+  //     var ima="";
+  //     var path = "";
+      
+  //     if(country=="AR"){
+  // ima="https://tudominio.com/wp-content/uploads/pc-ars.png";
+  //     }else if(country=="CO"){
+  // ima="https://tudominio.com/wp-content/uploads/pc-cop.png";
+  //     }else if(country=="PE"){
+  // ima="https://tudominio.com/wp-content/uploads/pc-sol.png";
+  //     }else if(country=="CL"){
+  // ima="https://tudominio.com/wp-content/uploads/pc-chil.png";
+  //     }else if(country=="ES"){
+  // ima="https://tudominio.com/wp-content/uploads/pc-eur.png";
+  //     }else if(country=="MX"){
+  // ima="https://tudominio.com/wp-content/uploads/pc-mex.png";
+  //     }else{
+  // ima="https://tudominio.com/wp-content/uploads/pc-usd.png";
+  //     } 
+        
+  //     path='<img src="' + ima + '">';
+      
+  //     return path;
+  // 	}
+    
+  //    fetch("https://ipinfo.io/json")
+  //     .then((response) => response.json())
+  //     .then((data) => (precioImg.innerHTML =  getCountry(data.country)));
+  $('#containers3a').insertBefore('#menu-container-C3');
+  $('#masvendidos3a').insertBefore('#menu-container-C3');
+  
+  $('#containers3b').insertBefore('#menu-container-C4');
+  $('#masvendidos3b').insertBefore('#menu-container-C4');
+        
+  $('#containers2a').insertBefore('#menu-container-C1');
+  $('#masvendidos1').insertBefore('#menu-container-C1');
+  
+  $('#containers2b').insertBefore('#menu-container-C2');
+  $('#masvendidos').insertBefore('#menu-container-C2');
+  
+
+  
+
+
+    $("#owlsocial").owlCarousel({
+         navigation : true, // Show next and prev buttons
+         slideSpeed : 300,
+         paginationSpeed : 400,
+         singleItem:true,
+         // Navigation
+         navigationText : ["<",">"],
+         rewindNav : true,
+         scrollPerPage : true,
+         //Pagination
+         pagination : true,
+         paginationNumbers: false,
+         responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          }
+          
+      }
+     });
+
+
+    //  code counter
+
+    const getRemainingTime = deadline => {
+      let now = new Date(),
+          remainTime = (new Date(deadline) - now + 1000) / 1000,
+          remainSeconds = ('0' + Math.floor(remainTime % 60)).slice(-2),
+          remainMinutes = ('0' + Math.floor(remainTime / 60 % 60)).slice(-2),
+          remainHours = ('0' + Math.floor(remainTime / 3600 % 24)).slice(-2),
+          remainDays = Math.floor(remainTime / (3600 * 24));
+    
+      return {
+        remainSeconds,
+        remainMinutes,
+        remainHours,
+        remainDays,
+        remainTime
+      }
+    };
+    
+    const countdown = (deadline,elem,finalMessage) => {
+      const el = document.getElementById(elem);
+    
+      const timerUpdate = setInterval( () => {
+        let t = getRemainingTime(deadline);
+        el.innerHTML = ` 
+        
+        <span class="titucount">Esta oferta termina en:</span>
+        <a class="countf">
+
+        <p class="pcount">  <span> ${t.remainDays}</span> Días</p>
+        <p class="pcount">  <span> ${t.remainHours}</span> Horas</p>
+        <p class="pcount">  <span> ${t.remainMinutes}</span> Mins.</p>
+        <p class="pcount">  <span> ${t.remainSeconds}</span> Seg.</p>
+
+      
+        
+    </a>`;
+    
+        if(t.remainTime <= 1) {
+          clearInterval(timerUpdate);
+          el.innerHTML = finalMessage;
+        }
+    
+      }, 1000)
+    };
+    
+    countdown('Oct 10 2022 23:59:59 GMT-0500', 'clock', '¡La Oferta ha expirado, contáctate con soporte!');
  
