@@ -2752,7 +2752,9 @@ align-items: center; */
 }
 
 
-
+.comicpay{
+  display: none;
+}
 
 
   @media  (max-width: 375px) {

@@ -1167,6 +1167,7 @@ label.faccedula:before, label.consumidorsinfac:before {
 
 
 
+
 .opcione input[type="radio"]:checked + label:before {
     background: #25d366;
 }
@@ -1211,7 +1212,9 @@ p.great {
     padding-top: 6px;
 }
 
-
+.comicpay{
+    display: none;
+}
 
 @media screen and (min-width: 768px){
 
