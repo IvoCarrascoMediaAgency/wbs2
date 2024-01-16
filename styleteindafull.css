@@ -2453,7 +2453,7 @@ img.popimg {
   cursor: default;
 }
 
-.masvendidos1 p,.masvendidos p {
+.masvendidos1 p,.masvendidos p,.masvendidos1a p {
   background: #e9faef;
   display: block;
   /* height: 200px; */
