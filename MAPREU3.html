@@ -407,7 +407,10 @@ background: #777;
     
     $(document).ready(function() {
     
-        window.open("https://whatsbulksender.com/precios-WhatsBulkSender.html",'rating',"width=5000px,height=5000px,left=500,top=200,location=no,toolbar=no,directories=no,menubar=no,resizable=no,scrollbars=no,status=no,titlebar=no,copyhistory=no");
+      window.opener.location.href="https://whatsbulksender.com/precios-WhatsBulkSender.html";
+           
+           self.close();
+
      
 
 });
