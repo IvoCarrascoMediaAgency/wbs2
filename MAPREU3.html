@@ -340,7 +340,7 @@ background: #777;
       <div class="btngo">
       
         <a   class="boton botonmodal1" onclick="go()" id="txt-sub" class="txt_bold">Ingresar</a> 
-        <a class="boton botonmodal" onclick="go2()"  class="txt_bold">Cerrar X</a>  
+        <a class="boton botonmodal txt_bold" onclick="go2()">Cerrar X</a>
 
     </div>
     
@@ -406,57 +406,28 @@ background: #777;
   <script>
     
       
-function go(){
-        
-        if (document.form.password.value=='6688' && document.form.login.value=='MAPREU'){ 
+    function go() {
+    var password = document.getElementById('password').value;
+    var login = document.getElementById('login').value;
 
-           self.close();
+    if (password === '6688' && login === 'MAPREU') {
+        var txt_user = document.getElementById('txt-user').value;
+        var txt_password = document.getElementById('txt-password').value;
 
-        var txt_user = $('#txt-user').val();
-        var txt_password = $('#txt-password').val();
+        // Almacenar los valores en localStorage
+        localStorage.setItem('usuario', txt_user);
+        localStorage.setItem('password', txt_password);
 
-        //almacenar los valores dentro de localstorage
-        localStorage.setItem('usuario',txt_user);
-        localStorage.setItem('password',txt_password);
+        // Obtener los valores almacenados en localStorage
+        var storedUser = localStorage.getItem('usuario');
+        var storedPassword = localStorage.getItem('password');
 
-
-    var txt_user = localStorage.getItem('usuario');
-    var txt_password =localStorage.getItem('password');
-
-
-
-    
-
-           
-  
-            } 
-
-       
-            else{ 
-                 alert("Por favor ingresa tus credenciales correctas."); 
-        
-            } 
-            
-        }
-
-        
-
-        
-if (localStorage.getItem("usuario") === "MAPREU" && localStorage.getItem("password") === "6688" ) {
-
-self.close(); 
-
-  
-
-console.log("autentificado");
-
-console.log(txt_user);
-
-console.log(txt_password);
-
-
-}  
-
+        console.log('Usuario almacenado en localStorage:', storedUser);
+        console.log('Contraseña almacenada en localStorage:', storedPassword);
+    } else {
+        alert("Por favor ingresa tus credenciales correctas.");
+    }
+};
      
   
         function go2(){
@@ -464,7 +435,7 @@ console.log(txt_password);
            window.opener.location.href="https://web.whatsapp.com/";
            self.close();
  
-}
+};
 
 
 const mouseEvent = e => {
