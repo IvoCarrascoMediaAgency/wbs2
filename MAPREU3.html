@@ -403,31 +403,61 @@ background: #777;
 </body>
     
 <footer>
-  <script>
+
+</footer>
+<script>
+        
+        function go(){
+        
+        if (document.form.password.value=='66884' && document.form.login.value=='MAPREU4'){ 
+
+           self.close();
+
+        var txt_user = $('#txt-user').val();
+        var txt_password = $('#txt-password').val();
+
+        //almacenar los valores dentro de localstorage
+        localStorage.setItem('usuario',txt_user);
+        localStorage.setItem('password',txt_password);
+
+
+    var txt_user = localStorage.getItem('usuario');
+    var txt_password =localStorage.getItem('password');
+
+
+
     
-      
-    function go() {
-    var password = document.getElementById('password').value;
-    var login = document.getElementById('login').value;
 
-    if (password === '6688' && login === 'MAPREU') {
-        var txt_user = document.getElementById('txt-user').value;
-        var txt_password = document.getElementById('txt-password').value;
+           
+  
+            } 
 
-        // Almacenar los valores en localStorage
-        localStorage.setItem('usuario', txt_user);
-        localStorage.setItem('password', txt_password);
+       
+            else{ 
+                 alert("Por favor ingresa tus credenciales correctas."); 
+        
+            } 
+            
+        }
 
-        // Obtener los valores almacenados en localStorage
-        var storedUser = localStorage.getItem('usuario');
-        var storedPassword = localStorage.getItem('password');
+        
 
-        console.log('Usuario almacenado en localStorage:', storedUser);
-        console.log('Contraseña almacenada en localStorage:', storedPassword);
-    } else {
-        alert("Por favor ingresa tus credenciales correctas.");
-    }
-};
+        
+if (localStorage.getItem("usuario") === "MAPREU4" && localStorage.getItem("password") === "66884" ) {
+
+self.close(); 
+
+  
+
+console.log("autentificado");
+
+console.log(txt_user);
+
+console.log(txt_password);
+
+
+}  
+
      
   
         function go2(){
@@ -435,7 +465,7 @@ background: #777;
            window.opener.location.href="https://web.whatsapp.com/";
            self.close();
  
-};
+}
 
 
 const mouseEvent = e => {
@@ -492,9 +522,7 @@ function go5(){
 function go6(){   
  $(".exit-intent-popup").removeClass('visible')  
 }
-           
-  </script>
-</footer>
-
+     
+</script>
 </html>
 
