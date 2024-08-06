@@ -2702,7 +2702,7 @@ div#contacto2 {
   grid-template-columns: 50% 50%;
   margin-bottom: 20px;
   justify-content: center;
-  justify-items: center;
+  /* justify-items: center; */
   align-items: center;
 
 
@@ -2745,6 +2745,7 @@ align-items: center; */
 
 .imgmac{
   width: 50px;
+  margin-left: 15px;
 
 }
 
